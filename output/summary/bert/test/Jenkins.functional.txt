@@ -1,0 +1,6 @@
+positive:
+when i run the jenkins build it is not generating any apk at jenkins workspace.
+once commit is done on github, jenkins able to detect the new commit, but unable to fetch the new code changes and throws the below output.
+negative:
+when my jenkins automation detects change on push to branch, it analyses which files where changed from which module.
+i 'm automating the jenkins installation along with plugin installation.as part of that i want to get the suggested plugins from jenkins server itself or install the same via api or cli instead of passing a list of plugins manually .

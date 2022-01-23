@@ -1,0 +1,54 @@
+I have a pipeline Jenkins job which is working as expected, configured with the option "GitHub hook trigger for GITScm polling" for auto build on any push to git repo.
+I heard that Jenkins gives you the possibility to build dependencies automatically, but I know no details.
+But it worked by adding double quotes in GIT repository url under "Source Code Management" section on Jenkins page like this - .
+I want to lint the projects in a nrwl nx workspace in the CI environment (Jenkins), generating checkstyle format output, ideally one checkstyle file per app/lib .
+So I found the answer, I hope this helps others - git saves the executable permissions in GitHub too so in my case each time Jenkins pulled the latest code, it was overwriting the permissions to what was saved in the git repo.
+I am trying to implement CI/CD pipeline using Kubernetes and Jenkins.
+For ex: If your Jenkins server has a job named A_SLAVE_JOB , then you have to do a  HTTP GET in your java rest client at this end point : /code/ .
+If you QA and PM are techies, then they can also merge branches or close PRs, which can auto trigger jenkins and run prod deployments.
+I have implemented a sample CI/CD pipeline using Jenkins for an application.
+4) Jenkins can make call to SaltMaster to reconfigure VM attributes (disc size etc.)
+I want to setup a Jenkins job which will get triggered when there is some changes to the submodule directory and build the respective jar.
+in Jenkins server created ssh key for the user jenkins and added that into this repository deploy keys.
+Those are inner java classes at the Jenkins core (or plugins).
+I know that we 've got some gitlab-plugin in Jenkins and the communication is possible (in the past we managed to trigger builds using webhooks or post build statuses back on GitLab).
+I then used the Jenkins EnvInject plug-in to load that file in the same Jenkins project.
+When I run the Jenkins build it is not generating any apk at jenkins workspace.
+i need to build a job in Jenkins, to get latest git commit message every time a commit is done and to store it in a variable.
+The PR are hooked into Jenkins, where the PR are tested before they are merged.
+Eventually I want to trigger one build in jenkins after pushing to gitlab and get a version tag on master branch (now I 'm testing with develop branch).
+When the task runs Jenkins is able to fetch the repository and then the maven build is carried out which completes without any issues.
+I am able to trigger the build (execute POM.XML from GIT repository) from Jenkins.
+I wrote a Jenkins pipeline script to run some newman tests with a pre-request script, but the variable defined in the pre-request script is unkown during the running of tests.
+We 're using the Maven release plugin, and we get SNAPSHOT builds for development and release builds in Jenkins.
+Reason for doubt- I am thinking thinking that, Kubernetes and Jenkins are only depending image registry for deployment by image pulling.
+Publish Profile per target environment on the web projects to be deployed to remote (from the point of view of the Jenkins master) IIS sites.
+Jenkins builds can be triggered from rest api.
+When merging staging into master, our jenkins server squashes the commits to create a single "release" commit in master that 's tagged with the version.
+This is my last major issue before I can get Jenkins running a nice pipeline for deployment.
+I have already added the Jenkins generated key to my Git user profile.
+/pre/  When I do this I can access the jenkins dashboar with myIp/jenkis.
+Actually there are couple of unresolved bugs with groovy closures in Jenkins pipelines, for example /url/ and /url/.
+I only have a loose understanding of what options I have in regards to reporting from jenkins, but I was wondering if it 's possible to either generate a TRX file or convert the XML file to TRX post build.
+Click on Maange Jenkins -> Global Tool Configuration -> Git to find the configuration section.
+Any ideas how I can implement such a system with Jenkins in Github?
+I was wondering if there was a way in Jenkins via a Jenkins plugin or build framework in which I could build the Java project in the same exact way it is currently built in Eclipse without changing anything with its structure.
+When I log into the Jenkins build server directly and run from bash this works.
+I am trying to password a password binding from jenkins to a powershell command line it works for passwords without special characters.
+Now it works and pull the changes from Git via Jenkins.
+I need this command to have access to push the lerna tags, as well as the updated version numbers to the master branch, and I also need Jenkins to not fall into an infinite loop.
+If you do not want the port number to be part of the URL, then you must ensure Jenkins listens on the default port (ie, 80 for http).
+Jenkins agent is an application that runs on a remote server, not where jenkins master node runs.
+I would like to use Jacoco / SonarQube for code coverage and plan to integrate it into Jenkins job which will run nightly .
+I have a bitbucket repository that gets built by jenkins on every commit to the repository .
+If Jenkins is secured then I think you will have to provide credentials when using the Jenkins CLI.
+You do not tell us how Gitlab and Jenkins are connected, but I 'll assume you use the Jenkins Gitlab plugin /url/.
+But no build is triggered on Jenkins.
+Our Jenkins and Fastfile unpack and unsign the development version of the app.
+I wanted to learn the art of running the selenium code from jenkins( CI).
+Generally, we can send the variables dynamically through the parameterized project in Jenkins using the REST API.
+I have a Jenkins job which is currently used for rebooting a host, this is a part of a pipeline and has several downstream jobs.
+In order to make the deployment automatic, i have a Jenkins Jobs which execute the task : .
+Say:  When ever we push changes to git, then jenkins job will trigger, jenkins will pull the changes and build new docker image and push the image inside docker.
+i am struggling how to do continuous deployment or delivery in jenkins which main feature where spring boot app name or jar file name changes that time.
+Jenkins pulls the revision and merges it locally with the target branch.

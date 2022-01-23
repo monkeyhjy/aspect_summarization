@@ -1,0 +1,7 @@
+Travis
+['travis-ci saved the time and really useful in many ways.']
+['"this test does n\'t need to finish in milliseconds or even seconds, but it does need to be able to validate about 100 files of 1,000 to 10,000 characters each in a time that is reasonable for a travis-ci build."']
+['you can find more on travis environment variables here.']
+['"i \'ve so far tried both appveyor and travis, but each time the build stops with virtualbox reporting /code_segment/, and it just looks like whatever machine i \'m running vboxmanage on does n\'t have vt-x enabled."']
+["i 'm trying to set up travis ci for tests but when i get to the step to compile the code to javascript (tsc command) it fails."]
+["my time zone does n't recognize dst and i get the same result as travis ci."]

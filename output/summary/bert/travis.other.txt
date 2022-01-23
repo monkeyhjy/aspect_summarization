@@ -1,0 +1,6 @@
+positive:
+"finally i modified the second script to exemplify how one can pass additional variables (here, the travis ci env variable /code_segment/) from travis to the docker/bash context."
+build is successful in both travis and heroku.
+negative:
+"i have this code, but travis ci keeps denying it when i push up to github because of the /code_segment/, but i am not sure how to rewrite it so it will pass."
+"after pushing to git and running on travis, all dependencies install successfully and then the travis build scripts fail with the following error."

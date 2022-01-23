@@ -1,0 +1,6 @@
+positive:
+this may mean giving up some handy travis feature in favor of re-coding it yourself.
+however, when i try to automate deployment using travis, after deploying, i am unable to access the application and i get a 404 when accessing the link.
+negative:
+i think it is a problem because on travis-ci it needs to grab the dependencies and since these dependencies do not use semantic versioning, go grabs the latest, which changes on every commit to master.
+travis ci can test multiple versions of php per trigger.

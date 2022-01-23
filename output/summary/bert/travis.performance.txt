@@ -1,0 +1,6 @@
+positive:
+i have gotten this process to work on travis pretty well because it has a git_commit_range environment variable.
+"after trying out many many different permutations and combinations, i finally got travis builds to succeed, not only by compiling rstan properly but also installing other packages that need compilation so that the log does n't exceed maximum limit or time out."
+negative:
+"in my .travis.yml, but the docs are extremely vague about what exactly  'sender' is matching against, and i see no way to inspect the run time values travis is using."
+"in my use case, this file is large and it would not make sense to read it from the console of travis-ci; in other words, i would not consider using 'cat ...' in .travis.yml."

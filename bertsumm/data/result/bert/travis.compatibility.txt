@@ -1,0 +1,6 @@
+positive:
+"firefox 65+ supports a new /code_segment/ about:config preference, which you can set to true to make the console output be dumped to stdout (and appear in travis, i believe)."
+"i personally use travis to test my software hosted on github and it supports running on multiple architectures [1], including s390x which is big endian."
+negative:
+i was n't able to install travis using ruby that comes builtin with xcode command line developer tools but installing ruby using brew install ruby followed by /code_segment/ resulted in a successful travis installation.
+"what worked was to use pyenv, but on the ubuntu xenial dist provided by travis, the shipped version of pyenv was too old and did n't have python 3.7 available."

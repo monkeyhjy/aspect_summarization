@@ -1,0 +1,7 @@
+GitlabCi
+['"the script works perfectly fine when i just manually run it in an ide, however i want it to be part of the gitlabci deployment process ."']
+['it seems like gitlabci throw this code even if job is succeded.']
+['see this list with available variables on gitlabci .']
+['"i would like to build a test database on the postgres docker image in gitlabci but it does n\'t work, i have try a lot of things and lose a lot of hours before ask this there :\'(."']
+['using gitlabci pipeline and executing above commands through /code_segment/ and it randomly hangs but most of the time it works.']
+['"if just one test runs it works with successful gitlabci termination, if two or more test run it does n\'t and it remains in pending state."']

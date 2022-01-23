@@ -1,0 +1,7 @@
+environment:0.25716 compatibility:0.18568 software:0.11011 platform:0.10287 language:0.10287 adapted:0.10287 different:0.10287 installed:0.10287 uninstalled:0.10287 replace:0.10287 
+specified:0.15414 learnability:0.10587 activity:0.10587 community:0.10587 maintaining:0.10587 satisfaction:0.10587 documentation:0.10587 recognize:0.10587 appropriate:0.10587 learning:0.10587 
+code:0.04262 github:0.02910 security:0.02526 management:0.02333 build:0.02333 tool:0.02333 offered:0.01866 api:0.01866 dependency:0.01866 deployment:0.01866
+requirement:0.31319 performing:0.22614 meet:0.21674 function:0.17296 performance:0.17296 speed:0.12529 memory:0.12529 throughput:0.12529 footprint:0.12529 limit:0.12529 
+reliability:0.22519 component:0.22519 buggy:0.09008 accessible:0.09008 fault:0.09008 interruption:0.09008 failure:0.09008 recover:0.09008 data:0.09008 affected:0.09008 
+usability:0.13582 easy:0.13582 user:0.13132 using:0.07525 interface:0.07525 operate:0.07525 control:0.07525 enables:0.07525 satisfying:0.07525 interaction:0.07525 
+jenkins:0.2 travis:0.2 teamcity:0.2 gitlabci:0.2 circleci:0.2

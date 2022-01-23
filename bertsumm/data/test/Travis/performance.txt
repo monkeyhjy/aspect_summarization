@@ -1,0 +1,14 @@
+Negative:
+i 'm afraid if i test for something such as a form and clicking buttons, travis ci may even take longer.
+it may take a while to start your server on travis environment.
+i did a deployment with travis-ci a couple times and apparently when that happens if a memory_size and timeout is not set a default 128 mb and 3 second is used.
+not even talking about the travis build that runs forever.
+when it does work, it eats up about 5 minutes of my precious free time on travis so my test suite may not finish (a long test suite is its own issue, working on it).
+when i 'm trying to upload files to the server using this command it takes 1-2 minutes, but travis cannot do it at all.
+the main issue at this moment is that travis ca n't run the project and perform tests simultaneously.
+
+Positive:
+currently all drill unit tests can't pass with 8g memory machines, which used as ci (travisci and circleci): /url/
+i have found travis are quite quick to respond but you'll also need to set up your commandline client: .
+if you don't need this precision, use the travis solution because it will be faster.
+travis ci keeps a cache of your vendor folder in order to make builds run quicker (and reduce unnecessary traffic for them).

@@ -1,0 +1,15 @@
+Negative:
+trying to run build on circleci and it 's failing on test.
+i am building my project on circleci and getting this build error.
+i do n't understand how to write my circleci configuration file : /url/ .
+unfortunately, we are stuck using two ci/cd systems circleci and jenkins,
+i failed to find a solution to it in circleci, azure-pipeline, code-fresh and more.. .
+
+Positive:
+i am building a simple ci process on circleci.
+as part of this commit i got the corresponding circleci build working properly.
+automated circleci job will execute if we remove the css import line (below) .
+/pre/  the circleci log indicating that the first execution 's tests passed: .
+you can easily achieve this with tools such as travis, circleci, jenkins etc.
+coveralls, travis and circleci are all free for open source.
+there are many possible tools you could use to implement such a pipeline, like circleci, concourse, and aws codepipeline/codebuild/codedeploy.

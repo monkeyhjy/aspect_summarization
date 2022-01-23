@@ -1,0 +1,6 @@
+positive:
+pull requests on github are automatically referenced using the following pattern /code_segment/ so with a vcs branch specification you can have a teamcity build project that 's dedicated to building pull requests.
+"for your last query, making the common project containing the script as the artifact in release pipeline can be achieved, in release pipeline, you can use artifacts produced from continuous integration systems such as azure pipelines, jenkins, or teamcity, or use artifacts store in version control systems such as git or tfvc."
+negative:
+i have a web api project that wo n't build on teamcity when i add a .net framework (4.71) class library to the solution.
+we are trying to migrate from maven to gradle in teamcity and we are not able to compile as its always try to download the dependencies from internet.

@@ -1,0 +1,55 @@
+Negative:
+i encountered this error when using travis ci to deploy content, which involved pushing edits to a repository.
+/pre/  the travis environment does n't have the path /code_segment/ defined, thus reading attempts from there will fail, resulting in a segfault.
+oops, an error in my travis config happened to execute /code_segment/ where i was expecting to see the output of /code_segment/.
+seems to be travis issue... .
+this seems to be a recurring issue with travis accessing maven central.
+however, when i merged this branch into master, the travis ci build ran against master (correct) and invoked the deploy stage (incorrect), attempting to deploy to maven/github (and failing due to what i believe is an unrelated error).
+i should also mention that for some reason calling the singleton's constructor locally during tests isn't a problem, but when the tests are run on travis-ci it is a problem.
+in locale all works, with travis/scrutinizer i have this error: .
+i tried to connect to my dockerhub via travis ci  /code_segment/ but i got this error  /code_segment/ .
+but when build is triggered by travis ci it fails with following error .
+when i try to run my django tests on travis ci in parallel using /code_segment/, i run into this error .
+the error can also be seen in this travis ci job: /url/.
+/pre/  travis fails with an error that suggests it cannot find a header file that is in a sub-directory of /code_segment/.
+build apk failed in travis ci.
+my travis ci unit tests pass, but deployments seem to fail silently.
+i 've followed the instructions yet my travis build is failing because of: .
+when this runs, travis reports with a a fatal error that the role lch does not exist: .
+when this runs on travis, my tests fail randomly.
+i'm trying to run my project with travis but i can't compile because of an issue with alamofire.
+my node qunit travis ci build (see /url/) /url/ with this error : .
+as soon as i run them on travis i get an error but i can't explain myself why.
+i suddenly experience build failure with travis ci builds.
+when my travis ci build runs the same tests the tests pass but the test command fails with the following error: .
+i investigated the issue and it looks like travis ci pipeline try to execute step /code_segment/ before each deploy, and when it try to execute it for deployment to heroku it fail due to git tag with such name was already created in /code_segment/ step for deploy to github releases.
+it doesn't work on travis ci although "which cwebp" seems to work/not cause an error.
+my linux build on travis-ci is failing when it attempts to download libcurl: .
+you only need to be careful, and not create a travis ci fork bomb(!
+/pre/  it 's strange because everything else is working fine all the way from github travis testing (which are all passing), continuous integration, and all the way to heroku deployments but for some reason i ca n't seem to access the postgres db from the dashboard: .
+while building an ios project on travis-ci, i am getting multiple build command failures like:- .
+however, when travis ci is running the tests with the same api emulator, the app throws an error: .
+i am trying to build my app in travis but i keep getting the following error which i am unable to debug.
+i having been getting this "travis build error" for days now, the whole test are passing but it kept on returning an error, please can someone help me out on how i can collect this error.
+then, after 10 minutes of no output, travis kills my entire build without giving me any way to introspect the failure.
+running the script in a travis ci pipeline fails, however the code still reads the file, identifies the sheetname, but calling the wb with the sheet name just does n't work.
+however, when i use travis, it always failed with the following error: .
+i have not yet hit a python / pyadi script that does not work, however the test script that travis suggested (below) still fails on the last line, so there may be other issues i have yet to hit.
+travis or azure pipelines will execute that harmful code and possibly destroy something.
+however, this fails on travis with the connection refused error: .
+we 've set up travis on our github repo to test every pull request made, one test out of 73 is failing with a status code of 500 instead of having 200.
+i have a nodejs typescript project that works fine on my local machine, but when i deploy to heroku or send to travis ci it shows me this error.
+travis ci not showing error but when i am deploying the application in elastic beanstalk it showing below error in the logs.
+i tried coveralls and codecov and both of them are showing (unknown) eventhough the code in travis ci is passing.
+this seems to be a recurring issue with travis accessing maven central.
+
+Positive:
+the error from travis ci was clear and concise.
+hours later, i found that the failed travis job is working fine now.
+i have no error on travis during the build.
+i have email and slack notifications configured for travis build failures.
+/pre/  travis will backup the above two folders to s3, then every time before user rebuild, it will fetch the two folders from cache.
+now, when i deploy my application on dev machines using travis, it gives exception while creating a build, and throws java exception that serverendpoint class not found.
+the maven build on this thing is a bit tricky but it does run fine locally and i even have it running the actual build on travis successfully.
+so i can get all the commits in my latest push and then across all those commits get the folders that have changed.. this works really well.. but only on travis.
+this error is from heroku, i have a .travis.yml to check errors before deploying on github, and every test went well.

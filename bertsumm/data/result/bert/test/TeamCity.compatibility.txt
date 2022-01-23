@@ -1,0 +1,6 @@
+positive:
+i have tried using teamcity nuget installer but it did n't work, also, what i want is to get updates only for a specific package (not all the packages in projects).
+but they are not compatible with teamcity server (teamcity agents need to have a java wrapper) or i dont know how to run them from docker-compose.yml
+negative:
+i updated to the latest teamcity on this machine, transferred my backup file, and the build seems to be working perfectly - it seems to be somehow caused by the latest version of visual studio.
+i would like to use ansible for configuring linux machines with teamcity.

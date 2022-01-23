@@ -1,0 +1,6 @@
+positive:
+"just for the fast dirty debugging, you can always add some scripts to the .gitlabci.yml to see what is in the relevant dirs before and after copying operation: ."
+"one of those call is to call a flask server, i also have a .gitlabci file to configure all the tests, all of them run perfectly until today."
+negative:
+"but, as you can see, there is nothing in my .gitlabci.yml which says to download the source files."
+"i have install opencover and report generator nuget, but do not know how to trigger run opencover in .gitlabci.yaml to run testing for getting the code coverage."

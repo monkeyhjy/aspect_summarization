@@ -1,0 +1,7 @@
+Jenkins
+['if we change the jenkins war file version from 2.141 to 2.814 then it is suitable with java 10 and works fine for plugins installation of jenkins .']
+['we have node version 8 installed and is working fine in a jenkins alpine based docker image (running in aws ecs).']
+['"yes, you can do that.. when ever you build a project it will generate artifacts and placed into workspace only.. similarly you can use any shell/batch script or any plugins to add new files to the work space while running the jenkins job."']
+['"i have a playground pipeline and i am trying to start using cppcheck, but when i execute the command in the cmd (i am running windows 10) it works fine, but if executing the command inside the pipeline, it returns /code_segment/ i have installed the plugin and restarted jenkins... what am i missing then?"']
+['i am not able to install any plugins after i upgraded my jenkins version.']
+['"i \'m developing a plugin where in one groovy class it creates a new file at /build/somefolder/xyz.md but for some reason it works at local but when i release the plugin to a repository and try to use it in some project and try to run the build and deploy the project using jenkins on cloud linux based environment it just fails, ."']

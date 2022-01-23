@@ -1,0 +1,6 @@
+positive:
+"i have tried adding npm i npm@latest -g to the build step, it runs successfully, but the teamcity agent version does n't change."
+i have access to an enterprise instance of github and teamcity using a linux a build agent with the flutter sdk installed.
+negative:
+"however, when i try to install the package, it fails because the src attribute in the package configuration is still set to /code_segment/ (i can see this by viewing my teamcity-hosted packages at /code_segment/), and the install fails because it is looking on my machine for the package file, and not on the teamcity server."
+but once i run the same build script using the same msbuild version from teamcity i get encoding issues.

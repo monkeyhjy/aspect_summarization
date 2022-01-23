@@ -1,0 +1,6 @@
+positive:
+"i have a solution with many projects, about a dozen of which have octopack installed and packages are being produced correctly when teamcity runs /code_segment/."
+"as this is the linux machine, i am calling it from teamcity and it 's working fine as expected."
+negative:
+"running cake build script on my local machine works fine but when same script is run on teamcity, the following error appears: nuspec file does not exist in package."
+"however, when attempting to restore packages and build this solution in teamcity, using the nuget installer (4.9.2) and visual studio 2017 runner types, the compilation fails because it cannot find the foo namespace."

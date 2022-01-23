@@ -1,0 +1,7 @@
+Negative:
+Get error in jenkins when setting configure page, trying to reach server, running command by windows shell/batch, running jenkins job and start-build command on the jenkins pipeline.
+there are bugs with groovy closures in jenkins pipelines.
+people have no clue for error since jenkins wont tell exactly where the error occurs.
+
+Positive:
+jenkins issues detail potential fixes. 

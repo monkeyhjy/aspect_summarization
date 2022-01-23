@@ -1,0 +1,25 @@
+Negative:
+i have also tried the teamcity automatic merge feature but the only guides you can find is how to merge from some branch specification to a fixed branch eg integration branch.
+so i can only assume it is running the pull request against master based on the text above, however i ca n't seem to find any documentation to indicate this.
+i could n't find any information on how to do this for  reports generated in teamcity.
+a teamcity config i 'm missing (there is no specific documentation on the teamcity or cypress side regarding a teamcity/cypress integration that i can find) .
+i see hardly any examples for this configuration on teamcity.
+but i ca n't find any examples how to use the token in regards to npm login alone or via teamcity?
+i 've previously asked this on the teamcity forum but did n't get a reply.
+firstly you right teamcity documentation is not clear.
+teamcity 's documentation link is broken atm of writing this.
+
+Positive:
+i 've been learning teamcity the last couple of weeks and have had some good success (fun!).
+the documentation of teamcity explains how to download builded artifacts by using the tag version.
+answered over on the teamcity support forums; .
+lots of people seem to be having problems with tc automerge setups, so here is the complete answer i posted on the teamcity community forum.
+i searched and read about the build breaker, but its already supported with sonarqube plugin of teamcity as this document /url/  .
+more details could be found in teamcity documentation on vcs checkout mode.
+you can find the full teamcity artifact dependency documentation here .
+talking with teamcity support i was able to figure it out.
+i 've found one similar post on the teamcity community forum, where /url/ , and the symptoms sound very similar.
+i would highly recommend looking at the teamcity node plugin available at /url/.
+see documentation for details on how to generate access token in teamcity.
+(see the agent setup heading in the teamcity setup documentation for gitversion which explains this).
+i asked this question on teamcity issues tracker and they said it will be fixed in version 2020.1 .

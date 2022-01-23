@@ -1,0 +1,7 @@
+TeamCity
+['i am writing a powershell script to automatically build .net projects on teamcity.']
+['we have downloaded all the available azure plugins for teamcity (and we are deploying to azure successfully on our jenkins evaluation using the azure app service plugin) .']
+['"for your last query, making the common project containing the script as the artifact in release pipeline can be achieved, in release pipeline, you can use artifacts produced from continuous integration systems such as azure pipelines, jenkins, or teamcity, or use artifacts store in version control systems such as git or tfvc."']
+['"trying to get my project to build via our internal teamcity server, and i \'m hitting on a problem with sdk versions."']
+['i am getting error while trying to build a java project in teamcity.']
+['our teamcity server cannot run the specflow 3 tests for a .net core project.']

@@ -1,0 +1,62 @@
+I tried even opening the command prompt(C:\users\system32\cmd.exe) using Jenkins - even cmd prompt will not open .
+I am an admin on our Jenkins master but, this button is not available for any builds for any user.
+This wo n't affect script execution and wo n't require you to remember removing that stupid UI block every time you update your jenkins job config.
+Manually configure Jenkins slaves running as 'user'.
+I want to be able to add a callback as a parameter in a Jenkins Groovy script.
+Is there a way to set the default AWS region in Jenkins system configuration?
+On restarting the jenkins service using the below command and reloading the browser, Jenkins was up.
+I am trying to use s3upload from Jenkins CI, I have added IAM user S3_User credentials in Jenkins console and using withAWS(region: s3Region ,credentials: s3User).
+I know that there is a way to install plugins via a shell script provided by Jenkins, but I 'd like to stick with ansible playbook as far as possible.
+We have to add our automation code to Jenkins pipeline there the server system machine will not have the access for the application so we have to bypass the authentication passing user id and passwords of test user.
+I am using the AWS CLI on a Jenkins server, and one of the argument flags requires a JSON body.
+This is all managed on the YUM repo server using some home grown scripts to pull packages from Jenkins and put them into the JL-testing repo (replacing any old versions there).
+/pre/  I just want to run the above xslt against the sample XML through SHELL script and I want to use it in the JENKINS shell script editor.
+I am unable to see any /code/ credentials in the drop down in my Jenkins' project SCM section.
+The recent weeks the Jenkins GUI has started slowing down for us, up to the point that loading of Jenkins GUI periodically takes minutes.
+If you can setup a Jenkins agent in the Windows server, then you can use IIS app command in Jenkins build step to start / stop your IIS .
+I 'm trying to find Jenkins pipeline feature in UCD where deployment is automated without any click.
+Have also set proxy for JENKINS user on host machine .
+Note - Jenkins user exists inside the docker container &amp; not on your host machine.
+(The builtin Jenkins view is useless because it does n't show a subtree).
+If you want to run it in non-GUI mode from Jenkins job - go for /url/ which has /code/ plugin to run it in command-line mode.
+I have configured for other projects to publish the .Net project using Jenkins and they all worked well.
+I would like to run difftool during jenkins job to allow the user to decide which line is correct during the job.
+I 'm currently trying to setup a Jenkins build Pipeline and I 'm struggling including a docker container.
+To change the home directory, use JENKINS_HOME environment variable or set the JENKINS_HOME system property."
+Right now I am using the PyAutoGui library to simulate these actions and they are working fine, but when I run them through a headless browser on Jenkins, those actions are not registered.
+So that will probably help alleviate some of the restrictions around upgrading Jenkins, if that 's what we need to do.
+My Jenkins lives behind a /url/, and I configured it as myproxy port 3128 with a username and password, and a no_proxy of "10.*.*.*,ap-southeast-2.compute.internal,localhost,127.0.0.1,myothernoproxydomains.com".
+The user that running the Jenkins agent does not have write permission to your workspace /code/ .
+I am having trouble getting Jenkins to use the "npm" command from the "Execute shell" (under the "Build" step).
+I am using the Jenkins /url/ within a pipeline.
+Basically instead of using Jenkins for 'builds', you would be using them to control services .
+There does n't seem to be a setting on a Gitlab side for that: Gitlab -> Project -> Settings -> Jenkins CI Integrations to set up a webhook for some other branch, like "dev" f.e.
+To integrate Google Benchmark in Jenkins, I used this neat plugin: .
+Yeah we can do this via tools like Jenkins, but I am working at a client which does not have such "advanced" facilities.
+The jenkins is conneted to a gitlab account so in my pipeline by using  .
+I am unable to execute selenium scripts in Jenkins.
+I am trying to implement the CI/CD pipeline for my project using Docker, Kubernetes and Jenkins.
+Note that with Jenkins, you can setup multiple tasks for each PR.
+I have problem with using Jenkins.
+Just had to give the jenkins user (UID) permissions to the directory containing the cert on the host (which I did n't see in the article but might be mentioned).
+A solution was proposed and integrated in jenkins.war since weekly   release 2.55 (and not yet in any LTS to date) which enables the   administrator to configure which function signatures should be used   for each function known to have different variants, apply it to their   application server initialization options and then run and update the   generic jenkins.war without further workarounds.
+I am still working on the Jenkins integration with Tuleap as I am also just a beginner to Tuleap.
+Jasmine, Karma, and Protractor can be customized at will, so you can make them output in an XML file that could be processed by a Jenkins job instead of a command line which is not practical.
+The easiest approach would probably be a pipeline in Jenkins (or whatever your build server is), but you can also write a shell script that calls Maven thrice.
+I want to pass a JSON string to a node using a Jenkins Job.
+Have you configured  the jenkins job setting and bitbucket webhook settings?
+I 've used and semi-configured Jenkins in the past, using SVN, and it was so simple and fast to get it working.
+The default user using jenkins/jenkins:lts image is jenkins, who DOES NOT have privilege to create folder at /opt .
+I 'm using Jenkins with a branch parameter to specify the branch to build from.
+Create Jenkins JOB2 and enable "Poll SCM" for Weekly basis and add automation script as downstream project .
+On the other hand, using /code/ is not the recommended way of initializing objects in the Jenkins Pipeline.
+If you are running the Sonar Analysis via Execute shell plugin for Jenkins, you need to supply the Username Password of a User which has the Execute Analysis rights on the SonarQube server you are trying to access.
+I also faced similar issue when configuring GIT in jenkins.
+/pre/  When I launch the command, after some maven work during the workflow, I am asked for jenkins user password: .
+and i would like to automate the process using Jenkins build process.
+/url/ explains how to use it in a Jenkins Pipeline with the /code/ step.
+Below is my jenkins pipeline to send a email The problem is i have some params.variables in my body which i need to use in order for them to be replaced i need to use """  I also have a HTML file which i attach in the body, for which i need to use ' '  .
+If not, is there an alternative means of deploying Helm charts (in a private repo) from Jenkins?
+And enabled tcp port on docker.service and check the test connection on Master Jenkins and It returned response.
+The easiest thing to do is start up a Jenkins instance, configure it the way I want, /code/ into it (e.g., /code/), /code/ into /code/, and just grab the appropriate files and base64 encode them.
+Often, at least one of those jobs is running, making it hard to restart jenkins after updates.

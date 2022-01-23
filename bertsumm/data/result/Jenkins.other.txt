@@ -1,0 +1,7 @@
+Jenkins
+['jenkins can do so much more .']
+['"run the jenkins job in command prompt on a slave,it will work!"']
+['i have triggered this script using jenkins and the job is running successfully.']
+['but jenkins build job did not run.']
+['"i am trying to run composer install in the command shell section of jenkins, but when i build the job, its failing because /code_segment/ contains a repository section."']
+['this does not work on jenkins.']

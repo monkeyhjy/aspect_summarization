@@ -1,0 +1,7 @@
+CircleCi
+['there are many resources on circleci documentation itself.']
+['"as circleci official support seems to give less helpful hints for the question, my workaround is to use custom docker image and have those dependencies installed there."']
+['see the circleci docs for multiple images: .']
+["i have n't found anything in the circleci documentation regarding this."]
+["i found this question when my circleci build was n't working with the same values."]
+['"when i read one way in the circleci documentation, i see another example that does n\'t use the configuration in the docs, but claim that it works."']

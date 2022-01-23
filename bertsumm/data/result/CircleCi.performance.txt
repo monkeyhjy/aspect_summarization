@@ -1,0 +1,7 @@
+CircleCi
+['"it increases complication (now i basically have two test suites), but it worked and overall my specs run faster on circleci as well."']
+['this article gives a great overview of how to configure circleci jobs to run in parallel (and it actually has an example where 5 jobs run in parallel).']
+["it integrates automatically with circleci 's parallelism env variables."]
+['"i \'m migrating an open source project, wuf, from angular@7.2.0 to @8.2.14; its circleci ci/cd pipeline, wuf, which worked just fine on angular@7.2.0, now fails after migrating to angular@8.2.14 when attempting to execute the unit tests; the tests pass and then fails with the build attempts to run then multiple times."']
+['when i try running it in the circleci pipeline then it has a number of issues.']
+['my circleci build however was still broken 100% of the time).']

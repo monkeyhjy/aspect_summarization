@@ -1,0 +1,7 @@
+Travis
+['the build process works fine on travis.']
+['"my last ""passed"" commit, according to travis ci, was literally a typo change so the library \'s code should not be the problem; so, when i run /code_segment/ for the library, i get the nice r cmd check succeeded message with 0 errors, warnings, or notes."']
+['she can even get test results from travis ci with each new commit.']
+['they however error out when running a testing build on travis-ci.']
+['"running ""mvn test"" in my local machine does n\'t provide any errors but my travis build is failing because of this: ."']
+['but if the tests are executed by the travis ci they fail due to a permission denied error.']

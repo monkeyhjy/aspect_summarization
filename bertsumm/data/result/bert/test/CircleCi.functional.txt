@@ -1,0 +1,7 @@
+positive:
+i 'm trying to configure dockerfile in order to build a docker image of my api and deploy it to heroku using circleci, but cannot seem to properly configure it for https.
+i 'm pushing my code to github and when i merge my branch, it kicks off a a build in circleci.
+negative:
+when first added via the ui, circleci only looks at master, but subsequent pushes to any branch (as long as .circleci/config.yml is present in that branch) should work.
+i 'm using firebase to host my personal website and wanted to integrate circleci for faster integration.
+i’m trying to introduce some automation via circleci where it will go into the server made in digitalocean via ssh in order to put in commands for updating said server.

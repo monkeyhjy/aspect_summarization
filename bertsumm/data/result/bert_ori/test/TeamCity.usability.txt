@@ -1,0 +1,6 @@
+positive:
+in jenkins we have some plugin to poll our mail box and trigger the build, could n't find similar option in teamcity.
+using a teamcity template does not help to constrict the options or point the user in the direction we need, as the dependency is locked in the template .
+negative:
+teamcity has the ability to fetch all heads teamcity since v2017, but needs to be enabled via a config setting.
+i 've avoided the problem using a hack with username: teamcity allows to use dashes and spaces in a username and i created the a user with the username set to /code_segment/.

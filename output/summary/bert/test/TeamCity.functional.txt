@@ -1,0 +1,6 @@
+positive:
+this is awkward on our teamcity build server where i would like a build configuration for each shared library/project and have my application use artifact dependencies to reference the dlls the build server generates.
+another solution would be to leverage a continuous integration tool such as jenkins or teamcity to automatically schedule runs over a period of time.
+negative:
+i am trying to automate a build process using teamcity api and powershell.
+you can set up jenkins or teamcity to automatically build and deploy everytime you update the master branch in git.

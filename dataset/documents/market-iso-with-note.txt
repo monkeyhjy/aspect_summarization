@@ -1,0 +1,69 @@
+Community|Compatibility|Learnablity|Functional|Performance|Reliability|Usability
+
+TRAVIS-0
+portability degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware, software or other operational or usage environment to another	1
+Portability can be interpreted as either an inherent capability of the product or system to facilitate porting activities, or the quality in use experienced for the goal of porting the product or system.	1
+compatibility degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions, while sharing the same hardware or software environment	1
+adaptability degree to which a product or system can effectively and efficiently be adapted for different or evolving hardware, software or other operational or usage environments	1
+Adaptability includes the scalability of internal capacity (e.g. screen fields, tables, transaction volumes, report formats, etc.).	1
+Adaptations include those carried out by specialized support staff, and those carried out by business or operational staff, or end users.	1
+If the system is to be adapted by the end user, adaptability corresponds to suitability for individualization	1
+installability degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment	1
+If the product or system is to be installed by an end user, installability can affect the resulting functional appropriateness and operability.	1
+replaceability degree to which a product can replace another specified software product for the same purpose in the same environment	1
+Replaceability of a new version of a software product is important to the user when upgrading.	1
+Replaceability can include attributes of both installability and adaptability. The concept has been introduced as a subcharacteristic of its own because of its importance.	1
+Replaceability will reduce lock-in risk: so that other software products can be used in place of the present one, for example by the use of standardized file formats.	1
+co-existence degree to which a product can perform its required functions efficiently while sharing a common environment and resources with other products, without detrimental impact on any other product	1
+interoperability degree to which two or more systems, products or components can exchange information and use the information that has been exchanged	1
+appropriateness recognizability degree to which users can recognize whether a product or system is appropriate for their needs	2
+learnability degree to which a product or system can be used by specified users to achieve specified goals of learning to use the product or system with effectiveness, efficiency, freedom from risk and satisfaction in a specified context of use	2
+Appropriateness recognizability will depend on the ability to recognize the appropriateness of the product or system’s functions from initial impressions of the product or system and/or any associated documentation.	2
+The information provided by the product or system can include demonstrations, tutorials, documentation or, for a web site, the information on the home page	2
+Can be specified or measured either as the extent to which a product or system can be used by specified users to achieve specified goals of learning to use the product or system with effectiveness, efficiency, freedom from risk and satisfaction in a specified context of use, or by product properties corresponding to suitability for learning	2
+The features offered/not offered by the software	3
+API management Structure your API infrastructure to enable various internet gateways to interact with your service.	3
+Chat Bring GitHub into your conversations.	3
+Code quality Automate your code review with style, quality, security, and test‑coverage checks when you need them.	3
+Code review Ensure your code meets quality standards and ship with confidence.	3
+Continuous integration Automatically build and test your code as you push it to GitHub, preventing bugs from being deployed to production.	3
+Dependency management Secure and manage your third-party dependencies.	3
+Deployment Streamline your code deployment so you can focus on your product.	3
+IDEs Find the right interface to build, debug, and deploy your source code.	3
+Localization Extend your software's reach. Localize and translate continuously from GitHub.	3
+Mobile Improve your workflow for the small screen.	3
+Monitoring Monitor the impact of your code changes. Measure performance, track errors, and analyze your application.	3
+Project management Organize, manage, and track your project with tools that build on top of issues and pull requests.	3
+Publishing Get your site ready for production so you can get the word out.	3
+Security Find, fix, and prevent security vulnerabilities before they can be exploited.	3
+Support Get your team and customers the help they need.	3
+Testing Eliminate bugs and ship with more confidence by adding these tools to your workflow.	3
+Utilities Auxiliary tools to enhance your experience on GitHub	3
+performance efficiency	4
+performance relative to the amount of resources used under stated conditions	4
+Resources can include other software products, the software and hardware configuration of the system, and materials (e.g. print paper, storage media).	4
+time behaviour degree to which the response and processing times and throughput rates of a product or system, when performing its functions, meet requirements	4
+resource utilization degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements	4
+Human resources are included as part of efficiency	4
+capacitydegree to which the maximum limits of a product or system parameter meet requirements	4
+Parameters can include the number of items that can be stored, the number of concurrent users, the communication bandwidth, throughput of transactions, and size of database	4
+reliability degree to which a system, product or component performs specified functions under specified conditions for a specified period of time	5
+Wear does not occur in software. Limitations in reliability are due to faults in requirements, design and implementation, or due to contextual changes.	5
+Dependability characteristics include availability and its inherent or external influencing factors, such as availability, reliability (including fault tolerance and recoverability), security (including confidentiality and integrity), maintainability, durability, and maintenance support.	5
+maturity degree to which a system, product or component meets needs for reliability under normal operation	5
+availability degree to which a system, product or component is operational and accessible when required for use	5
+fault tolerance degree to which a system, product or component operates as intended despite the presence of hardware or software faults	5
+recoverability degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system	5
+The concept of maturity can also be applied to other quality characteristics to indicate the degree to which they meet required needs under normal operation.	5
+Externally, availability can be assessed by the proportion of total time during which the system, product or component is in an up state. Availability is therefore a combination of maturity (which governs the frequency of failure), fault tolerance and recoverability (which governs the length of down time following each failure).	5
+Following a failure, a computer system will sometimes be down for a period of time, the length of which is determined by its recoverability.	5
+usability degree to which a product or system can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use	6
+Usability can either be specified or measured as a product quality characteristic in terms of its subcharacteristics, or specified or measured directly by measures that are a subset of quality in use.	6
+operability degree to which a product or system has attributes that make it easy to operate and control	6
+Operability corresponds to controllability, (operator) error tolerance and conformity with user expectations	6
+user interface aesthetics degree to which a user interface enables pleasing and satisfying interaction for the user	6
+This refers to properties of the product or system that increase the pleasure and satisfaction of the user, such as the use of colour and the nature of the graphical design.	6
+accessibility degree to which a product or system can be used by people with the widest range of characteristics and capabilities to achieve a specified goal in a specified context of use	6
+user error protection degree to which a system protects users against making errors	6
+The range of capabilities includes disabilities associated with age.	6
+Accessibility for people with disabilities can be specified or measured either as the extent to which a product or system can be used by users with specified disabilities to achieve specified goals with effectiveness, efficiency, freedom from risk and satisfaction in a specified context of use, or by the presence of product properties that support accessibility.	6

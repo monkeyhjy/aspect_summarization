@@ -1,0 +1,6 @@
+positive:
+i am currently setting up a ci-pipeline with jenkins/sonarqube/maven/owasp, but im stuck in a sonarqube problem.
+but no build is triggered on jenkins.
+negative:
+there is also a "fork" of jenkins for containerized environments, that i like, you can check more about jenkins-x here .
+when i log into the jenkins build server directly and run from bash this works.

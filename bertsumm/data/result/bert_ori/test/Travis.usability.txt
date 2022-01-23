@@ -1,0 +1,6 @@
+positive:
+i've tried now many hours to automate the deploy process with travis ci.
+the issue here is that using personal github token to generate travis api token is an overall bad practice, cause the user can leave the organization, or his access rights could be revoked for particular repositories.
+negative:
+i am setting up an automated travis ci ci, and was wondering if it is possible to launch two jobs (same tests) with two different configurations.
+for example, using travis ci, you can use the trust project to automatically deploy in much the same way that you would from a tarball, but automatically with only a tag being required.

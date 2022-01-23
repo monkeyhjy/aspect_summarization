@@ -1,0 +1,6 @@
+environment:0.17193 information:0.10981 product:0.10023 compatibility:0.09926 efficiently:0.09926 platform:0.05491 language:0.05491 adapted:0.05491 installed:0.05491 uninstalled:0.05491 
+community:0.18574 documentation:0.18574 specified:0.14923 activity:0.10285 maintaining:0.10285 actively:0.10285 maintained:0.10285 content:0.10285 recognize:0.10285 learning:0.10285 
+code:0.03995 github:0.02780 security:0.02440 management:0.02240 build:0.02240 tool:0.02240 offer:0.01815 api:0.01815 dependency:0.01815 deployment:0.01815
+requirement:0.31341 performing:0.22619 meet:0.21710 function:0.17310 performance:0.17310 speed:0.12525 memory:0.12525 time:0.12525 resource:0.12525 m limit:0.12525 
+reliability:0.22538 component:0.22538 buggy:0.09007 accessible:0.09007 fault:0.09007 interruption:0.09007 failure:0.09007 recover:0.09007 data:0.09007 affected:0.09007 
+usability:0.13591 easy:0.13591 user:0.13157  using:0.07526 make:0.07526 operate:0.07526 control:0.07526 pleasing:0.07526 satisfying:0.07526 interaction:0.07526 

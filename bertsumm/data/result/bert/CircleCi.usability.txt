@@ -1,0 +1,6 @@
+positive:
+"you can see an example of saucelabs (though using maven/java) in circleci here, /url/, but basically ."
+"in order confirm that the two apps interact properly prior to prod releases, we aimed to create an automated circleci integration testing job that does the following: ."
+negative:
+right now i have trouble with testing the code on circleci as they rely on docker and i ca n't find an image that supports multiple databases via env variables.
+"now onto the problem: i am trying to replicate the same on circleci, but it doesnt seem to let me override the npm registry."

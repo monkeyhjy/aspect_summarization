@@ -1,0 +1,7 @@
+positive:
+but when it comes to the freakin jenkins jobs it seems to get a bit more complicated.
+i could find no reference to /code_segment/ in the jenkins documentation, so i created a build to try to clarify their relationship.
+i have consulted the jenkins docs and while i see that db connections are possible, i have not yet found anything which fits my needs.
+negative:
+i 've installed jenkins x on eks using instructions from /url/ so that i can use bitbucket with jira.
+the documentation explains how to use it in a jenkins pipeline with the triggerremotejob step.

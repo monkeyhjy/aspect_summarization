@@ -1,0 +1,6 @@
+positive:
+i looked through the documentation and the source code and i couldn't find anything except travispy.jobs() which will return a maximum of 250 jobs across all repositories.
+so i searched for clickhouse in documentation of travis, but i  could n't find anything in guide, but it also says .
+negative:
+you can find a guide for running electron-forge with travis ci here: /url/ .
+i have read the documentation on how to do this with travis-ci.org and it looks like you do something similar to the following:- .

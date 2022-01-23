@@ -1,0 +1,38 @@
+Negative:
+also i don't find in travis-ci documentation: how can i see that the user key was uploaded to be used with repos?
+i looked through the documentation and the source code and i couldn't find anything except travispy.jobs() which will return a maximum of 250 jobs across all repositories.
+i looked at the travis docs to see if there's a config setting for increasing the number of watchers, but i couldn't find anything.
+i've searched in so many places, even in travis ci documentation page but i couldn't find the solution of my problem.
+on the travis documentation site, there is no info on the /code_segment/ stage, and we cant see any feature to rename files.
+i didn't find this information in the travis doc /url/ .
+the travis documentation for c++ suggests that a matrix can interleave different environments and compilers, and i am not able to find any way to run different scripts separately.
+didn't found any solution in the documentation of travis .
+the documents on travis 's website have so far not been able to resolve the issue.
+so i searched for clickhouse in documentation of travis, but i  could n't find anything in guide, but it also says .
+this is actually for travis ci but i 'm having a hard time reading through all the documentation.
+
+Positive:
+great thanks to travis support team, because of their help and support only i was able to resolve my concerned issue.
+now the last thing to do is to connect travis ci to the repository, which is just a few very simple steps; see their github tutorial.
+you can read more on conditions and conditional builds on travis 's site.
+there is a whole chapter in the travis docs how to setup databases.
+some of the documentation from travis ci that i could find that will likely be useful in sorting out a full answer .
+i emailed the travis-ci staff, and i received this reply, which i think explains the problem: .
+you can find a guide for running electron-forge with travis ci here: /url/ .
+since you don't seem to know anything about travis ci, the best place to start is just go through their docs: /url/ .
+see travis docs here for more info  /url/ .
+composer builds currently run using travis ci - see more here /url/ and more info here /url/ incl links.
+there were discussions in the travis ci issue tracker[/url/] and the clojurians slack.
+travis provides a guide here that will help you encrypt your local files with a passphrase and then store that passphrase using travis encrypt.
+this article gives an example with travis, but it should apply to circleci without any major changes.
+the general guidance in /url/ for travis will be useful for these general configuration aspects.
+i have found now something interesting on the travis ci blog.
+btw the travis and appveyor scripts are the most accurate documentation on how to build meshlab :)  .
+the travis /url/ documentation shows how to specify gcc and clang compiler versions in build matrices.
+following instructions from internet i created ssh key, encrypt it and config my .travis.yml file .
+i have read the documentation on how to do this with travis-ci.org and it looks like you do something similar to the following:- .
+general information about how to setup a database on travis: /url/ .
+in that tutorial i learn how to ci in travis-ci.
+i have been trying to get more into the methodology of continuous integration as of recent, and have chosen travis ci for the job.
+i found an example in the ansible galaxy documentation how to deploy from travis ci.
+if you need more information, you can have a look of my travis page here.

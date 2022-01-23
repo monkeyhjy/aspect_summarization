@@ -1,0 +1,7 @@
+positive:
+however, the build is failing in circleci and the glog script that i run does n't work for some reason.
+ i recently switched to circleci 2.0 from travisci and i am facing an issue when i try to: /code_segment/ , it does not add the path variable.
+negative:
+then there is this project where someone seems to do the same thing on circleci successfully.
+a circleci ci/cd pipeline handling an angular 7 application fails during the test step, with the circleci log suggesting the browser is not registered, although it runs once and it works!
+details:  i successfully run testcafe tests on circleci not using saucelabs (just using a docker image that has chrome/firefox in it).

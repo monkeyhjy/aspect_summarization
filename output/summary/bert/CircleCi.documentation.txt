@@ -1,0 +1,6 @@
+positive:
+read more about scheduled workflow with a nightly build example in the circleci official documentation .
+"docker is applying pull rate limit as of nov 1st, so it would be a good idea to authenticate before the pull, see docker auth on circleci for a tip."
+negative:
+i have been googling for some hours and still did n't get stuff clear on how i can integrate karate with circleci.
+"when i read one way in the circleci documentation, i see another example that does n't use the configuration in the docs, but claim that it works."

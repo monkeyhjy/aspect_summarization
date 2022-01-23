@@ -1,0 +1,20 @@
+There is not currently any provision to rerun    /code/s, nor any API in Jenkins for such    contributors to indicate that their result might have changed since    the last call.
+Currently, I have set Gitlab host URL in the Jenkins configure page as /url/, which results in the following error:  .
+Jenkins issues /url/ and /url/ detail potential fixes that could be introduced, though they have n't been implemented in any version of the system yet.
+I am intermittently getting the below error in Jenkins.
+But when I execute the build, I get error, that jenkins is not able to connect sonar server.
+Root cause of your problem is wrong permissions for Jenkins:  .
+When use the same code with same command in Jenkins I get this error: .
+So, seemingly, an error code is not returned to Jenkins.
+I have a Jenkins pipeline that I need to run a /code/ on a file but I am getting an error of /code/ .
+But the exact error was that this private key was not readable by Jenkins.
+When our Jenkins server runs the build script, the /code/ folder is missing from the /code/ folder, as well as some other files configured in /code/.
+I am trying to deploy a sample aspnet core project but Jenkins build fails.
+I want to be able to see errors in email when I am not on VPN and able to access Jenkins.
+However when I run my Jenkins Job, I get the following error: .
+I am running webservice test in katalon/jenkins, but it gives me error in generating variables, can anyone please tell me what am I missing here?
+Whenever my Test Scripts start to Run when I build my JOB in Jenkins, I get this error i.e.
+When I call the start-build command on the Jenkins Pipeline BC, my pipeline process fails to run the oc start-build command.
+/pre/  But I am getting the following error in console of failed job in jenkins: .
+Except that when I run the testes android with Jenkins (I use the plugin android emulator) I get errors, the problem is that sometimes 2/3 of the tests will work, sometimes no ..
+I am using jenkins for the build but every time i run a build it gives an error and fails?

@@ -1,0 +1,6 @@
+positive:
+ i recently switched to circleci 2.0 from travisci and i am facing an issue when i try to: /code_segment/ , it does not add the path variable.
+for some reason circleci is not linking the new commit to the same user as the orginal commit despite the fact that the commit uses the original commit 's account and email.
+negative:
+then there is this project where someone seems to do the same thing on circleci successfully.
+a circleci ci/cd pipeline handling an angular 7 application fails during the test step, with the circleci log suggesting the browser is not registered, although it runs once and it works!

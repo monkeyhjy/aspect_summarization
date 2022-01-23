@@ -1,0 +1,6 @@
+positive:
+"we use teamcity to build and push out our packages so setting these packages to be pushed out was a simple task - then i ran into the problem of a lack of contents in my nuget package - so i added in a  parameter..., and well i 'll post that cleansed nuspec here."
+i solved this problem by adding powershell build step sending a web request to the teamcity api.
+negative:
+this is awkward on our teamcity build server where i would like a build configuration for each shared library/project and have my application use artifact dependencies to reference the dlls the build server generates.
+i 'm trying to shift an existing asp.net mvc web application away from teamcity and on to azure devops however i ca n't seem to get my pipeline to find the packages that it restored from the nuget package restore task.

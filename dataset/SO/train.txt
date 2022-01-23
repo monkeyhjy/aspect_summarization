@@ -1,0 +1,1633 @@
+Currently (04/16/2018) there is not a documented method to delete a specific deploy on Netlify.
+/pre/  Note that Netlify SSR is in Beta but I personally did n't have those issues with it.
+"The problem is that, when using Netlify CMS, it 's parsing /code/ as markdown code, because normally we use Backtick (grave accent) to write code!"
+"/pre/     GitHub Pages and Netlify recognize the 404.html file automatically, so setting generate.fallback to true is all we have to do!"
+When i deploy to Netlify I do n't get any css to show up!
+"I am pulling an array on images from Netlify CMS and passing that to /url/ component, but the acutal images do n't render, even though the path is correct etc."
+Some weeks ago I deployed a blog based on the /url/ on Netlify.
+"Could I possibly save my order data in a Mongo collection upon submission via a Netlify Lambda function, then trigger a build via Netlify, and in my app pull in Mongo data at build time, and somehow create a file for each order object, perhaps via Gatsby 's API?"
+Note: Netlify - I am not currently using Netlify prerender.
+"My experience suggests once you 're over about 300-400 pages, build times get laggy (at least on Netlify)."
+"If you open my netlify page, a live demo can be found on the other tab on the same page."
+Also I deployed my react app to Netlify and I can get login page.
+Setting these up in Netlify is a breeze.
+The domain in Netlify is as follows: .
+I 'm trying to host my react app on netlify but I 'm running in to this error /url/ when I try to load the draft page.
+Once you confirm that the build local has no errors you can push these changes to your git repository and your Netlify build should also work.
+If it helps I am using Netlify for the Angular end and Heroku for Laravel.
+"(Well you can deploy both the frontend apps on heroku but since heroku free tier has limited instance, you should deploy your frontend apps to other services and netlify is a perfect place for that)."
+Stop auto publishing does not turn off builds or previews in Netlify CI for your site.
+"Sometimes however, and especially when developing on a poor internet connection but also when deployed to Netlify, I end up getting the following error: ."
+"After setting up your custom domain, you should be able to get to your site using either the Netlify domain or your custom domain."
+"I just want to replace the /code/ with something else, I 'm using netlify to host my website with my custom domain name."
+"I have set a CNAME rule for /code/ on the DNS provider for myDomain, which points to the netlify url /code/ but this does not appear to be working."
+The error I am getting when deploying on Netlify is here: .
+I am currently hosting my personal website (created using blogdown and Hugo) using Netlify at /url/.
+Is it possible to specify a Bash script as build command in Netlify?
+"For now I 'm testing it out with just Gatsby, in order to later reproduce that technique with Netlify CMS markdown files (and be able to update the page texts with Netlify CMS admin panel)."
+How should I access the query string parameter in the netlify function?
+"However, its effects would be limited to a single CDN node, and Netlify has dozens of CDN nodes (and several separate CDN 's, but that is n't in play here)."
+Use /code/ as your Netlify build command.
+I 'm experiencing CORS errors sometimes when hosting my Node.js Express server on Heroku and trying to connect to it with a React app hosted on Netlify.
+"I see that Netlify is described as a static hosting, but it also allows something called serverless functions, but I 'm not accustomed to that."
+Another option is to use a hoster specialized on static pages like github pages or netlify.
+Anything you have in your project will get deployed to the Netlify CDN.
+"Since you are using Netlify, the answer is basically /code/."
+In Netlify to /url/ I need to add a /code/ file to the root of my /code/ folder.
+So I have a couple of modules that I am importing in to my /code/ and /code/ file that are not being found when building in Netlify and I cannot understand why.
+I recommend you to publish your website via Github and Netlify (/url/).
+Since I preferably want static pages (for SEO and meta tags) I 'd like to host it on for example Netlify and generate static pages through ex.
+I have a simple jekyll site and am trying to get netlify cms to work as the editor for the pages aswell as the posts.
+"I want to create a variable that runs on build in Netlify, yet still works in my development version."
+/code/ Now I can access my react app via localhost:3000 and also the netlify functions via /code/- which works well.
+"After installing netlify via npm (globally) in VSCode (Windows 10), when I type /code/ in the Powershell terminal it says that it ca n't find the cmdlet."
+add the netlify cms plugin manually to this basic starter .
+I have this NodeJS AWS lambda function which is deployed through netlify: .
+i deployed my server using now.sh and i like to deploy my web to use netlify.
+"/pre/  When I view my domain aliases in the netlify account, just the last domain from the list is added."
+im trying to deploy website on netlify but some problems occur.
+"So, I am able to use the curl commands currently to GET information about sites I have on netlify."
+"I 'm switching from Cloudflare + digital ocean to Netlify, but I have a small problem here."
+"I 'm pretty sure this is because netlify adds unique code to make the forms work, dunno if this is the problem... ."
+"Then the results are stored into the repository, so Netlify can pick them up when creating the functions."
+"In Netlify, I added a /code/ prefix version of the env var(s)."
+i 'm trying to deploy my next app on netlify but it 's keep failing idk what the problem  .
+"The problem is, nothing is echoing in the browser/console and no email is being received and i dont have an error message anywhere, all I get is a message from netlify saying this - after i click  'submit' :  ."
+"Assuming your Netlify website is public and you would like to speed up the Google Search Index process, and improve your ranking -  here are some helpful links by Google: ."
+(btw this is my first time trying to deploy to netlify) also the error /code/ keeps repeating in the logs .
+Netlify CMS does n't yet support top level lists - here 's the issue to follow: /url/ .
+"Each time you push to your Git provider, Netlify runs a build with your tool of choice and deploys the result to our powerful CDN."
+"I was having build problems on Netlify until I cleared the cache and rebuilt, and now everything works in deployment."
+should I be looking to configure Netlify differently when I setup my Netlify site?
+I 'm more concerned about the build command because 99% of the time I get a timeout in Netlify due to this.
+"I have a blog using R Studio, blogdown, github and Netlify."
+"It is a service they might offer, but it is not one you should use in most cases (neither Digital Ocean nor Netlify benefit from that kind of configuration and it will make at least your Netlify site less reliable and harder to protect via Netlify 's automated SSL certificates.)"
+/pre/    The build error on Netlify seem to be unrelated to your image chainging issue.
+On Netlify: .
+I am hosting app on Netlify.
+"After acquiring appropriate permissions and re-linking via Netlify 's UI, the deploy key was successfully install and pulls in Netlify 's CI worked better."
+There are two places to setup your build commands in Netlify.
+"If it does not redirect, then there is no chaining in Netlify redirects."
+"However, if you want to use Netlify 's DNS hosting for your domain since we host other site(s) for you, you can absolutely still use our DNS to set up a hostname that points directly to S3 - no terms of service violation there as we do n't limit your use of our DNS service."
+"Netlify currently manages my DNS, so that I have nameservers like so: ."
+"It 's always allowed to reach out to Netlify support about things like these, though we can only really help you debug what 's different about our build process than your local, rather than debugging your source code."
+See my dropbox /url/  The problem was on netlify 's side.
+"Netlify has /url/ rather well, since it is probably the most asked about feature."
+Netlify functions are indeed powered by AWS Lambda and are subject to the AWS Lambda limits.
+"I have ""successfully"" deployed on netlify however when you go on the domain the site shows for a second before going blank."
+Have DNS set /code/ to the Netlify site.
+Basically you need to use gatsby-plugin-netlify-cms-paths.
+I think netlify is just a series of tools built on AWS that make managing static sites easily?
+The Netlify docs are a bit hazy on how to do it and the tutorials Ive watched conflict with it a little in the general code set up.
+"I 'm building a proof-of-concept UI served as a static JS application (just free static hosting on Netlify), and I 'd like to be able to read and write data to a NoSQL database."
+netlify.toml .
+Build Errors on Netlify.
+"After looking through the troubleshoot guide, they listed that the added ""netlify"" or ""data-netlify=""true"" attributes should not be visible if netlify recognized your form, but they are."
+It even works fine with my backend using azure web services and front end using netlify but occasionally after several api calls (I 'm not overloading the server because these api calls are done one by one) I get LOTS of errors that are all the same.
+"Old question, but for those who might stumble on it on how to enable angular routing in Netlify."
+"You probably want to use ENV to provide the API and host, then configure Netlify (or wherever you 're building) to use the appropriate token and host for the desired result."
+"It 's recommended to use /code/ as your custom domain, to take full advantage of Netlify CDN with ANY DNS setup."
+"The only problem now is that I need to store a custom property for each user (say, the phone number), and apparently Netlify Identity does n't support this (only email, name and roles /url/)."
+"However, the problem I 'm running into is that netlify does a build and deploy every time the master branch is updated."
+Therefore I have done my best to reproduce the issue by simply releasing the app on Netlify for reproduction.
+I 'm guessing this has to do with the FontAwesome Pro plugin needs an access token in order to be accessed through NPM on Netlify?
+"When I submit it, I get a 200 and see the default success page, but do not see the submission in the Netlify Dashboard."
+Maybe there is some kind of setting on Netlify I need to change so it will extract the javascript as it is deploying the page?
+I am building a site with gatsby and Netlify CMS.
+I 'm using Gatsby with netlify-lambda which creates a server for functions on the 9000 ports: .
+"On the same page, I said that you do n't need to worry about it if your website is deployed on a server where you run the /code/ command, such as Netlify (i.e., drafts will not be built)."
+"I am trying to deploy my site(testing site) witNetlify,  by using /url/ as site, and in first step create a new site on Netlify in form I use a branch to deploy - gh-pages and empty field for build command and empty field for publish directory."
+So it actually does look like Netlify 's GoTrue API has a specific endpoint for updating custom user data.
+"If you go to Netlify dashboard > Deploys, there should be a ""Trigger Deploy"" dropdown that gives you this option."
+"I am using a Notebook with Linux Debian 9, git for version control, bitbucket as source code repository service and netlify as production deployment service."
+"Netlify will generate your site, it should not be in the Git repository."
+This exe was uploaded after I gave Netlify permission to access my repo.
+"I 'm mainly looking for any existing api, cli, etc that allows managing multiple Netlify  sites (and I guess GitHub as well since Netlify is just deploying whatever is in the repo) at once."
+Netlify functions have to use the same ENV variables as Gatsby does.
+Is there an option I need to trigger to tell Netlify to hide the content from the search engines bots?
+The branch is later deployed to Netlify with a custom (Branch) URL.
+There are a couple simple options for this example to host on Netlify: .
+"tested on local machine, cPanel hosting and Netlify."
+Use Netlify forms.
+Any variables specified in the /code/ overwrite the environment variables entered into the browser console on the Netlify site.
+I have a Gatsby site on Gitlab deployed to Netlify and using Netlify-CMS.
+I set the deploy from Bitbucket on my Netlify account but when I try to deploy it always fails and I get this error in the log: .
+"The /code/ branch is my production site, but Netlify also creates test builds for branches."
+I have contacted Netlify and they informed that I should add: .
+/pre/  netlify.toml .
+/pre/  Note: Netlify functions are just AWS functions and you can read about the /url/ .
+To submit a form using Netlify I add data-attribute /code/ and attribute  /code/ in the form tag to display the success page.
+I just want to push my app on Netlify.
+"netlify-lambda used to bundle the server-side code (function code) and for some reasons, it bundles it incorrectly."
+Netlify config : .
+"I have my server hosted over DigitalOcean, and my client hosted over Netlify."
+iv) I have also created a README folder in my Github repository and copied this snippet provided by Netlify:  .
+The code is deployed in both a development and production environment to Netlify.
+"I 'm working on my first GatsbyJS project (and hosted on Netlify) and over the past few weeks have noticed that everything is very speedy during development, but when built and hosted the pages are very slow to load (particularly the images)."
+Comprehensive Netlify documentation - /url/ .
+I tested with a preview branch on Netlify and it worked for me.
+on netlify i 'm running an app at test.anonplayer.com which works fine but I have been unable to get anonplayer.com and www.anonplayer.com to permanently redirect to test.anonplayer.com .
+"Netlify receives the HTML, generates a preview, and notifies the GitHub pull request with an incominb webhook."
+"However, I built and deployed a version to Netlify and am finding the images get rendered in what seems to be a random order, which does not match the order of the original array."
+"In the app.netlify.com interface, navigate to Site settings, then 鈥淏uild &amp; deploy鈥?in the left-hand navigation."
+"While there are many ways to accomplish this, the simplest way I found to get Netlify Environment variables into my React app was to create an /code/ file at the root of the project with the following content: ."
+"Pretty new to useing Next JS and combined information from various tutorials, but stuck on what I am doing wrong with either file structure or the build process in general in order to have a successful deployment to Netlify."
+"Any ideas if this is an issue with Netlify, Facebook or Gatsby/react-helmet?"
+"To sum things up, I 'm trying to make a Gatsby site with netlify CMS."
+"My netlify website was working very well, but when I pushed new changes to my github, netlify threw me this error: ."
+We should do the same in our functions using Netlify.
+Currently I just had a placeholder file hosted at Media Temple but now that i have my gatsby project on Netlify I need to add a custom domain .
+Make sure netlify knows what version of node you need to build your app.
+I try to use Puppeteer in a function on Netlify (a wrapper around AWS Lambda I think).
+Is Netlify magic?
+"I need to list contents of my site directory on Netlify for debug, but I can not find an option to turn on directory listings."
+I鈥檇 like to get the state id (ex: CA) and send it to the netlify function.
+"Netlify then automatically runs /code/  (see /url/ for more details), installs what you need, AND puts it on your $PATH so you can just run any binaries generated as a part of the installation."
+If you do the same steps and check a site I made using Netlify SSR and React create-app notice that the html is correct: /url/ .
+"The effect on SEO is small (should n't matter, that 's what Netlify staff informed me)."
+I 've tried deploying to both Github Pages and Netlify with no success.
+NOTE: Do not put secret tokens into your /code/ file or /code/ files of a public repository for Netlify.
+"/pre/    On Gitlab: Setup an /url/ to get the /code/ and to set the Redirect URI, enter the address where you access Netlify CMS, for example, /url/."
+/pre/  My case was resolved simply by re-deploy the app again on Netlify.
+It helps us to understand how Netlify works.
+"Netlify 's proxying (technically reverse proxying) can connect to whatever backend you 'd like and does NOT show the URL to the visitor - it looks to them (URL bar in the browser, HTTPS connection) as though they are connected to my-example.com the whole time, but the content is returned from your backend (including HTTP status codes."
+The Netlify paths are from the root of the published site and is unaware of the Hugo configuration.
+Site 's being deployed on Netlify.
+There are no build errors in Netlify or locally.
+"After attaching my Gemfile and Gemfile.lock (as well as the Netlify log), /url/ has kindly advised (in his answer below) that the Ruby Sass was n't the problem."
+I 'm trying to get a hand with Netlify and AWS.
+the netlify function is not working.
+"/pre/  or, as dist for netlify ."
+"When running npm run build and deploying my react project to netlify, the netlify version of my website loses some of the bootstrap styling... here is an image of my localhosted version: /url/ ."
+Do you guys think it has something to do with Netlify?
+I 'd prefer to avoid this because a) I do not have Netlify Pro services and thus do not have access to password protected site access (though I 'm not sure how NCMS utilizes Identity and is able to avoid the premium plan?
+I have looked everywhere at the Site Settings on Netlify but could not find where to add this code.
+"While that answer refers to cloudflare because the question did, the answer is how to do it using just Netlify."
+Here 's how to set things up to accomplish this via Netlify.
+Netlify returns an HTTP 404 status for ALL /code/ operations EXCEPT ones that are either /url/ to another site /url/ (then we proxy the POST) OR requests that match a URL we are expecting a POST to - one we 've been notified at deploy time will be the endpoint for form submissions.
+I 've found more log in Netlify :  .
+Is there something I do n't understand about how Netlify 's CDN works?
+Netlify Config file (netlify.toml) Option .
+The Netlify deploy used to work on occasions and as I added more images to the project now breaks constantly with the following errors (not always in the same page): .
+Netlify did not correctly process your field names from the html version of your form.
+"Built two websites with blogdown/Hugo, deployed via Netlify."
+I 'm using RSTudio Blogdown/Github/Netlify to maintain my blog site.
+For a page hosted on Netlify I receive this error when attempting to post a form to formspree.io .
+Netlify does n't seem to be using / installing /code/.
+My frontend is hosted by Netlify.
+"However, when I check the form submission in the Netlify admin, they are all blank."
+Note: Make sure to keep the netlify.toml in the root location if you have one.
+"If you use Netlify CMS, you can add a hidden field to automatically add the correct type to help you filter."
+"Your intuition on setting the /code/ header is correct about how to affect Netlify 's caching, and should do what you are trying to do!"
+Netlify supports file uploads in their form handler without any special configuration: /url/ .
+So I hosted my website on netlify with my github repo.
+I have deployed my website on netlify and it uses REST API to send and retrieve data to the server.
+In the case of Netlify he also made me generate a token but he gave me this URL: /url/.
+"I 'm trying to get it online at trustworthy.netlify.com, but there 's a pagebuild error: ."
+I 'm unable to do a create request of form datas with a netlify function on my angular app .
+I am trying netlify.
+I tried deploying things on netlify from my terminal and it asked for the url where i want to deploy it .
+I know some approaches such as using Netlify or Github Pages on front end and heroku for backend but do n't know the detailed approach.
+"Are there alternative approaches (Requirement: I still need to use Angular, Node.js and Netlify) ."
+( If you do n't know what Netlify is check it out.
+netlify 's build settings are set to the initial settings.
+/code/ That 's the same script I told Netlify to run in the settings.
+Locally using (/code/) the netlify development workflow will use that path to watch for compiled changes of your functions.
+"You could instead use RUBY_VERSION environment variable, set in Netlify 's UI in build &amp; deploy settings or in /code/ (per Netlify support) ."
+"The below example redirects are ""host agnostic"" so will work with the Netlify hostname, /url/,  AND the production hostname."
+"If you open a pull request, Netlify will build and deploy a test server and you can check for results under test-server-url/code/."
+Netlify will spin up the correct tooling and add your dependencies.
+Add a placeholder like HEADER_PLACEHOLDER somewhere in the netlify.toml redirects or headers sections.
+Netlify manages a Hugo version install in the container based on the environment variable (/code/) when there is a build.
+"As I understand from the Netlify / Github Pages documentation, we may need to reorganize our content in deep hierarchy like following (please correct me here): ."
+Netlify 's default thank you page always appears.
+"I have a GitHub repository named /url/ for which I 've configured two website builds on netlify, namely /code/ and /code/."
+"That condition ""used constantly"" sounds weird - but Netlify runs a caching CDN and does not have infinite cache capacity, so your results may not STAY in cache for the whole day if enough other content is more recently requested."
+I have a simple working form where I make the submit with Netlify forms.
+This typically requires you to enter MX records into the DNS zone on Netlify.
+"This happens only on local ; the site has two hosting instances, staging on AWS, prod on Netlify, and they 're both okay."
+Graphql queries that Gatsby processes will never work in netlify-cms preview.
+/pre/  charge.js folder / function/charge.js and working on netlify function.
+"/pre/  When I try to deploy to either GitLab or Netlify, here is the exact error I get."
+I 'm having some issues deploying to netlify.
+Netlify has a /url/ that really ease up the development process.
+"When I tried to link this to Netlify, it did not work."
+I previously had this Angular project on digital ocean but want to move it to netlify.
+"I am setting up a site using Vue.js, yarn and Netlify."
+"im totally lost.. i run static site using github and netlify, and i got email from github today saying:  ."
+"I just copy-pasted Netlify 's generated instructions into that file, this is the content: ."
+But when I deploy this app to netlify then for default it goes to /code/ and shows a custom /code/.
+Disclaimer:  I work on the Support team @ Netlify .
+Issue is same even with netlify hosting.
+Problem:  I have svilab.com and www.svilab.com pointing to the managed DNS servers from Netlify.
+I am using Netlify.
+"Move to a hosting that supports php :) (Netlify could be a solution, but I 'm not sure) ."
+"We 've followed guides on netlify website regarding Vue app (/url/) as well as the solutions found on stackoverflow (/url/ &amp; /url/) that have similar issues, but none seem to work."
+I 'm unable to figure out how to write the Netlify CMS config.yml for a /code/ folder that looks like /url/ .
+I 'm using Gatsby/Netlify CMS stack and have been trying to display markdown file contents on the main page.
+Netlify will automatically enter these settings for you into DNS.
+"I am hosting my website on my own server, and using Netlify CMS."
+I set up the google sheets api for the Netlify URL.
+"We use gatsby for our project, and deploy to netlify for testing."
+Application hosted with netlify with vue based template.
+"When I run this function in Netlify, in the function log, there is no response or error message."
+I want to publish a PUBLIC_URL that is stored in Environment Variables for each site in Netlify.
+It will let Netlify know you are using yarn and will install and configure yarn for you.
+"I am using Gatsby and Netlify, and I want to have a separate admin area to manage featured items used across multiple pages."
+"I do a website just for learn how to use firebase, and I put it on netlify."
+"*The reasoning of wanting to push specific commits is to sort-of deploy on a controlled manner different updates of a website, which is synced to a github repository (netlify) ."
+disclaimer:  I work for Netlify.
+"To deploy to Netlify, you will need it converted to a static site."
+Now What will be the callback url to call the netlify function from a websub service?
+"Specifically, if a user navigates to any page besides the home page and refreshes the page, the default Netlify 404 renders."
+Inside one of our Azure Pipelines I am attempting to push a tag to GitHub but receiving one of two errors depending on my approach.
+Azure Pipelines ServiceNow application inserts data in ServiceNow using Import sets.
+"I would like to use azure pipelines and connect on my on-premise server, deploy my application, run SonarQube, etc ."
+/pre/  This is my current Azure Pipelines YAML file.
+"You can manually add a new pipeline and choose Existing Azure Pipelines YAML file from the list, near the bottom and then type in the path to your YAML file."
+You can get a coverage badge for Azure Pipelines by using shields.io: .
+"If you mean run the test locally with VisualStudio and generate the test results (/code/), then you can use the /url/ task to only publish the test results to Azure Pipelines."
+I am executing the Visual Studio Test Task on Azure Pipelines.
+"Background: I have a number of repos on GitHub, which I 've recently converted from using Travis to Azure Pipelines for CI/CD."
+"CAUTION this may cause issues when upgrading to another server version at a later stage, may require newer versions of the Azure Pipelines Agent and can put you in an unsupported state."
+"Azure Pipelines is a continuous integration (CI) system which can build, test, and deploy your code."
+"I also plan on setting up CI in say Azure Pipelines, so that I can automate all this whenever I push code to the private GitHub repo."
+After looking at the source code for the DockerV2 Azure Pipelines command I have figured this out.
+I own a public and open-source Windows Forms/C# application in a Github repo that I want to start code signing with my certificate through Azure Pipelines CI.
+I cannot find anything only that explains to me what Dedup is with regards to Azure Pipelines .
+You need to delete the azure-pipelines.yml file from your repository should you wish to create a new pipeline.
+"Azure Pipelines has /url/ and /url/, but I can find no way to assign one of two values to a /url/, based on a condition."
+open configuration for Azure Pipelines .
+"I am trying to get a deployment working from Azure Pipelines and cannot figure out how to deploy a single ""Cloud Service classic hosted"" web app."
+repoint your build to the azure-pipelines.yml or create a new one.
+azure-pipelines.yml .
+I 'm getting an error when trying to deploy using azure pipelines.
+"I am new to Azure and all of the terminology associated with it, but have been doing a bit of research and it looks like Azure Pipelines may help me accomplish what I need."
+I want to use Roslyn analyser in our Azure pipelines.
+/pre/  Relevant azure-pipelines.yml .
+"When creating a new WebApp, I go to Deployment Center > Azure Repos > Azure Pipelines (Preview) and get the following error message : ""You do not have any valid Azure DevOps organization""."
+On Azure Pipelines of Azure DevOps you can use /url/ to run your pipelines.
+"Periodically, the agent checks to see if a new job request has been posted for it in the job queue in Azure Pipelines/TFS."
+azure-pipelines.yml : .
+How can I prevent Azure Pipelines from adding metadata to my images?
+/pre/  $(System.AccessToken) is a predefined variable in the Azure Pipelines: /url/ .
+"Using Azure pipelines is my long term goal, but I need to figure out how our automated tests can use an Oracle database first, because all data is deleted before each test is executed using Selenium."
+There is /url/ in Azure Pipelines.
+"P.S: I forgot to mention in Azure Pipelines I am using ""Hosted Linux Preview"" ."
+Please check /url/ to get started with Automating Selenium Tests in Azure Pipelines.
+"I have had a similar issue, we were deploying using Azure Pipelines, the approach i took was 1) Deploy Template and pass the RG name and VMSS name as template outputs 2) ARM Outputs - Use this snippet to publish the above results as vars to use downstream 3) Azure Powershell to get the IPs of all VMSS instances and publish them as pipeline variables 4) Write the pipeline vars file to a blob."
+"When using /url/ from yaml in Azure Pipelines and every stage is deploying resources to a separate environment, I 'd like to use a dedicated service connection for each stage."
+Desired coverage thresholds can be defined in an azurepipelines-coverage.yml settings file that is checked in at the root of the repo: .
+"For the projects under the GIT workflow, we can use Azure pipelines confidently to create a CI/CD release process."
+"Now, you   can have syntax highlighting and IntelliSense that 's aware of the   Azure Pipelines YAML format."
+I 'm setting up an Azure Pipelines build that needs to package a C# .NET class library into a NuGet package.
+"For git at least, Azure Pipelines does a full clone of the repo by default, unless you explicitly denote that you 're doing a shallow clone (source: /url/)."
+"What are all the available hosted agent pools for Azure Pipelines, documented and undocumented, and their /code/ string to /code/?"
+How would Azure Pipelines obtain access to network resources?
+Is this a bug in the azure-pipelines-agent?
+"There is, however, a way to trigger Jenkins builds from Azure Pipelines using the /url/."
+"In Azure pipelines -> Devployment group, select 鈥?New鈥?button and type of target to register."
+"I have tried to remove and add back in the Deployment slot, and to disconnect and reconfigure the Azure Pipelines stuff in different sequences to no avail."
+"As soon as I go to deployment center to deploy my code, after selecting the azure repository as the source of my code, I am redirected to an option of azure pipelines where we have to configure our build settings."
+Is this considered best practice for code-signing in Azure Pipelines?
+The pipeline is using the Azure Pipelines Hosted VS2017 Image .
+"However, I could only set Single Docker by using Deploying to WebApp for Container in Task of Azure Pipelines' Release."
+"Self-hosted Azure Pipelines agents, ."
+"I 've setup my open source project to run CI with Azure Pipelines, and am collecting code coverage following the example from the Azure pipelines docs on /url/."
+"Publish artifact to Azure Pipelines as release step - it 's not allowed on release, only for builds Publish ."
+"So, when it ran the browser windows and drivers completely in memory, I received the same driver errors as I am now encounting on the Host agents in Azure Pipelines."
+How do I configure build step in Azure Pipelines to execute command GitVersion.exe if the executable is obtained from NuGet /url/ by .NET Core project?
+I have been upgrading to vs-2019 and the 2016 version of report viewer and do now get a problem when building in the ms-hosted azure pipelines.
+Yet on Azure Pipelines windows agent it does n't.
+I am using Azure Pipelines to build a /url/ binary for Perl 6 in Windows.
+I 'm building my first Azure pipelines for a Node project and I 'm wondering how in Yaml to access several package.json files below the surface level of the project?
+"This question is specific to using Web Deploy through Azure DevOps/Azure Pipelines using the ""Azure App Service Deploy"" task, version 3.*."
+"I do not have experience with Azure Pipelines, but there are some ideas about Azure Container Registry and the Azure Web App for Container."
+I am having an issue with Azure Pipelines.
+"What I did was setting up a build on the arm-template-containing repo, producing a build artifact with following azure-pipelines.yml: (this would be your repo c) ."
+"I maintain a couple of GitHub projects which do n't have a lot of commit activity, and use Azure Pipelines for CI."
+"If you 're looking for inspiration, Azure Pipelines has similar functionality."
+You should remove completely Azure Pipelines application: .
+I am building Python wheels in my public GitHub repository using Azure Pipelines.
+Is it possible to achieve it Azure Pipelines?
+"What is confusing me further, is that the integration with Azure Pipelines actually worked just fine (check correctly reflects the build status) in the Pull Request that was automatically created by Azure Pipelines when creating the /code/ project: /url/ ."
+Azure Pipelines Build and Release extension that helps you synchronise one Git Repository with another.
+This POSIX shell syntax will not work in Azure Pipelines configuration.
+CI integration is enabled via the GitHub Azure Pipelines App.
+Build Artifacts (published via the Publish Build Artifacts task) have   been in Azure DevOps for a long time and are the built-in artifact   storage mechanism for Azure Pipelines.
+"azure-pipelines.yml is being auto-picked up by VSTS, you can create as many yaml files and create builds manually for those."
+azure-pipelines.yml (the main file) .
+We are using the Azure Pipelines task for deploying 2 .NetCore apps in docker containers to elastic beanstalk.
+"I am trying to build my Xcode project with Azure Pipelines, and there I am facing one error -: ."
+/pre/  This is what I have currently for Idris 2 's azure-pipelines.yml: .
+"Yes, you can use Azure Pipelines variables like every environment variables in NodeJS: ."
+The azure pipelines yml is .
+"In particular, look at the section ""Publish artifacts to Azure Pipelines"" as this will produce the zip files you 'll utilize in your release pipeline."
+The problem only exists on Azure Pipelines.
+We are trying out Azure Pipelines CI with a GitHub project now that it is available in the marketplace.
+Can variables in Azure Pipelines (Build/Release) be used in NodeJS code?
+You can then create a Azure Pipelines and upload the files to the build and release definition.
+"A while ago, I created an alert to monitor for any Azure pipelines that have failed."
+I want to set up my CI in Azure-pipelines to run my tests in: .
+azure-pipelines.yml .
+"As you mentioned, S3 and Azure Pipelines will automatically load new files for you as they become available."
+"But if I instead do my deployment in the azure-pipelines.yml file and do /code/, I get null because the variable does n't exist."
+"How to pass project related dependencies(External dependencies)which are not available in central,Remote Maven repositories in Azure Pipelines."
+azure-pipelines.yml (main repository): .
+"From the looks of this it seems that Azure Pipelines ca n't read it 's own artifacts, which seems a little ridiculous."
+Uninstall Azure Pipelines application .
+Now I want to move to Azure Pipelines to set up automated builds.
+"My Azure Pipelines build outputs NuGet packages in the /code/ folder where /code/ is a matrix name (I 'm running the build section of my pipeline on Windows, Mac and Linux but want to publish the NuGet packages only from my Windows build)."
+I am facing an issue with setup of azure pipelines.
+I 'm attempting to use Azure Pipelines to create a more streamlined CI process for /code/ with Windows and Linux.
+"Check the Publish Build Artifacts task, you can view this task is used to publish build artifacts to Azure Pipelines, TFS, or a file share."
+Using dash(-) as part of key name in paramters (Azure pipelines) .
+I have a node.js project that I 'd like to switch from a current home-grown CI to Azure Pipelines.
+But for some reason - on this server - azure pipelines treats the text as errors.
+I am really new to Azure DevOps and am trying to configure Azure pipelines for my project.
+In Azure Pipelines you can /url/.
+You need to have Agents communication with Azure Pipelines.
+The Azure Pipelines badge .
+"The rest of my CI pipeline ran perfectly, but the NuGet Push task failed every time with exactly the same error in the Azure Pipelines log, despite all my attempts to find a workaround: ."
+heres the error Azure Pipelines is throwing .
+Without getting into too much detail about the build/deploy steps (which are a whole different conversation) I 'd like to know if/how can I replicate this workflow in Azure Pipelines.
+I can do it in /url/ easily and would like to find out if it is available in Azure Pipelines for CI/CD and if so how to achieve it.?
+"When using Azure pipelines and deployment groups it is possible to re-deploy the ""last successful"" release to new agents with given ""tags"" using the instructions found here: ."
+"Due to the fact that you have your own Azure Pipelines agents, then the maintenance should be easier and you will have total control of either having automatic maintenance or not."
+"I can also create a pipeline on Azure Pipelines that achieves a similar result, running on multiple /code/s and different configurations via /code/."
+Currently building in Azure Pipelines and using the Assembly Info (.Net Core &amp; .Net Standard) task to populate these fields.
+"You ca n't substitute the /code/ from the command-line when using the /code/ task or the /code/ command, but you can create a temporary /code/ file that contains the valid parameter value as part of your build pipeline in Azure Pipelines: ."
+This token is generated by Azure Pipelines/TFS for the scoped identity specified in the pipeline.
+The most likely reason is that there some was glitch in the communication between Azure Pipelines and GitHub.
+"Edit: In case there 's a vendor-specific feature I should be aware of, I 'm using Azure DevOps for the git hosting and Azure Pipelines for the build and deploy process."
+Any recommendations on how to connect Azure Pipelines in one instance of Azure Devops to an Azure Repo in a separate instance of Azure Devops.
+I have a YAML config file with name azure-pipelines.yml which references the hosted 2017 agent.
+I am also deploying using Azure Pipelines.
+We use GitHub Enterprise and are migrating our builds from Jenkins to Azure Pipelines.
+"Disclaimer: I know virtually nothing about Azure pipelines, so my answer is based on reading the docs."
+I am struggling a bit with the concept of azure pipelines and am looking for hints on how to solve the issue: .
+When building a docker image in Azure Pipelines the Docker Task adds traceability related metadata to the image in the form of the following labels: .
+"Assuming the ""classic"" mode for Azure Pipelines (not YAML based): ."
+This is the official docs of Azure Pipelines release on auto-increment your release:  /url/ .
+I am trying to trigger a build in Azure pipelines when a new tag is pushed to my github repository in the following way (dev being the name of the tag): .
+"However, there does not appear to be anyway within Azure Pipelines to Queue a PR build manually...  ."
+"Is it possible to set it up, so that a JIRA issue is automatically transitioned into another status, when Azure Pipelines has completed a deployement to a specific environment?"
+"I created an azure pipeline to build a VS (c++) project and using the visual editor I got it all working, then I used the yaml they suggested and added the azure-pipelines.yml file to my project and added a trigger."
+"I have all the certs/profiles uploaded into secrets in Azure Pipelines, named based on the app."
+Azure Pipelines release by default will auto-increment your releases.
+How do you automate this via Azure PIpelines?
+I have a requirement in which i have to run JMeter test using docker images in azure pipelines.Is there any way in which this can be accomplished.
+The Azure-Pipelines.yml I have is the following: .
+A less likely (but definitely possible) reason is that there 's a bug in either Azure Pipelines or GitHub.
+"I have an Azure VM, which i would like to remotely run some powershell command from azure pipelines."
+I also run /code/ and that does produce data for each spec - sadly this reporter is not compatible with Azure Pipelines - otherwise I 'd use it!!
+How can I trigger a CI build in Azure Pipelines (VSTS) when pushing tags to my BitBucket repo?
+Here is my azure-pipelines.yaml .
+resolved: used a powershell task in azure pipelines and set the ips as pipeline varibales  .
+Is there any solution like that in azure pipelines world ?
+"/pre/  You can aslo try using Azure Pipelines agent pool, where you can point a specific agent to run your pipeline."
+"I 'm trying to set a release on Azure Pipelines, but I need to release in debug mode (or in some way that does n't transform web.config file, keeping with settings in debug mode)."
+"(In my experience, the GUID in the URL from SecureFiles is a GUID from Azure Pipelines and has nothing to do with the provisioning profile GUID."
+This should result in having a /code/ app setting in your Web App that reflects the current build in Azure Pipelines.
+I installed the build agent from Azure Pipelines.
+"I failed to find the instructions in the official docs, but this is what I can see on Github for Microsoft Azure Pipelines tasks."
+How can I tell Azure Pipelines to install Microsoft Store Services SDK before VSBuild?
+I 'm trying to build my UWP app with azure pipelines.
+I do n't know how to limit the number of concurrently running builds in Azure Pipelines.
+"Note: /code/, /code/, /code/, /code/, /code/, /code/, /code/ are all installed on machines in the Azure Pipelines Hosted pool."
+   How to generate YAML from Pipeline on Azure Pipelines .
+How do I un-associate project AA with GitHub repository XX for the GitHub Azure Pipelines App?
+"When authoring an Azure Pipelines or TFS Release pipeline, you can specify the deployment targets for a job using a deployment group."
+I would like to use Azure Ubuntu Server for deployment through Azure Pipelines.
+   Is this possible with Azure Pipelines?
+"I am able to create a custom image that has CUDA installed and upload it to dockerhub, but the computers that Azure pipelines run it 's CI on seems to be CPU only machines."
+"For example, on this screenshot i have CI connected to azure pipelines where build &amp; running tests happen within the same check: ."
+"I have added a task in Azure pipelines, the aim of task is to Enable WinRM on Remote Windows Servers."
+"Does anybody know how to obtain this information (""self-hosted by user"" or ""provided by Azure Pipelines"") via the build succeeded web hook or via the REST API?"
+"I 'm trying to build an azure-pipelines.yml for a monorepo, and I 'm struggling to figure out how to debug the file as I move along."
+Now it can be integrated with azure pipelines.
+I have an Azure-pipelines.yml file that looks like  .
+ Azure Pipelines offers a compelling orchestration workflow to obtain test binaries as artifacts and run tests.
+You should always prepend call before executing a batch file in   an Azure Pipelines script step.
+"But if you 'd like to run a build for some past state of your repository, you can enter a particular Git commit hash here, and Azure Pipelines will switch to that commit once it checks out the sources."
+We鈥檝e installed the Azure Pipelines add-on to ServiceNow and the ServiceNow Change Management add-on to Azure.
+This solution also works for the cases when you simply want to rename  the YAML file to whatever you believe is more appropriate rather than  default azure-pipelines.yml.
+I am using the Azure Pipelines GitHub add-on to ensure that pull requests pass my linting.
+I have an azure-pipelines.yml file at the root of my project in git.
+I have a Xamarin CI process set up in Azure Pipelines.
+This is my azure-pipelines.yaml: .
+"The agents must have connectivity to the target on-premises environments, and access to the Internet to connect to Azure Pipelines or Team Foundation Server, as shown in the following schematic."
+"I am trying to deploy a prometheus exporter with Azure DevOps, however, the configuration has a username and a password which I wish to populate through the Azure Pipelines as I dont want to store the credentials in my repository."
+I have an Azure ci/cd pipeline set up running scripts among other things from the azure-pipelines.yml file.
+I want to fail the build pipeline if a single test failed with azure pipelines.
+We are started migration from TeamCity+Proget to Azure Pipelines and Azure Artifacts.
+I have published and hosted asp .net core web app using azure pipelines.
+HEAD is now at d1be2f5 Update azure-pipelines.yml for Azure Pipelines .
+I am trying to get the pending changes from a gated check in shelve-set using an azure-pipelines-task-lib powershell task.
+Azure Pipelines does n't allow continuous delivery to the production slot.
+azure-pipelines.yml .
+Although Azure Pipelines itself runs 6 different jobs in this case: .
+I work on Azure Pipelines.
+/url/ is a guide showing you how to deploy python apps to Azure App Service from Azure Pipelines .
+I would like to use Azure Pipelines to call Open XLTerminal in Remote Ubuntu Server (called ServerYYY).
+The /code/ should be in the same directory as defined as target path of the publish pipelines artifact task (not only in the root of the repo like azure-pipelines.yml).
+"I am running an Azure Pipelines (DevOps) pipeline that builds my automation test solution into a dll, and loads that dll to get all of the integration automation tests."
+I 'm using Azure Pipelines to build an iOS app using the /code/ task.
+"For Visual Studio Code using Azure Pipelines , follow this /url/ ."
+"There is some /url/ on migrating from Jenkins to YAML builds in Azure Pipelines, but there are no plug-ins or tools that will automate this for you at the moment."
+I have successfully deployed an ASP.Net Core MVC app to an IIS server running on a windows VM using azure pipelines.
+"Then we could use /url/ to publish build artifacts to Azure Pipelines, TFS, or a file share."
+I have azure-pipelines.yml in the  'develop' branch configured to trigger CI/CD after each build.
+/pre/  The question is: how to force Azure Pipelines to use iOS 13 and Xcode 11 to build my app?
+"but when I check circleci document, it may be impossible to deploy windows server(windows docker container) ."
+"By gradually, I mean long term I move to pytest and pytest commands, but in the meantime, the tests already written can still be used in a single commmand because my CICD on CircleCI is still dependent on the tests to pass."
+"To really take advantage of CircleCI though, you might want to try doing it like this: ."
+"We use CircleCI, so firing these commands should n't be a big deal."
+"But in my CircleCI 2.0 server only the first job, /code/ runs while /code/ and /code/ do n't run although they are part of the overall workflow config."
+Make sure you have /code/ and /code/ in your circle ci config.
+"I am setting up the circleci test with Django rest framework API, and MySQL DB, I had tried the step that circleci provided,  ."
+I ca n't find any good and understandable examples of a CircleCI config to build and deploy to an AWS EC2 instance.
+"Are Android test reports generated by Gradle 5.2.1 like mine not supported by CircleCI, or am I doing something wrong?"
+"Every time Circle Ci 2 run a build, Gradle downloads the dependencies even if the cache is enabled."
+Sometimes I wanna merge something into master without test on Circle CI.
+"I 'm trying to deploy to Elastic Beanstalk, specifically using CircleCI, and I ran into this error: ."
+I have a CircleCI config that has a deployment script at the end.
+I 'm using CircleCI to run tests / builds for a node.js project (node 8.9).
+"/pre/  I have tried deploying the zip file from my computer as well as CircleCI and I have also tried using the AWS CLI, all with the same result."
+I want CircleCI deploying my site when I push to a specific branch.
+add steps in the .circleci/config.yml file with the fingerprint of your ssh key .
+Trying to run build on CircleCi and it 's failing on test.
+I am using CircleCI and docker for CI/CD pipeline.
+I am building my project on circle ci and getting this build error.
+In a circleci config.yml file I have a number of jobs  defined similarly this way: .
+I 'm running an android build with circleci 2.0 and get an error about missing build tools /code/ using the /code/ docker image.
+"On the local machine, when you run CircleCI, everything passes."
+"add environment variables HEROKU_LOGIN, HEROKU_API_KEY, HEROKU_APP_NAME to your CircleCI project settings /code/ ."
+"/pre/  Then, in your config.yml file at CircleCI, decode it back: ."
+"You can also see how I build an Android app from just the project source files, some gradle properties and dependency files, on CircleCI system via command line instructions in /url/ yml file."
+Job success or failure is communicated to CircleCI by the exit code of the process.
+"Difficult to say what fails without access to your CircleCI build machine (to check logs etc) but here 's the config of CiclreCI v2 that build APK and deliver it to Fabric beta, also similar works to delivery APK to google play alpha/beta/prod channels."
+What would be the equivalent in gradle for this command that I am currently using in circleCi?
+I have checked the github webhooks and the circleci config is there.
+"I follow the Dropbox documentation: /url/ and the Circleci has run successfully, but I ca n't find the IPA file in my dropbox catalog."
+"With the encouragement of @FelicianoTech, who is a CircleCI developer evangelist, I am posting the following advice."
+/pre/  The overall idea is to wrap these steps into a CircleCI Orb and then have my build configuration reuse them from the Orb.
+I 'm having a super weird issue with NPM on CircleCI.
+That 's the only architecture available on CircleCI.
+I ca n't seem to figure out how to override/extend the orb to run additionally circleci equivalent of  .
+"The most common approach to this is to use a CI/CD tool, like Jenkins or CircleCI."
+"I 'm trying to run CircleCI tests for a Django project in which the /code/ determines the version of /code/ to apply (/code/, /code/, or /code/) from an environment variable, /code/."
+"I 'm trying to configure Dockerfile in order to build a docker image of my api and deploy it to Heroku using CircleCI, but cannot seem to properly configure it for https."
+I 'm trying to deploy one of my application using circleCI workflows in following steps: .
+disclaimer: Developer Evangelist at CircleCI .
+It 's created by CircleCI to show you the commit that CircleCI is currently building.
+Hi everyone :slight_smile: I have a strange bug on my docker build job on circleci.
+/pre/  I am getting error  Invalid json: /home/circleci/.ask/cli_config Exited with code 1 .
+My config.yml file for CircleCI looks like this: .
+"API keys, passwords, and secrets you 'd store in /url/ via the CircleCI UI."
+"I 'm trying to get reporting working for Karate DSL, and it 's proven a challenge because my team uses Circle CI instead of Jenkins."
+"For reference, I 'm using CircleCI and fastlane, but would accept any answer that uses only command-line tools."
+"When I run /code/ on my own computer, after deleting ~/.m2/repository, the output looks like this: /url/ and when I do the same in CircleCI, it looks like this: /url/ ."
+How do I pass the current folder contents into the image in Circle CI?
+"However, the build is failing in circle-ci and the glog script that I run does n't work for some reason."
+New CircleCI user here.
+"As far as CI/CD, since our deployment is pretty much just a docker push, we 've used CircleCI without any issues."
+They make it faster to get started building on CircleCI by providing the tools that most users need.
+I am trying to CRUD data on a google cloud bucket via gsutil from my staging environment which runs via Circle CI.
+I try to intregrate project with circleci by adding circleci config in root of the project (I created a new branch and pushed it) /code/: .
+"In my case, I use Jenkins, Artifactory, GitHub, CircleCI, and for legacy reasons Perforce, to manage a code tree of 70k+ files ( code tree not my design!)"
+"/code/ is a special property exposed by CircleCI, if you use a different CI/CD tool you will need to find the location of the bash profile."
+And I am using circle ci for it.
+Your config example is mixing CircleCI 2.0 and 1.0 config syntax and this is causing the issue.
+"Coming from modern CI tools like drone.io, circleCI."
+I want to output the results and because I am using CircleCI I need the results to be in Cucumber JSON or JUnit XML.
+I 'm trying to figure out Circle CI with Android Programming.
+I 'm having trouble trying to get my Elixir/Phoenix app on CircleCI.
+"Ricardo N Feliciano Developer Evangelist, CircleCI ."
+"When I initially ran these changes in CircleCI, I got this error: ."
+I am building a simple CI process on CircleCI.
+/pre/  CircleCI variable would then be /code/ and you would read it in your specs as /code/ (assuming your spec needs an integer for port) .
+"If, like me, you were looking for a way to programmatically reference CircleCI (2.0) artifacts, the following url structure works for me: ."
+We make amendments to the code on separate branches and push and then deploy via Circle CI using FTP.
+/pre/  .circleci/config.yml .
+This is being run as part of an automated build process in CircleCI so it 's abstracted from any interaction.
+"I believe the problem you are experiencing is due to the ssh-agent offering the CircleCI key, which is read-only."
+I 'm building a workflow on circleci 2.0 and so far jobs are running until it gets to android job.
+I 've started to configure a CircleCI integration of my project.
+This is my circleci configuration file .
+We deploy to AKS using CircleCI.
+"I created a new repo, committed contents of the project to it including /code/, added this to Circle CI and both issues got resolved."
+Now I want that .circleci/config.yml file sample to deploy the app into app engine.
+disclaimer: Developer Evangelist at CircleCI .
+I am running Android UI tests on CircleCI MacOS executor.
+"CircleCI allowed adding 'SSH Permissions' to a project, so as during setting up build to run, it attaches that to the environment, thus making any /code/ commands to the VPS easy."
+The build job running was Circleci 1.0 with its defaults.
+/pre/  My CircleCI config.yml: .
+I use circleCI and made a config.yml.
+I found a workaround using a CircleCI scheduled workflow triggered by a CRON.
+the part of config.yml for CircleCi is .
+Could anybody please share what is wrong or what I am doing wrong that is not letting code to be built in CircleCI?
+So I was able to rule out a circle-ci / selenium issue.
+"In CircleCI 2.0 (which is what that config is), the ""special step"" /code/ checks out the current commit."
+"In CircleCI, the keychain password is an empty string unless you changed it in the /code/ action."
+When trying to build project on CircleCi I get the following error: .
+"I 'm using the ecr orb to build and push my image to the registry however, the circleci env vars are not available in the build process for some reason."
+Here is some of the code that is running in a fastlane lane within circle-ci job/workflow.
+What is the best way to handle this situations in CircleCI?
+"I have a restassured project (Which uses GET Request) which works okay on my local machine, but when I run it in Circle Ci,I do n't understand the root-cause of why I get SSL Handshake error: following is complete log with -/code/: ."
+"update .circleci/config.yml to use those in each command statement, like:  ."
+The CircleCI config file itself would be stored in Git.
+We are usng circle ci and github.
+"I 'm using CircleCI with the ""Only build pull requests"" feature enabled."
+"/pre/  At the end of the word ""stocks"" on the first line, I have sometimes appended any of the following (sometimes I only appended one of the following, other times I combined them, depending on the error(s) from either Maven or CircleCI)."
+Following is an example /code/ with which i managed to get my Android espresso tests working some time back using circle ci.
+"Inside my ReactJS application project, specifically my .circleci/config.yml."
+You need to configure Circle CI to be able to read additional private repositories: /url/ ?
+"CircleCi picks up this project up and runs ""build:ci"" script from package.json ==> ""webpack""  ."
+In CircleCI you can access this value with the /code/ variable.
+I 'm trying to set up a workflow in CircleCI for my React project.
+Here is the traceback that I receive when I deploy (via gcloud from my local workstation and also CircleCI) .
+We 're going to be using CircleCI 's approval hold to manage deployment to each environment.
+/pre/  jobs:   build:     docker:       # specify the version you desire here       - image: circleci/android:api-26-alpha .
+"Adding /code/ to my CircleCI /code/ stopped the daemon from being used, but did n't fix the problem."
+/pre/  The Circle-CI log indicating that the second Chrome launch FAILED: .
+/pre/  What can i do to make the circleci step fail when error is thrown?
+"CircleCI Convenience Images - Pros   - already made, faster to get started   - no Docker knowledge necessary   - more likely to be cached meaning faster builds   - changes with CircleCI platform requirements meaning always works on CircleCI - Cons   - changes with CircleCI platform requirements meaning it can occasionally break your workflow ."
+this is a circleci question I guess.
+"/url/ recommends using GitHub, CircleCI, &amp; Composer for CI/CD but you can easily substitute BitBucket in the workflow."
+"On CircleCI, all 3 jars are installed correctly."
+I 'm struggling to configure the /code/ postgres config in my circleCI configuration file.
+"All of the tests successfully pass on my development device, but consistently fail when they run on Circle CI (for example: /url/)."
+I want to build it and push the html file to gh-pages using circle ci.
+This is because he might be using some other tool(jenkins/circleci) to push changes to the task definition or revision.
+I 'm currently using circleci with a docker executor.
+In my project am using circleCI with codecov for a Springboot maven project.
+"In my config.yml file for CircleCI, I have the following code."
+As part of this commit I got the corresponding CircleCi build working properly.
+Went to circle ci build test commands and used: java --version command to check java version installed.
+Now CircleCI is finding the package.json file.
+Still on circleci running: .
+/pre/  And with this Dockerfile the same error appears as in CircleCI.
+But when I tried to integrate with circleCI I am getting below exception .
+"We use a circle-ci pipeline to build, test and deploy."
+I am migrating project to Circle CI 2.0. .
+I am using Circle CI to deploy a microservice to a Digital Ocean droplet and had a few questions about whether my approach is the right one.
+I am trying to write a CircleCI config that will allow me to reuse not the whole entries (like e.g.
+I have now managed to create and register a new task definition in the circleci config using the aws cli.
+My question is how do I setup CircleCI so that the build is successful without having to make the firebase.config.ts file public?
+"if you already added your keys as environment variables in CircleCI, they are already available for your build jobs."
+This is a question about CircleCI: is it possible to access GitHub labels on CircleCI?
+"I 'm currently trying to get GoBuffalo and CircleCi working, but so far without luck."
+Automated CircleCI job will execute if we remove the css import line (below) .
+I am trying to connect to GCloud using CircleCI and deploy my code.
+Question: Any idea why the build tools are n't being picked up in the circleci/android docker image?
+If possible I would like to use Bitbucket Pipelines or CircleCI to perform the deployment in a manually triggered step after running tests.
+/pre/  And here 's my circleci config: .
+I do n't understand how to write my circle ci configuration file : /url/ .
+We have a number of applications that are built and released via CircleCI.
+Most of the online CircleCI examples contain Docker.
+I use CircleCI to build a go binary that I want to run in a pod installed by Helm charts.
+Then there is /url/ where someone seems to do the same thing on circleci successfully.
+"These failures happen only in CircleCI 2.0 on the cloud or with CircleCI CLI, with the given Docker-image."
+Now we 're going to use CircleCI for our project.
+(4 Gb in CircleCI by default) An alternative is to use /code/ instead of /code/.
+I am currently running tests from Cypress in CircleCI for my project.
+I am new to CircleCI.
+If this is CircleCI you are using to build the image you can use /code/ as described in: .
+It refers to CircleCI 's feature called Contexts (/url/).
+"A CircleCI CI/CD pipeline handling an Angular 7 application fails during the test step, with the CircleCI log suggesting the browser is not registered, although it runs once and it works!"
+/pre/  I want to install CircleCI 2.0 into Django application.
+I have following workflow setup in CircleCI configuration: .
+the issue is when i copy my credentials file path to my circle ci GOOGLE-APPLICATIION-CREDENTIAL enviroment variable i get an error of failed to authenticate at the circleCI level this is my error  /code/ .
+"I 'm pushing my code to github and when I merge my branch, it kicks off a a build in CircleCI."
+"Currently, /code/ is run to setup the database on CircleCI."
+"/pre/  We have made sure that image is built correctly ( we can upload it ti CircleCi server, start the container and run phpunit tests)."
+"We looked into all kinds of CI/CD tools like Codeship, CircleCi, etc."
+"Alternatively, if you do n't have frequent builds, you can create a CircleCI Scheduled Workflow that runs once an hour with a single job of pruning old K8s pods."
+I am trying to install /code/ inside a circleci docker image and add it to the /code/ file.
+My config.yml for circleci looks as follows .
+"If you have CI(jenkins/travis/Circle CI), then make use of that infrastructure to luanch your tests with either option from the above."
+/pre/  What do i not understand about the orbs context / circleci 's env vars?
+/pre/  The progress of circleci is as follows: .
+Any good soul to help me out how can I config the .yml circleci file to run my Karate tests?
+We are using Github + CircleCI + Heroku with automatic deploys setup.
+"Locally I run the tests successfully with the mock files, but in CircleCI, pytest cannot find the JSON files within the directory: /code/ ."
+Unfortunately wait-on does n't work with CircleCI.
+The error comes when command ./gradlew connectedAndroidTest is run by CircleCI.
+"Solution: In order to run both a Go and Python server in the same CircleCI job, we created a custom Docker image that combines the public circleCI Golang and Python images."
+If you are using a non-basic account you can tell Circleci to use a different machine resource_class.
+Details:  I successfully run testcafe tests on circleci not using saucelabs (just using a docker image that has chrome/firefox in it).
+/pre/  I suspect there is some issue with CircleCi and headlesschrome.
+i went back to the logs in CircleCI and found out that the latest awsebcli version that worked correctly was 3.14.11 so i modified the following line in .circleci/config.yml .
+So I figured out that this was not being called somehow from CircleCi only.
+"However, I keep on receiving the following error on CircleCI: ."
+Have you tried using the /url/ in your CircleCI project 's notifications setting section?
+I also need to have configuration in the config.yml file which instruct CircleCi to deploy the application (.net core web api) to our dedicated server.
+/pre/  Here 's my circleCI code: .
+"Ricardo N Feliciano Developer Evangelist, CircleCI ."
+/pre/  You have to check your CircleCi build dashboard and look for Artifacts.
+Any idea why it does n't on CircleCI?
+When trying to run the below code on CircleCI .
+There would be no good way to limit to just CircleCI without having to constantly update your EC2s firewall.
+"the nuance here is that for the integration test I need other docker image and different run command to execute (which should execute only when merging to the master), is it possible to do it with CircleCI ?"
+/pre/  Have a look at the CircleCI config reference: /url/  .
+"I 've done the sending message to slack part, but now CircleCI sends a message to slack every time I push."
+Additionally in circleci we also setup our environment variables so the application is aware of what endpoints to use.
+"AS an admin, I do n't have access to the code repo but basically, it creates required tables via Circle CI build triggers using the source code via GitHub Repo."
+You should use /url/ to take care of code signing on CircleCI.
+I have to migrate from CircleCI 1.0 to 2.0.
+"I 'm trying to do something like CircleCI 's [ci skip] tag, which lets developers ""opt in"" to building the project, i.e."
+Merge branch to master will kick off a CircleCI build .
+Is this possible with CircleCI?
+On CircleCI support forum there is an answer about this: .
+/pre/  The Circle-CI log indicating that the first execution 's tests passed: .
+Disclaimer: Developer Advocate at CircleCI .
+I new to Jipster and CircleCi I 'm trying to do ci for my project but my build fails with the following error : .
+/pre/  CircleCI fails with the following error: .
+"Since CircleCI does not support it, you 'd need to write yourself a script to transform your input YAML into the version CircleCI understands."
+I get the following error when I try to run this yaml file via circleci .
+"Tino, this is how I run my tests in CircleCi with buffalo, one important thing is that you can use buffalo images to build/test your code."
+"The second is a project holding the conan and circle-ci stuff (do n't know yet if I should group the library/conan/circle-ci in a single project, but this is not yet the point)."
+I 'm trying to run Espresso tests using CircleCI and Firebase.
+" I recently switched to circleCI 2.0 from TravisCI and I am facing an issue when I try to: /code/ , it does not add the path variable."
+I am using Circleci for CI and saucelabs for automated testing.
+/pre/  using TAR_OPTIONS environment to inject the option /code/ allowed CircleCI to extract the tarball without issue.
+Circle CI for some reason keeps on assuming that the projects are not set up for v2.0 despite config.yml being called the right thing and living in the right place in the repo.
+Please contact CircleCI Support.
+"But only on CircleCi, the build does n't work."
+CircleCI suggests using the /code/ orb to install and initialise the gcloud cli.
+"But somehow when there is an error, CircleCI still thinks that it is successful."
+"I know CircleCI allows caching between rebuilds, so I 've looked at the documentation for Go modules, and while it mentions a cache, I ca n't seem to find where it actually exists."
+Hello I am having problem with setting up CircleCi together with Cypress.
+/pre/  I believe the problem is that it uses the default CircleCI key to authenticate with github.
+I have tested with many repos and it seems like CircleCI (or the webhook from Bitbucket) uses the last commit from a /code/ to display the message &amp; decide whether or not to build.
+"In Circle Ci, we have to create YML file and push the code."
+I was able to get CD working on CircleCI with my Unity project.
+"When first added via the UI, CircleCI only looks at master, but subsequent pushes to any branch (as long as .circleci/config.yml is present in that branch) should work."
+CircleCI Convenience Images (the pre-built images you refer to) are designed to be a starting point for the majority of CircleCI users.
+All tests are passing in circleci image circleci/node:12 .
+/pre/  Does anybody has already tried Firebase Functions with CircleCI or has any clue how to get this to work?
+We 've been running our builds on circleci for a while.
+And then configure config .circleci/config.yml : .
+From the CircleCI documentation I do n't see a way to include scripts like /code/ directly as part of an Orb.
+But the circleCi configuration does not work because it uses maven commands.
+"How I can ""circumvent"" CircleCI to push this minor code change in Github to AWS?"
+Why am I getting this error on CircleCI?
+"When using jest in a circle ci environment, we discovered, that skipped tests wo n't fail with jest."
+After a LOT of debugging this eventually turned out to be an issue with the CircleCI cache.
+I tried even opening the command prompt(C:\users\system32\cmd.exe) using Jenkins - even cmd prompt will not open .
+"I have a pipeline Jenkins job which is working as expected, configured with the option ""GitHub hook trigger for GITScm polling"" for auto build on any push to git repo."
+"*"" in the Jenkins logs."
+So there should be a revert process so that we can revert back to older working version of Jenkins.
+"Your local server stats, for instance, what if your jenkins CPU is 100% then can I expect constant installation time?"
+I have application and Jenkins containers running on my droplet.
+"I am an admin on our Jenkins master but, this button is not available for any builds for any user."
+This wo n't affect script execution and wo n't require you to remember removing that stupid UI block every time you update your jenkins job config.
+Manually configure Jenkins slaves running as 'user'.
+"I heard that Jenkins gives you the possibility to build dependencies automatically, but I know no details."
+Jenkins just keep waiting.
+I want to be able to add a callback as a parameter in a Jenkins Groovy script.
+"But it worked by adding double quotes in GIT repository url under ""Source Code Management"" section on Jenkins page like this - ."
+sudo /etc/init.d/jenkins restart .
+"I 'm in the process of working out a continuous integration/delivery workflow with Git, Jenkins and (as a new addition) Artifactory."
+"There is not currently any provision to rerun    /code/s, nor any API in Jenkins for such    contributors to indicate that their result might have changed since    the last call."
+Jenkins github plugin) .
+Is there a way to set the default AWS region in Jenkins system configuration?
+"On restarting the jenkins service using the below command and reloading the browser, Jenkins was up."
+I have jenkins running as a docker image and Sonarqube server running as two separate docker images on my host machine.
+I 'm using the base image jenkins/jnlp-slave:3.27-1-alpine  but created a new one where I just added some ssl-certs.
+"I want to lint the projects in a nrwl nx workspace in the CI environment (Jenkins), generating checkstyle format output, ideally one checkstyle file per app/lib ."
+I am running a SonarQube - Jenkins integration.
+"I am trying to use s3upload from Jenkins CI, I have added IAM user S3_User credentials in Jenkins console and using withAWS(region: s3Region ,credentials: s3User)."
+I am trying to setup a Jenkins server using one of the Chef cookbooks from the supermarket.
+I am having below groovy script for my Jenkins pipeline.
+"So I found the answer, I hope this helps others - git saves the executable permissions in GitHub too so in my case each time Jenkins pulled the latest code, it was overwriting the permissions to what was saved in the git repo."
+Is it possible to deploy a VM on GCP and install Jenkins / Selenium Grid to it.
+I 'm running jenkins on a VM and it has docker installed.
+"I know that there is a way to install plugins via a shell script provided by Jenkins, but I 'd like to stick with ansible playbook as far as possible."
+"Finally, I configured jenkins.xml  ."
+As a final note I will quote Jenkins official docs: .
+Download the /code/ file (from the node 's page of Jenkins) .
+We have to add our automation code to Jenkins pipeline there the server system machine will not have the access for the application so we have to bypass the authentication passing user id and passwords of test user.
+"I am using the AWS CLI on a Jenkins server, and one of the argument flags requires a JSON body."
+I have a question about a Jenkins pipeline.
+"Currently, I have set Gitlab host URL in the Jenkins configure page as /url/, which results in the following error:  ."
+"It seems AWS Jenkins is opened with Palo Alto firewall, so I am able to access the URL from the AWS Unix box where Jenkins is installed and not from the Jenkins application."
+The command to run Test suites on cmd works fine when jenkins is on local server but fails when i run the same command on jenkins on aws linux instance?
+I am trying to implement CI/CD pipeline using Kubernetes and Jenkins.
+"For ex: If your Jenkins server has a job named A_SLAVE_JOB , then you have to do a  HTTP GET in your java rest client at this end point : /code/ ."
+"If you QA and PM are techies, then they can also merge branches or close PRs, which can auto trigger jenkins and run prod deployments."
+/pre/  I purposely do n't do the /code/ on Jenkins since I want to test locally first .
+"Jenkins issues /url/ and /url/ detail potential fixes that could be introduced, though they have n't been implemented in any version of the system yet."
+But restart jenkins deamon using /code/ will do the job.
+"Another way would be to have a local filesystem ivy repo only on the jenkins slave, which would have all the latest versions of your libraries, the point is that this repo is not accessible from developers workstations/laptops/VMs."
+I have Jenkins running on an ec2 instance.
+One is running jenkins and the other a nodejs service.
+This is all managed on the YUM repo server using some home grown scripts to pull packages from Jenkins and put them into the JL-testing repo (replacing any old versions there).
+/pre/  This is the only way to I get it to work with Jenkins.
+Looking for a way to build some projects with Java 8 and some with Java 11 on the same Jenkins server with no slaves.
+I have implemented a sample CI/CD pipeline using Jenkins for an application.
+"I have a declarative Jenkins pipeline with /code/, /code/, /code/ and so on."
+The parameters should be set in Jenkins before job starts.
+4) Jenkins can make call to SaltMaster to reconfigure VM attributes (disc size etc.)
+"If it cannot be used, my apologies, Jenkins' documentation is often misleading."
+In virtually all resources online people just install .NET Core CLI using apt-get (or different app management tools) on the Jenkins machine directly.
+"Post installation, we installed the Anchore Container Image Scanner Plugin in Jenkins."
+"And checked the ""Poll SCM option in Jenkins Job"": ."
+I want to setup a Jenkins job which will get triggered when there is some changes to the submodule directory and build the respective jar.
+I am intermittently getting the below error in Jenkins.
+/pre/  I just want to run the above xslt against the sample XML through SHELL script and I want to use it in the JENKINS shell script editor.
+I am unable to see any /code/ credentials in the drop down in my Jenkins' project SCM section.
+in Jenkins server created ssh key for the user jenkins and added that into this repository deploy keys.
+In your docker compose file add /code/ to your jenkins service .
+Those are inner java classes at the Jenkins core (or plugins).
+I know that we 've got some gitlab-plugin in Jenkins and the communication is possible (in the past we managed to trigger builds using webhooks or post build statuses back on GitLab).
+is this in jenkins or sonarqube?
+I then used the Jenkins EnvInject plug-in to load that file in the same Jenkins project.
+It 's because you are assigning Jenkins instance to variable inside pipeline.
+"The recent weeks the Jenkins GUI has started slowing down for us, up to the point that loading of Jenkins GUI periodically takes minutes."
+"If you can setup a Jenkins agent in the Windows server, then you can use IIS app command in Jenkins build step to start / stop your IIS ."
+This is how jenkins linter works.
+I 'm not expert in Jenkins groovy configuration.
+I 'm trying to find Jenkins pipeline feature in UCD where deployment is automated without any click.
+Have also set proxy for JENKINS user on host machine .
+When I run the Jenkins build it is not generating any apk at jenkins workspace.
+"But when I execute the build, I get error, that jenkins is not able to connect sonar server."
+"If you run git command by windows shell/batch on jenkins, it maybe cause by git ssh key issue... ."
+"i need to build a job in Jenkins, to get latest git commit message every time a commit is done and to store it in a variable."
+Note - Jenkins user exists inside the docker container &amp; not on your host machine.
+My current Jenkins has a large number of jobs.
+(The builtin Jenkins view is useless because it does n't show a subtree).
+"The PR are hooked into Jenkins, where the PR are tested before they are merged."
+The solution for me was delete /code/ and change /code/ version (from 7.1 to 8.4) on jenkins.
+Eventually I want to trigger one build in jenkins after pushing to gitlab and get a version tag on master branch (now I 'm testing with develop branch).
+You Can refer to /url/ which shows how to setup slave for jenkins .
+I recently started working with Jenkins for CI/CD for ASP.net applications.
+I am trying to set up jenkins build server for one of minor projects in my company.
+If you want to run it in non-GUI mode from Jenkins job - go for /url/ which has /code/ plugin to run it in command-line mode.
+I have configured for other projects to publish the .Net project using Jenkins and they all worked well.
+I would like to run difftool during jenkins job to allow the user to decide which line is correct during the job.
+I 'm currently trying to setup a Jenkins build Pipeline and I 'm struggling including a docker container.
+When the task runs Jenkins is able to fetch the repository and then the maven build is carried out which completes without any issues.
+Jenkins probably works best when the project is structured along standard lines (as the most vanilla example take a Makefile/gcc project on Linux with a git repo).
+"I am currently setting up a CI-Pipeline with Jenkins/Sonarqube/Maven/OWASP, but im stuck in a Sonarqube problem."
+/pre/  Step 3: Restart jenkins service .
+"To change the home directory, use JENKINS_HOME environment variable or set the JENKINS_HOME system property."""
+"Right now I am using the PyAutoGui library to simulate these actions and they are working fine, but when I run them through a headless browser on Jenkins, those actions are not registered."
+I am able to trigger the build (execute POM.XML from GIT repository) from Jenkins.
+/pre/  When I trigger the same steps on jenkins slave container through putty i.e.
+"Performance is generally quite good, however, whenever I try to open the configuration page (Manage Jenkins --> Configure system), it takes an extremely long time for the page to load (a good minute or so)."
+"I wrote a Jenkins pipeline script to run some newman tests with a pre-request script, but the variable defined in the pre-request script is unkown during the running of tests."
+Jenkins config: .
+"So that will probably help alleviate some of the restrictions around upgrading Jenkins, if that 's what we need to do."
+"My Jenkins lives behind a /url/, and I configured it as myproxy port 3128 with a username and password, and a no_proxy of ""10.*.*.*,ap-southeast-2.compute.internal,localhost,127.0.0.1,myothernoproxydomains.com""."
+"We 're using the Maven release plugin, and we get SNAPSHOT builds for development and release builds in Jenkins."
+"Inside Jenkins, I have a stage that looks like this: ."
+"There is also a ""fork"" of jenkins for containerized environments, that I like, you can check more about Jenkins-X /url/ ."
+"Reason for doubt- I am thinking thinking that, Kubernetes and Jenkins are only depending image registry for deployment by image pulling."
+The user that running the Jenkins agent does not have write permission to your workspace /code/ .
+"I am having trouble getting Jenkins to use the ""npm"" command from the ""Execute shell"" (under the ""Build"" step)."
+Root cause of your problem is wrong permissions for Jenkins:  .
+"I installed the plugin restarted jenkins, added the new token to a job and called the URL."
+Consider the following simple Jenkins pipeline: .
+Publish Profile per target environment on the web projects to be deployed to remote (from the point of view of the Jenkins master) IIS sites.
+When use the same code with same command in Jenkins I get this error: .
+Jenkins builds can be triggered from rest api.
+"/pre/  But the problem is on the Jenkins cluster that I will run my project build on, it does n't support python 3.7."
+"I am working in an centos7 environment with no internet access, and I need to install Jenkins."
+I am using the Jenkins /url/ within a pipeline.
+I need to install a very recent version of CMake on top of a jenkins Docker container.
+Just use in you playbook to install oder update to the latest version of jenkins: .
+"When merging staging into master, our jenkins server squashes the commits to create a single ""release"" commit in master that 's tagged with the version."
+I am pretty new working with Jenkins and I have a couple of questions.
+This is my last major issue before I can get Jenkins running a nice pipeline for deployment.
+I have already added the Jenkins generated key to my Git user profile.
+"/url/ This is the link to the documentation for this by jenkins, but I do n't find a hint for my problem."
+This stackoverflow page can help you checkout bitbucket pull requests in Jenkins with Generic webhook trigger.
+"Basically instead of using Jenkins for 'builds', you would be using them to control services ."
+/pre/  When I do this I can access the jenkins dashboar with myIp/jenkis.
+"There does n't seem to be a setting on a Gitlab side for that: Gitlab -> Project -> Settings -> Jenkins CI Integrations to set up a webhook for some other branch, like ""dev"" f.e."
+"Actually there are couple of unresolved bugs with groovy closures in Jenkins pipelines, for example /url/ and /url/."
+I have installed Jenkins on local machine (MAC OS) and docker as well.
+"So, seemingly, an error code is not returned to Jenkins."
+Jenkins 2.107.3 .
+I have a Jenkins pipeline that I need to run a /code/ on a file but I am getting an error of /code/ .
+Is there a way to make Jenkins evaluate PHP (or other script) files?
+But the exact error was that this private key was not readable by Jenkins.
+"I only have a loose understanding of what options I have in regards to reporting from jenkins, but I was wondering if it 's possible to either generate a TRX file or convert the XML file to TRX post build."
+"To integrate Google Benchmark in Jenkins, I used this neat plugin: ."
+I 'm starting to play with Jenkins Multibranch Pipelines.
+"Yeah we can do this via tools like Jenkins, but I am working at a client which does not have such ""advanced"" facilities."
+Click on Maange Jenkins -> Global Tool Configuration -> Git to find the configuration section.
+Any ideas how I can implement such a system with Jenkins in Github?
+I create jenkins shared library with few steps.
+but I 'm facing a problem when I try to do that from jenkins job.
+so should I install docker on my jenkins master and run the build on slaves using docker host uri ?
+The jenkins is conneted to a gitlab account so in my pipeline by using  .
+I was wondering if there was a way in Jenkins via a Jenkins plugin or build framework in which I could build the Java project in the same exact way it is currently built in Eclipse without changing anything with its structure.
+When I log into the Jenkins build server directly and run from bash this works.
+I am trying to password a password binding from jenkins to a powershell command line it works for passwords without special characters.
+I am unable to execute selenium scripts in Jenkins.
+"I could find no reference to /code/ in the Jenkins documentation, so I created a build to try to clarify their relationship."
+"I am trying to implement the CI/CD pipeline for my project using Docker, Kubernetes and Jenkins."
+Now it works and pull the changes from Git via Jenkins.
+"When our Jenkins server runs the build script, the /code/ folder is missing from the /code/ folder, as well as some other files configured in /code/."
+"Unfortunately I have lost a lot of time debugging why something only works/does not work on in CI 's (not Jenkins), so I am very attracted to replicability/re-usability between CI and development environment."
+"Note that with Jenkins, you can setup multiple tasks for each PR."
+"I need this command to have access to push the lerna tags, as well as the updated version numbers to the master branch, and I also need Jenkins to not fall into an infinite loop."
+I have problem with using Jenkins.
+Just had to give the jenkins user (UID) permissions to the directory containing the cert on the host (which I did n't see in the article but might be mentioned).
+The following is how I solved this in my jenkins file: .
+The problem you are facing is most likely related to how you run jenkins.
+I have created a shared Library in Jenkins which looks something like this (simplified version): .
+"A solution was proposed and integrated in jenkins.war since weekly   release 2.55 (and not yet in any LTS to date) which enables the   administrator to configure which function signatures should be used   for each function known to have different variants, apply it to their   application server initialization options and then run and update the   generic jenkins.war without further workarounds."
+I am still working on the Jenkins integration with Tuleap as I am also just a beginner to Tuleap.
+I am new to Jenkins and I have little knowledge in its plugins configuration.
+"If you do not want the port number to be part of the URL, then you must ensure Jenkins listens on the default port (ie, 80 for http)."
+This is how my jenkins pipeline script looks like .
+ I have a Jenkins process running with about 15GB memory allocated on a system with around 60 GB RAM.
+/pre/  Jenkins is on a kubernetes cluster.
+After then you should reboot the service jenkins.
+"Jasmine, Karma, and Protractor can be customized at will, so you can make them output in an XML file that could be processed by a Jenkins job instead of a command line which is not practical."
+"The easiest approach would probably be a pipeline in Jenkins (or whatever your build server is), but you can also write a shell script that calls Maven thrice."
+I have Jenkins and GitLab in two separate docker containers connected by docker network.
+I am trying to deploy a sample aspnet core project but Jenkins build fails.
+I want to be able to see errors in email when I am not on VPN and able to access Jenkins.
+"Jenkins agent is an application that runs on a remote server, not where jenkins master node runs."
+I would like to use Jacoco / SonarQube for code coverage and plan to integrate it into Jenkins job which will run nightly .
+I 'm on the Jenkins ver.
+"/pre/  I 've tested with parameters /code/ and /code/ in Jenkins, got a successful result: ."
+There are two ways to load ( or source file in jenkins):- .
+/pre/  If you have installed git on your Jenkins (which I truly believe) you can simply execute this as bash / sh command or using Jenkins' /code/ if you want to display it.
+I have a Jenkins server (version /code/) running on Oracle Linux /code/.
+I want to pass a JSON string to a node using a Jenkins Job.
+I have a bitbucket repository that gets built by jenkins on every commit to the repository .
+Have you configured  the jenkins job setting and bitbucket webhook settings?
+"I 've used and semi-configured Jenkins in the past, using SVN, and it was so simple and fast to get it working."
+If Jenkins is secured then I think you will have to provide credentials when using the Jenkins CLI.
+I 've installed Jenkins X on EKS using instructions from /url/ so that I can use BitBucket with Jira.
+In this case a new jenkins job is created with the name of the branch.
+"The default user using jenkins/jenkins:lts image is jenkins, who DOES NOT have privilege to create folder at /opt ."
+This is not an issue with maven on jenkins.
+I 'm using Jenkins with a branch parameter to specify the branch to build from.
+I have a simple Jenkins job  ( Jenkins 1.514  ) and I鈥檓 looking for a way that every time job is running it will refresh a specific system environment variable.
+Otherwise I need to pause the pipeline (freeing the Jenkins agent) until that time range is reached.
+"Create Jenkins JOB2 and enable ""Poll SCM"" for Weekly basis and add automation script as downstream project ."
+Start Jenkins again.
+"On the other hand, using /code/ is not the recommended way of initializing objects in the Jenkins Pipeline."
+Jenkins seem to initiate a kernel process which consume CPU to max as seen in the snapshot.
+"However when I run my Jenkins Job, I get the following error: ."
+"I am running webservice test in katalon/jenkins, but it gives me error in generating variables, can anyone please tell me what am I missing here?"
+"If you are running the Sonar Analysis via Execute shell plugin for Jenkins, you need to supply the Username Password of a User which has the Execute Analysis rights on the SonarQube server you are trying to access."
+I am having issue running ant via Jenkins pipeline.
+"You do not tell us how Gitlab and Jenkins are connected, but I 'll assume you use the Jenkins Gitlab plugin /url/."
+"Whenever my Test Scripts start to Run when I build my JOB in Jenkins, I get this error i.e."
+But no build is triggered on Jenkins.
+I also faced similar issue when configuring GIT in jenkins.
+sshpass needs to be installed as part of the host Jenkins docker image which Ansible uses for making the ssh connections to the hosts.
+"When I call the start-build command on the Jenkins Pipeline BC, my pipeline process fails to run the oc start-build command."
+Although I am very proficient with Jenkins and Jmeter.
+Jenkins (version 2.131)   running on Apache Tomcat (version 8.0.53).
+Our Jenkins and Fastfile unpack and unsign the development version of the app.
+Here is my Jenkins metadata (keys removed): .
+I need something like this /url/ for Jenkins pipeline .
+I have recently upgraded to jenkins 2.89.4(jdk8).
+"/pre/  When I launch the command, after some maven work during the workflow, I am asked for jenkins user password: ."
+I 'm on windows so I already had to resolve the problem of Jenkins not finding any sh and nohup exes (installed git bash because it apparently did not want to work with my cygwin install).
+So it works in jenkins if you add the -cp .
+and i would like to automate the process using Jenkins build process.
+Tried re-installing the Jenkins on fresh Ubuntu server.
+I wanted to learn the art of running the selenium code from jenkins( CI).
+"Generally, we can send the variables dynamically through the parameterized project in Jenkins using the REST API."
+"I have the EC2 Plugin Configured in a Peered VPC, and when a job is tagged  'support_ubuntu_docker' it will spin up an Jenkins Slave, with Docker pre-installed."
+/url/ explains how to use it in a Jenkins Pipeline with the /code/ step.
+"This plugin may be added in Jenkins by default in near future, /url/."
+I made the below change in the jenkins file.
+I use the kubernetes plugin in a jenkins pipeline to run the stages in containers and I inject username password credentials as environment variables into the containers using the Credentials Binding Plugin.
+I have a jenkins job that calls a powershell file.
+/pre/  LINUX-JENKINS COMMAND .
+Is there something similar for Jenkins DSL?
+"Below is my jenkins pipeline to send a email The problem is i have some params.variables in my body which i need to use in order for them to be replaced i need to use """"""  I also have a HTML file which i attach in the body, for which i need to use ' '  ."
+"If not, is there an alternative means of deploying Helm charts (in a private repo) from Jenkins?"
+Is it something to do with Jenkins installation?
+I 'm trying to setup jenkins in my local machine where perforce is also installed.
+/pre/  Logs from the Docker Worker Node created by the Jenkins Master node .
+"no external agents), then you should be able to SSH to the Jenkins master box and update curl (how to do this will depend on what OS you are running)."
+"/pre/  but still on the jenkins, it is showing the build is successful."
+And enabled tcp port on docker.service and check the test connection on Master Jenkins and It returned response.
+"Then, I go to the jenkins logs, and the only this related is..."
+/pre/  I always get the output as /code/ and not the actual Jenkins build number.
+"This plugin has not been updated in a few years, so I 'm not sure if it 's compatible with the latest version of Jenkins."
+"I have a Jenkins job which is currently used for rebooting a host, this is a part of a pipeline and has several downstream jobs."
+"I am creating a python library containing common functionalities such as createFile, createFolder, checkIfFolderExists etc., Is it possible to import this library functions into Jenkins pipeline script (Groovy)?"
+My jenkins is hosted on srv1 and ansible is hosted on sr2.
+The latest Jenkins has pipeline support.
+My opinion is that this good entry point is Jenkins.
+"The easiest thing to do is start up a Jenkins instance, configure it the way I want, /code/ into it (e.g., /code/), /code/ into /code/, and just grab the appropriate files and base64 encode them."
+Installed jenkins/jenkins from dockerhub.
+"It might not be jenkins, it might be something else."
+I have installed Jenkins on my local machine which runs on MacOS High Sierra and have docker installed .
+"After installing the plugin, go to the global jenkins configuration   panel (JENKINS_HOME/configure or JENKINS_HOME/configureTools if   using jenkins 2), and add new NodeJS installations For every Nodejs   installation, you can choose to install some global npm packages."
+I am new to Docker and Jenkins  .
+"In order to make the deployment automatic, i have a Jenkins Jobs which execute the task : ."
+It 's not depend on Win OS or Environment variables (I.e - %HOME% OR JENKINS_HOME) .
+The /url/ properties is on the Jenkins Wiki.
+"Say:  When ever we push changes to git, then jenkins job will trigger, jenkins will pull the changes and build new docker image and push the image inside docker."
+I am very new to Jenkins.
+i am struggling how to do continuous deployment or delivery in jenkins which main feature where spring boot app name or jar file name changes that time.
+"For Jenkins environments which have macOS, Windows, or other agents, which are unable to run the Docker daemon, this default setting may be problematic."
+/pre/  But I am getting the following error in console of failed job in jenkins: .
+The actual execution completed in 17:23 mins but the jenkins job takes overall 42 mins to finish.
+"Except that when I run the testes android with Jenkins (I use the plugin android emulator) I get errors, the problem is that sometimes 2/3 of the tests will work, sometimes no .."
+"I have used this guide to ""install"" jenkins on my local machine: ."
+"Often, at least one of those jobs is running, making it hard to restart jenkins after updates."
+I am using jenkins for the build but every time i run a build it gives an error and fails?
+"So let 's say for a simple test that take only 1 minute to run , but saving the artifacts from Jenkins slave to Jenkins master take around the same time or more before it 's considered to be passed."
+Jenkins pulls the revision and merges it locally with the target branch.
+Include a new package configuration is just one line in the Travis recipe.
+"Great thanks to Travis support team, because of their help and support only I was able to resolve my concerned issue."
+I came across to this issue while upgrading Travis distribution from 14.04 to 16.04 and python 3.6 started to fail.
+Travis CI can be built without any preinstalled /code/ compilers (e.g.
+This may mean giving up some handy Travis feature in favor of re-coding it yourself.
+"Now the last thing to do is to connect Travis CI to the repository, which is just a few very simple steps; see their /url/."
+Travis CI enables your team to test and ship your apps with confidence.
+"I encountered this error when using Travis CI to /url/, which involved pushing edits to a repository."
+Add the below to your .travis.yml .
+"travis CI, terraform, ansible, chef, etc."
+If your problem is TravisCI related then you can set a fixed version which works: .
+"Q3: Travis is highly configurable, it can be set to run on any branch of the repository, it defaults to master but you can easily set it to run on any pr for any branch."
+Travis CI can automatically deploy your Heroku application after a successful build.
+The error from Travis CI was clear and concise.
+"Currently all Drill unit tests can't pass with 8G memory machines, which used as CI (TravisCI and CircleCI): /url/"
+Travis CI can automatically deploy your Heroku application after a successful build.
+"Hence, the reason why, travis reports timeout."
+It may take a while to start your server on Travis environment.
+Probably this was more a travis / sonatype configuration issue more than a maven issue.
+jdk: openjdk8 instead of oraceljdk8 in .travis file .
+I had the same issue in Travis and solved by adding: 
+"/pre/  The Travis environment doesn't have the path /code/ defined, thus reading attempts from there will fail, resulting in a segfault."
+You can read more on /url/ and /url/ on Travis's site.
+"Oops, an error in my Travis config happened to execute /code/ where I was expecting to see the output of /code/."
+"as there are many mini projects in the project directory, and they all share the same Travis or CircleCI build infrastructure."
+I did a deployment with travis-ci a couple times and apparently when that happens if a memory_size and timeout is not set a default 128 mb and 3 second is used.
+I opened a request to change this on travis forum.
+It seems that the /code/ package provided by Travis-CI for Python 3.6 is too old to use the /code/ specifier correctly.
+"also, need to check does Travis-ci support this kind of application related to third-party applications "
+Listed supported iOS Simulator SDK on Travis  .
+"In your TravisCI account, you can set environment variables."
+But you can also run /code/ at Travis CI.
+Apparently Travis-Ci switched from xbuild to msbuild as default build platform.
+"However, a better way is to use one of the many build automation solutions that are available, such as Jenkins, Travis CI, or GitLab CI."
+Also I don't find in Travis-CI documentation: how can I see that the user key was uploaded to be used with repos?
+There is a whole chapter in the Travis docs how to setup databases.
+Here is a working travis.yml: /url/ .
+This is how I get the nltk_data through my Travis Pipeline: .
+Some of the documentation from Travis CI that I could find that will likely be useful in sorting out a full answer .
+I have updated my travis.yml as below .
+"is installed by default in Travis CI instances; to get the latest stable version, add this to your /code/: ."
+"if it does contain sensitive information, and is the same for all branches' encrypt it and add it to your .travis.yml ."
+Seems to be Travis issue... .
+It's also possible to check it in Travis-ci builds considering the order dependencies are downloaded: .
+"For example, I use Travis for my personal site automated deployment."
+"TravisCI allows to configure Environment variables, so you can store the private key into a Environment variable, i.e /code/ ."
+"I emailed the Travis-CI staff, and I received this reply, which I think explains the problem: ."
+"I tried the following (locally, not on Travis) and it works."
+"If you are using Travis along with github for your remote repository, try Travis custom deployment."
+I have found Travis are quite quick to respond but you'll also need to set up your commandline client: .
+Add the deploy script to travis: .
+"This makes it easier, both for humans looking at the Travis CI web   interface and for automated tools querying the Travis CI API, to   decide when an unsuccessful build is our responsibility requiring   human attention, i.e."
+"Hours later, I found that the failed Travis Job is working fine now."
+Try changing Travis yml mono segment to .
+"It looks superficially similar to yours, and works perfectly well on both Ubuntu (Travis-CI) and my local MacBook pro for myself."
+"If you don't need this precision, use the Travis solution because it will be faster."
+Since travis has good support for docker this is straight forward.
+You can't really ssh to Travis CI.
+/pre/  Install travis: .
+You can find a guide for running electron-forge with Travis CI here: /url/ .
+"Since you don't seem to know anything about Travis CI, the best place to start is just go through their docs: /url/ ."
+See Travis docs here for more info  /url/ .
+Composer builds currently run using Travis CI - see more here /url/ and more info here /url/ incl links.
+There were discussions in the Travis CI issue tracker[/url/] and the clojurians Slack.
+"So if you can run any tests locally, be reasonably sure that all is well, you can tag a release and push and Travis will do the rest."
+To get it working on Travis CI is a bit tricky but this should do the trick: .
+In your .travis.yml file just replace  .
+This seems to be a recurring issue with Travis accessing Maven Central.
+Travis provides a guide /url/ that will help you encrypt your local files with a passphrase and then store that passphrase using /code/.
+"This article gives an example with Travis, but it should apply to CircleCI without any major changes."
+The general guidance in /url/ for Travis will be useful for these general configuration aspects.
+"If you use the built-in Travis deployment, you can simply do this: ."
+"Travis CI doesn't support this, due to their current virtualisation technology."
+My current travis.yml: .
+I contacted Travis support and it sounds like this is not currently possible: .
+You can reference to Travis documentation on /url/.
+In your travis config: .
+"It is telling you that Python 3.1 is not a version that Travis supports, please try a newer version like ."
+From Travis doc on the subject: .
+Travis CI API supports /url/.
+Not even talking about the travis build that runs forever.
+My Travis build keeps failing because apparently it does not recognize the /code/ abi.
+Below is my travis file .
+"With current tools like CircleCI, Travis, etc."
+/pre/  For my travis: .
+"I think it is a problem because on Travis-CI it needs to grab the dependencies and since these dependencies do not use semantic versioning, Go grabs the latest, which changes on every commit to master."
+"However, when I merged this branch into master, the Travis CI build ran against master (correct) and invoked the deploy stage (incorrect), attempting to deploy to Maven/GitHub (and failing due to what I believe is an unrelated error)."
+I am trying to implement Travis CI for my react-native project.
+"/pre/  I got the right environment with /code/, but wonder if there is way to detour this until the fresh version is not in Travis' VM image?"
+I wrote this .travis.yml file: .
+"I should also mention that for some reason calling the singleton's constructor locally during tests isn't a problem, but when the tests are run on travis-ci it is a problem."
+"Currently, Travis tries to upload it trice (once for Python 3.4, Python 3.5 and Python 3.6, respectively), and thus two out of three builds fail."
+I looked through the documentation and the source code and I couldn't find anything except travispy.jobs() which will return a maximum of 250 jobs across all repositories.
+"In locale all works, with Travis/Scrutinizer I have this error: ."
+"When it does work, it eats up about 5 minutes of my precious free time on travis so my test suite may not finish (a long test suite is its own issue, working on it)."
+This is my travis config file .
+I tried to connect to my dockerHub via travis ci  /code/ but i got this error  /code/ .
+I have no error on Travis during the build.
+I have email and slack notifications configured for travis build failures.
+My configuration in .travis.yml is something like this.
+Following are the Travis CI Job logs .
+My .travis.yml: .
+But when build is triggered by Travis CI it fails with following error .
+"I have a Cobra CLI command that works great on Travis CI that automates linting (/code/ and /code/), formatting (/code/), testing (/code/), as well as other things such as automating proto compilation."
+"I am creating an API using DRF, I was able to setup Docker and was also able to integrate Travis CI."
+"/pre/  Travis will backup the above two folders to s3, then every time before user rebuild, it will fetch the two folders from cache."
+"So currently the branch specific notification is not supported by Travis, but would need to be implemented separately by consuming the webhook payload from Travis."
+"If Travis would request write access anyway, many users would complain about not trusting Travis as it requests permission for things that it shouldn't do by default."
+"It passes all checks locally on my Windows machine (/code/), on travis-ci, and on the R win-builder platform (/code/) ."
+"I have the /url/ file, which starts automatic test on travis-ci, on each push on github."
+"When I try to run my django tests on Travis CI in parallel using /code/, I run into this error ."
+"/pre/  I tried to debug the travis build and run the deployment script, the deployment succeeds but again the page fails to load."
+The error can also be seen in this Travis CI job: /url/.
+/pre/  Travis fails with an error that suggests it cannot find a header file that is in a sub-directory of /code/.
+BTW the travis and appveyor scripts are the most accurate documentation on how to build meshlab :)  .
+"I am setting up an automated Travis CI CI, and was wondering if it is possible to launch two jobs (same tests) with two different configurations."
+Does anyone know a possible solution to this problem (maybe telling Travis just to ignore the library?).
+"Note that I never had this issue in the previous builds, that there is no cache and that it passed on Travis."
+"Because Travis-CI native windows support for Go seems to be lacking, I though about going this route."
+/pre/  FWIW...the result of the /code/ command on Travis is: .
+I get to /code/ line in the Travis build and it waits until timeout.
+We're using Travis CI and I have configured SonarCloud in the .travis.yml file.
+"I can do it using Travis, but Pipelines are different."
+I would like to know if it is posible to build for ios and android parallel to make the travis process faster.
+Build apk failed in Travis CI.
+"I am using Travis CI to build, sign and notarize MacOS application."
+"I am attempting to create a CI/CD pipeline with Travis CI that tests the front-end, tests the back-end, and deploys."
+"/pre/  However, when I do this, my travis CI fails with ."
+"I'm trying to deploy our app through travis cli, the build is getting build perfectly, but when it comes to deploy, it deploys the whole root app folder."
+/pre/  This works seamlessly in local environment using Python 3.7 and in Travis-CI environment using Python 3.5.
+It would be nice if this could be done by manually clicking the rebuild button in the Travis dashboard.
+/pre/  .travis.yml: .
+The travis /url/ documentation shows how to specify gcc and clang compiler versions in build matrices.
+"My Travis CI unit tests pass, but deployments seem to fail silently."
+The contents of my .travis.yml: .
+My Travis job generates standard Ant/Junit/Jenkins XML-format test output.
+/pre/  I want the pipeline to deploy to production ONLY when I confirm it (by pressing a button on the Travis CI website or something like that).
+I am having some issues getting Travis-CI to install RcppArmadillo on Ubuntu 16.04 with R-oldrel (3.5.3) although it works for R-release (3.6.1) and R-devel.
+We use Travis and AppVeyor for testing and building releases.
+"I want to make the package compatible with Travis CI, however, as a newbie, struggle to set up the version correctly."
+I've followed the /url/ yet my travis build is failing because of: .
+The credentials are stored as security keys with Travis and should work correctly.
+"I use Travis-CI and AppVeyor now, which have ""PR"" (pull request) builds that build the code as if the pull request were merged."
+I am running a travis build with multiple OS.
+"I've discovered a neat way to use Travis to deploy to the gh-pages branch (involving a token and a gem to encrypt it) of a repo, which actually makes it a subdomain of my website."
+"So far all Windows builds are fine, but the Linux and macOS builds on Azure Pipeline and Travis CI are not, for example here is a /url/, and message /code/ ."
+"Travis Docs says: /url/ ""Just authenticate via docker login"" ."
+I neither found how to setup Travis to not generate the /code/ file.
+"When this runs, travis reports with a a fatal error that the role /code/ does not exist: ."
+My project is a python CLI application and I use Travis for the CI.
+"/pre/  This works fine on my local Ubuntu machine, but the resulting archives are empty when build on Travis CI."
+"/pre/  the code runs successful on different machines, python3.x versions and travis."
+I've tried now many hours to automate the deploy process with Travis CI.
+Tried publishing the reports using the travis provider releases.
+I use this command to install qt on my travis-ci env: /code/ However it tells me: /code/ How to instaall qtwebengine properly by brew?
+"Now, when I deploy my application on dev machines using travis, it gives exception while creating a build, and throws Java exception that /code/."
+"Following instructions from internet i created SSH key, encrypt it and config my .travis.yml file ."
+"When this runs on travis, my tests fail randomly."
+I'm trying to run my project with Travis but I can't compile because of an issue with Alamofire.
+I'm trying to configure Travis-CI on my GitHub repo using the following configurations .
+and finally my .travis.yml inside my spring boot project .
+i having some troubles to make puppeteer with jasmine works in travis-ci like in my loca repo.
+Travis CI can test multiple versions of PHP per trigger.
+My node QUnit Travis CI build (see /url/) /url/ with this error : .
+I have a very simple Python project and I'm trying to run tests using Travis CI.
+I'm trying to install travis on ubuntu but keeps failing.
+I have read the documentation on how to do this with travis-ci.org and it looks like you do something similar to the following:- .
+"Also, my Travis is able to build docker image."
+"In other words, I am trying to build functionality equivalent to Travis CI's deploy on tags functionality: ."
+That would save some time for me and resources for travis.
+"I looked at the Travis docs to see if there's a config setting for increasing the number of watchers, but I couldn't find anything."
+Travis shows me this page: /url/ .
+I want to deploy my front-end made in ember js on gh-pages after successful Travis Build.
+"Edit: the build is still failing in Travis, but locally and in the Travis debug environment it succeeds: ."
+"I've searched in so many places, even in Travis CI documentation page but I couldn't find the solution of my problem."
+"On the Travis documentation site, there is no info on the /code/ stage, and we cant see any feature to rename files."
+My problem is that I want to be able to put a deployment key (what GitHub calls a personal authorization token or personal OAuth token) into an encrypted variable in my Travis settings for the repository so that the configuration file never has to change.
+I've installed travis using gem.
+"If so, how to configure .travis.yml to enable this feature?"
+I'm trying to setup build and deploy to github releases from travis CI.
+The maven build on this thing is a bit tricky but it does run fine locally and I even have it running the actual build on travis successfully.
+My .travis.yml is this one: .
+"My goal is to simply build the project successfully with Travis-CI, without any tests."
+I'm using Travis-ci to deploy lambda function.
+So I can get all the commits in my latest push and then across all those commits get the folders that have changed.. this works really well.. but ONLY on travis.
+Edit 1 As I new I don't know where the error message stored by travis ci.
+"I can share the testing suite if needed, but as the tests all show as passing within Travis I didn't think it necessary to share."
+"I want to use Travis for my semester project and I have a problem, I can't deploy on my releases on Git Someone got an idea ?"
+In order to check PHP code standard on commit push with travis CI.
+I'm unable to get my travis ci build to pass.
+As soon as I run them on Travis I get an error but I can't explain myself why.
+"/pre/  Even though the /code/ and /code/ has been specified, Travis CI still deploys all build files to /code/, not/code/."
+I need to install a newer version of a dependency via Brew than what is contained in the Travis CI image.
+It seems like Travis CI should offer an easy way to cache Brew formula and bottles.
+So I am using Travis CI to automatically deploy my application to AWS Elasticbeanstalk environment.
+"I searched why on Earth this is possible, because Travis says it has sonar-scanner capabilites."
+I'm using travis to deploy built content into the projects corresponding /code/ branch.
+general information about how to setup a database on Travis: /url/ .
+This was my initial .travis.yml file .
+I am using AppVeyor (Think Travis but for Windows) to run some tests again several different versions of Python.
+I'm trying to deploy an User github page only after the execution of all the Travis tests.
+I suddenly experience build failure with TRAVIS CI builds.
+I am attempting to use /code/ in a Travis CI build to deploy files to a remote server using SFTP.
+And how correctly to configure Travis to release new versions of artifact on successful builds from Master branch?
+"My setup includes Travis-ci, Jacoco plugin via maven pom, Codecov and Java10."
+I set up Travis CI tests with different PHP versions: .
+When my Travis CI build runs the same tests the tests pass but the test command fails with the following error: .
+Is there any way I can make Travis CI decrypt the auth keys before building the app?
+"I investigated the issue and it looks like Travis CI pipeline try to execute step /code/ before each /code/, and when it try to execute it for deployment to Heroku it fail due to Git tag with such name was already created in /code/ step for /code/ to Github releases."
+"I'm trying to switch from a MySQL database server to MariaDB in my testing/CI on travis, and for that I also switched from the /code/ python package to /code/."
+"It doesn't work on Travis CI although ""which cwebp"" seems to work/not cause an error."
+EDIT Added Travis error message.
+/pre/  Now I am trying to setup Travis-CI for the project.
+Committed and pushed changes into the repository and Travis CI started to work and resulted in: 
+/pre/  How to do this given that I already have several commits and tests are configure in travis.yml to run on push to master.
+"I don't know where these are installed in the Travis build environment, so I think this is where my problem lies at the moment."
+I want to use travis-ci to run a script and commit the result back to the same branch on github.
+Travis CI runs each build in a separate virtualenv against the Python versions described in the YML file.
+Is it possible in Travis (or another free CI for opensource project in GitHub) to have a graph that display the evolution of test duration ?
+The relevant parts (I think) of my travis build: .
+Any thoughts on why we see this error on Travis and not locally?
+I didn't find this information in the travis Doc /url/ .
+"Should I contact Travis support or is there a config issue that I am not seeing, similar configs work for the other project."
+"/pre/  I read about every single article on how to setup codecov with jacoco and travis ci, made a detour via cobertura just to figure out that Java10 is not supported and read change logs to see if some versions are uncompatible."
+We're currently testing and deploying through Travis from GitHub.
+Since a few days travis does not support the jdk option oraclejdk10 anymore.
+I have a repo with 3 maven projects for which I want to use Travis.
+You can find the travis build here: .
+My Linux build on Travis-CI is failing when it attempts to download libcurl: .
+I am trying to deploy the build to gh pages from travis ci.
+"When Travis builds my application and comes to Selenium tests, it throws the following message in the log:  ."
+"The Travis documentation for C++ suggests that a matrix can interleave different /url/, and I am not able to find any way to run different scripts separately."
+"Please note that if you want to run PHPUnit on HHVM, you have to   explicitly install version 5.7 in your .travis.yml due to a   compatibility issue between HHVM and PHP7 ."
+Didn't found any solution in the documentation of travis .
+For unknown reasons my Jest tests seem to block at the end of my CI via Travis.
+But how is it possible to make webapp run on Travis CI before the app starts to check tests?
+I know that on Heroku there's webapp-runner to start your webapp but is there any tool for Travis?
+"After a pull-request is created on Github, the Travis PR builds triggers."
+"I'm trying to adopt Continuous Integration practices in a development project I'm working on, so I'm making use of Travis CI."
+"/pre/  It's strange because everything else is working fine all the way from Github Travis testing (which are all passing), continuous integration, and all the way to Heroku deployments but for some reason I can't seem to access the Postgres db from the dashboard: ."
+"I'm new to Flutter and Travis CI, so im having minor problems setting up the following."
+"I'm setting up automated deployment with TRAVIS CI, but my script gets stuck when trying to rsync to my server."
+Travis encrypts environment variables and does not make them available to forks.
+"While building an iOS project on Travis-CI, I am getting multiple build command failures like:- ."
+I checked that when i run it locally the main.jsbundle is copied inside this folder but on travis this file is not copied although before building i run: react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle This is my .travis.yml configuration: .
+I am using Travis for CI/CD.
+"However, when Travis CI is running the tests with the same API emulator, the app throws an error: ."
+my (shortened) .travis.yml file is as follows: .
+I am trying to build my app in Travis but I keep getting the following error which I am unable to debug.
+Is there any way to speed up Travis build or to split up compilation process to multiple jobs?
+/pre/   I manually installed the latest curl version in the travis build.
+To alleviate the compile time we have attempted to cache the /code/ contents using /code/ argument /code/ and then use the travis cache (/url/) to copy that data back.
+I don't understand the behaviour of Travis-CI with matrix.
+I've tried diverse configurations inside my travis.yml file but nothing seems to be working right now.
+It looks like /code/ does n't print to the console on AppVeyor -- the output is redirected.
+We use Appveyor CI for testing (I am a Linux guy, so I do n't even have an access to a Windows machine), everything works well, when it does, but it is quite unreliable.
+CI platforms like TravisCI and Appveyor both support local PostgreSQL processes.
+When using Miniconda for the Appveyor build for /url/ and Travis CI build for /url/ for the package repo everything works and the tests pass.
+it does n't work on Travis, we have n't tried   appveyor), we ca n't yet fully identify what 's wrong and fix it with   confidence.
+Using xvfb, they are run on Windows (Appveyor), Linux (Travis), and Mac (MS Azure, which also run tests on Windows and Linux).
+And copy paste that encrypted value into your appveyor.xml file.
+Unfortunately appveyor wo n't start.
+He gave upstream contributors permissions on his fork as well as administrator role on project in appveyor (including myself).
+When GitHub team member login into AppVeyor with GitHub button, hidden Collaborator automatically created.
+For yet another AppVeyor-specific approach, have a look at their documentation on /url/.
+And this is on a local filesystem, not SMB (I think, because AppVeyor 's internals are a bit of a black box to me).
+I had the same issue as you (an appveyor build for a .NET solution hosting an Angular app which required node packages to be installed) and the above worked for me.
+I need to configure my build yaml with Appveyor to build the .NET solution and also cd into the Angular folder and execute npm install and npm build.
+See /url/ for appveyor documentation on NodeJS.
+I wanted AppVeyor to build for /code/ and /code/ and deploy the 2 executables on /code/.
+I started playing around with AppVeyor this weekend.
+If you use the default visual studio project properties the executable files have the exact same filename even though they are on a different directory when you build for /code/ and /code/ and that 's why appveyor never uploaded a second executable to /code/.
+Use Appveyor if you want to run the build on windows machines, run on travisCi if you want to run the build on linux/macOS machines.
+I am using AppVeyor as CI for an open-source .NET Core project.
+/pre/   On AppVeyor the default is to clone the whole repository.
+Instead, it just hangs like this for an hour and appveyor kills the build.
+AppVeyor completes the install in ~6minutes but VSTS takes ~19minutes.
+Is it possible to have AppVeyor builds use the build number from the csproj file but replace the 'patch' version with the /code/ variable?
+For writing this file you can take inspiration from the /url/ (AppVeyor is an online CI for Windows).
+I 've set up an appveyor account, edited settings and created an /code/ /url/ on the branch I want to test (/code/), based on a similar file I saw on another project.
+/pre/  # 2:  I 'm also wondering if appveyor is using qt static build ?
+The Appveyor executable is produced at /code/ .
+Others still seem ignorant about the correct extension, like AppVeyor early 2019, but allow you to specify the configuration file for a project, including extension.
+I 'm driving an AppVeyor build with an /code/ file, in this instance an Angular CLI build.
+So you 'll be better off using a Windows VM or an online build service like AppVeyor.
+Maybe easier option is to let AppVeyor do all /url/, and then use /url/ with /url/ instead of multiple publishing profiles.
+But otherwise you could use appveyor to do what you 're asking /url/ .
+I changed the name of my machine and AppVeyor installed just fine.
+Possible Barriers: I am not sure if Appveyor 's API even supports this or not.
+I also have a .NET Framework Unit test project that executes some GPU-based tests, so they just fail when run with AppVeyor as they 're missing both a CUDA GPU and the required cuDNN files.
+works fine on appveyor .
+Follow up from this question, I 'm currently setting up AppVeyor for my project (/url/) and my .NET Core tests are only shown in the console output but not in the Tests window.
+As a workaround consider adding separate AppVeyor project which will build and deploy only if folder /code/ changed and keep current project to build every time, but not deploy .
+The Unit Test JsonStorageTest() fails every time it 's built on AppVeyor, even though it runs successful on my local machine.
+/pre/  But when AppVeyor is trying to compile my project it tells me .
+/pre/  I update it correspondingly for boost_1_67_0 since I am using Visual Studio 2017 in appveyor and boost already installed in appveyor Virtual Machine.
+When AppVeyor installs, it attempts to create a new user called "appveyor" and adds it to the Administrators group.
+I have a library with source code hosted on GitHub and configured to build on Appveyor CI (e.g.
+I 'm trying /url/ my small OSS project from AppVeyor to Azure DevOps and got almost everything done but now /url/ on the /code/ step: .
+We will expose this for builds hosted on AppVeyor VMs too, but setting it bigger that limit set by AppVeyor will not work.
+We 're running builds on AppVeyor to build an AOT angular 2 application.
+Depending on how you set up appveyor, you need to change your definition to use msbuild.exe instead of /code/ commands.
+I am trying to configure appveyor.yml file deploy .net console application to my server.
+I have an electron app that I build with Appveyor, the build is successful, but I do n't know where to get the app built.
+In my opinion AppVeyor does n't trigger this call for you, because developer may wish different build env.
+I have a CMake project on AppVeyor that I am trying to add Linux Builds to.
+In AppVeyor we get the extended part of the Git commit message using the /code/ /url/, but I ca n't see an equivalent in Azure Pipelines.
+It 's built by Appveyor using /url/.
+You can tell Appveyor not to default to the /code/ extension, using the /code/.
+On Windows there is a "screen" available even in CI environments (I have experience with Appveyor and Azure Pipelines).
+What I require is a command that start a build of a certain commit on Appveyor with particular environment variables.
+Npm sometimes writes normal output to /code/, which custom PowerShell host on AppVeyor treats as error.
+How can I tell AppVeyor to ignore the project in this instance?
+Following how you wrote the YML file, AppVeyor expects the whole /code/ to provide a non-zero return code, while a failure inside the PowerShell script section you left wo n't lead to such a case.
+I am using AppVeyor (Think Travis but for Windows) to run some tests again several different versions of Python.
+What do I need to do to run Angular component and e2e tests on AppVeyor 's Ubuntu image?
+Compare this to my appveyor status badge image url .
+However, currently, R-AppVeyor uses /code/, which according to the man pages automatically switches /code/ to /code/, so the above option is moot, and /code/ appears to work the same as /code/ for the AppVeyor yaml.
+here is my .appveyor file: /url/ .
+Since I edited the appveyor.yml file to install all the necessaries packages with pip just before the /code/ installation command, it is working fine.
+/pre/  Both Travis and Appveyor support uploads to Github Releases or S3 so again no gain from using /code/ or /code/, example for Travis: .
+I 'm having trouble installing python 3.5.0+ on AppVeyor.
+/pre/  Is this possible with the build-in AppVeyor Patching system?
+I do n't like the idea of adding an after-build instruction to my csproj file (I do n't want to build the nuget package every time I compile), so instead I configured an "after build script" in AppVeyor: .
+/pre/  Desired Solution: I would like to make the script automatically check Appveyor for a newer artifact (possibly by comparing either artifact names or build version numbers) on a configurable time-interval.
+/pre/  This is the method that should normally create the dir, but as mentioned it does n't do that with AppVeyor.
+The same build on appveyor builds just fine.
+BTW the travis and appveyor scripts are the most accurate documentation on how to build meshlab :)  .
+I tested my appveyor.yml file in the online validate tool and it confirmed that it was correct.
+As mentioned in the comments, secure variables can be activated in the Appveyor project settings and everything works as intended.
+/pre/  I 'm trying to do the same on an AppVeyor CI, but because AppVeyor gives me a clean VM image for every build, there is no cache.
+created AppVeyor project .
+When running in AppVeyor we call the REST API directly from the test runner to inform the build server of the tests being run and to update their status.
+A usual approach many big organizations follow is to have more granular control over what can be accessed by AppVeyor is creating a new GitHub user (optionally giving it access to only specific repos) and authorizing this user in AppVeyor (at /url/).
+I have a .NET Core project that is auto-built in Appveyor and deployed to Nuget.
+Is this possible with AppVeyor and GitHub?
+Any tips to get a conda-build recipe for python package with a fortran extension working on Appveyor would be greatly appreciated.
+/pre/  Using the AppVeyor setting mentioned above will force the installation of Rtools anyway.
+I am able to build to fsharp plugin using appveyor (cloud).
+The Appveyor environment has a setting /code/ that seems to be the key, but it requires the "runCommand" provider to be allowed on the server side.
+Go to AppVeyor 's website and download the windows.zip binary file /code/: /url/ .
+I want to link to the appveyor deploy success/fail page.
+My goal is to do this with a ci tool (appveyor).
+Or if you already registered with AppVeyor as part of another account - a /url/.
+We have an AppVeyor CI build that we produce nuget packages from (here we run our own powershell script), and we want to publish those to a private Azure DevOps artifacts.
+I have very little windows knowledge, and whenever I make a build, I have to RDP into a container offered by AppVeyor.
+One of my test containing /code/ fails on Appveyor, a continuous integration server, but I cannot reproduce the failure on my local machine.
+Although it 's limited to testing Arduino libraries (and not standalone sketches), it enables unit tests to be run either locally or on a CI system (like Travis CI or Appveyor).
+Is there another way to have AppVeyor only run the tests from NeuralNetwork.NET.Unit.dll?
+I use Travis-CI and AppVeyor now, which have "PR" (pull request) builds that build the code as if the pull request were merged.
+Configure appveyor/travisci/vsts to run a maven/gradle build on your project.
+/pre/  I 've tried adding the /code/ flag to the /code/ code, but that does n't seem to signal AppVeyor to fail the build.
+Circle CI for Linux, Travis-CI for OSX pass, but I cannot get Appveyor for Windows to work with the conda-build recipe.
+If the machine name is "appveyor" (regardless of case), that user cannot be created.
+AppVeyor.yml .
+I call /code/ from /code/ mode (not /code/), because /code/ writes output to /code/ which makes custom PowerShell host on AppVeyor unhappy (I assume you run Windows, not Linux builds) .
+Some help on how to configure appveyor to make the builds successful again would be appreciated.
+The following is the content of appveyor.yml: .
+小onfig file attached (appveyor.yml) .
+I personally use Appveyor for auto-building MSVC apps.
+Currently I just copy the published version to the server and run "dotnet xxx.dll" (yep...) I 've set up appveyor and it pushes a nuget package with my console app to a nuget repository.
+/pre/  In my case, the offending data type was /code/ in position /code/  This field worked fine inside AppVeyor with SQL Server 2016 installed, but would n't run on my local environment.
+Right now you can manage time limits for /url/, but not for builds hosted on AppVeyor VMs.
+If this is not possible with choco, you can snarf the relevant jq.exe from Appveyor -- see /url/ .
+I 'm converting one of our projects to use Azure DevOps rather than AppVeyor for CI.
+Appveyor.yml .
+For solving this issue you can just encrypt the token in appveyor with /url/.
+I 've just started using AppVeyor for continuous integration with GitHub.
+This work for me deploying from appveyor to an azure server: .
+   I am not gonna put my API keys on any public file, and Appveyor is not   gonna expose my secured tokens on public PRs.
+The Problem: Currently I am using a PS script that downloads the latest build artifact from an Appveyor link, then extracts that artifact over the existing program when the function is called whether there was an update or not.
+My appveyor.yml only do the 3 following things: .
+Compiling OpenMVS using AppVeyor used to work fine, but now it fails on Ubuntu without reporting any error.
+I added the following to appveyor.yml to build feather from source, before the additional packages are loaded with the call to /code/: .
+An older version for VS2013 used to be available from AppVeyor, but not that due to their /url/ anything older than 6 months is no longer available.
+I am doing some work on /code/ (/url/), which is using AppVeyor for testing on Windows.
+Appveyor is a Windows-based centralized cloud service, not a self-hosted CI system.
+On the other hand, in appveyor (ia32), /code/ function for /code/ pointing to directory works well.
+Note that we provide this image by request and need your AppVeyor account name for this.
+You can add the AppVeyor.TestLogger package to your project, but it can be done without changing your code.
+I 'm am running my tests on Azure Pipelines (but the same thing applies to Travis and Appveyor).
+/pre/  Then however after I checked my code into github, the build servers of Azure Pipeline, AppVeyor and Travis CI are not happy, they complain that my "plugin.json" file is not found.
+How can I find out in a CI environment like AppVeyor?
+On the AppVeyor CI build server though, the analyzer project is just a DLL that 's part of the solution, and if we do n't tell it to be built first, then the analyzer DLL wo n't be found and the solution wo n't build.
+How to determine the configuration during a AppVeyor/Travis CI build?
+How can I run a /code/ command on AppVeyor and push it to background?
+When I want to use GitHub teams, do I still need to invite people to be collaborators in AppVeyor?
+And in Appveyor, we can also disable the paralell builds(settings=>build=>msbuild options) to make sure it wo n't build classlib.csproj until the tools.csproj build ends.
+This idea can be reproduced on Travis CI, Appveyor, Gitlab CI, Azure ... .
+Therefore I tried using /code/, but it 's extremely difficult to get it to build reliably on travis and appveyor.
+I have a /url/ set up to build via appveyor.
+I builded an electron app on appveyor, because it uses native node module dependencies.
+I have created a very complex build process for front-end of one web app, which is being tested on Appveyor.
+/pre/  to my AppVeyor file but it did not help.
+/pre/  Can appveyor do this?
+The issue is that since you do n't have any code that needs compiling, AppVeyor does n't install Rtools, but compiling /code/ obviously requires Rtools; see line 40 of the /url/: .
+AppVeyor supports this, where somehow it knows that /code/ changed and will invalidate its cached /code/ folder that it copies into the VM build work area.
+/pre/  please explain in detail as much as possible, I have really no idea of Appveyor.
+Documentation on AppVeyor: /url/ .
+I 'm trying to understand github personal access tokens and using travis-ci and/or AppVeyor to build my project and put the build results on github in the releases .
+Reinstalled AppVeyor from GitHub marketplace: /url/ - WORKED .
+If any of the branches the visitors happen to see fails, that same appveyor badge image is able to show the status for that branch.
+appVeyor is /url/ .
+You can /url/ and then download it from AppVeyor.
+They need to be separate builds due to the fact that both the first and second build together take too long for Appveyor 's 60 minute time limit.
+I 'm assuming the appveyor.yml file is configured incorrectly, and thus AppVeyor is not picking up the Staging configuration?
+If you use a Github repository, there are ways to set up Travis or Appveyor to do this.
+I created a test project on GitHub, where you can see the tests are passing on Appveyor (Windows) and failing on Travis (both Linux and OSX).
+So, instead of using /code/, or building all packages, if you know which package needs to be built, you can do so by adding a call to Rscript in the AppVeyor yaml.
+I 'm trying to deploy a website using appveyor.
+appveyor.yml: .
+We are using appveyor as CI CD tool to build and deploy our website.
+If some parts of the app are not being built correctly with gulp, if some gulp tasks fail, how do I signal the Appveyor that the build has failed in its entirety?
+I did n't find what I have to write in my appveyor config file to compile my app with msv2017 where is the compilator ?
+Alternatively, assuming Appveyor uses a relatively standard echo, you might be able to use its /code/ option:  .
+/pre/  appveyor.yml: .
+My Appveyor file looks like .
+When it comes to finding projects, Appveyor searches for the property /code/ inside your project.
+In the last build of my package, I had this error from AppVeyor.
+I am trying to authenticate with GitHub using a password defined in an environment variable in AppVeyor.
+I 'm using AppVeyor to use CI building.
+In appveyor.yml: .
+I managed to get AppVeyor to build my project and deploy it for Windows but now I would like to have it build for Linux too.
+This is the link for the AppVeyor project: /url/ .
+Hello, I have 2 environments, test and uat, after commiting my changes in github a new build started on our build agent appveyor.
+I try to trig appveyor to start a build with /code/.
+I 'm very new to appveyor.
+On top of that I wanted to try out CI 's and I have added my simple project to Travis CI and AppVeyor.
+I would assume this is a problem on the host machine on Appveyor side.
+When searching .NET Core tests, AppVeyor look for /code/ files with certain properties, not for assemblies.
+You get the snippet of code from the service provider (npm, AppVeyor, etc) and just paste it straight into your readme or wherever you like.
+Would someone please know how I can use std::thread in AppVeyor ?
+The problem is that if another co-admin connects to appveyor and tries to create a new project, my own personal repos are going to be displayed in the list.
+According to /url/ this is the way to use environment variables in PowerShell but apparently the secure Appveyor variable is not there.
+I 've written about how to set up AppVeyor with .NET Core in the past - /url/.
+I am not sure how to get appveyor to download and use that version, I think /url/ has some scripts that work to download, compile pygame, and test using appveyor and nightly builds .
+/url/ - CI: Appveyor builds fail because it ca n't import ConvexHull from spatial.qhull .
+How do I configure something like this on Appveyor?
+On AppVeyor I would advice to use /code/ if the repository is available on GitHub or Bitbucket.
+I 've so far tried both AppVeyor and Travis, but each time the build stops with VirtualBox reporting /code/, and it just looks like whatever machine I 'm running /code/ on does n't have VT-x enabled.
+The same code works perfectly on linux (ubuntu and arch), but fails on windows, appveyor CI in my case, for example: /url/ .
+/pre/  It 's the same command AppVeyor would run automatically on your solution file.
+Download the prebuilt version of TinyTex from appveyor CI /url/ .
+I use appveyor, but I do n't think my issue is specific to it.
+I want to use AppVeyor for the CI, and I want to use Linux containers for the docker.
+Maybe AppVeyor does not support mixing build types even with a matrix set up.
+I still hope there will turn out to be a way to do this with just a setting in the /code/ file or in AppVeyor itself, but until then this is probably what I 'll stick with.
+See /url/ for an example successful appveyor build.
+I鈥檓 using the appveyor-server-7.0.2353-win-x64.msi install file.
+This is the error from AppVeyor, however it was essentially the same thing locally   (some paths omitted for security) : .
+You need to output your tests results into an xml file format that AppVeyor understands and then upload it to their HTTP API.
+These are the AppVeyor builds for the /url/ and then /url/ commits, for the change linked above.
+Using the master build from AppVeyor (now linked on the wiki), /code/ should work now, as well as /code/ (after the steps you&#39;ve taken), on Windows.
+Build a NuGet package for LibA and either   Build up a private feed via AppVeyor, VSTS/TFS, MyGet or any other private feed provider .
+I would like to install /url/ in my AppVeyor builds to fix /url/.
+Yes, it does use Travis CI and AppVeyor (see /url/ and /url/).
+I 'm trying to use AppVeyor for a C++ program made using Qt.
+Azure DevOps, Jenkins, TeamCity, TravisCI, AppVeyor.
+/pre/  For appveyor (Windows Server 2012 R2 x64), I unpack /code/ and add it to the PATH.
+/pre/  I do not have .yml file , I set those two the environmental variables manually in the project 's setting in appveyor.
+Setup an account on AppVeyor and/or TravisCI.
+I 'm trying to use AppVeyor to build a /url/ that uses some c++17 features.
+When i use appveyor to build this project , some errors occur.
+I am trying to implement appveyor CI and the /code/ seems to run OK, then a /code/ happens and the build fails.
+It seems Appveyor requires access to the master database and the Server Admin Login has all required permissions.
+I 'm trying to setup AppVeyor for my project (/url/) and I ca n't seem to find a way to only have it run tests from the .NET Core Unit test project.
+Say you 're using AppVeyor to do your continuous integration and deployments, in your project settings in AppVeyor they provide a HTML / markdown snippet for you to embed in places like GitHub to show everyone looking at your GitHub readme that the last build was successful.
+I can see the summary result in AppVeyor, but I ca n't see anything at codecov.
+I am using appveyor to publish packages to nuget, I would like to do the publish if the branch is either /code/ or /code/, my current settings is  .
+I need these tests to work on travis-ci (linux and mac) and appveyor (windows).
+I also ca n't make tinytex it work on appveyor .
+The issue is that the package is also a dependency of one of the packages in my requirements.txt file, and appveyor reinstalls it from pypi.
+I want to gather logs of the last x failed AppVeyor builds through the AppVeyor REST api, but I am having trouble getting the jobids to access them.
+I had a look at appveyor doc on this, but it 's unclear how to point to server etc.
+/pre/  And I put it into Settings > Deployment > Script colon in AppVeyor.
+Then I 've published the app (both directly from VS, but also using AppVeyor), and I 've copied it to my web-server, added a site in the IIS etc.
+Tested on Linux and Windows (via Appveyor and rhub).
+/pre/  And in the Appveyor log I see: .
+When running windows 10, on appveyor and as a virtualbox, I 'm getting the same, error when running jest tests for my electron app.
+I 'm trying to get these running on AppVeyor.
+I then pass each solution to the /code/ element, and AppVeyor will only attempt to build the specific projects referenced by that solution.
+I have a web app deployed to Azure via Appveyor that is failing to build the scss with node.
+This error also shows up in the [AppVeyor build log], that 's the reason I used RDP to look the error up.
+Is there a way to enable signing or perhaps disable building this project in AppVeyor?
+I do have /url/ on Windows on Appveyor, so I would expect this to work.
+We 're having a contributor trying to setup CI for us on this repo /url/ So he forked /url/ and created the appveyor project under his account.
+What probably happens now is that AppVeyor has not idea about your YML file in the /code/ and goes with default configuration in which it searches for VS solution or project to build.
+Now I want to start having build tests on Windows using AppVeyor for one of my branches (and on Linux using Travis, but that just works so no questions about it).
+In Appveyor, however, an error is thrown from the console, causing my build to fail.
+I 'm setting up a new appveyor server and trying to build docker images with using the docker build feature.
+Then, I configured AppVeyor to use that build configuration: .
+I thought we had this nailed last week but this week it AppVeyor seems to have reverted to building on every branch.
+So the question is how can one share an appveyor project with somebody else so it appears on his/her dashboard?
+I can also get the conda-build recipe to work locally on Windows and Linux, but as you can see from the pull request to conda-forge the tests do not pass for Windows using Appveyor.
+AppVeyor only publishes artifacts on _success_.
+In my appveyor .ylm, I am installing a specific version of a package, for example: .
+We use Travis and AppVeyor for testing and building releases.
+This is my sandbox (tiny right now) and I have several projects and would like each project to have it 's own appveyor.yml file.
+Currently the artifacts have expired in AppVeyor, see /url/ for updates.
+I configured several GitHub teams from our organization (Kentico) with certain roles in AppVeyor.
+By default AppVeyor tries to detect Visual Studio solution or project.
+So, in this article /url/ recommend add to Azure SQL Firewalls all the ip address allowed for Appveyor, but I still received the same error , what other thing may cause this issue?
+I 've seen some hackish solutions and tried those but no luck, I watched and stopped build on Appveyor by hand.
+I 'm building a .net core project using AppVeyor and publish a nuget package as result.
+I am just trying to deploy my backend from Github to Azure using AppVeyor.
+Same syntax as PowerShell, but it also works on Linux (AppVeyor has an Ubuntu image available).
+/pre/  I expected it to get into a package but when I eventually reference a nuget package (from AppVeyor 's internal storage) in an app, I get "file not found exception".
+I鈥檓 trying to install Appveyor Server on an instance of Windows Server to create a CI/CD pipeline, and each time I try to run the installer, it fails.
+Trying to use appveyor CI for a C++ project (Makefile) with binding in C# so I would like to be able to run csc.exe from the script line.
+and most importantly: I am not gonna put my API keys on any public file, and Appveyor is not gonna expose my secured tokens on public PRs.
+I have the next error when I deploy a Sql Database Project with Appveyor to Azure:  .
+For continuous integrations, we test our scripts for Windows OS with appveyor, as usual after each push in GitHub.
+I feel like it 's probably some obscure setting in appveyor or a csproj file I 'm missing.
+I have the project 's language standard set to c++latest, so it compiles fine in my local Visual Studio, but AppVeyor is n't able to successfully build it.
+I think there are some apis or need some cmd on appveyor.yml file to get that.
+EDIT: If you do n't own the github project/fork, you can fork it yourself and then use appveyor to create a nuget package from that.
+However, when I submit my PullRequest, it runs through AppVeyor which fails: .
+On Windows (and more importantly AppVeyor) it fails to create some files, complaining about an invalid filename.
+We should make the build environment are same between my local machine and appveyor.
+I contacted with AppVeyor and I got this answer: .
+/pre/  This has the same effect as adding the reference, in that it makes the testlogger binary available to the test framework, but it does n't actually change the test project, and therefore does n't require someone who 's not using Appveyor to install the package when they clone and build your repo.
+My problem is that I 'm not sure how to configure Appveyor to run this executable after building.
+However, on Azure Pipelines and AppVeyor, they do n't have a developer certificate installed and I get an error when I try to start my API.
+(Without having to invite users to AppVeyor.)
+But for Windows Server 2012 R2 (same as in appveyor), this function works well.
+Locally everything works fine, but I need a workaround for Appveyor.
+Nothing applicable on SO, and the link to Microsoft that Appveyor prints as an error in the deploy process is no longer accurate.
+some run on appveyor (windows), some on travis (linux, OSX) but all should be released with the same release/tag w/o doing it (e.g.
+/pre/  The link might break, so if it does, you need to google "appveyor osm2pgsql",  it should usually be the first result.
+The name of the machines I created were both "AppVeyor".
+But - it /url/ with Cygwin64 and GCC (link to an appveyor build log; GCC version is v6.4.0).
+I want to run boost test in appveyor.
+Appveyor used to compile the solution in its CI pipeline when there was no database projects defined.
+I am writng a script for appveyor.
+/pre/  This installs fine locally and in AppVeyor, but freezes on VSO Build.
+Update I 've tried the /url/ docker image on AppVeyor and VSTS.
+I 'd like to be able to specify a custom version pattern for AppVeyor 's build like this: .
+Since we added /code/ AppVeyor can no longer successfully run the tests, i keep getting the following: .
+In other words, is it possible to manage access to AppVeyor only through GitHub teams?
+The final build order in Appveyor will be what we defined in VS. Hope it helps.
+/pre/  I am using appveyor for building and octopus for deploying.
+This is a sample PowerShell script installing Python 3.6.4 on AppVeyor environment: .
+AFAICT I can tell AppVeyor to wrap an entire folder into a zip file artifact, as in the following example: .
+We are multiple co-admin in the organizational appveyor account, and their credentials are linked to the organizational account.
+Since about 2 dayes we have problems running our tests with appveyor on windows systems.
+To resolve this issue, you could try to create your private feed for your organization via AppVeyor or publish nuget packages with Azure DevOps build pipeline.
+When I configure that repository in AppVeyor like this: .
+As far as I can see the, stdout, output of a command in an AppVeyor jpb is buffered and only shows up in the log when the command finishes.
+AppVeyor for Linux is currently at private beta.
+I only want AppVeyor to build the library project, because the tests project requires the Microsoft Access database engine to be installed.
+See /url/ for an example appveyor.yml file.
+I 've been able to add a status badge to my README.md that displays the status of the most recent AppVeyor build.
+Needed to change two settings on AppVeyor.
+I have an environment in appveyor that I deploy to.
+The article makes it clear we can use one yml file to set htis up howver I het an error:  Error parsing appveyor.yml: (Line: 35, Col: 1, Idx: 554) - (Line: 35, Col: 9, Idx: 562): Duplicate key .
+Unfortunately, there is a problem with the AppVeyor automated tests which fail (but for some other reasons), so it has been stuck there for a while.
+Is appveyor the best choice?
+warning: no previously-included files found matching 'appveyor.yml' .
+In sample appveyor scripts the main build script is '.\qtmodules-travis\ci\win\build.bat'.
+AnyStatus is a desktop notifications app for Windows that helps developers keep track of services such as Jenkins, Azure DevOps, TeamCity, AppVeyor and more.
+I created a new projet in an organizational appveyor account.
+/pre/  If you use a build server like Jenkins, TeamCity or AppVeyor the runtime missing /code/ might exist there as well.
+There is an open issue /url/ for pre-building windows binaries on AppVeyor.
+Additionally Appveyor should offer you also some support options.
+This error would also occur if the admin user (possibly any user, but I ca n't confirm that) was named "appveyor".
+In appveyor :     environment:   BOOST_ROOT: C:\Libraries\boost_1_64_0   BOOST_LIBRARYDIR: C:\Libraries\boost_1_64_0\lib64-msvc-14.1 .
+AppVeyor permission model is not directly tied to GitHub one (because AppVeyor supports other version control systems as BitBucket, GitLab, VSTS etc).
+In my appveyor script I have written these lines: .
+Qt MySQL driver on windows (appveyor) does n't support transactions feature; i.e.
+A AppVeyor, Windows, job will last a maximum of 1 hour, this is fine, but I 'm facing the problem that my program goes into an endless loop and will consume the full hour although the program should terminate within 1 minute.
+AppVeyor offers both setting the clone-depth and an alternative /code/ option, where the commit is downloaded as a zip-archive using the GitHub or Bitbucket API.
+Trying to get insight into why our tests are failing in AppVeyor, by looking at some of the /url/ files it produces.
+I 've been trying to set up my CI environment on AppVeyor since I need SQL Server.
+If I revoke my github token, then the project that were already created will fail on build because appveyor will not be able to checkout the sources.
+Fortunately Appveyor supports both systems since several months.
+The following powershell snippet will iterate through your solution and find each test project, call /code/ on the csproj and log the output to /code/ and then upload the file to AppVeyor.
+Can anyone spot what 's wrong with our appveyor.yml file?
+But when I have failing tests - AppVeyor reports the /url/.
+/code/ runs after every successful build, but Appveyor is smart enough to not run the deploy components on a "pr" build.
+I would doubt it since it seems the imagemin-gifsicle appveyor build failed quite a while ago (like 11 months ago according to /url/).
+Also noticed that it is NOT using this file as the version is matching the default settings in Appveyor itself.
+Although, I 've only used Azure DevOps in a professional setting and AppVeyor for personal projects.
+   How to publish nuget packages from AppVeyor CI to Azure DevOps artifacts .
+Error from Appveyor: /url/ .
+How do I configure AppVeyor to fail if OpenCover + xUnit report failing tests?
+This is a bit of a nuisance as when the AppVeyor job is killed the output is lost ... ( :-( ).
+Appveyor is linked to my repo on bitbucket.
+I need /code/, that I can see, that I have errors in my tests, if I use Travis CI or AppVeyor.
+instead of specifying these cryptic paths (which are most likely fragile with regard to upgrades of the appveyor images) verbatim, I thought of only specifying something like /code/ in my CI-configuration, then let the CI-script search for the path of a required binary (e.g.
+However AppVeyor removes artifacts in 6 month after creation according to the /url/ .
+Please drop a email to /code/ (do not forget to mention your AppVeyor account), and we will enable it for you.
+I 'll live with that since it was appveyor/mysql only issue, so only my tests will run without transactions.
+Here is my appveyor.yml file.
+Here 's my full appveyor.xml .
+Example AppVeyor.yml: .
+Beast itself contains no memory leaks (tested extensively per-commit on Travis and Appveyor under valgrind, asan, and ubsan).
+Example output of a failed checkout on AppVeyor: .
+Best part about appveyor/travisCI is that these are entirely free for open source projects - meaning, your builds will run on someone else 's hardware and electric bill.
+This is the link for the AppVeyor project: /url/ .
+It seems that some CI systems (Appveyor) do n't like /code/) and other calls in /code/, perhaps because they do n't have this and other packages available at whatever stage in the build cycle /code/ is called (pretty early?).
+/pre/  how could I use the boost libraries in appveyor ?
+I read the /url/ about the GitHub integration in AppVeyor and one thing is still not clear to me: .
+Badges are typically (but not always) dynamic in the sense that the service provider (npm, AppVeyor, etc) will serve the badge from a URL (in the code snippet you get) and when a client grabs that image it will show the latest state of the badge 's data (build succeeded/failed, available on npm, tests failing, code coverage %, etc.).
+/pre/  in \vendor\phpunit\phpunit\appveyor.yml: its already 1200 .
+I 've been previously using AppVeyor for any/all my nuget package CI/CD pipeline.
+Example appveyor.yml: .
+/pre/  The result in appveyor is .
+I 've used both AzureDevOps and AppVeyor in the past, and found both of them to be really good at what they do.
+Use appveyor to build a project which could auto deploy my blog.
+I am trying to diagnose an error during the build of a project with appveyor.
+is by the operating system you make use of via Appveyor, which is a Windows operating system.
+We tried configuring AppVeyor to collect the /code/ files, like this: .
+The project compiles well on my local machine (tested with vs 2017 and g++, not sure about the versions, because I am not near it at the moment) as well as on AppVeyor.
+The script produces some log files, but I have no clue on how these can be viewed after appveyor is done trying to build.
+I have an appveyor project deploying a c# web api.
+.\build\appveyor\js-tests.ps1 .
+Is this the correct way to gather logs of failed builds without a bunch of manual clicking in the AppVeyor interface?
+It 's typical stuff and I 've done it also with appveyor.
+Removing GitHub authorization from AppVeyor, then authorizing GitHub again solved the issue.
+I have tried reinstalling setup tools and it has had no effect I am running on a pi zero with Diet Pi installed /code/  Installing collected packages: pillow   Running setup.py install for pillow ... error     Complete output from command /usr/bin/python -u -c "import setuptools, token                                                                                                                                                             ize;file='/tmp/pip-install-Q2fwNi/pillow/setup.py';f=getattr(tokenize, 'open                                                                                                                                                             ', open)(file);code=f.read().replace('\r\n', '\n');f.close();exec(compile(co                                                                                                                                                             de, file, 'exec'))" install --record /tmp/pip-record-uWuhA1/install-record.t                                                                                                                                                             xt --single-version-externally-managed --compile:     Single threaded build, not installing mp_compile:1 processes     running install     running build     running build_py     creating build     creating build/lib.linux-armv6l-2.7     creating build/lib.linux-armv6l-2.7/PIL     copying src/PIL/FtexImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PpmImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageFont.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/JpegImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PsdImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/SgiImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/XVThumbImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/Image.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/_binary.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PyAccess.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageSequence.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/DdsImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/OleFileIO.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/XpmImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/McIdasImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/IcnsImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageTransform.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/BmpImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImagePalette.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/IptcImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/TiffImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/GdImageFile.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/_util.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/CurImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/TiffTags.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/FliImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/WebPImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageGrab.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/WmfImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageEnhance.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageShow.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PdfImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageOps.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/GbrImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageTk.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/BlpImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PcfFontFile.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/WalImageFile.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/Jpeg2KImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageMorph.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/TgaImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/EpsImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/_tkinter_finder.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/IcoImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageWin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/GimpGradientFile.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageDraw.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/features.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/Hdf5StubImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/JpegPresets.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/init.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/DcxImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImagePath.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageDraw2.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageFilter.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PcdImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PSDraw.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/BufrStubImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageChops.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/FpxImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageCms.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ExifTags.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PdfParser.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/FontFile.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PaletteFile.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageMath.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageQt.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PalmImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/GifImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImtImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/_version.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/MicImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/MspImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ContainerIO.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageColor.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/GimpPaletteFile.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PixarImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageStat.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/GribStubImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/BdfFontFile.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/MpegImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/FitsStubImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/TarIO.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/SpiderImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageFile.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/SunImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PcxImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/XbmImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/PngImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/ImageMode.py -> build/lib.linux-armv6l-2.7/PIL     copying src/PIL/MpoImagePlugin.py -> build/lib.linux-armv6l-2.7/PIL     running egg_info     writing src/Pillow.egg-info/PKG-INFO     writing top-level names to src/Pillow.egg-info/top_level.txt     writing dependency_links to src/Pillow.egg-info/dependency_links.txt     reading manifest file  'src/Pillow.egg-info/SOURCES.txt'     reading manifest template 'MANIFEST.in'     warning: no files found matching '.c'     warning: no files found matching '.h'     warning: no files found matching '.sh'     no previously-included directories found matching  'docs/_static'     warning: no previously-included files found matching '.appveyor.yml'     warning: no previously-included files found matching '.coveragerc'     warning: no previously-included files found matching '.codecov.yml'     warning: no previously-included files found matching '.editorconfig'     warning: no previously-included files found matching '.landscape.yaml'     warning: no previously-included files found matching '.readthedocs.yml'     warning: no previously-included files found matching '.travis'     warning: no previously-included files found matching '.travis/'     warning: no previously-included files found matching 'tox.ini'     warning: no previously-included files matching '.git*' found anywhere in dis                                                                                                                                                             tribution     warning: no previously-included files matching '.pyc' found anywhere in dis                                                                                                                                                             tribution     warning: no previously-included files matching '.so' found anywhere in dist                                                                                                                                                             ribution     writing manifest file  'src/Pillow.egg-info/SOURCES.txt'     running build_ext .
+Actually, my appveyor.yml looks like that (I try to do as QtCreator is doing on my  local computer but it 's not working) .
+Now I get the following error message from AppVeyor, after the /code/ command is executed: .
+I 'm trying to set up autobuild appveyor on my Qt project.
+Appveyor configuration changed .
+/pre/  This example successfully builds on AppVeyor with both of the toolchains.
+Around the same time, both applications started to intermittently timing out at the start of the tests, most reliably on the AppVeyor build server.
+/code/ writes output to /code/ which makes custom PowerShell host on AppVeyor unhappy.
+Please request access to this image by email to support@appveyor.com or by post to /url/.
+Comparing the log entries you pasted to their AppVeyor build, .
+/pre/  But, as can be seen in my Appveyor.yml: .
+For Appveyor setup, see: .
+My appveyor.yml is shown as below.
+This is quite straightforward, as shown in the REST sections of their /url/ and /url/ documentation, and gives us great integration into AppVeyor 's UI.
+/pre/  Which brings me to the AppVeyor build error I 'm stuck at: .
+However, the users belonging to the GitHub teams did n't see the Kentico account in AppVeyor when they signed in with their GitHub account.
+In RStudio, /code/ will install tidyr from binary and feather from source, which is the behavior I want to replicate on AppVeyor.
+/pre/  Cleary, the appveyor can not find the boost library.
+Somehow, AppVeyor has docker running in their images, but I do n't know what their underlying infrastructure is.
+/pre/  you could find the log of appveyor at /url/ .
+The project builds fine, but AppVeyor keeps running the tests in the other NeuralNetwork.NET.Cuda.Unit.dll assembly as well, which fail as expected and cause the whole build to be marked as failing.
+After that,you can use a single msbuild tool or Appveyor to check the   build order.
+Once such a project added, Appveyor started failing in building the solution with the error message below.
+Looks like there are a few ways to get the desired behavior out of AppVeyor.
+Both on AppVeyor and TravisCI, with normal push operations to a repository on GitHub.
+So in this case AppVeyor uses tag name as a branch.
+You are trying to cross-platform work, but it seems that we are currently unable to complete the certification of Azure DevOps artifacts from AppVeyor CI.
+/pre/  I get Entity not found error  This happens only one time when code is deployed through CI CD called appveyor.
+/pre/  How to run tox on Appveyor under Ubuntu?
+But with appveyor I 'm able to show one status badge image for all branches, master, dev, feature branches.
+I have an OSS project on GitHub being built against .NET 4.5 on AppVeyor CI with Visual Studio 2017 (not the preview stuff, just 2017).
+Tested on Linux and Windows (via Appveyor).
+I 've tried to first run /code/ (thought that it might skip installation because of the already installed versions of appveyor), but the same issue persists.
+After some struggling, I was able to fix the build for AppVeyor by changing /code/ to /code/ in the yml file.
+add /code/ in GitHub deployment setting (to prevent AppVeyor from creating a new tag, and endless build loop) .
+I think the appveyor server should run our custom build containers with the volume option that point the docker.sock.
+Is there a solution for this problem that works reliably on travis-ci and appveyor?
+It turns out the appveyor.yml needs an artifact definition for my output.
+/pre/  I have limited knowledge and experience with AppVeyor, but according to the mentioned example configuration, it should work fine.
+However for AppVeyor to patch and pack /code/, certain elements should already exist in it.
+I have no trouble compiling it using Visual Studio 2017 latest, in all configurations, and 3. the AppVeyor scripts regularly compile the library and examples, and have no trouble compiling it: /url/ .
+Because a package (feather) for R 3.5.0 is only available from source, my current AppVeyor builds are failing.
+None         running install         running build         running build_py         creating build         creating build\lib.win32-3.7         creating build\lib.win32-3.7\blis         copying blis\about.py -> build\lib.win32-3.7\blis         copying blis\benchmark.py -> build\lib.win32-3.7\blis         copying blis__init__.py -> build\lib.win32-3.7\blis         creating build\lib.win32-3.7\blis\tests         copying blis\tests\common.py -> build\lib.win32-3.7\blis\tests         copying blis\tests\test_dotv.py -> build\lib.win32-3.7\blis\tests         copying blis\tests\test_gemm.py -> build\lib.win32-3.7\blis\tests         copying blis\tests__init__.py -> build\lib.win32-3.7\blis\tests         copying blis\cy.pyx -> build\lib.win32-3.7\blis         copying blis\py.pyx -> build\lib.win32-3.7\blis         copying blis\cy.pxd -> build\lib.win32-3.7\blis         copying blis__init__.pxd -> build\lib.win32-3.7\blis         running build_ext         msvc         py_compiler msvc         {'APPVEYOR_REPO_COMMIT_AUTHOR': 'Matthew Honnibal', 'LIB': 'C:\Program Files (x86)\Microsoft Visual Studio   14.0\VC\LIB\amd64;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB\amd64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.14393.0\ucrt\x64;C:\Program Files   (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x64;C:\Program Files   (x86)\Windows Kits\10\lib\10.0.14393.0\um\x64;',   'VS100COMNTOOLS': 'c:\Program Files (x86)\Microsoft Visual Studio   10.0\Common7\Tools\', 'APPVEYOR_PROJECT_NAME': 'cython-blis', 'AVVM_DOWNLOAD_URL':   '/url/',   'GIT_LFS_PATH': 'C:\Program Files\Git LFS', 'MSYSTEM_CHOST':   'x86_64-pc-msys', 'APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL':   'honnibal+gh@gmail.com', 'WINDOWSSDK_EXECUTABLEPATH_X64': 'C:\Program   Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1   Tools\x64\', 'SYSTEMROOT': 'C:\windows', 'LASTEXITCODE': '0',   'CHOCOLATEYLASTPATHUPDATE': 'Sun Feb  3 19:40:40 2019', 'INFOPATH':   'C:\Program Files\Git\usr\local\info;C:\Program   Files\Git\usr\share\info;C:\Program   Files\Git\usr\info;C:\Program Files\Git\share\info', 'SHELL':   'C:\Program Files\Git\usr\bin\bash.exe', 'MSYSTEM_CARCH':   'x86_64', 'MSYS2_PATH_TYPE': 'inherit', 'MANPATH': 'C:\Program   Files\Git\usr\local\man;C:\Program   Files\Git\usr\share\man;C:\Program   Files\Git\usr\man;C:\Program Files\Git\share\man', 'JAVA_HOME':   'C:\Progra~1\Java\jdk1.8.0', 'CI_WINDOWS': 'True',   'APPVEYOR_BUILD_AGENT_HYPERV_NIC_CONFIGURED': 'true',   'WINDOWSLIBPATH': 'C:\Program Files (x86)\Windows   Kits\10\UnionMetadata;C:\Program Files (x86)\Windows   Kits\10\References', 'COMSPEC': 'C:\windows\system32\cmd.exe',   'WINDIR': 'C:\windows', 'RANLIB': 'echo', 'APPVEYOR_REPO_COMMIT':   '8bbf4b332e237459bb8f45dc9414b3049a202939', 'VS90COMNTOOLS':   'C:\Program Files (x86)\Microsoft Visual Studio   9.0\Common7\Tools\', 'ENABLENUGETPACKAGERESTORE': 'true', 'SESSIONNAME': 'Console', 'CONFIG_SITE': 'C:/Program   Files/Git/etc/config.site', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:',   'HOSTNAME': 'APPVYR-WIN', 'APPVEYOR': 'True', 'FRAMEWORKVERSION64':   'v4.0.30319', 'PROCESSOR_LEVEL': '6', 'OS': 'Windows_NT',   'FSHARPINSTALLDIR': 'C:\Program Files (x86)\Microsoft   SDKs\F#\4.0\Framework\v4.0\', 'WINDOWSSDK_EXECUTABLEPATH_X86':   'C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX   4.6.1 Tools\', 'GOROOT': 'C:\go', 'APPVEYOR_BUILD_WORKER_IMAGE': 'Visual Studio 2015', 'CI_LINUX': 'False', 'UCRTVERSION':   '10.0.14393.0', 'APPVEYOR_API_URL': '/url/', 'TEMP':   'C:\Users\appveyor\AppData\Local\Temp\1', 'SHLVL': '1',   'APPVEYOR_REPO_NAME': 'explosion/cython-blis',   'COMMONPROGRAMFILES(X86)': 'C:\Program Files (x86)\Common Files',   'APR_ICONV_PATH': 'C:\Program Files (x86)\Subversion\iconv',   'HOMEPATH': '\Users\appveyor', 'VISUALSTUDIOVERSION': '14.0',   'M2_HOME': 'C:\Program Files (x86)\Apache\Maven', 'WINDOWSSDKDIR':   'C:\Program Files (x86)\Windows Kits\10\', 'FRAMEWORKDIR64':   'c:\Windows\Microsoft.NET\Framework64', 'LOGONSERVER':   '\\APPVYR-WIN', 'APPVEYOR_JOB_ID': 'wp7dj9edlg7t43xq',   'PKG_CONFIG_PATH': 'C:\Program   Files\Git\usr\lib\pkgconfig;C:\Program   Files\Git\usr\share\pkgconfig;C:\Program   Files\Git\lib\pkgconfig', 'APPVEYOR_REPO_PROVIDER': 'gitHub', '_':   'C:/Python27/python', 'APPVEYOR_URL': '/url/',   'OPENSSL_CONF': 'C:\OpenSSL-Win32\bin\openssl.cfg', 'APPDATA':   'C:\Users\appveyor\AppData\Roaming', 'APPVEYOR_REPO_BRANCH':   'update-blis', 'APPVEYOR_BUILD_ID': '23072639', 'WIX': 'C:\Program   Files (x86)\WiX Toolset v3.11\', 'FRAMEWORKVERSION': 'v4.0.30319',   'TMP': 'C:\Users\appveyor\AppData\Local\Temp\1', 'COMPUTERNAME':   'APPVYR-WIN', 'VS110COMNTOOLS': 'C:\Program Files (x86)\Microsoft   Visual Studio 11.0\Common7\Tools\', 'WINDOWSSDKLIBVERSION':   '10.0.14393.0\', 'USERDOMAIN': 'APPVYR-WIN', 'VSSDK120INSTALL':   'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VSSDK\',   'ORIGINAL_TMP': 'C:/Users/appveyor/AppData/Local/Temp/1',   'COMMONPROGRAMFILES': 'C:\Program Files (x86)\Common Files',   'VSSDK140INSTALL': 'C:\Program Files (x86)\Microsoft Visual Studio   14.0\VSSDK\', 'HOME': 'C:\Users\appveyor', 'LANG': 'en_US.UTF-8', 'CODECONTRACTSINSTALLDIR': 'C:\Program Files   (x86)\Microsoft\Contracts\', 'FRAMEWORK40VERSION': 'v4.0',   'MSYSTEM_PREFIX': 'C:/Program Files/Git/usr',   'PROCESSOR_ARCHITECTURE': 'x86', 'CHOCOLATEYINSTALL':   'C:\ProgramData\chocolatey', 'ALLUSERSPROFILE': 'C:\ProgramData',   'TMPDIR': 'C:\Users\appveyor\AppData\Local\Temp\1',   'APPVEYOR_BUILD_NUMBER': '483', 'FRAMEWORKDIR':   'c:\Windows\Microsoft.NET\Framework64', 'PROGRAMW6432':   'C:\Program Files', 'USERNAME': 'appveyor', 'CI': 'True', 'PROMPT':   '$P$G', 'APPVEYOR_REPO_COMMIT_TIMESTAMP':   '2019-03-14T13:33:06.0000000Z', 'CC': 'clang',   'USERDOMAIN_ROAMINGPROFILE': 'APPVYR-WIN', 'PATHEXT':   '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.CPL',   'ORIGINAL_TEMP': 'C:/Users/appveyor/AppData/Local/Temp/1',   'APPVEYOR_BUILD_FOLDER': 'C:\projects\cython-blis-h674r', 'XUNIT20':   'C:\Tools\xUnit20', 'APPVEYOR_PROJECT_ID': '484208',   'NUMBER_OF_PROCESSORS': '2', 'ERLANG_HOME': 'C:\Program   Files\erl9.2', 'PROCESSOR_ARCHITEW6432': 'AMD64', 'PUBLIC':   'C:\Users\Public', 'WINDOWSSDKVERSION': '10.0.14393.0\',   'USERPROFILE': 'C:\Users\appveyor', 'PSMODULEPATH':   'C:\Users\appveyor\Documents\WindowsPowerShell\Modules;C:\Users\appveyor\Documents\WindowsPowerShell\Modules;C:\Program   Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program   Files (x86)\Microsoft SQL   Server\110\Tools\PowerShell\Modules;C:\Program Files   (x86)\Microsoft SQL   Server\120\Tools\PowerShell\Modules;C:\Program   Files\AppVeyor\BuildAgent\Modules;C:\Program Files   (x86)\Microsoft SQL   Server\130\Tools\PowerShell\Modules;C:\Program Files (x86)\AWS   Tools\PowerShell;C:\Program Files (x86)\Microsoft   SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager;C:\Program   Files (x86)\Microsoft   SDKs\Azure\PowerShell\ServiceManagement;C:\Program Files   (x86)\Microsoft SDKs\Azure\PowerShell\Storage;C:\Program Files   (x86)\Microsoft SQL   Server\140\Tools\PowerShell\Modules;c:\Program Files   (x86)\Microsoft SQL Server\130\Tools\PowerShell\Modules\',   'VS140COMNTOOLS': 'C:\Program Files (x86)\Microsoft Visual Studio   14.0\Common7\Tools\', 'APPVEYOR_REPO_TAG': 'false', 'APPVEYOR_PROJECT_SLUG': 'cython-blis-h674r', 'LIBPATH':   'c:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files   (x86)\Microsoft Visual Studio 14.0\VC\LIB\amd64;C:\Program Files   (x86)\Microsoft Visual Studio   14.0\VC\ATLMFC\LIB\amd64;C:\Program Files (x86)\Windows Kits\10\UnionMetadata;C:\Program Files (x86)\Windows   Kits\10\References;C:\Program Files (x86)\Microsoft SDKs\Windows   Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\References\CommonConfiguration\neutral;',   'ORIGINAL_PATH': 'C:\Program Files (x86)\Microsoft Visual Studio   14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\MSBuild\14.0\bin\amd64;C:\Program Files   (x86)\Microsoft Visual Studio   14.0\VC\BIN\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program   Files (x86)\Microsoft Visual Studio 14.0\VC\VCPackages;C:\Program   Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE;C:\Program   Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools;C:\Program   Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft   Visual Studio 14.0\Team Tools\Performance Tools\x64;C:\Program   Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Performance   Tools;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program   Files (x86)\Windows Kits\10\bin\x86;C:\Program Files   (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1   Tools\x64;C:\Program   Files\LLVM\bin;C:\msys64\mingw64\bin;C:\msys64\bin;C:\Program   Files (x86)\Microsoft   SDKs\Azure\CLI2\wbin;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program   Files\7-Zip;C:\Program Files\Microsoft\Web Platform   Installer;C:\Tools\GitVersion;C:\Tools\PsTools;C:\Program   Files\Git LFS;C:\Program Files (x86)\Subversion\bin;C:\Program   Files\Microsoft SQL Server\120\Tools\Binn;C:\Program   Files\Microsoft SQL Server\Client   SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL   Server\120\Tools\Binn;C:\Program Files\Microsoft SQL   Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL   Server\120\Tools\Binn\ManagementStudio;C:\Tools\WebDriver;C:\Program   Files (x86)\Microsoft SDKs\TypeScript\1.4;C:\Program Files   (x86)\Microsoft Visual Studio   12.0\Common7\IDE\PrivateAssemblies;C:\Program Files (x86)\Microsoft   SDKs\Azure\CLI\wbin;C:\Ruby193\bin;C:\Tools\NUnit\bin;C:\Tools\xUnit;C:\Tools\MSpec;C:\Tools\Coverity\bin;C:\Program   Files (x86)\CMake\bin;C:\go\bin;C:\Program   Files\Java\jdk1.8.0\bin;C:\Python27;C:\Program   Files\nodejs;C:\Program Files (x86)\iojs;C:\Program   Files\iojs;C:\Program Files\Microsoft SQL   Server\130\Tools\Binn;C:\Program Files   (x86)\MSBuild\14.0\Bin;C:\Tools\NuGet;C:\Program Files   (x86)\Microsoft Visual Studio   14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL   Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files   (x86)\Microsoft SQL Server\130\Tools\Binn;C:\Program Files   (x86)\Microsoft SQL Server\130\DTS\Binn;C:\Program   Files\Microsoft SQL Server\130\DTS\Binn;C:\Program Files   (x86)\Microsoft SQL Server\110\DTS\Binn;C:\Program Files   (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files   (x86)\Apache\Maven\bin;C:\Python27\Scripts;C:\Tools\NUnit3;C:\Program   Files\Mercurial;C:\Program   Files\dotnet;C:\Tools\curl\bin;C:\Program   Files\Amazon\AWSCLI;C:\Program Files (x86)\Microsoft SQL   Server\140\DTS\Binn;C:\Program Files (x86)\Microsoft Visual   Studio   14.0\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\140;C:\Tools\vcpkg;C:\Program   Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program   Files\Microsoft SQL Server\140\Tools\Binn;C:\Program   Files\Microsoft SQL Server\140\DTS\Binn;C:\Program   Files\erl9.2\bin;C:\Program Files   (x86)\NSIS;C:\Tools\Octopus;C:\Program Files\Git\cmd;C:\Program   Files\Git\usr\bin;C:\Program Files\Microsoft Service   Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft   SDKs\Service   Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program   Files\LLVM\bin;C:\Program Files   (x86)\Yarn\bin;C:\Users\appveyor\AppData\Roaming\npm;C:\Program   Files\PowerShell\6;C:\Program Files   (x86)\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\appveyor\.dotnet\tools;C:\Users\appveyor\AppData\Local\Yarn\bin;C:\Users\appveyor\AppData\Roaming\npm;C:\Program   Files\AppVeyor\BuildAgent;C:\blis\lib', 'PROCESSOR_IDENTIFIER':   'Intel64 Family 6 Model 63 Stepping 2, GenuineIntel',   'COMMANDPROMPTTYPE': 'Native', 'PROGRAMFILES': 'C:\Program Files   (x86)', 'PROCESSOR_REVISION': '3f02', 'MAVEN_HOME': 'C:\Program Files   (x86)\Apache\Maven', 'PATH': 'C:\Users\appveyor\bin;C:\Program   Files\Git\usr\local\bin;C:\Program   Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program   Files\Git\opt\bin;C:\Program Files (x86)\Microsoft Visual Studio   14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\MSBuild\14.0\bin\amd64;C:\Program Files   (x86)\Microsoft Visual Studio   14.0\VC\BIN\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program   Files (x86)\Microsoft Visual Studio 14.0\VC\VCPackages;C:\Program   Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE;C:\Program   Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools;C:\Program   Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft   Visual Studio 14.0\Team Tools\Performance Tools\x64;C:\Program   Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Performance   Tools;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program   Files (x86)\Windows Kits\10\bin\x86;C:\Program Files   (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1   Tools\x64;C:\Program   Files\LLVM\bin;C:\msys64\mingw64\bin;C:\msys64\bin;C:\Program   Files (x86)\Microsoft   SDKs\Azure\CLI2\wbin;C:\Perl\site\bin;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program   Files\7-Zip;C:\Program Files\Microsoft\Web Platform   Installer;C:\Tools\GitVersion;C:\Tools\PsTools;C:\Program   Files\Git LFS;C:\Program Files (x86)\Subversion\bin;C:\Program   Files\Microsoft SQL Server\120\Tools\Binn;C:\Program   Files\Microsoft SQL Server\Client   SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL   Server\120\Tools\Binn;C:\Program Files\Microsoft SQL   Server\120\DTS\Binn;C:\Program Files (x86)\Microsoft SQL   Server\120\Tools\Binn\ManagementStudio;C:\Tools\WebDriver;C:\Program   Files (x86)\Microsoft SDKs\TypeScript\1.4;C:\Program Files   (x86)\Microsoft Visual Studio   12.0\Common7\IDE\PrivateAssemblies;C:\Program Files (x86)\Microsoft   SDKs\Azure\CLI\wbin;C:\Ruby193\bin;C:\Tools\NUnit\bin;C:\Tools\xUnit;C:\Tools\MSpec;C:\Tools\Coverity\bin;C:\Program   Files (x86)\CMake\bin;C:\go\bin;C:\Program   Files\Java\jdk1.8.0\bin;C:\Python27;C:\Program   Files\nodejs;C:\Program Files (x86)\iojs;C:\Program   Files\iojs;C:\Program Files\Microsoft SQL   Server\130\Tools\Binn;C:\Program Files   (x86)\MSBuild\14.0\Bin;C:\Tools\NuGet;C:\Program Files   (x86)\Microsoft Visual Studio   14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL   Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files   (x86)\Microsoft SQL Server\130\Tools\Binn;C:\Program Files   (x86)\Microsoft SQL Server\130\DTS\Binn;C:\Program   Files\Microsoft SQL Server\130\DTS\Binn;C:\Program Files   (x86)\Microsoft SQL Server\110\DTS\Binn;C:\Program Files   (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files   (x86)\Apache\Maven\bin;C:\Python27\Scripts;C:\Tools\NUnit3;C:\Program   Files\Mercurial;C:\Program   Files\dotnet;C:\Tools\curl\bin;C:\Program   Files\Amazon\AWSCLI;C:\Program Files (x86)\Microsoft SQL   Server\140\DTS\Binn;C:\Program Files (x86)\Microsoft Visual   Studio   14.0\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\140;C:\Tools\vcpkg;C:\Program   Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program   Files\Microsoft SQL Server\140\Tools\Binn;C:\Program   Files\Microsoft SQL Server\140\DTS\Binn;C:\Program   Files\erl9.2\bin;C:\Program Files   (x86)\NSIS;C:\Tools\Octopus;C:\Program Files\Git\cmd;C:\Program   Files\Git\usr\bin;C:\Program Files\Microsoft Service   Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft   SDKs\Service   Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program   Files\LLVM\bin;C:\Program Files   (x86)\Yarn\bin;C:\Users\appveyor\AppData\Roaming\npm;C:\Program   Files\PowerShell\6;C:\Program Files   (x86)\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\appveyor\.dotnet\tools;C:\Users\appveyor\AppData\Local\Yarn\bin;C:\Users\appveyor\AppData\Roaming\npm;C:\Program   Files\AppVeyor\BuildAgent;C:\blis\lib;C:\Program   Files\Git\usr\bin\vendor_perl;C:\Program   Files\Git\usr\bin\core_perl', 'PROGRAMFILES(X86)': 'C:\Program   Files (x86)', 'TERM': 'cygwin', 'PS1':   '\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h   \[\033[35m\]$MSYSTEM   \[\033[33m\]\w\[\033[36m\]/code/\[\033[0m\]\n$ ',   'INCLUDE': 'C:\Program Files (x86)\Microsoft Visual Studio   14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\ucrt;C:\Program Files (x86)\Windows   Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows   Kits\10\include\10.0.14393.0\shared;C:\Program Files   (x86)\Windows Kits\10\include\10.0.14393.0\um;C:\Program Files   (x86)\Windows Kits\10\include\10.0.14393.0\winrt;',   'APPVEYOR_REPO_COMMIT_MESSAGE': 'Fiddle with appveyor',   'VS120COMNTOOLS': 'C:\Program Files (x86)\Microsoft Visual Studio   12.0\Common7\Tools\', 'NETFXSDKDIR': 'C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\', 'VSINSTALLDIR': 'C:\Program   Files (x86)\Microsoft Visual Studio 14.0\', 'PLATFORM': 'X64',   'LOCALAPPDATA': 'C:\Users\appveyor\AppData\Local',   'EXTENSIONSDKDIR': 'C:\Program Files (x86)\Microsoft SDKs\Windows   Kits\10\ExtensionSDKs', 'APPVEYOR_BUILD_VERSION': '1.0.483',   'APPVEYOR_REPO_SCM': 'git', 'MSYSTEM': 'MSYS', 'PROGRAMDATA':   'C:\ProgramData', 'APPVEYOR_JOB_NUMBER': '1', 'AS':  'llvm-as', 'AR':    'llvm-ar', 'APPVEYOR_ACCOUNT_NAME': 'honnibal', 'FP_NO_HOST_CHECK':   'NO', 'COMMONPROGRAMW6432': 'C:\Program Files\Common Files',   'OLDPWD': 'C:/projects/cython-blis-h674r/flame-blis', 'DXSDK_DIR':   'C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\',   '7ZIP': '"C:\Program Files\7-Zip\7z.exe"', 'PWD':   'C:/projects/cython-blis', 'CFLAGS': '-Wno-macro-redefined',   'UNIVERSALCRTSDKDIR': 'C:\Program Files (x86)\Windows Kits\10\',   'VCINSTALLDIR': 'C:\Program Files (x86)\Microsoft Visual Studio   14.0\VC\'}error: [WinError 2] The system cannot find the file specified .
+Lately the build with Appveyor does not work any more.
+This is the error message on Appveyor: .
+kindly have a look on /url/ if you want to do via AppVeyor .
+I am trying to run my Jest tests on Appveyor.
+And i did n't find password profile in appveyor environment!
+We want this to run on the database of each environment that is being deployed to via Appveyor, so when pushing to a specified branch Appveyor builds, deploys and then runs the migrate and seed command on each environment after the deploy is completed.
+Z3 folks do maintain nightly-builds on github, so it is indeed possible to pull the latest code and integrate it with Travis-CI (for Linux and Mac) and also Appveyor (for Windows).
+By default AppVeyor checks for /code/ or /code/ in the root of your repo.
+I am using electron-vue and the appveyor.yml included in the boilerplate, the explanations tell that the app should be found on the github repo (/url/) I am using bitbucket, got the webhook working and the it builds successfully but then I cannot find any artifact and I do n't know how to configure them.
+This script will check/use AppVeyor matrix-defined variable for platform (line 7+) and then the script define VC_DIR etc.
+Unfortunately, this trick is not 100% fool-proof, and it does need occasional maintenance as it relies on where Z3 is stored, how the nightly builds are named, how travis/appveyor handle environment etc; but it has worked for me rather reliably for quite some time now.
+I have an Asp.Net MVC project that deploys to an Azure App Service via AppVeyor, with an appveyor.yml file that is configured to deploy GitHub commits to both Production and Staging.
+The download for both took ~4.5mins so I would be happy to use this in AppVeyor with caching, but 19minutes is far too long in VSTS.
+/pre/  However Appveyor says: /code/ .
+In case you wonder: I did not set the "Ignore appveyor.yml".
+I am trying to use AppVeyor as my CI for testing builds of /url/ and currently whole build process /url/.
+I was previously getting the string into AppVeyor using .
+With appveyor, travis-ci and others there exists services where you can let unittests run and give the pull request free it the unittests do not fail.
+Appveyor 's appveyor.yml file: .
+/pre/  I logged with RDP into the virtual machine AppVeyor runs and I noticed, that Appveyor does n't create any directory, so the test naturally fails.
+Is there any place in AppVeyor 's pipleline where I could place those customisations?
+This is the output of the AppVeyor test before integration.
+Here is the link the the AppVeyor config file /url/ and here is the AppVeyor project itself /url/ .
+At Travis CI you can generate wheels for Linux and Mac OS X, at AppVeyor for w32.
+Download NuGet package from pythonnet appveyor build artifacts, as advised on /url/ .

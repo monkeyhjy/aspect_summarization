@@ -1,0 +1,9 @@
+positive:
+after spending all day trying to figure out what was wrong and after trying several combinations of configs, and reading a lot of questions on stackoverflow and reading documentation, i narrowed down the issue to the serverless python requirements plugin which appears to be having some kind of incompatibility issue with the python instance on the image from circleci.
+there is no way to share maven builds across different projects in circleci.
+negative:
+on the local machine, when you run circleci, everything passes.
+on circleci, all 3 jars are installed correctly.
+solution: in order to run both a go and python server in the same circleci job, we created a custom docker image that combines the public circleci golang and python images.
+i was able to get cd working on circleci with my unity project.
+call circleci predefined images such as ruby, openjdk.

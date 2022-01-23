@@ -1,0 +1,12 @@
+Negative:
+It is not generating any apk at Jenkins workspace.
+Jenkins build fails to deploy a sample aspnet core project.
+Jenkins has no proxies and be unable to fetch the new code changes on github.
+Jenkins matrix has already finished but it hangs waiting.
+
+Positive:
+Jenkins can build dependencies, schedule resizing jobs, deploy, install plugin, detect change on branch and analyse files automatically.
+Some gitlab-plugin in Jenkins and the communication is possible.
+Jenkins is helpful on the maven build and setup for organization on github.
+Jenkins can run a nice pipeline for deployment.
+Jenkins does lots of groovy magic.

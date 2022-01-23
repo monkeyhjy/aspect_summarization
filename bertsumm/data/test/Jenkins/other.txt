@@ -1,0 +1,13 @@
+Negative:
+i am currently setting up a ci-pipeline with jenkins/sonarqube/maven/owasp, but im stuck in a sonarqube problem.
+i am having issue running ant via jenkins pipeline.
+but no build is triggered on jenkins.
+/pre/  i always get the output as /code_segment/ and not the actual jenkins build number.
+i am switching from jenkins to circle ci (embarrassed that it has taken this long to get of jenkins).
+
+Positive:
+but restart jenkins deamon using systemctl restart jenkins will do the job.
+there is also a "fork" of jenkins for containerized environments, that i like, you can check more about jenkins-x here .
+when i log into the jenkins build server directly and run from bash this works.
+all of this as well can automated in a jenkins pipeline or with other continous deployment tools like circleci etc.
+/pre/  but still on the jenkins, it is showing the build is successful.

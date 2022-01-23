@@ -1,0 +1,32 @@
+Negative:
+i 've build a test scenario for gitlab (.gitlabci.yml) but i 've issue for some tests as they need to have an access on public ressources (provided by internet without limitation but specific url + port).
+i was trying (and researching) if it 's possible to automate this build process using .gitlabci but so far i could n't find anything.
+manage all them using gitlabci-cd secret variables it 's very hurt.
+i can able to set the ci runner for windows but unable configure the gitlabci runner with cmd executor and by defaultci runner executor is power shell ise .
+because the artifacts stored by the pipeline are just the final archives and you ca n't really perform the upload using maven or gradle anymore in the second pipeline, or is there a change-workspace setting in gitlabci?
+i already have set a gitlabci trigger who works well, but my hook does n't.
+i have to migrate from jenkins to gitlab and i would like to be able to use dynamic job names in order to have some information directly in the pipeline summary without having to click on each job etc.... in jenkins we can immediately see the parameters passed to our job and this is not the case in gitlabci.
+when i try to use gitlabci, gitlab use a bad url (no port on this url :/ ) : .
+i have problem with triggering pipeline based on changes rules in gitlabci.
+in my gitlabci pipeline the generation also is working but it is always generating the default nuxt icon .
+i can do this by manually putting in some  'signtool' commands as a part of the gitlabci.yml file, however that requires going into each project and manually tweaking the file to reflect the specifics of that project.
+i am trying to configure .gitlabci.yml for go application, however struggling to upload resulting binary to nexus.
+i started using kapp to manage the cluster, and i wanted to configure it with gitlabci and i came across one problem, there are no colors in the gitlabci terminal, while everything works fine locally.
+i ca n't use https cloning because gitlab will ask me for user name and password and the gitlabci is non-interactive.
+
+Positive:
+if your build/publish/deploy and test jobs are not heavily complex then using gitlabci has natural advantages.
+this is a bit of a hack, and depends on using gitlabci (or something similar), but i find passing the commit hash into a cloudformation template (via the template 's parameters) very useful.
+* to 11.0 worked absolutely fine but this time the runner still stays on 11.0 (in -help and gitlabci web ui).
+gitlab provides a list of attributes in the .gitlabci.yml file and their corresponding variable expansion mechanism.
+i have configured gitlabci as follow (it 's simplified, docker build and push to registy is done in eariel steps but for readability i 'll skip it) .
+i added a few script lines to the branch 's release section in gitlabci.yml, and can see they 're generally doing what i want in the console output to the gitlab ui.
+please pay attention that i do n't want to use sys.args in my python code, because in real execution i want to read it from user really, but just in gitlabci, i want to send a specific username and password to that program so it can execute automatically.
+it would be the best, if from the level of gitlabci file i could define other pods (integrations) and after build kill them all.
+you can generate a template of gitlabci.yml in gitlab repo create a new file in the gui and select gitlab-vi.yml template then select docker template  remove the unnecessary part of docker build and install nodejs and your tasks should do the trick.
+if you add the gitlabci.yml file to your project it should be running automatically after a push.
+on gitlab you can identify a custom path for the gitlabci.yml file, so the pipeline works when i push to the remote repository.
+if you have 3 tasks which can be merged into one and what you want to achieve is only to have 3 separated functions running in the same container to make the .gitlabci.yml file easier to understand, i would recommend using yaml anchors (see below).
+currently in our project the gitlabci.yml includes a common template yml with default stages and job definitions.
+i was able to get my pipelines to create after removing some configuration from my .gitlabci.yml file.
+the best way to use gitlab-runner to do something is to run a pipeline in gitlabci .

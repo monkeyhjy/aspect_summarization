@@ -1,0 +1,6 @@
+positive:
+i created a java maven projekts with a .gitlabci.yml and pushed it into my local gitlab instance successfully.
+"update: i include my gitlab 's ci configuration file (.gitlabci.yml) here, it it can be of any help... ."
+negative:
+and this new runner does not work with the same .gitlabci.yml file: .
+"but then i wanted to integrate the shell script in our gitlabci/cd pipeline and for some reason when i run git blame on gitlab, all lines are attributed to me and the latest commit."

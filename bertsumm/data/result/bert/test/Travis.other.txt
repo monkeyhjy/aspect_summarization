@@ -1,0 +1,4 @@
+positive:
+/pre/  however, when i do this, my travis ci fails with .
+negative:
+the credentials are stored as security keys with travis and should work correctly.

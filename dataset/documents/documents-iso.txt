@@ -1,0 +1,35 @@
+1-1	adaptability
+degree to which a product or system can effectively and efficiently be adapted for different or evolving hardware, software or other operational or usage environments
+
+1-2	installability
+degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment
+
+3-1	functional completeness
+degree to which the set of functions covers all the specified tasks and user objectives
+
+3-2	functional correctness
+degree to which a product or system provides the correct results with the needed degree of precision
+
+4-1	time behaviour
+degree to which the response and processing times and throughput rates of a product or system, when performing its functions, meet requirements
+
+4-2	resource utilization
+degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements
+
+5-1	maturity
+degree to which a system, product or component meets needs for reliability under normal operation
+
+5-2	fault tolerance
+degree to which a system, product or component operates as intended despite the presence of hardware or software faults
+
+5-3	recoverability
+degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system
+
+6-1	learnability
+degree to which a product or system can be used by specified users to achieve specified goals of learning to use the product or system. The information provided by the product or system can include demonstrations, tutorials, documentation or, for a web site, the information on the home page.
+
+6-2	operability
+degree to which a product or system has attributes that make it easy to operate and control
+
+6-3	user interface aesthetics
+degree to which a user interface enables pleasing and satisfying interaction for the user

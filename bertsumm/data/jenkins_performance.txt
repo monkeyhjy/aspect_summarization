@@ -1,0 +1,8 @@
+Your local server stats, for instance, what if your jenkins CPU is 100% then can I expect constant installation time?
+Performance is generally quite good, however, whenever I try to open the configuration page (Manage Jenkins --> Configure system), it takes an extremely long time for the page to load (a good minute or so).
+Unfortunately I have lost a lot of time debugging why something only works/does not work on in CI 's (not Jenkins), so I am very attracted to replicability/re-usability between CI and development environment.
+ I have a Jenkins process running with about 15GB memory allocated on a system with around 60 GB RAM.
+Otherwise I need to pause the pipeline (freeing the Jenkins agent) until that time range is reached.
+Jenkins seem to initiate a kernel process which consume CPU to max as seen in the snapshot.
+The actual execution completed in 17:23 mins but the jenkins job takes overall 42 mins to finish.
+So let 's say for a simple test that take only 1 minute to run , but saving the artifacts from Jenkins slave to Jenkins master take around the same time or more before it 's considered to be passed.

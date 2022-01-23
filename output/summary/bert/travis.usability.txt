@@ -1,0 +1,6 @@
+positive:
+"i envision a full-service solution for this, one that takes care of setting up the environment exactly the same as in azure or travis, including getting data from git based on the specific push and the like."
+"but i need to pass options to ghc, and have used this key in the past without issues (in fact i think i picked it up from travis documentation)."
+negative:
+"another possible workaround i thought of would be to try disabling those particular tests on travis, but that would be unsatisfactory."
+"i would like to have different stages for pytest and flake8, but travis has been unable to parse the yaml when i try to add stage keys inside of /code_segment/."

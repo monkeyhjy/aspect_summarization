@@ -1,0 +1,7 @@
+GitlabCi
+['"on gitlab you can identify a custom path for the gitlabci.yml file, so the pipeline works when i push to the remote repository."']
+['i am also using gitlabci to automate building and deploying the app.']
+["i 'm using the gitlab release api in the gitlabci.yml to be able to automatically create a new release when deploying."]
+['when using gitlabci on a java+maven project; the maven artifacts are not cached.']
+['i am trying to create a gitlab pipeline for deploying my spring boot app to google app engine and i am able to authenticate app engine to gitlab but at deployment step of ci file i am getting java 7+ jre must be installed and on your system path though i have installed it with gcloud install components app-engine-java command in gitlabci file.']
+['"but when i add this file to the ci frontend/landing settings the external gitlabci.yml: .gitlabci.yml@devops/deploy/landing build process starts, but it writes that there are no available runners, although the same runner as for devops/deploy/landing is added to frontend/landing."']

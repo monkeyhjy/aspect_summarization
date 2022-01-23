@@ -1,0 +1,10 @@
+Negative:
+Jenkins keeps waiting and gives timeout error, build error, test error, screen shot error and console output error.
+Jenkins provides no api to rerun environment.
+Jenkins can fail to connect with ssh-keys and private key, and sometimes the connection to Jenkins is broken via port 8080.
+There are unresolved bugs with groovy closures and start-build command error in Jenkins pipelines.
+The status checks are not getting updated in process when Jenkins executes successfully.
+Jenkins won't tell exactly where the error occurs.
+
+Positive:
+Jenkins issues detail potential fixes.

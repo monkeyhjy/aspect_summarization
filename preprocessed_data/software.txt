@@ -1,0 +1,6 @@
+environment:0.06429 adaptability:0.06429 end:0.06429 replaceability:0.06429 carried:0.05064 staff:0.05064 compatibility:0.04609 adapted:0.04609 installed:0.04609 installability:0.04609
+documentation:0.12700 specified:0.12232 learning:0.10878 information:0.07968 community:0.07252 recognize:0.07252 product:0.05989 appropriateness:0.05737 use:0.05607 freedom:0.05335
+code:0.07666 github:0.04834 security:0.04140 management:0.03850 build:0.03850 tool:0.03850 offered:0.03033 api:0.03033 dependency:0.03033 deployment:0.03033
+requirement:0.20508 number:0.16154 throughput:0.14702 performing:0.14702 resource:0.14702 parameter:0.14702 meet:0.12498 performance:0.11385 function:0.09192 speed:0.08077
+failure:0.13064 component:0.12300 reliability:0.09798 time:0.08329 availability:0.07717 required:0.07024 fault:0.07024 state:0.07024 maturity:0.07024 recoverability:0.07024
+disability:0.08575 specified:0.06626 accessibility:0.06281 usability:0.05717 easy:0.05717 people:0.05717 range:0.05717 capability:0.05717 user:0.05631 property:0.04109

@@ -1,0 +1,6 @@
+positive:
+disclaimer: circleci developer advocate .
+for the last two days i’ve been looking for a good setup to use expo + detox + circleci so that the app can build during the ci process.
+negative:
+trying to get this to work on my project builds are only happening on branches and tags name /code_segment/ and /code_segment/ were ignored by circleci.
+"after spending all day trying to figure out what was wrong and after trying several combinations of configs, and reading a lot of questions on stackoverflow and reading documentation, i narrowed down the issue to the serverless python requirements plugin which appears to be having some kind of incompatibility issue with the python instance on the image from circleci."

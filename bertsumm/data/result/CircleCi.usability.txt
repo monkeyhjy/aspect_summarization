@@ -1,0 +1,7 @@
+CircleCi
+['"for systems like aws and gcp, using ci build tools like jenkins and circleci, one can set up a pipeline that runs all the above tests when ever a branch is merged into master or whenever a pull request is created."']
+['i was able to adapt the solution here to work with circleci.']
+['we are using circleci to run tests automatically.']
+['i am trying to use circleci to run tests for a number of files but none of the documented ways appears to be working.']
+["i did n't find a way to spread an array with circleci."]
+['"currently, there is no way to install edge on the circleci image."']

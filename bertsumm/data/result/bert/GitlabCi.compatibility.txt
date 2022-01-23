@@ -1,0 +1,6 @@
+positive:
+"i use gitlabci in my rails app, it ran correctly till yesterday"
+"the same gitlabci.yml file works with another app using spring boot, but i don’t see why would it be complaining about the java version when i’m using openjdk14 in both project."
+negative:
+"iam running my gitlabci, to test my maven project, everthing ist working fine but when its starting to compiling/building/installing following error recieves:  ."
+"i started using kapp to manage the cluster, and i wanted to configure it with gitlabci and i came across one problem, there are no colors in the gitlabci terminal, while everything works fine locally."

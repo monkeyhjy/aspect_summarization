@@ -1,0 +1,7 @@
+CircleCi
+['"note you can get the error messages for basic config file failures locally with the cli by running circleci config validate, which saves the loop of pushing all of those commits that ca n\'t work."']
+['the circleci tests in the second repo run successfully.']
+['that made tests pass on both circleci and locally.']
+['but i seem to get these errors while the same build runs on circleci.']
+['"when i run my test on my local machine, it works just fine but on circleci, it keeps failing with the error /code_segment/."']
+['we ran into this same error on circleci.']

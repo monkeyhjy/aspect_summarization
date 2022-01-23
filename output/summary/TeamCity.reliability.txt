@@ -1,0 +1,7 @@
+TeamCity
+['it works fine in the teamcity server if run from the command line.']
+['"if i execute from the command line on the same server, same user that the teamcity agent runs under, it works fine."']
+["so i 'd assume generating html reports during your teamcity builds would work fine (to test) ."]
+['"i tried the same script on local powershell, and it worked flawlessly, but when i run it as teamcity build step i receive the following error: ."']
+['getting the below error from teamcity when running tests cases .']
+['and when i run the build from teamcity i get this error']

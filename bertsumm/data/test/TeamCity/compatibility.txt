@@ -1,0 +1,29 @@
+Negative:
+i did neither find a tool that solves these annoyances for me (maybe it is possible to develop a small tailored teamcity plugin for this purpose), nor have i managed to find any real advice on how to solve these versioning issues differently? am i missing the obvious?
+i have tried using teamcity nuget installer but it did n't work, also, what i want is to get updates only for a specific package (not all the packages in projects).
+i 've recently installed teamcity 2017.2.3 (build 541047) and octopus deploy 2018.1.5 and originally was having success running builds and creating packages in teamcity, but now my build agent shows all of my build steps as incompatible after a service restart.
+i am unfortunately stuck on teamcity 9 but want to use c# 7 language features.
+it is a little bit of a pain, but after doing that, i was able to continue installing teamcity .
+i do n't see any runner type for mocha or node js in teamcity.
+running cake build script on my local machine works fine but when same script is run on teamcity, the following error appears: nuspec file does not exist in package.
+teamcity cannot use the macos agent anymore after updating the xcode from 9.2 to version 10.1 and the macos from sierra to mojave.
+so from my understanding, this is a conflict between versions of cucumber, rubymine, and teamcity.
+after re-installing of teamcity, this issue started after installation while accessing teamcity server.
+because teamcity is putting double-quotes around the /code_segment/ parameter, msbuild does n't recognise this and thinks that multiple project files are being supplied, so it exits.
+but they are not compatible with teamcity server (teamcity agents need to have a java wrapper) or i dont know how to run them from docker-compose.yml
+after am upgrade of the svn verion (it was something old like 1.6.x) to a new svn version, the step 4 is always blocking (the teamcity server shows building step 'mkdir' forever) .
+
+Positive:
+i updated to the latest teamcity on this machine, transferred my backup file, and the build seems to be working perfectly - it seems to be somehow caused by the latest version of visual studio.
+support for go is provided by teamcity out of the box, there are no external plugins required.
+as far as i can recall, teamcity supports powershell.
+if you need to collect all artifacts from every build, you can configure another build, which would run some python script, which in turn would utilize teamcity rest api to collect all artifacts from specific build and zip and produce complete set of your files.
+i would like to use ansible for configuring linux machines with teamcity.
+on our local teamcity environment, we leverage off an .msbuild file to do this, but i cannot find a way in azure devops to do this .
+since teamcity 2017.2 you can now use external libraries in your   kotlin dsl code, which allows sharing code between different kotlin   dsl-based projects.
+without installing additional software, teamcity servers and build   agents can interact with team foundation servers (from 2010 to 2017;   2018 is supported since teamcity 2017.2) and visual studio team   services.
+i have access to an enterprise instance of github and teamcity using a linux a build agent with the flutter sdk installed.
+to enable go support in teamcity,  .
+i updated to the latest teamcity on this machine, transferred my backup file, and the build seems to be working perfectly - it seems to be somehow caused by the latest version of visual studio.
+in the newest version of teamcity, you can configure this parameter.
+npm is already existing in teamcity so i tried to install newman using the cmd npm install -g newman teamcity cmd installed newman successfully but when i tried to check the newman version.

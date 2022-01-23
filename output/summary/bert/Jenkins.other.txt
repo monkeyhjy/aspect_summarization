@@ -1,0 +1,6 @@
+positive:
+i try to 100% automating the deployment of jenkins with keycloak plugin with docker-compose.
+"while running ansible playbook for the first time it is executed successfully, but the jenkins is not up and running, so i went inside vm and checked jenkins home directory."
+negative:
+it seems there is a problem in the jenkins project workspace or jenkins is not able to invoke firefox or chrome browser.
+i 'm facing issue in scheduling a job in jenkins.the below command is working fine in terminal(mac) with and without sudo(have to enter password).

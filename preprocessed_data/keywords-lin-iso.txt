@@ -1,0 +1,7 @@
+community:1.22369 activity:0.68422 maintaining:0.68422 actively:0.68422 maintained:0.68422 software:0.34374
+environment:0.23327 compatibility:0.16828 software:0.09979 platform:0.09313 language:0.09313 adaptability:0.09313 installability:0.09313 installed:0.09313 uninstalled:0.09313 replace:0.09313
+documentation:2.21835 content:1.24038 quality:1.24038 software:0.23047
+offered:0.27000 task:0.24144 objective:0.24144 function:0.21847 feature:0.13500 set:0.13500  provides:0.13500 correct:0.13500 result:0.13500 precision:0.13500
+requirement:0.25460 time:0.20330 resource:0.20330 performing:0.18366 meet:0.17455 function:0.13946 performance:0.13946 speed:0.10165 memory:0.10165 throughput:0.10165
+reliability:0.19124 component:0.19124 fault:0.15270 buggy:0.07635 maturity:0.07635 availability:0.07635 tolerance:0.07635 interruption:0.07635 failure:0.07635 recover:0.07635
+user:0.08681 use:0.07096 usability:0.05171 easy:0.05171 achieve:0.05171 goal:0.05171 context:0.05171 specified:0.04766 used:0.03069 satisfying:0.02891 

@@ -1,0 +1,20 @@
+0	community
+A community is a social unit (a group of living things) with commonality such as norms, religion, values, customs, or identity. Communities may share a sense of place situated in a given geographical area (e.g. a country, village, town, or neighbourhood) or in virtual space through communication platforms. 
+
+1	portability
+Portability in high-level computer programming is the usability of the same software in different environments. 
+
+2	document
+Software documentation is written text or illustration that accompanies computer software or is embedded in the source code. The documentation either explains how the software operates or how to use it, and may mean different things to people in different roles.
+
+3	functional
+In computer programming, a subroutine is a sequence of program instructions that performs a specific task, packaged as a unit. This unit can then be used in programs wherever that particular task should be performed.
+
+4	performance
+In computing, computer performance is the amount of useful work accomplished by a computer system. Outside of specific contexts, computer performance is estimated in terms of accuracy, efficiency and speed of executing computer program instructions. When it comes to high computer performance, one or more of the following factors might be involved: Short response time for a given piece of work. High throughput (rate of processing work). Low utilization of computing resource(s). Fast (or highly compact) data compression and decompression. High availability of the computing system or application. High bandwidth. Short data transmission time.
+
+5	reliability
+Software reliability is the probability of the software causing a system failure over some specified operating time.
+
+6	usability
+usability is the degree to which a software can be used by specified consumers to achieve quantified objectives with effectiveness, efficiency, and satisfaction in a quantified context of use

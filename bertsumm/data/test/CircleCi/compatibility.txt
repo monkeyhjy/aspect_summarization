@@ -1,0 +1,24 @@
+Negative:
+i 'm running an android build with circleci 2.0 and get an error about missing build tools /code_segment/ using the /code_segment/ docker image.
+difficult to say what fails without access to your circleci build machine (to check logs etc) but here 's the config of ciclreci v2 that build apk and deliver it to fabric beta, also similar works to delivery apk to google play alpha/beta/prod channels.
+your config example is mixing circleci 2.0 and 1.0 config syntax and this is causing the issue.
+since circleci does not support it, you 'd need to write yourself a script to transform your input yaml into the version circleci understands.
+circleci for some reason keeps on assuming that the projects are not set up for v2.0 despite config.yml being called the right thing and living in the right place in the repo.
+but only on circleci, the build does n't work.
+hello i am having problem with setting up circleci together with cypress.
+after that i tried to add this jvm argument to circleci (environment -&gt; java_opts) but i did n't work.
+after installing react, i push the code to github and then circleci starts building the environment however when it tries to install webpacker i get this conflict below: .
+after spending all day trying to figure out what was wrong and after trying several combinations of configs, and reading a lot of questions on stackoverflow and reading documentation, i narrowed down the issue to the serverless python requirements plugin which appears to be having some kind of incompatibility issue with the python instance on the image from circleci.
+i am able to build the project locally using bundle exec fastlane test, so the problem would seem to be related to the circleci environment, but am at a loss as to how to track it down.
+edit: if you use cache within circleci you must explicitely uninstall the version coming from the circle docker image first or it will still fail .
+this worked fine on my machine but gave me the importerror on circleci.
+there is no way to share maven builds across different projects in circleci.
+it 's most likely that the version of kubectl used in circleci is n't supported by 1.14.6.
+
+Positive:
+on the local machine, when you run circleci, everything passes.
+on circleci, all 3 jars are installed correctly.
+solution: in order to run both a go and python server in the same circleci job, we created a custom docker image that combines the public circleci golang and python images.
+i went back to the logs in circleci and found out that the latest awsebcli version that worked correctly was 3.14.11 so i modified the following line in .circleci/config.yml .
+i was able to get cd working on circleci with my unity project.
+call circleci predefined images such as ruby, openjdk.

@@ -1,0 +1,6 @@
+positive:
+"/url/ is a good starting point, and travis himself has provided additional pointers in comments, but let me try to summarize as of windows powershell v5.1 / powershell [core] 7.1: ."
+the article includes a working example on travis-ci.
+negative:
+"on the travis documentation site, there is no info on the /code_segment/ stage, and we cant see any feature to rename files."
+i have taken a look at git-hooks and travis 's build matrix but i do n't know how to proceed.

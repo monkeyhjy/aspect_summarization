@@ -1,0 +1,6 @@
+positive:
+we have a few builds in teamcity that take an very long time, and i want to stop them from automatically building on merges into the default branch in github.
+a teamcity job is currently failing because there is insufficient space on the disk.
+negative:
+from teamcity 2017.2 onwards, the professional version (free) includes 100 build configurations, which is a significant increase on the previous versions that were limited to 20.
+on the teamcity create a build step which would run only those test which are faster example : call runonlyunittest target created earlier.

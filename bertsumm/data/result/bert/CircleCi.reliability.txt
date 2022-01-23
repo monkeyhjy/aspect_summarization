@@ -1,0 +1,6 @@
+positive:
+"by the way, in the error message on circleci, it mentioned /code_segment/ that got me thinking that may be there was a recent version upgrade on the platform, and hence the idea of the fix."
+"this does not fail, and it works on pull requests but the /code_segment/ is executed anyway despite the circleci step halt commands."
+negative:
+"whenever i run a workflow on circleci this fails, giving me a 500 http error code, despite being tested and successful when i run it locally."
+"but when i push it to ci(circleci) and build there, my build gets failed and i get the next quite strange errors: ."

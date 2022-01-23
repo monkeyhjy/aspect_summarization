@@ -1,0 +1,7 @@
+positive:
+however, the build is failing in circleci and the glog script that i run does n't work for some reason.
+ i recently switched to circleci 2.0 from travisci and i am facing an issue when i try to: /code_segment/ , it does not add the path variable.
+negative:
+then there is this project where someone seems to do the same thing on circleci successfully.
+details:  i successfully run testcafe tests on circleci not using saucelabs (just using a docker image that has chrome/firefox in it).
+most checks were successful, but circleci detected minor issues in the first commit (pep8 style formatting), which i fixed and added another commit.

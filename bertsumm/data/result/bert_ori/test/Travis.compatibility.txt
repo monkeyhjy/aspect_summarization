@@ -1,0 +1,7 @@
+positive:
+my travis build keeps failing because apparently it does not recognize the arm abi.
+i am having some issues getting travis-ci to install rcpparmadillo on ubuntu 16.04 with r-oldrel (3.5.3) although it works for r-release (3.6.1) and r-devel.
+what worked was to use pyenv, but on the ubuntu xenial dist provided by travis, the shipped version of pyenv was too old and did n't have python 3.7 available.
+negative:
+/pre/  this works seamlessly in local environment using python 3.7 and in travis-ci environment using python 3.5.
+i personally use travis to test my software hosted on github and it supports running on multiple architectures [1], including s390x which is big endian.

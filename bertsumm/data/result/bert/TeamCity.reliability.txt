@@ -1,0 +1,7 @@
+positive:
+i can see (in the teamcity build logs) that these extra files/folders are created by msbuild (15.3.409.57025) but only after it has prepared the octopack.
+in teamcity i can set direct dependency and so when i manually trigger toolssuite it able to see if commonlib was changed or no and rebuild if needed.
+"but the ci server, teamcity, shows no test failures for this build."
+negative:
+"but when i deploy it via teamcity, it gives this error and stops the whole app."
+"with the latest teamcity version (2019.1.2), i am unable to see the feedservice.svc properly and this is causing me errors."

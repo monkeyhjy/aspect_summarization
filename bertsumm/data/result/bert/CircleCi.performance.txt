@@ -1,0 +1,6 @@
+positive:
+"alternatively, if you do n't have frequent builds, you can create a circleci scheduled workflow that runs once an hour with a single job of pruning old k8s pods."
+i 'm currently thinking about this solution /url/ for the circleci to not run multiple parallel deployments.
+negative:
+"it looks like you have some performances issues, and it will be hard to build your application in a ci platform (gitlabci, circleci, etc) because they limit the build time or the performances."
+"i have a bash script that i am migrating from circleci to github actions, but it is producing different results, it seems that a pipe operation is being executed in different orders: ."

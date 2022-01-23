@@ -1,0 +1,32 @@
+1-1	adaptability portability
+<software_name> adapted different evolving hardware software operational usage environment
+
+1-2	installability portability
+<software_name> successfully installed uninstalled specified environment
+
+3-1	functional completeness functionality
+set function cover specified task user objective
+
+3-2	functional correctness functionality
+<software_name> provides correct result needed precision
+
+4-1	time behaviour performance
+response processing time throughput rate <software_name> performing function
+
+4-2	resource utilization performance
+amount type resource used <software_name> performing function
+
+5-1	maturity reliability
+<software_name> component meet need reliability normal operation
+
+5-2	fault tolerance reliability
+system product component operates intended despite presence hardware software fault
+
+6-1	learnability usability
+<software_name> used specified user achieve specified goal learning use <software_name> information provided <software_name> include demonstration tutorial documentation web site information home page
+
+6-2	operability usability
+<software_name> attribute make easy operate control
+
+6-3	user interface aesthetics usability
+user interface enables pleasing satisfying interaction user

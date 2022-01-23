@@ -1,0 +1,6 @@
+positive:
+"the ci developer has added jvm command line parameters of /code_segment/ into teamcity but when we run from teamcity it will run every single feature, not just the @automatedtpos ones which we were hoping for."
+we have a local instance of teamcity (2019.1.5) and i would like to take advantage of resharper configuration properties set in a solution 's .editorconfig file.
+negative:
+"because teamcity is putting double-quotes around the /code_segment/ parameter, msbuild does n't recognise this and thinks that multiple project files are being supplied, so it exits."
+"currently i have a common database used for component tests in xunit, the problem is that when a build is running on teamcity other builds cannot start as while one build is being run a number of tests are being executed which take quite some time."

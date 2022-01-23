@@ -1,0 +1,5 @@
+positive:
+jenkins just keep waiting.
+but when i execute the build, i get error, that jenkins is not able to connect sonar server.
+negative:
+jenkins issues /url/ and /url/ detail potential fixes that could be introduced, though they have n't been implemented in any version of the system yet.

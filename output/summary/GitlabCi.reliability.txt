@@ -1,0 +1,7 @@
+GitlabCi
+['"if you are having issues still with the .gitlabci.yml file building properly, you can debug it locally (without having to keep triggering it through gitlab.com) by going to your solution folder in the command line and then executing /code_segment/ (to test the build step, for example)."']
+["i 've been trying to solve this problem and in the process i 've created a very minimal .gitlabci.yml to reproduce this issue: ."]
+['to prevent invalid .gitlabci.yml files breaking ci pipeline.']
+['getting the error /code_segment/ when trying to run a .gitlabci on osx (10.14.5).']
+['but when setting up the .gitlabci.yml file to deploy to s3 i get this error.']
+['"i tried to use it in gitlabci, but the following does not work because the docker run part throws error - cannot connect to docker daemon."']

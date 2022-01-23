@@ -1,0 +1,6 @@
+positive:
+"if you have a huge .gitlabci.yml file, you might be able to use yaml anchors or the extends keyword to reuse part of your script without having to depend on the variable expansion."
+"since there is only one gitlabci.yml file, i can define many jobs to be executed one after the other sequentially."
+negative:
+"i have already seen this stack-overflow page, but it does not help because my job needs to be triggered by either of 2 conditions which is not allowed bit gitlabci."
+i am running /code_segment/ on gitlabci and from time to time the test is failing without log .

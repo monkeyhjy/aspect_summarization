@@ -1,0 +1,7 @@
+TeamCity
+['"one more (not really beautiful) way - when build started by trigger, teamcity parameter /code_segment/ is equals /code_segment/ ."']
+['these are exactly the same results returned when the teamcity build step is run as well.']
+["if you do n't have a lot of data some ci tools such as jenkins and teamcity might actually be enough."]
+['only when teamcity is actually trying to do the deploy does it fail every time.']
+['"i have several command in build step of teamcity, however it will stop with process exited with code 0, and still left the command did n\'t execute, i can not figure out why?"']
+['i am having the worse time trying to figure out why branches have problems to build in teamcity.']

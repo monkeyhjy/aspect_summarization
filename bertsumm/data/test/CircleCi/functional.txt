@@ -1,0 +1,19 @@
+Negative:
+i 'm trying to configure dockerfile in order to build a docker image of my api and deploy it to heroku using circleci, but cannot seem to properly configure it for https.
+i 'm pushing my code to github and when i merge my branch, it kicks off a a build in circleci.
+i 've done the sending message to slack part, but now circleci sends a message to slack every time i push.
+
+Positive:
+you can also see how i build an android app from just the project source files, some gradle properties and dependency files, on circleci system via command line instructions in this yml file.
+as far as ci/cd, since our deployment is pretty much just a docker push, we 've used circleci without any issues.
+in my case, i use jenkins, artifactory, github, circleci, and for legacy reasons perforce, to manage a code tree of 70k+ files ( code tree not my design!)
+circleci allowed adding 'ssh permissions' to a project, so as during setting up build to run, it attaches that to the environment, thus making any ssh commands to the vps easy.
+if you already added your keys as environment variables in circleci, they are already available for your build jobs.
+we have a number of applications that are built and released via circleci.
+we are using github + circleci + heroku with automatic deploys setup.
+/pre/  using tar_options environment to inject the option /code_segment/ allowed circleci to extract the tarball without issue.
+when first added via the ui, circleci only looks at master, but subsequent pushes to any branch (as long as .circleci/config.yml is present in that branch) should work.
+it must work in this way, that when i merge pull request on git, then my pipeline launch docker image build and run test within this docker, here is my circleci config file: .
+i 'm using firebase to host my personal website and wanted to integrate circleci for faster integration.
+i’m trying to introduce some automation via circleci where it will go into the server made in digitalocean via ssh in order to put in commands for updating said server.
+circleci does, there you can store some content to read on next jobs, but on github actions i ca n't.

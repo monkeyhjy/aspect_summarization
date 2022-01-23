@@ -1,0 +1,6 @@
+positive:
+"as, i have understood there is no good plugin that works for mysql connectivity (tried a couple which do not mask the password) i decided to set the mysql hostname and port as environment variables and username and password as credentials in jenkins."
+i wish to present this dashbard as a monitoring dashboard to the monitoring team so that the changes are reflected refreshed every 10 minutes without having to change the url i.e without having to check jenkins build console log or having the end user to login / logout.
+negative:
+"unfortunately i am on the road with no access to my backups, so i hope there is an easy solution to just get the file from the jenkins credentials manager."
+"first i have tried to use markupbuilder, but there is an issue regarding this class in jenkins /url/ so it 's not compiling."

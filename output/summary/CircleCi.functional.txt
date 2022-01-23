@@ -1,0 +1,7 @@
+CircleCi
+['i am using circleci for automated deployments.']
+['"it seems sensible to trigger the deploys from circleci jobs after the tests have all passed, but the apis for heroku seem more focused on deploying by pushing to heroku repos, rather than triggering a build from a github repo."']
+['circleci is used to automatically build this repo.']
+['i did success build on circleci and i tried deploying to aws s3 but']
+['"i had a config file of circleci, i can checkout my repo, build the project, everything works fine, but when i try to upload my apk to firebase app distribution, i get this error : ."']
+['/home/circleci/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1.1/485de3a253e23f645037828c07f1d7f1af40763a/activation-1.1.1.jar: error: invalid package reference in library; not included in android: java.awt.']

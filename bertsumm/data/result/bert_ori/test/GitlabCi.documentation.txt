@@ -1,0 +1,9 @@
+positive:
+i can do the scipt and such, but the gitlabci config documentation is confusing and i cant seem to find an option on how to call the script after it finished.
+but in gitlab 's official help document, it seems that only 'name' and 'entrypoint' keywords are supported for setting 'image' in .gitlabci.yml file.
+negative:
+when i follow the tutorial step by step it works on gitlab.com that means when i add .gitlabci.yml file to my root project it triggers the pipeline.
+a general introduction to gitlabci using docker can be found in this blog article (the first slides are great).
+an ease example of gitlabci file to run the test in the ci: .
+/pre/  finally, here 's a really well written article here that work with gitlabci.
+i have also checked gitlabci documentation and it also provide the right ways to do it.

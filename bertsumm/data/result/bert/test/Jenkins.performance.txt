@@ -1,0 +1,5 @@
+positive:
+sometime, when 4 build job are running, the cpu load almost 90%, i guess that is a reason why jenkins dies.
+so let 's say for a simple test that take only 1 minute to run , but saving the artifacts from jenkins slave to jenkins master take around the same time or more before it 's considered to be passed.
+negative:
+so, i think i can use k8s to run the cases in-parallel, therefore save time, i use jenkins to config how many 'automations' run in-parallel, and after all done, merge and present the test result.

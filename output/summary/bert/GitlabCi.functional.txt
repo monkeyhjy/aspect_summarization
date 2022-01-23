@@ -1,0 +1,6 @@
+positive:
+i 'm using the gitlab release api in the gitlabci.yml to be able to automatically create a new release when deploying.
+"i configurd the .gitlabci.yml, it is a java project and needs to maven repository, my local repository is nexus, i downloading the dependency from nexux successfully , but for each build it still downloads all the dependencies every time from nexus and it do n't caching."
+negative:
+if i deploy this with my gitlabci pipeline it fails as i do not upload the /code_segment/ directory.
+unfortunately the gitlab-runner does not have the permission to extract the project-scope gitlabci-template from /code_segment/ because it is simply not permitted to do so for private projects.

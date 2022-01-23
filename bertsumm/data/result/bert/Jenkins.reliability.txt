@@ -1,0 +1,6 @@
+positive:
+"i am using postman api to create new job in jenkins.inside postman ui,with get request the jenkins-crumb i am getting gives me proper output i.e.status 200 ok when passed into post request."
+"if you log into your vm machine and where your workspace have been copied into, and under the terminal run the same maven command you have on jenkins you should be able to watch the tests run and this may be a way for you to identify and fix the issue."
+negative:
+"when i run this batch script using cmd, the code is generated just fine but when i try to generate code via jenkins i am getting error in the jenkins build output which i think is because of trying to start rhapsodycl due to 'license not found'."
+"as soon as i mapped the jenkins workspace to the repository root, jenkins seems to get the entire repository on build, which eventually fails with an out of memory exception, completely ignoring what i set in ""project path""."

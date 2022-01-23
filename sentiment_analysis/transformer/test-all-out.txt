@@ -1,0 +1,1240 @@
+I have also tried the Teamcity automatic merge feature but the only guides you can find is how to merge from some branch specification to a fixed branch eg integration branch.	2
+I have a web api project that will not build on teamcity when I add a .net framework (4.71) class library to the solution.	2
+CI/CD Tools : Jenkins vs. TeamCity vs. Bamboo .	1
+"Many times as part of a release, you 'll use MSBuild.exe from the command line executed via some application lifecycle management tool such as TFS, TeamCity, Jenkins, etc."	1
+I 've been learning teamcity the last couple of weeks and have had some good success (fun!).	0
+"When the mapping is not set, you will lose all the TeamCity settings on container shutdown."	2
+"From TeamCity 2017.2 onwards, the professional version (free) includes 100 build configurations, which is a significant increase on the previous versions that were limited to 20."	0
+Artifactory provides tight integration with TeamCity CI Server through the TeamCity Artifactory Plug-in.	0
+"/pre/  fix, and it always works when I run it manually but never works when it runs through teamcity."	2
+TeamCity trigger for Github comment on pull request .	1
+"We have multiple toolsets being used(Bitbucket, TeamCity, SonarQube, Nexus, Nolio)."	1
+"I updated to the latest TeamCity on this machine, transferred my backup file, and the build seems to be working perfectly - it seems to be somehow caused by the latest version of Visual Studio."	0
+"You can use AnyStatus which is a desktop application for Windows that brings together metrics and events from various sources such as Jenkins, Azure DevOps, TeamCity and more."	1
+"Have a cheap AWS instance running TeamCity server, always on."	0
+I need to up TeamCity CI/CD for my iOS project.	1
+When the Teamcity build agent executes my bash script it fails to restore nuget packages with following message: .	2
+I need to use password authentication because the command will be called inside TeamCity plugin which does not support downloading over SSH (just uploading) or plain bash.	2
+"Chromedriver does not start a Browser and causes tests to fail when run selenium tests from Teamcity and Jenkins, which both give same error messages: ."	2
+"It would be nice if we did not have to bump version for every build, although we could set up TeamCity to do that automatically, but it would become difficult to maintain all of the extra Nuget packages in our feed."	2
+I 'm building a .net application in a windows container from TeamCity.	1
+The documentation of teamcity explains how to download builded artifacts by using the tag version.	0
+I am planning on getting this integrated with teamcity to deploy to the rancher containers whenever teamcity detects a new commit.	1
+I have 2 separate Teamcity web application instances running on separate servers accessing the same git repository.	1
+"TeamCity has no way to automatically authorize an agent, it seems to have to be done through the API."	2
+I found an example of what I expected with TeamCity.	1
+I am trying to create TeamCity project/build configuration using REST API.	1
+Turns out there was a duplicate DNS entry for the teamcity server in Samba which was confusing the agents!	2
+There are several 3rd party tools that have been developed to integrate with various CI/CD platforms like Teamcity.	1
+/pre/  The TeamCity api documentation about build configurations is available here: /url/ .	1
+"Next, open a PowerShell IDE and create a simple script to modify a TeamCity parameter like this: ."	1
+You can setup it up with local cmd file or create a script with CI servers like TeamCity or Jenkins triggered by a button click or on code change.	1
+"This means that when you or someone in your team commits/pushes code to the version control system(like git svn...) your selected continuous integration tool (like jenkins, teamcity...) pulls source code from version control system and runs your build script which for example compiles your code, run tests, creates deployment package."	1
+"How can I register multiple agents in teamcity, that are using the same image in docker, while each has a different teamcity-agent name."	1
+"However, when I run an MSBuild task on the CI server (TeamCity), I can see that MSBUILD is trying to publish the referenced project (which I do not want) using the publish.xml for the main project (which does not make any sense!)."	2
+TeamCity does not support multi branches for  SVN as for GIT - so I solved such problem with Configuration parameter - where I set active branch from which I need to build and after can easily switch to another branch by running a custom build or change that configuration parameter.	2
+Please check that nuget.config at teamcity server provides your package source.	1
+This might be a Teamcity bug where the docker.server.osType is not being set when running windows containers in Docker Desktop for Windows (Windows Server 2016).	2
+"I did neither find a tool that solves these annoyances for me (maybe it is possible to develop a small tailored TeamCity plugin for this purpose), nor have I managed to find any real advice on how to solve these versioning issues differently? am I missing the obvious?"	2
+"I have been trying to set up a TeamCity instance in Docker, and when I try to migrate from the internal DB - which I successfully removed - TeamCity does not find the JDBC driver for PostgreSQL with the error: /CODE_SEGMENT/"	2
+ng t --reporters=teamcity --browsers=ChromeHeadless &amp;&amp; ng build --prod .	1
+"I have a GitHub status check generated by TeamCity, and I 'm trying to delete it (not just disable it)."	1
+I have a TeamCity CI server which pushes the service fabric app in a zip to octopus.	1
+"First, a very important note: TeamCity Build Agent may either run as a Windows service or directly in command prompt."	1
+"Support for Go is provided by TeamCity out of the box, there are no external plugins required."	0
+Because I could imagine that TeamCity employs some sort of safeguard mechanism that prevents certain changes on the Server it 's run from.	0
+This is awkward on our TeamCity build server where I would like a build configuration for each shared library/project and have my application use artifact dependencies to reference the dlls the build server generates.	0
+"That caused problems in TeamCity, and on local Windows based computers running SourceTree."	1
+If you have console access to the TeamCity server then cloning a VCS Root can be as easy as duplicating one of the config files: .	0
+"Does the TeamCity build feature /CODE_SEGMENT/ based on the text above, however I can not seem to find any documentation to indicate this."	2
+The problem is that TeamCity always shows build as Succeeded although I can see in my Jmeter report that some assertions from the test are failing.	2
+I could not find any information on how to do this for  reports generated in TeamCity.	2
+"I 'm assuming that this also means that if a test failed upon re-run, TeamCity would report two failures."	1
+"I am currently using SVN, TeamCity for build/publish, Visual Studio 2017.9 for debugging, a private nuget feed."	1
+What is the easiest way to connect to Teamcity external Mysql server?	1
+"When you face problems regarding CSRF protection in TeamCity (for example, you get the ""Responding with 403 status code due to failed CSRF check"" response from the server), you can follow these steps: ."	1
+"Currently we are deploying our Umbraco site with teamcity and octopus deploy, having uSync installed to synchronize datatypes, document types etc."	1
+I have a TeamCity for automatic build and deploy of my window service.	0
+"You should either force TeamCity to use MSBuild from Build Tools, or add VB to your VS Pro installation."	1
+We are started migration from TeamCity+Proget to Azure Pipelines and Azure Artifacts.	1
+TeamCity build is running under service account from domain.	1
+"We have a few Builds in Teamcity that take an very long time, and I want to stop them from automatically building on merges into the default branch in GitHub."	2
+I am working on Angular 4 deployment using TeamCity.	1
+"In order for you to publish build info to Artifactory, you will either need to use CI server with Artifactory plugin (for example, Jenkins, Bamboo, Teamcity) or use the Maven Artifactory plugin: ."	1
+"/pre/  This works perfectly from command line, but Teamcity shows different errors with exit codes 4, 6 or even does not do anything without an error."	2
+"This is my first gitlabci project, and I 'm used to working with Teamcity and Jenkins."	1
+/pre/  Teamcity configuration to process the resulting XML: .	1
+In case of TeamCity checkout rules affect both changes shown in web UI and checked out files on the agent.	1
+"TeamCity sometimes kills my build with a (double) keyboard interrupt, and I have no idea why."	2
+Currently I am using teamcity for build and deployment of this application.	1
+We use GitLab Community Edition 11.10.0 integrated with TeamCity 2018.1.5 (build 58744).	1
+"Good: I can launch the instances from TeamCity, which is located in the other business unit 's account."	0
+"I have tried using TeamCity NuGet installer but it did not work, also, what I want is to get updates only for a specific package (not all the packages in projects)."	2
+"At the moment (TeamCity v 2018.1) there is no direct way to pause the build, release the build agent, and later resume the execution."	1
+"TeamCity has the ability to fetch all heads TeamCity since v2017, but needs to be enabled via a config setting."	0
+"Now I want to check pull requests for every repository with that build pipeline, is it even possible with teamcity?"	1
+"unable to upload zip file created as artifacts in teamcity build using file specs to artifactory tried all types of patterns and file specs unable to upload, it not finding the artifact ."	2
+Is there any way I can refer to module A while building module B inside Teamcity (without using an artifact repository (Nexus/Artifactory) to store module A 's artifacts)?	1
+But TeamCity gives an error saying it cannot find the symbol: global_tracker.xml.	2
+Does anyone have any experience importing Visual Studio Enterprise 2017 code coverage results (either *.coverage or *.coveragexml) into TeamCity?	1
+Another solution would be to leverage a continuous integration tool such as jenkins or teamcity to automatically schedule runs over a period of time.	1
+"The exception was handled, and the cleanup that got triggered by the exception would have resulted in the process getting shut down anyway (through another means), but before that cleanup was finished, TeamCity was killing our build: which ironically meant that the process never did get shut down."	2
+The old variant was to use TeamCity REST Api.	1
+JDK 8 is installed on the TeamCity build agents (make sure you restart the build agent after installing it) .	1
+"If you can execute the tf commands successful manunally on the agent machine but failed when build by TeamCity, please check if the agent configuration for TeamCity use run as the same account as your local machine."	2
+I 'm working on migrating our deployment pipeline from TeamCity + Octopus Deploy to AWS Pipeline(using AWS CodeBuild + AWS CodeDeploy).	1
+"First of all, I think this is more of a Linux issue as the problem seems to be on a linux-flavoured Docker container, but I 'm happy to accept that I can do something to the teamcity config to overcome this."	0
+"The project builds without any problem locally, but on my TeamCity build server (Windows Server 2016), I 'm consistently getting the following error: ."	2
+I have a suite of XUnit Tests in a .NET solution that is built in a TeamCity CI environment.	1
+I 'm new to this world of Maven/TeamCity/Jenkins... .	1
+My goal is to create project/build configurations dynamically by existed Kotlin DSL scripts and TeamCity REST API.	1
+You can install multiple versions of Nuget tool in TeamCity and set any one as default  .	1
+Answered over on the teamcity support forums; .	0
+I am trying to automate a build process using Teamcity api and Powershell.	0
+"I allowed all 'commit', 'PR', and 'comment' things to GitHub-TeamCity hook."	1
+Is this possible in TeamCity?	1
+/pre/  You can use a single inclusion rather than multiple exclusions because of the way TeamCity handles those types of rules: .	0
+"As far as I can recall, TeamCity supports powershell."	0
+"However connecting Youtrack, Upsource and Teamcity to Hub is a challenge."	2
+The teamcity build is triggered when I do a check in to github repository.	1
+"I would not recommend it if your organization already has other DevOps type tools that can do this work, e.g., Jenkins, TeamCity, Bamboo, Azure for DevOps etc."	1
+I have been searching a lot for ways to auto merge the target Git branch into a feature branch in a pull request every time the target branch is updated with Bitbucket server and Teamcity.	0
+"I 've now discovered that since 10.0.2, Teamcity offers control of this behaviour via parameters."	0
+"I 've recently installed TeamCity 2017.2.3 (build 541047) and Octopus Deploy 2018.1.5 and originally was having success running builds and creating packages in TeamCity, but now my build agent shows all of my build steps as incompatible after a service restart."	2
+"So in Teamcity I prepare my application (compilation, minify JS and HTML, delete unused files, etc...) and then I have a Powershell build step : ."	1
+Simultaneously on TeamCity runs multiple builds what use same 2-3 databases for unit tests.	1
+I 'm currently in the process of migrating several dozen Jenkins Pipelines over to TeamCity and I 'm just learning TeamCity.	1
+It would be nice to have an OpsWorks feature in TeamCity Cloud configuration in addition to the EC2 and VMWare features.	0
+What is TeamCity?	1
+/pre/  If I browse to the folder on the TeamCity build agent I am missing the .sonar and .sonarqube folders.	1
+Updating the testing step at TeamCity fixed the problem.	1
+"If you need to collect all artifacts from every build, you can configure another build, which would run some python script, which in turn would utilize Teamcity REST API to collect all artifacts from specific build and zip and produce complete set of your files."	0
+A TeamCity config I 'm missing (there is no specific documentation on the TeamCity or Cypress side regarding a TeamCity/Cypress integration that I can find) .	2
+Right now we are uploading artifacts using udeploy cmd from Teamcity version 10.	1
+It seems some of the extensions required by TeamCity are not installed.	1
+"Okay, so I tried around a lot, and eventually found a solution that allows me to check if Docker is running via a TeamCity build step and successfully start it if not."	1
+"If it is not possible to configure the feed URL, what would a good solution be so that my local machine can download the package from my TeamCity server?"	1
+I am running TeamCity 2018.1.	1
+I am using Powershell script to change BuildNumber in Teamcity: .	1
+"We  can take only the specific services while creating a new branch, configure Teamcity for them and Deploy the specific packages via Octopus."	1
+You can restart TeamCity right from the UI: Administration > Diagnostics > Server Restart.	1
+We are using TeamCity to process hundreds of builds.	0
+I have successfully got teamcity tags to work via REST API but I am not sure if those fit the need either.	0
+By adding the parameter --teamcity to NUnit3-Console.	1
+There are CD/CI pipelines with TeamCity and Octopus.	1
+"I have recently migrated to Azure DevOps from Teamcity, yesterday i migrated around 60 repositories."	1
+- TeamCity builds fine but when asked to Publish sends me the not helpful _deploymentunpublishable .	2
+I am unfortunately stuck on TeamCity 9 but want to use C# 7 language features.	2
+I have experimented with the TeamCity Kotlin DSL - which is pretty powerful - but can not see a way of being able to define my builds just once.	2
+Whenever someone pushs something to git I want to trigger an action which builds the website (got that working with teamcity) and automatically deploys it to a staging server (docker container on some linux vps) .	1
+Teamcity should be triggered when there is a change in any project (i.e.	1
+It seems even worse in TeamCity as the upload spec is applied to build steps (instead of a build configuration) so it would make even more sense to be able to express both archiving and uploading at the same time and place.	2
+"Depending on the version of TeamCity you are using, anything after TC 2017 should be good, support for logging into container registries is available."	0
+Is there any plug-in or instructions for TeamCity?	1
+"Jenkins, TFS, Teamcity , Octopus are some of the popular CD tools."	0
+"What I want is that TeamCity in that case shows build as Failed, accordingly."	2
+Git itself is complaining about this and not TeamCity.	1
+"I 'm trying to use the nuget install plugin for TeamCity but after running, it takes too long in restoring and installing all the packages in my solution."	2
+I 'm migrating a microservices ci/cd pipeline from a teamcity+octopus setup to Azure Devops.	1
+This works perfectly on local but while generating teamcity build it get failed.	2
+"Azure DevOps, Jenkins, TeamCity, TravisCI, AppVeyor."	1
+Check you agent properties in TeamCity web interface.	1
+Octupus + Jenkins/TeamCity is widely used for that purpose.	0
+I am trying to allow TeamCity do JavaScript code inspection by following this tutorial: /URL/ .	1
+It sounds like either PowerShell core is not installed on your TeamCity agent or you 're not using an up-to-date version of TeamCity.	1
+"By design, TeamCity resists making usernames/passwords available to build steps."	1
+"When I run that test with TeamCity, it takes 12Min."	1
+(I use TeamCity for CI and this is the first time to use CI by myself.)	1
+On the teamcity create a build step which would run only those test which are faster example : call RunOnlyUnitTest target created earlier.	0
+"However, when I set the same Artifactory SSL URL in the TeamCity console under integrated Artifactory server URL configuration and hit the test connection it fails with the error below."	2
+A TeamCity job is currently failing because there is insufficient space on the disk.	2
+Our build engineer suggest passing a list of projects to pack from Teamcity and store this as patrt of Teamcity configuration.	1
+I 've started with TeamCity.	1
+"It is a little bit of a pain, but after doing that, I was able to continue installing TeamCity ."	2
+I would like to use ansible for configuring linux machines with TeamCity.	0
+The two major players are TeamCity by jetbrains (free to use for the size of project your describing) and Jenkins (open source).	0
+"Several are Jenkins, Jetbrains' Teamcity, Atlassian 's Bamboo, Microsoft TFS."	1
+I 'm new to teamcity builds and running into this issue.	1
+"When I try to create a project from it in Teamcity, I get the following error message: ."	2
+"When the pull request is created from a feature branch, we trigger the build in TeamCity which in turn connects to SonarQube server (Version 5.0.1)."	1
+I 'm using teamcity to perform my builds.	1
+TeamCity 2018.1.5  .	1
+"Is it possible to run a TeamCity server instance in a Linux container, and then run a Build Agent in a Windows container and have it connect?"	1
+"Lots of people seem to be having problems with TC automerge setups, so here is the /URL/ I posted on the TeamCity community forum."	0
+"In Jenkins we have some plugin to poll our mail box and trigger the build, could not find similar option in TeamCity."	2
+"Some of the build steps use boto3 and to avoid having to customise the base TeamCity build agent image to have boto3, we instead use TeamCity 's ""Run step within Docker container"" feature to specify a python image which has boto3 and a bunch of other python modules installed."	1
+"On our local TeamCity environment, we leverage off an .msbuild file to do this, but I cannot find a way in Azure DevOps to do this ."	1
+"Create msbuild targets example : RunOnlyUnitTest, RunOnlyIntegrationTest, RunOnlyAcceptanceTest, this way you can control which target gets run on teamcity ."	1
+"Since TeamCity 2017.2 You can now use external libraries in your   Kotlin DSL code, which allows sharing code between different Kotlin   DSL-based projects."	0
+I do not see any runner type for Mocha or Node Js in teamcity.	2
+"I am trying to get Chutzpah and Jasmine working together in visual studio, my end goal is to get unit tests running with TeamCity integration."	1
+I have a teamcity installation running on a windows server .	1
+"Running Cake Build script on my local machine works fine but when same script is run on TeamCity, the following error appears: Nuspec file does not exist in package."	2
+I checked if the extensions on TeamCity agent are installed along with the bundle and it looks like they 're - dlls are in the addins folder.	1
+"Everytime I try to build a Maven project hosted on a gitlab server  with TeamCity, I get an error from the buildAgent."	2
+"In terms of reporting, JMH, much like JMeter has plugins for Jenkins and TeamCity, which produces result tables and graphs."	1
+Teamcity cannot use the MacOS agent anymore after updating the Xcode from 9.2 to version 10.1 and the MacOS from Sierra to Mojave.	2
+I understand we can get the build information using the TeamCity API which is http:// /httpAuth/downloadBuildLog.html?BuildId=&lt;&lt; current build id >> .	1
+You can define this restriction in the snapshot dependency in teamcity.	1
+"Without installing additional software, TeamCity servers and build   agents can interact with Team Foundation Servers (from 2010 to 2017;   2018 is supported since TeamCity 2017.2) and Visual Studio Team   Services."	0
+"I searched and read about the build breaker, but its already supported with Sonarqube plugin of TeamCity as this document /URL/  ."	0
+"Helpful applications are Teamcity, Octopus."	0
+Maybe someone was able to setup CI and trigger Android/iOS build with Jenkins/TeamCity?	1
+I am using TeamCity 's out-of-the-box PowerShell  Build Runner to run script provided in the Build Step.	0
+We are running a TeamCity Continuous Integration System  which has its own built-in NuGet server.	1
+"Jenkins, TeamCity, Azure DevOps) ."	1
+"We imported a signed CA for the machine and both Artifactory and TeamCity login works fine with SSL and certs are working, browser satisfied."	0
+I installed Teamcity 2018.1 bundled with Tomcat servlet container on windows 7.	1
+1- How can I restart Teamcity and agents so that I am getting same agents and project as before restart in TeamCity UI?	1
+More details could be found in TeamCity documentation on VCS Checkout Mode.	0
+" Usually this kind of task is handled by CI tools like TeamCity, Jenkins, Gitlab runner etc."	1
+I have access to an enterprise instance of GitHub and TeamCity using a Linux a build agent with the flutter SDK installed.	0
+"My original setup, I had Docker running Windows containers in my Teamcity Server/Agent machine running Windows Server 2016."	1
+I see hardly any examples for this configuration on TeamCity.	2
+When I run my command through CMD the code will compile correctly so this problem seems to only happen when running through TeamCity.	2
+"When Teamcity is executing first configuration, I 'm receiving random error messages every 5-10 builds: ."	2
+We 're using TeamCity Professional 2017.1 (build 46533) .	1
+(Also worth mentioning that I 'm doing this through TeamCity 's nuget CLI build step) .	1
+/pre/  this will undo the silent commands teamcity defaults to.	1
+"Since we are a small team we want to put JetBrains' Hub, Youtrack, Upsource and Teamcity as docker containers (all on the same machine for now)."	1
+"In my case, I had the TeamCity Build Agent Service running under the SYSTEM account."	1
+"We have a build chain, where a dependency builds it 's project on a build agent(Windows) and uploads the artifacts to the TeamCity server."	1
+"After a while TeamCity detects it being ""up"" and ""idle"" and stops it again."	1
+"To enable Go support in TeamCity,  ."	0
+You can find the full TeamCity Artifact Dependency documentation here .	0
+You can set up Jenkins or TeamCity to automatically build and deploy everytime you update the master branch in Git.	0
+"I want to configure a new maven that is not bundled in teamcity, but on a unix filesystem on a path specified by me."	1
+"In teamcity, it is easy to update build number, here in azure I could not find where it is stored."	0
+I am trying to deploy a .Net Core 2.0 project to an Azure web app using a TeamCity build.	1
+With TeamCity running as the system user I was unable to get LFS working.	2
+"I updated to the latest TeamCity on this machine, transferred my backup file, and the build seems to be working perfectly - it seems to be somehow caused by the latest version of Visual Studio."	0
+"The problem is that you select TFS in TeamCity, but the URL points to a Subversion repository."	1
+But I found error when I deploy in weblogic through teamcity.	2
+I 'm using Docker Swarm on Linux to host TeamCity.	1
+I 'm having a build pipline in teamcity 2018.2.3.	1
+"However, I do not know where the matching end  to configure the credentials in TeamCity is hidden."	2
+Project using teamcity to release new version of android app.	1
+"My system is CentSO 7, and I have TeamCity Version: 2018.2.1 installed ."	1
+"Then later on use some tool (TeamCity, Jenkins...) to push it to EC2 ."	1
+Build will be executed on the TeamCity.	1
+"This was a bug, which is fixed in TeamCity 2018.1.3."	0
+"In my branch, the following build parameter values are visible on TeamCity: ."	0
+I found this out after coming across this post in the TeamCity JMeter Plugin git repo: /URL/ .	0
+We use Teamcity 2018 together with TFS.	1
+"Teamcity create a path BuildAgent/work/d455sdffs654... and change my nativescript project name and app name, i try make a new folder and change to this new folder but the project name not change."	1
+You could disable to step in TeamCity leaving it for reference should you run into the issue again.	2
+"In TeamCity I would add a build failure condition that would compare the number of unit tests in the current build with the previous build, and if it (significantly) drops, it would fail the build."	2
+I have having trouble download artifacts from TeamCity.	2
+You can now install agents (including Mac OS) directly from the TeamCity UI using the Agent Push feature.	0
+"How do I run my TeamCity job under a different account than ""System""?"	1
+How does TeamCity work when you have a paid third-party component that needs to be installed on the machine?	1
+"I have TeamCity 2019.1.2 running on a CentOS 7 box, server and the agent installed on the same box."	1
+I have installed teamcity on my server and it resides in a docker container.	1
+The problem now is that TeamCity is also triggering builds for all the previous tags on the repository.	1
+But I can not find any examples how to use the token in regards to NPM login alone or via TeamCity?	2
+I have my Teamcity instance been setup by defaults.	1
+"The third build-step, also generated by TeamCity give me a problem."	2
+"In the newest version of TeamCity, you can configure this parameter."	0
+"At the same time, the other build dependencies to be put in order need to be recovered from the TeamCity folder."	1
+Due to some mistakes I made in configuring some builds my Teamcity nuget feed has the wrong artefacts in some of the feeds.	2
+"I 'm not sure whether TeamCity has some available for you to use, but if it does not then you 'll want to generate a personal access token so that this script is restricted with its access."	1
+How do you delete all build artifacts stored in TeamCity?	1
+I using GitFlow with TeamCity.	1
+"I have recently been looking at Docker, and how I can use TeamCity to run .NET Core unit tests in Docker containers as part of my build pipe-line."	1
+Use the  BuildServerRun option and include /buildserver:teamcity.	1
+"Using teamcity one of our build steps inspects the dependencies of a solution, identifies the topmost level dependencies and adds them as nuget build triggers ensuring that the next time a successful build of a dependency occurs the downstream library is triggered as well."	0
+"When the pull request is created from a feature branch, we trigger the build in TeamCity which in turn connects to SonarQube server (Version 5.0.1)."	1
+GitlabCI will check out all of your source code in your runner machine and perform the CI steps by executing the commands that you have configured in .gitlabci.yml.	0
+The task I have at hand is to make a python script that checks the status of a gitlabci pipeline and what runner and flavor it 's using.	1
+"Since gitlabci jobs are simply docker containers running processes, one way to achieve this would be to use gosu where you can run a process as a non-root user."	1
+"But when i try same docker login command from gitlabci stage, it is failing with this error: ."	2
+When I follow the tutorial step by step it works on gitlab.com that means when I add .gitlabci.yml file to my root project it triggers the pipeline.	0
+A general introduction to gitlabci using docker can be found in this blog article (the first slides are great).	0
+With a gitlabci.yml .	1
+And this gitlabci.yml .	1
+Here is the sample .gitlabci.yml which uses gitlab job artifacts functionality (assume gradle wrapper is used) .	1
+I am new to gitlabci and trying a minimal Python application based on a gitlab template.	1
+"Now I want to configure the "".gitlabci.yml"" for building on both machines."	1
+"With the gitlabci, I have created a job which used two functions: ."	1
+"Script is executing in gitlabci linux runner, image based on golang and works fine without extension."	0
+"Now, I have seen that we can use ""gitlabci"" even for private repositories but I am having trouble understanding the ""shared runners"" concept."	2
+I want to launch rundeck job with gitlabci after a commit.	1
+This is my gitlabci.yml .	1
+I am trying to setup notifications to my Rocket.Chat server through my .gitlabci.yml file.	1
+I 've build a test scenario for gitlab (.gitlabci.yml) but I 've issue for some tests as they need to have an access on public ressources (provided by internet without limitation but specific url + port).	2
+This is my gitlabci command: .	1
+I want gitlabci.yml configurations for below files setups.	1
+My current .gitlabci.yml file looks like below: .	1
+"If you have the resources, gitlab-ce with gitlabci is a pretty simple way to get started in developing an on-premise ci/cd workflow."	0
+i have a .gitlabci.yaml which includes the following: .	1
+if your build/publish/deploy and test jobs are not heavily complex then using gitlabci has natural advantages.	0
+I have a server in Iran and i want use gitlabci to open an ssh tunnel  to my server.	1
+"During GitlabCi I got: ""fatal error: An error occurred (AccessDenied) when calling the ListObjectsV2 operation: Access Denied"" ."	2
+Below is the script mentioned in the gitlabci.yml file.	1
+"As far as I know, there is no ready to use plugin or integration for gitlabci and jira."	2
+I want to run gitlabci pipeline to deploy my express.js web app to GAE/SE environment.	1
+/pre/  just use google/cloud-sdk:alpine as image in the gitlabci stage .	1
+I would like run ssh connexion on my production server from gitlabci runner : .	1
+"Branch A and B and both have .gitlabci.yml which do maven install and copy the output jar file to a remote server, two branches will copy it in different remote servers."	1
+I have a CI/CD process with gitlabci for ionic app deployment for auto content update using this /CODE_SEGMENT/ .	0
+my .gitlabci.yml  is the following .	1
+I am creating a .gitlabci.yml deployment in Gitlab and want dotnet to update the database to the latest migrations.	1
+/pre/  /pre/  This is a part from the .gitlabci.yml .	1
+I have a .gitlabci.yml file that uses the golang image and the MySql image later as a service... .	1
+/pre/  But in local it is working correctly this issue occurs only in gitlabci .	2
+"I have a .gitlabci.yml in my master branch, It works fine everytime I push to master the CI pipeline runs."	0
+For example this .gitlabci.yml from the repository /URL/ .	1
+"For reference, /URL/ what my .gitlabci.yml file looks like."	1
+This is my gitlabci.yml .	1
+This is from my .gitlabci.yml: .	1
+Below is my .gitlabci.yml file.	1
+"It looks like you have some performances issues, and it will be hard to build your application in a CI Platform (GitlabCI, CircleCI, etc) because they limit the build time or the performances."	2
+"For security reasons i need to set up protected enviroment variables in gitlabCI/CD, the problem is that in the documentation only mentions how to use inside the .gitlabci.yml file,  but not in the index.js."	2
+"gitlabci will build the image, then it could run some tests on that image, and then deploy it to production (this build image) ."	1
+"For GitLab you can do this by adding a git checkout in the /script part of the respective pipeline your gitlabci.yml, for example: ."	1
+I have a .gitlabci.yml similar to this: .	1
+I have the following .gitlabci.yml : .	1
+Then configure your schedule following the official documentation here and using your gitlabci.yaml file.	1
+I am trying to install Neo4j using Kubernetes through GitLabCI/CD.Below is the code used in .gitlabci.yml .	1
+"This is my first gitlabci project, and I 'm used to working with Teamcity and Jenkins."	1
+"Upon commit, the GitLab Runner will try and execute the jobs defined in the .gitlabci.yml file."	1
+So how to clone gitlab repo using https inside gitlabci job.	1
+I have a question about workflow with docker and gitlabci or automated builds in general.	1
+I am using gitlabci 10.3.0 where my tests on the server took 40 minutes but on the Mac took 2 minutes.	1
+"/pre/  The good part is that CI integration works fine, however I must integrate more changes to the dockerfile (and steps to my gitlabci pipeline) and it is a pain to commit and wait the hub to build the image and then force a job to be run in gitlabci -  ."	2
+"I am working with gitlabci and docker, and I want to automate deployment."	1
+I 'm having problem connecting to the sftp connection in gitlabci runner.	2
+"I can do the scipt and such, but the gitlabci config documentation is confusing and I cant seem to find an option on how to call the script after it finished."	2
+Here is a working example of a job in a .gitlabci with a loop running on GNU/Linux OS and using Sh/Bash shell : .	0
+Currently i 'm configuring gitlabci to build and package releases of this app and i want to automate as much as i can.	0
+"Environment: The build failed in gitlabci environment, running the build inside a docker container."	2
+"This is a bit of a hack, and depends on using gitlabci (or something similar), but I find passing the commit hash into a cloudformation template (via the template 's parameters) very useful."	0
+I was trying (and researching) if it 's possible to automate this build process using .gitlabci but so far I could not find anything.	2
+Here is real world example: We use host network to speed up build stage of our gitlabci/cd pipeline.	1
+I am using gitlabci/cd to deploy my app to google app engine.	1
+I am not sure if this is gitlabci issue or I am doing something wrong.	1
+NB: I new in  gitlabCI CD Found errors in your .gitlabci.yml: .	1
+I come from GitLab and its .gitlabci.yml and I am experimenting with Azure DevOps multi stage pipelines but I am quite confused about how it works and what 's the best strategy even after reading several documentation articles at /URL/ .	2
+As mentioned on the GitlabCI guidelines the job can be easily done by including a stage like this in the .gitlabci.yml file : .	0
+I have a gitlab project with gitlabci.	1
+"When I push to the master branch, my code is deployed to the first server by gitlabci."	1
+After further investigations i can say that i made a working docker image for sonar scanner that can work with gitlabci.	1
+I would like to test our ansible deployment with gitlabci using docker containers.	1
+"However, it fails in gitlabci in a docker container."	2
+The gitlabci only checks the exit codes of processes running inside it.	1
+I have a web application which is built and tested using gradle/gretty and gitlabci (with gitlab running on my own server) with a docker image.	1
+I 'm trying to build an application using gitlabci.	1
+/pre/  How can I ignore SSH timeout to continue my gitlabci ?	1
+this work for my variable: gitlabci.yml .	1
+I have been trying to set up a gitlabci using shared runners.	1
+"So when the code is checked in to gitlab, the gitlab runner runs the jobs of each stage in your .gitlabci.yml, and when it runs to your stage, it does the automation test, and note that it is running on your server, so it means you need to have Appium installed on your server and have it up and running when try to run your automation test suite."	1
+"I would like to deploy my projects (api rest, webapp, backoffice etc...) in several environments (dev, staging and production) with gitlabci, Kubernetes and Google Kubernetes Engine."	1
+it looks like it is a typical trigger feature inside gitlabci  .	0
+following is my gitlabci.yml .	1
+Here 's my .gitlabci.yml .	1
+ensure this is placed inside the .gitlabci.yml .	1
+Manage all them using gitlabci-cd secret variables it 's very hurt.	2
+* to 11.0 worked absolutely fine but this time the runner still stays on 11.0 (in -help and gitlabci web ui).	0
+We are using gitlabci as CI tool.	1
+gitlabci config runs tests during pipeline and completes .	1
+GitlabCI/CD is configured using gitlabci.yml file.	1
+This is run on the gitlabci environment.	1
+"/pre/  On my local env all tests run ok, but on gitlabci I get some requests aborted."	2
+I 'm currently migrating a lot of maven-jenkins-jobs to gitlabci.	1
+/pre/  but job failed and responded with: Found errors in your .gitlabci.yml: .	2
+So this is inside my gitlabci.yml file.	1
+"I am building a jar app with the gitlabci and after the build, the jar is sent to the next task with artifact."	1
+"In your new private fork, you can go to Settings >> CI/CD and override the .gitlabci.yml file in the Custom CI Configuration Path under the General Pipelines Settings."	1
+Im trying to implement a CI pipeline in GitlabCI (private runner) doing the build of the project in a docker container and then use docker-compose to control the service being (UP/DOWN) via the same gitlabci.yml file but with two environment in the same runner.	1
+"In Gitlabci, it 's possible to trigger a specific job only if a file or a directory has been modified."	1
+I have set up gitlabci-cd in which I call a script to perform some task on my server.	1
+GitLab provides a list of attributes in the .gitlabci.yml file and their corresponding variable expansion mechanism.	0
+But when I add .gitlabci.yml file on my local git it does not trigger the pipeline as pipeline page shows everytime getting started with pipeline and it seems like i am not pushing it right.	2
+I 'm struggling with my script (gitlabci.yml).	1
+the following Gitlab configuration in .gitlabci.yml: .	1
+Add .gitlabci.yml file to the project .	1
+"As a CI, I configure GitLabCI."	1
+/pre/  How can I use gitlabci to automatically deploy docker images in the host docker service?	1
+Also using gitlabci for deploy to server.	1
+I have a CI/CD process with gitlabci for ionic app deployment for auto content update using this /CODE_SEGMENT/	0
+"I have configured gitlabci as follow (it 's simplified, docker build and push to registy is done in eariel steps but for readability I 'll skip it) ."	0
+2 days ago we suddently started to get build errors when deploying using gitlabci.	2
+"Your MongoDB most probably runs on GitlabCI, but it is executed in the separate Docker container."	1
+I was not able to set up replica sets for mongodb in gitlabci while locally replica sets it ran successfully.	2
+"I added a few script lines to the branch 's release section in gitlabci.yml, and can see they 're generally doing what I want in the console output to the Gitlab UI."	0
+"If another script or process, such as the sequential tasks in a Gitlab .gitlabci.yml file for instance, depend on a Bash script exiting without an error to continue, or fail to exit further execution; should the Bash script do any thing else than exit 0 for success or exit 1 for catch all errors?"	1
+Does anyone has an exemple of a full .gitlabci.yml for a PHP projects ?	1
+"The Docker executor when used with GitLabCI, connects to Docker   Engine and runs each build in a separate and isolated container using   the predefined image that is set up in .gitlabci.yml and in   accordance in config.toml."	1
+"i have to use authentification for a private registry on my gitlabci.yml, but : ."	1
+My gitlabci-yml file details are below: .	1
+In the .gitlabci.yml do something like: .	1
+"This is my first gitlabci project, and I 'm used to working with Teamcity and Jenkins."	1
+"Actually, I have my zip files on gitlab, I want to extract those files using gitlabCI/CD.I have tried this in .gitlabci.yml:  ."	1
+"Now, I 'd like to store this value as GitlabCI Variable and use it during deployment."	1
+I am trying to install nodejs using a shell script file named install-nodejs.sh in gitlabci job in pipeline.	1
+This workload created from an image which is hosted on a gitlabci project registry.	1
+I have a client-web/base image I build using gitlabci pipeline: .	1
+I 've got a Django website with PostgreSQL backend and I 'm using gitlabci/cd to test and deploy it on Heroku.	1
+"This seems to be related /URL/ but there is nothing on how to do this with django, docker and gitlabci."	2
+I noticed this error today too using gitlabci with a docker image based on php:7.0.   .	2
+/pre/  The docker fails both locally and in gitlabci/cd.	2
+"I 'm not sure if this is more of gitlabci question or a Prolog question, but here 's what I 'm trying to do: ."	1
+This my .gitlabci.yaml file: .	1
+"Is this the preferred way of creating a docker deployment on a remote server, via gitlabci?"	1
+Here 's the .gitlabci.yml file: .	1
+"This is my first gitlabci project, and I 'm used to working with Teamcity and Jenkins."	1
+I 've seen quite a few mentions of the gitlabci token for docker but I 've found no documentation explaining how to facilitate this.	2
+"But in gitlab 's official help document, it seems that only 'name' and 'entrypoint' keywords are supported for setting 'image' in .gitlabci.yml file."	2
+"locally in IntelliJ IDEA my tests works, but when i push into repo, gitlabci cant find my tests ."	2
+GitLabCI is intended for testing/deployment.	1
+"I was facing the same issue with gitlabci, changing maven image from /CODE_SEGMENT/ to /CODE_SEGMENT/ seems to fix the issue."	0
+Running 1.11.2-gke.9 (COS image)  I have installed installed gitlabci (including container registry) via helm chart.	1
+I have a Django application on gitlab and I am trying to add CI/CD using gitlabci.	1
+"I have cut down my .everything works fine except in last when my gitlabci runner fails with no error..yml to the bare minimum, leaving only one stage with one job, which is not /URL/."	2
+Trying to run automated tests with gitlabci gives me  following error: .	2
+But unfortunately my gitlabci/cd build phase gets failed.	2
+I can able to set the ci runner for windows but unable configure the gitlabci runner with cmd executor and by defaultci runner executor is POWER SHELL ISE .	2
+"Because the artifacts stored by the pipeline are just the final archives and you can not really perform the upload using maven or gradle anymore in the second pipeline, or is there a change-workspace setting in gitlabci?"	2
+"Please pay attention that I do not want to use sys.args in my python code, because in real execution I want to read it from user really, but just in gitlabci, I want to send a specific username and password to that program so it can execute automatically."	0
+"I trying to config gitlabci file for java project without Maven, Gradle, etc."	1
+This is the top of my gitlabci.yml: .	1
+I have the following .gitlabci.yml file: .	1
+"   I would like to deploy my projects (api rest, webapp, backoffice   etc...) in several environments (dev, staging and production) with   gitlabci, Kubernetes and Google Kubernetes Engine."	1
+Here is my gitlabci config: .	1
+Added to my .gitlabci.yml per documentation .	1
+But I got stuck when I deploy the application using gitlabci where it seems that mongo server does not start at test environment on gitlab runner.	2
+"I have configured .gitlabci.yml file, and using CI Lint it has passed the validation process."	0
+From there you setup up a gitlabci file and do all this locally and then push the images to Docker Hub.	1
+"I 'm aware that there are options like gitlabci, but I 'd like to keep the CI script in a fashion that can also be easily executed during development, before pusing to a repo."	1
+Even i have added the .gitlabci.yml file in my repo root directory but still when i click on Pipelines tab it shows this./URL/ .	2
+I 'm using the Gitlab release API in the gitlabci.yml to be able to automatically create a new release when deploying.	0
+We are currently using jenkins and we want to use gitlabci instead.	1
+A general introduction to gitlabci using docker can be found in this blog article (the first slides are great).	0
+Please enter the gitlabci tags for this runner (comma separated): test  .	1
+Then pass the password via a /URL/ (as you already know) and modify the .gitlabci.yml to use the password to open the files and use them.	1
+After tests i need to remove all created before pods and send feedback about to gitlabci.	1
+Here is an extract of my .gitlabci.yml file: .	1
+We are using gitlabci to build our docker images for Kubernetes.	1
+"So, I 'd like to switch to a CI-pipeline and I think travis-ci or gitlabci might be some good choices."	0
+The listed tasks take about both about 75sec on my machine and on gitlabci about 5-6 Minutes where the runner is downloading the dependencies again and in every pipeline.	1
+Then configure your schedule following the official documentation here and using your gitlabci.yaml file.	1
+"I already have set a GitlabCi trigger who works well, but my hook does n't."	2
+"I am trying to get gitlabci to run my docker-compose file to build the integration environment, run the tests, and then either success or fail."	1
+I 'm using gitlabci to deploy to cloud foundry.	1
+I am using gitlabci to deploy some Docker stack files on a couple of remote servers.	1
+An ease example of gitlabci file to run the test in the CI: .	0
+I have the gitlabci.yml below : .	1
+"I have just configured the gitlabci with a runner, and run the template bash ci tasks as: ."	1
+"I try to use capistrano for continuous deployment with gitlabci but, the capistrano job failed with this error  :  /CODE_SEGMENT/"	2
+Nowadays I 'm interested in deploying my laravel application on my custom VPS using gitlabci cd and I wanted to do it without docker.	1
+But when setting up the .gitlabci.yml file to deploy to S3 I get this error.	2
+I have the following .gitlabci.yml... .	1
+"I have multiple test suite files, which I want to run in separated jobs in gitlabci, because for example: now if my last test fails because of appium, I have to run all of my tests again, but if it is separated, just have to run the failed job."	1
+I am trying to run some minitests in a rails app on gitlabci.	1
+The following are in my .gitlabci.yml .	1
+Here is the sample .gitlabci.yml which uses gitlab job artifacts functionality (assume gradle wrapper is used) .	1
+I want to run sequentially jobs by environment using gitlabci.	1
+"It would be the best, if from the level of gitlabci file i could define other pods (integrations) and after build kill them all."	0
+"in the middle of my python code, I ask from the user a username and password, but because in the gitlabci, everything should be executed automatically, I want to send username and password inside my gitlabci instead of reading from the input."	1
+This is my gitlabci.yml file: .	1
+Here is my sample .gitlabci.yml .	1
+My .gitlabci.yml is as follows .	1
+"When configuring a gitlabci for building docker images and pushing them to my gitlab 's insecure registry, I encountered several errors."	2
+I expect having a way to use flask run inside the gitlabci.yml and let my gitlab pipeline to automatically continue through the steps running until it hits the flask-frozen stage to freeze the web site.	1
+The problem is I need to build those projects parallelly in GitlabCI pipeline when there is a code push and I cant hardcode them in .gitlabci.yml as they are generated on fly.	2
+Here my working .gitlabci.yml file for c# application with NUnit as unit test framework and mono as basic image.	1
+I have a Spring Boot application pushed to gitlab and I 'm trying to write a script to deploy this application to a remote server by using gitlabci.yml.	1
+How can I configure .gitlabci.yml/GitLabCI Settings to have such possibility?	1
+I followed this guide and I write a gitlabci file more simplified for starting.	0
+On my projects I usually do the building steps inside the Dockerfile and use the docker:image on my .gitlabci.yml so the Docker installed is the only dependency I need on the runner.	1
+So I have my .gitlabci.yml file as follows: .	1
+I have a .gitlabci.yml file as below: .	1
+I do not know if it 's the best way but I would like to use capistrano (through gitlabci) to deploy my angular 5 app on a remote server.	1
+"With the gitlabci, I have created a job which used two functions: ."	1
+"/pre/  i want to build projecct in gitlabci , but this yml to need install xctool , so if i install xctool must to install brew , but i do not know how to install brew in this ."	2
+I got this error when I try to do this in gitlabci.	2
+You can generate a template of gitlabci.yml in gitlab repo create a new file in the GUI and select gitlab-vi.yml template then select docker template  Remove the unnecessary part of docker build and install nodejs and your tasks should do the trick.	0
+Here is the full gitlabci.yml: .	1
+The gitlabci setup was reduced to essential settings :  .	1
+I have to migrate from jenkins to gitlab and I would like to be able to use dynamic job names in order to have some information directly in the pipeline summary without having to click on each job etc.... in jenkins we can immediately see the parameters passed to our job and this is not the case in gitlabci.	2
+This can be achieved through a gitlabci pipeline task.	0
+"If your goal is to run gitlabci for a github repository, good news, gitlab has released a new version which lets you use github.com repository with gitlabci: /URL/ ."	0
+If you add the gitlabci.yml file to your project it should be running automatically after a push.	0
+The tricky part is gitlabci can even clone repository into docker container automatically.	0
+"I am running pyspark unit tests cases using GitlabCI/CD pipeline and I am getting the above error, below is the content under test stage of my gitlabci.yml:- ."	2
+"Is it possible to add this ""comparison"" test to a CI (Continious Integration file like Jenkinsfile or gitlabci.yml) ."	1
+The packaging of your sources could be triggered by a gitlabci pipeline during the merge of your features branches in the master branch.	1
+I want to launch rundeck job with gitlabci after a commit.	1
+"But, there is something strange: I am wondering now if gitlabci is not creating an ubuntu container and then creating a dotnet container inside the ubuntu container."	1
+I 've setup masked environment variables in GitLab with the AWS access and secret key and I have a .gitlabci.yml which uses python to install the AWS CLI.	1
+I 'm struggling to understand the difference between my workstation environment and the gitlabci docker environment.	2
+/pre/  I 'm using gitlabci and I know I can use a cache but for the first time it takes long time to download all the dependecies (a lot of hours) so it 's not possible to create the cache.	2
+"Script is executing in gitlabci linux runner, image based on golang and works fine without extension."	0
+"If different branches in the repository have different .gitlabci.yml, then which would would be considered by the gitlabCI?"	1
+The error occurs because when gitlabci runs tests it creates database according to the settings set in you yml file: .	1
+"Now, I have seen that we can use ""gitlabci"" even for private repositories but I am having trouble understanding the ""shared runners"" concept."	2
+"/pre/  Finally, here 's a really well written article here that work with gitlabci."	0
+You can configure gitlabci to run  the development job when a commit is pushed in the development branch  and to run the production job when a commit is pushed in the master branch .	1
+Put it in your project main folder with the name .gitlabci.yml.	1
+Do we need multiple .gitlabci.yml file for each project ?	1
+Played around with 50 different gitlabci.yml configurations and keep having loads of issues with different stages.	2
+"but when I check circleci document, it may be impossible to deploy windows server(windows docker container) ."	2
+"By gradually, I mean long term I move to pytest and pytest commands, but in the meantime, the tests already written can still be used in a single commmand because my CICD on CircleCI is still dependent on the tests to pass."	0
+"To really take advantage of CircleCI though, you might want to try doing it like this: ."	0
+"We use CircleCI, so firing these commands should not be a big deal."	0
+"But in my CircleCI 2.0 server only the first job, build runs while test and android do not run although they are part of the overall workflow config."	2
+Many CI tools like Travis or CircleCI already force you to do this anyway.	1
+"I am setting up the circleci test with Django rest framework API, and MySQL DB, I had tried the step that circleci provided,  ."	1
+I can not find any good and understandable examples of a CircleCI config to build and deploy to an AWS EC2 instance.	2
+"It 's possible that those tests sometimes take longer than 10 minutes, which is the default timeout time in CircleCI."	1
+"Every time CircleCi 2 run a build, Gradle downloads the dependencies even if the cache is enabled."	2
+Sometimes I wanna merge something into master without test on CircleCI.	1
+You 'd need to add a private SSH key to CircleCI that has access to the Github repository that you are trying to clone.	1
+I have a CircleCI config that has a deployment script at the end.	1
+I 'm using CircleCI to run tests / builds for a node.js project (node 8.9).	1
+"/pre/  I have tried deploying the zip file from my computer as well as CircleCI and I have also tried using the AWS CLI, all with the same result."	1
+I want CircleCI deploying my site when I push to a specific branch.	1
+add steps in the .circleci/config.yml file with the fingerprint of your ssh key .	1
+Trying to run build on CircleCi and it 's failing on test.	2
+I am using CircleCI and docker for CI/CD pipeline.	1
+I am building my project on circleci and getting this build error.	2
+In a circleci config.yml file I have a number of jobs  defined similarly this way: .	1
+I 'm running an android build with circleci 2.0 and get an error about missing build tools /CODE_SEGMENT/ using the /CODE_SEGMENT/ docker image.	2
+"On the local machine, when you run CircleCI, everything passes."	0
+It 's even easier with a tool like CircleCI.	0
+"/pre/  Then, in your config.yml file at CircleCI, decode it back: ."	1
+"You can also see how I build an Android app from just the project source files, some gradle properties and dependency files, on CircleCI system via command line instructions in this yml file."	0
+Job success or failure is communicated to CircleCI by the exit code of the process.	1
+"Difficult to say what fails without access to your CircleCI build machine (to check logs etc) but here 's the config of CiclreCI v2 that build APK and deliver it to Fabric beta, also similar works to delivery APK to google play alpha/beta/prod channels."	2
+What would be the equivalent in gradle for this command that I am currently using in circleCi?	1
+I have checked the github webhooks and the circleci config is there.	1
+"I follow the Dropbox documentation: /url/ and the Circleci has run successfully, but I can not find the IPA file in my dropbox catalog."	2
+"With the encouragement of @FelicianoTech, who is a CircleCI developer evangelist, I am posting the following advice."	1
+/pre/  The overall idea is to wrap these steps into a CircleCI Orb and then have my build configuration reuse them from the Orb.	1
+I 'm having a super weird issue with NPM on CircleCI.	2
+That 's the only architecture available on CircleCI.	1
+I can not seem to figure out how to override/extend the orb to run additionally circleci equivalent of  .	2
+"The most common approach to this is to use a CI/CD tool, like Jenkins or CircleCI."	1
+"I 'm trying to run CircleCI tests for a Django project in which the /CODE_SEGMENT/ determines the version of /CODE_SEGMENT/ to apply (/CODE_SEGMENT/, /CODE_SEGMENT/, or /CODE_SEGMENT/) from an environment variable, /CODE_SEGMENT/."	1
+"I 'm trying to configure Dockerfile in order to build a docker image of my api and deploy it to Heroku using CircleCI, but cannot seem to properly configure it for https."	2
+I 'm trying to deploy one of my application using circleCI workflows in following steps: .	1
+disclaimer: Developer Evangelist at CircleCI .	1
+It 's created by CircleCI to show you the commit that CircleCI is currently building.	1
+Hi everyone :slight_smile: I have a strange bug on my docker build job on circleci.	2
+/pre/  I am getting error  Invalid json: /home/circleci/.ask/cli_config Exited with code 1 .	2
+My config.yml file for CircleCI looks like this: .	1
+"API keys, passwords, and secrets you 'd store in private environment variables via the CircleCI UI."	1
+"I 'm trying to get reporting working for Karate DSL, and it 's proven a challenge because my team uses CircleCI instead of Jenkins."	2
+"For reference, I 'm using CircleCI and fastlane, but would accept any answer that uses only command-line tools."	1
+I am not familiar with CircleCI but a quick search suggests that there is a way to expose links to build artifacts.	0
+How do I pass the current folder contents into the image in CircleCI?	1
+"However, the build is failing in circleci and the glog script that I run does not work for some reason."	2
+Here 's my circleci build : .	1
+"As far as CI/CD, since our deployment is pretty much just a docker push, we 've used CircleCI without any issues."	0
+They make it faster to get started building on CircleCI by providing the tools that most users need.	0
+I am trying to CRUD data on a google cloud bucket via gsutil from my staging environment which runs via CircleCI.	1
+I try to intregrate project with circleci by adding circleci config in root of the project (I created a new branch and pushed it) /CODE_SEGMENT/: .	1
+"In my case, I use Jenkins, Artifactory, GitHub, CircleCI, and for legacy reasons Perforce, to manage a code tree of 70k+ files ( code tree not my design!)"	0
+"/CODE_SEGMENT/ is a special property exposed by CircleCI, if you use a different CI/CD tool you will need to find the location of the bash profile."	1
+And I am using circleci for it.	1
+Your config example is mixing CircleCI 2.0 and 1.0 config syntax and this is causing the issue.	2
+"Coming from modern CI tools like drone.io, circleCI."	1
+I want to output the results and because I am using CircleCI I need the results to be in Cucumber JSON or JUnit XML.	1
+I 'm trying to figure out CircleCI with Android Programming.	1
+I 'm having trouble trying to get my Elixir/Phoenix app on CircleCI.	2
+"Ricardo N Feliciano Developer Evangelist, CircleCI ."	1
+"When I initially ran these changes in CircleCI, I got this error: ."	2
+I am building a simple CI process on CircleCI.	0
+/pre/  CircleCI variable would then be /CODE_SEGMENT/ and you would read it in your specs as /CODE_SEGMENT/ (assuming your spec needs an integer for port) .	1
+"If, like me, you were looking for a way to programmatically reference CircleCI (2.0) artifacts, the following url structure works for me: ."	0
+We make amendments to the code on separate branches and push and then deploy via CircleCI using FTP.	1
+/pre/  .circleci/config.yml .	1
+This is being run as part of an automated build process in CircleCI so it 's abstracted from any interaction.	0
+"I believe the problem you are experiencing is due to the ssh-agent offering the CircleCI key, which is read-only."	1
+I 'm building a workflow on circleci 2.0 and so far jobs are running until it gets to android job.	1
+I 've started to configure a CircleCI integration of my project.	1
+This is my circleci configuration file .	1
+We deploy to AKS using CircleCI.	1
+"Instead of setting a Python version in a step, use the appropriate Docker image for that version of Python in the CircleCI config."	1
+Now I want that .circleci/config.yml file sample to deploy the app into app engine.	1
+disclaimer: Developer Evangelist at CircleCI .	1
+I am running Android UI tests on CircleCI MacOS executor.	1
+"CircleCI allowed adding 'SSH Permissions' to a project, so as during setting up build to run, it attaches that to the environment, thus making any ssh commands to the VPS easy."	0
+The build job running was Circleci 1.0 with its defaults.	1
+/pre/  My CircleCI config.yml: .	1
+I use circleCI and made a config.yml.	1
+I found a workaround using a CircleCI scheduled workflow triggered by a CRON.	1
+the part of config.yml for CircleCi is .	1
+Could anybody please share what is wrong or what I am doing wrong that is not letting code to be built in CircleCI?	1
+So I was able to rule out a circleci / selenium issue.	1
+"In CircleCI 2.0 (which is what that config is), the ""special step"" checkout checks out the current commit."	1
+"In CircleCI, the keychain password is an empty string unless you changed it in the /CODE_SEGMENT/ action."	1
+When trying to build project on CircleCi I get the following error: .	2
+"I 'm using the ecr orb to build and push my image to the registry however, the circleci env vars are not available in the build process for some reason."	2
+Here is some of the code that is running in a fastlane lane within circleci job/workflow.	1
+What is the best way to handle this situations in CircleCI?	1
+"I 'm trying to push a commit, but our CircleCI yields the following puzzling error message: ."	2
+"update .circleci/config.yml to use those in each command statement, like:  ."	1
+The CircleCI config file itself would be stored in Git.	1
+We are usng circleci and github.	1
+"I 'm using CircleCI with the ""Only build pull requests"" feature enabled."	1
+"/pre/  At the end of the word ""stocks"" on the first line, I have sometimes appended any of the following (sometimes I only appended one of the following, other times I combined them, depending on the error(s) from either Maven or CircleCI)."	1
+Following is an example /CODE_SEGMENT/ with which i managed to get my Android espresso tests working some time back using circleci.	1
+We did make it compile and run on the CircleCI but the compile time takes about 9 minutes.	2
+"locally in IntelliJ IDEA my tests works, but when i push into repo, gitlabci cant find my tests ."	2
+We use CircleCi in our workflow in order to deploy PHP site as docker image on ElasticBeanstalk server.	1
+In CircleCI you can access this value with the /CODE_SEGMENT/ variable.	1
+I 'm trying to set up a workflow in CircleCI for my React project.	1
+Here is the traceback that I receive when I deploy (via gcloud from my local workstation and also CircleCI) .	1
+We 're going to be using CircleCI 's approval hold to manage deployment to each environment.	1
+"I 'm trying to handle continuous integration using CircleCI 2.0 and AWS CodeDeploy so that when I push changes to my django project to development in github, it builds in CircleCI and then pushes the deploy to an S3 and after that the changes are deployed to the EC2."	1
+"Adding /CODE_SEGMENT/ to my CircleCI /CODE_SEGMENT/ stopped the daemon from being used, but did not fix the problem."	2
+/pre/  The CircleCI log indicating that the second Chrome launch FAILED: .	1
+/pre/  What can i do to make the circleci step fail when error is thrown?	1
+"CircleCI Convenience Images - Pros   - already made, faster to get started   - no Docker knowledge necessary   - more likely to be cached meaning faster builds   - changes with CircleCI platform requirements meaning always works on CircleCI - Cons   - changes with CircleCI platform requirements meaning it can occasionally break your workflow ."	1
+this is a circleci question I guess.	1
+"Pantheon recommends using GitHub, CircleCI, &amp; Composer for CI/CD but you can easily substitute BitBucket in the workflow."	0
+"On CircleCI, all 3 jars are installed correctly."	0
+I 'm struggling to configure the /CODE_SEGMENT/ postgres config in my circleCI configuration file.	2
+"All of the tests successfully pass on my development device, but consistently fail when they run on CircleCI (for example: /url/)."	2
+I want to build it and push the html file to gh-pages using circleci.	1
+This is because he might be using some other tool(jenkins/circleci) to push changes to the task definition or revision.	1
+I 'm currently using circleci with a docker executor.	1
+In my project am using circleCI with codecov for a Springboot maven project.	1
+"In my config.yml file for CircleCI, I have the following code."	1
+As part of this commit I got the corresponding CircleCi build working properly.	0
+Went to circleci build test commands and used: java --version command to check java version installed.	1
+Now CircleCI is finding the package.json file.	1
+This is our config.yml for CircleCI: .	1
+/pre/  And with this Dockerfile the same error appears as in CircleCI.	1
+But when I tried to integrate with circleCI I am getting below exception .	1
+"We use a circleci pipeline to build, test and deploy."	1
+I am migrating project to CircleCI 2.0. .	1
+I am using CircleCI to deploy a microservice to a Digital Ocean droplet and had a few questions about whether my approach is the right one.	1
+I am trying to write a CircleCI config that will allow me to reuse not the whole entries (like e.g.	1
+I have now managed to create and register a new task definition in the circleci config using the aws cli.	1
+My question is how do I setup CircleCI so that the build is successful without having to make the firebase.config.ts file public?	1
+"if you already added your keys as environment variables in CircleCI, they are already available for your build jobs."	0
+This is a question about CircleCI: is it possible to access GitHub labels on CircleCI?	1
+"I 'm currently trying to get GoBuffalo and CircleCi working, but so far without luck."	2
+Automated CircleCI job will execute if we remove the css import line (below) .	0
+I am trying to connect to GCloud using CircleCI and deploy my code.	1
+Question: Any idea why the build tools are not being picked up in the circleci/android docker image?	1
+If possible I would like to use Bitbucket Pipelines or CircleCI to perform the deployment in a manually triggered step after running tests.	1
+/pre/  And here 's my circleci config: .	1
+I do not understand how to write my circleci configuration file : /url/ .	2
+We have a number of applications that are built and released via CircleCI.	0
+Most of the online CircleCI examples contain Docker.	0
+I use CircleCI to build a go binary that I want to run in a pod installed by Helm charts.	1
+Then there is this project where someone seems to do the same thing on circleci successfully.	0
+"These failures happen only in CircleCI 2.0 on the cloud or with CircleCI CLI, with the given Docker-image."	2
+"I have been surprised when I saw that the ruby process takes over 4gb of memory, and this is what triggers CircleCI to kill the process."	2
+(4 Gb in CircleCI by default) An alternative is to use /CODE_SEGMENT/ instead of /CODE_SEGMENT/.	1
+I am currently running tests from Cypress in CircleCI for my project.	1
+I am new to CircleCI.	1
+If this is CircleCI you are using to build the image you can use /CODE_SEGMENT/ as described in: .	1
+It refers to CircleCI 's feature called Contexts (/url/).	1
+"A CircleCI CI/CD pipeline handling an Angular 7 application fails during the test step, with the CircleCI log suggesting the browser is not registered, although it runs once and it works!"	2
+/pre/  I want to install CircleCI 2.0 into Django application.	1
+I have following workflow setup in CircleCI configuration: .	1
+the issue is when i copy my credentials file path to my circleci GOOGLE-APPLICATIION-CREDENTIAL enviroment variable i get an error of failed to authenticate at the circleCI level this is my error  /CODE_SEGMENT/ .	2
+"I 'm pushing my code to github and when I merge my branch, it kicks off a a build in CircleCI."	2
+"Currently, /CODE_SEGMENT/ is run to setup the database on CircleCI."	1
+"/pre/  We have made sure that image is built correctly ( we can upload it ti CircleCi server, start the container and run phpunit tests)."	1
+"We looked into all kinds of CI/CD tools like Codeship, CircleCi, etc."	1
+"Alternatively, if you do not have frequent builds, you can create a CircleCI Scheduled Workflow that runs once an hour with a single job of pruning old K8s pods."	0
+I am trying to install conda inside a circleci docker image and add it to the /CODE_SEGMENT/ file.	1
+My config.yml for circleci looks as follows .	1
+"If you have CI(jenkins/travis/CircleCI), then make use of that infrastructure to luanch your tests with either option from the above."	1
+/pre/  What do i not understand about the orbs context / circleci 's env vars?	1
+/pre/  The progress of circleci is as follows: .	1
+Any good soul to help me out how can I config the .yml circleci file to run my Karate tests?	1
+We are using Github + CircleCI + Heroku with automatic deploys setup.	0
+"Locally I run the tests successfully with the mock files, but in CircleCI, pytest cannot find the JSON files within the directory: /CODE_SEGMENT/ ."	2
+Unfortunately wait-on does not work with CircleCI.	2
+The error comes when command ./gradlew connectedAndroidTest is run by CircleCI.	2
+"Solution: In order to run both a Go and Python server in the same CircleCI job, we created a custom Docker image that combines the public circleCI Golang and Python images."	0
+If you are using a non-basic account you can tell Circleci to use a different machine resource_class.	1
+Details:  I successfully run testcafe tests on circleci not using saucelabs (just using a docker image that has chrome/firefox in it).	0
+/pre/  I suspect there is some issue with CircleCi and headlesschrome.	2
+i went back to the logs in CircleCI and found out that the latest awsebcli version that worked correctly was 3.14.11 so i modified the following line in .circleci/config.yml .	0
+So I figured out that this was not being called somehow from CircleCi only.	1
+"However, I keep on receiving the following error on CircleCI: ."	2
+Have you tried using the /url/ in your CircleCI project 's notifications setting section?	1
+I also need to have configuration in the config.yml file which instruct CircleCi to deploy the application (.net core web api) to our dedicated server.	1
+/pre/  Here 's my circleCI code: .	1
+"Ricardo N Feliciano Developer Evangelist, CircleCI ."	1
+/pre/  You have to check your CircleCi build dashboard and look for Artifacts.	1
+Any idea why it does not on CircleCI?	1
+When trying to run the below code on CircleCI .	1
+There would be no good way to limit to just CircleCI without having to constantly update your EC2s firewall.	2
+"the nuance here is that for the integration test I need other docker image and different run command to execute (which should execute only when merging to the master), is it possible to do it with CircleCI ?"	1
+/pre/  Have a look at the CircleCI config reference: /url/  .	1
+"I 've done the sending message to slack part, but now CircleCI sends a message to slack every time I push."	2
+Additionally in circleci we also setup our environment variables so the application is aware of what endpoints to use.	1
+"AS an admin, I do not have access to the code repo but basically, it creates required tables via CircleCI build triggers using the source code via GitHub Repo."	1
+You should use Match to take care of code signing on CircleCI.	1
+I have to migrate from CircleCI 1.0 to 2.0.	1
+"I 'm trying to do something like CircleCI 's [ci skip] tag, which lets developers ""opt in"" to building the project, i.e."	1
+Merge branch to master will kick off a CircleCI build .	1
+Is this possible with CircleCI?	1
+On CircleCI support forum there is an answer about this: .	0
+/pre/  The CircleCI log indicating that the first execution 's tests passed: .	0
+Disclaimer: Developer Advocate at CircleCI .	0
+I new to Jipster and CircleCi I 'm trying to do ci for my project but my build fails with the following error : .	2
+/pre/  CircleCI fails with the following error: .	2
+"Since CircleCI does not support it, you 'd need to write yourself a script to transform your input YAML into the version CircleCI understands."	2
+I get the following error when I try to run this yaml file via circleci .	2
+"Tino, this is how I run my tests in CircleCi with buffalo, one important thing is that you can use buffalo images to build/test your code."	1
+"The second is a project holding the conan and circleci stuff (do not know yet if I should group the library/conan/circleci in a single project, but this is not yet the point)."	1
+I 'm trying to run Espresso tests using CircleCI and Firebase.	1
+" I recently switched to circleCI 2.0 from TravisCI and I am facing an issue when I try to: /CODE_SEGMENT/ , it does not add the path variable."	2
+I am using Circleci for CI and saucelabs for automated testing.	0
+/pre/  using TAR_OPTIONS environment to inject the option /CODE_SEGMENT/ allowed CircleCI to extract the tarball without issue.	0
+CircleCI for some reason keeps on assuming that the projects are not set up for v2.0 despite config.yml being called the right thing and living in the right place in the repo.	2
+Please contact CircleCI Support.	1
+"But only on CircleCi, the build does not work."	2
+CircleCI suggests using the /CODE_SEGMENT/ orb to install and initialise the gcloud cli.	1
+"But somehow when there is an error, CircleCI still thinks that it is successful."	2
+"I know CircleCI allows caching between rebuilds, so I 've looked at the documentation for Go modules, and while it mentions a cache, I can not seem to find where it actually exists."	2
+Hello I am having problem with setting up CircleCi together with Cypress.	2
+/pre/  I believe the problem is that it uses the default CircleCI key to authenticate with github.	1
+I have tested with many repos and it seems like CircleCI (or the webhook from Bitbucket) uses the last commit from a /CODE_SEGMENT/ to display the message &amp; decide whether or not to build.	1
+"In CircleCi, we have to create YML file and push the code."	1
+I was able to get CD working on CircleCI with my Unity project.	0
+"When first added via the UI, CircleCI only looks at master, but subsequent pushes to any branch (as long as .circleci/config.yml is present in that branch) should work."	0
+CircleCI Convenience Images (the pre-built images you refer to) are designed to be a starting point for the majority of CircleCI users.	0
+All tests are passing in circleci image circleci/node:12 .	1
+/pre/  Does anybody has already tried Firebase Functions with CircleCI or has any clue how to get this to work?	1
+We 've been running our builds on circleci for a while.	1
+And then configure config .circleci/config.yml : .	1
+From the CircleCI documentation I do not see a way to include scripts like /CODE_SEGMENT/ directly as part of an Orb.	2
+But the circleCi configuration does not work because it uses maven commands.	2
+"How I can ""circumvent"" CircleCI to push this minor code change in Github to AWS?"	1
+Why am I getting this error on CircleCI?	1
+"When using jest in a circleci environment, we discovered, that skipped tests will not fail with jest."	0
+After a LOT of debugging this eventually turned out to be an issue with the CircleCI cache.	2
+I tried even opening the command prompt(C:\users\system32\cmd.exe) using Jenkins - even cmd prompt will not open .	1
+"I have a pipeline Jenkins job which is working as expected, configured with the option ""GitHub hook trigger for GITScm polling"" for auto build on any push to git repo."	0
+"*"" in the Jenkins logs."	1
+So there should be a revert process so that we can revert back to older working version of Jenkins.	1
+"Your local server stats, for instance, what if your jenkins CPU is 100% then can I expect constant installation time?"	1
+I have application and Jenkins containers running on my droplet.	1
+"I am an admin on our Jenkins master but, this button is not available for any builds for any user."	2
+This will not affect script execution and will not require you to remember removing that stupid UI block every time you update your jenkins job config.	2
+Manually configure Jenkins slaves running as 'user'.	1
+"I heard that Jenkins gives you the possibility to build dependencies automatically, but I know no details."	0
+Jenkins just keep waiting.	2
+I want to be able to add a callback as a parameter in a Jenkins Groovy script.	1
+"But it worked by adding double quotes in GIT repository url under ""Source Code Management"" section on Jenkins page like this - ."	1
+sudo /etc/init.d/jenkins restart .	1
+"I 'm in the process of working out a continuous integration/delivery workflow with Git, Jenkins and (as a new addition) Artifactory."	1
+"There is not currently any provision to rerun    EnvironmentContributors, nor any API in Jenkins for such    contributors to indicate that their result might have changed since    the last call."	2
+"In Jenkins, we have some multibranch pipeline projects with three branches Develop, Master and SIT."	1
+Is there a way to set the default AWS region in Jenkins system configuration?	1
+"On restarting the jenkins service using the below command and reloading the browser, Jenkins was up."	1
+I have jenkins running as a docker image and Sonarqube server running as two separate docker images on my host machine.	1
+I 'm using the base image jenkins/jnlp-slave:3.27-1-alpine  but created a new one where I just added some ssl-certs.	1
+"I want to lint the projects in a nrwl nx workspace in the CI environment (Jenkins), generating checkstyle format output, ideally one checkstyle file per app/lib ."	1
+I am running a SonarQube - Jenkins integration.	1
+"I am trying to use s3upload from Jenkins CI, I have added IAM user S3_User credentials in Jenkins console and using withAWS(region: s3Region ,credentials: s3User)."	1
+I am trying to setup a Jenkins server using one of the Chef cookbooks from the supermarket.	1
+I am having below groovy script for my Jenkins pipeline.	1
+"So I found the answer, I hope this helps others - git saves the executable permissions in GitHub too so in my case each time Jenkins pulled the latest code, it was overwriting the permissions to what was saved in the git repo."	0
+Is it possible to deploy a VM on GCP and install Jenkins / Selenium Grid to it.	1
+I 'm running jenkins on a VM and it has docker installed.	1
+"I know that there is a way to install plugins via a shell script provided by Jenkins, but I 'd like to stick with ansible playbook as far as possible."	0
+"Finally, I configured jenkins.xml  ."	1
+As a final note I will quote Jenkins official docs: .	0
+Download the /CODE_SEGMENT/ file (from the node 's page of Jenkins) .	1
+We have to add our automation code to Jenkins pipeline there the server system machine will not have the access for the application so we have to bypass the authentication passing user id and passwords of test user.	2
+"I am using the AWS CLI on a Jenkins server, and one of the argument flags requires a JSON body."	1
+I have a question about a Jenkins pipeline.	1
+"Currently, I have set Gitlab host URL in the Jenkins configure page as /url/, which results in the following error:  ."	2
+"It seems AWS Jenkins is opened with Palo Alto firewall, so I am able to access the URL from the AWS Unix box where Jenkins is installed and not from the Jenkins application."	0
+The command to run Test suites on cmd works fine when jenkins is on local server but fails when i run the same command on jenkins on aws linux instance?	2
+BUT when it comes to the freakin jenkins jobs it seems to get a bit more complicated.	2
+"For ex: If your Jenkins server has a job named A_SLAVE_JOB , then you have to do a  HTTP GET in your java rest client at this end point : /CODE_SEGMENT/ ."	1
+"If you QA and PM are techies, then they can also merge branches or close PRs, which can auto trigger jenkins and run prod deployments."	1
+/pre/  I purposely do not do the openrc on Jenkins since I want to test locally first .	1
+"Jenkins issues /url/ and /url/ detail potential fixes that could be introduced, though they have not been implemented in any version of the system yet."	0
+But restart jenkins deamon using systemctl restart jenkins will do the job.	0
+"Another way would be to have a local filesystem ivy repo only on the jenkins slave, which would have all the latest versions of your libraries, the point is that this repo is not accessible from developers workstations/laptops/VMs."	1
+I have Jenkins running on an ec2 instance.	1
+When I use Ant build tools with Jenkins.	1
+This is all managed on the YUM repo server using some home grown scripts to pull packages from Jenkins and put them into the JL-testing repo (replacing any old versions there).	1
+/pre/  This is the only way to I get it to work with Jenkins.	1
+Looking for a way to build some projects with Java 8 and some with Java 11 on the same Jenkins server with no slaves.	1
+I have implemented a sample CI/CD pipeline using Jenkins for an application.	1
+"I have a declarative Jenkins pipeline with /CODE_SEGMENT/, /CODE_SEGMENT/, /CODE_SEGMENT/ and so on."	1
+The parameters should be set in Jenkins before job starts.	1
+4) Jenkins can make call to SaltMaster to reconfigure VM attributes (disc size etc.)	1
+"If it cannot be used, my apologies, Jenkins' documentation is often misleading."	2
+In virtually all resources online people just install .NET Core CLI using apt-get (or different app management tools) on the Jenkins machine directly.	0
+"Post installation, we installed the Anchore Container Image Scanner Plugin in Jenkins."	1
+"And checked the ""Poll SCM option in Jenkins Job"": ."	1
+I want to setup a Jenkins job which will get triggered when there is some changes to the submodule directory and build the respective jar.	1
+I am intermittently getting the below error in Jenkins.	2
+/pre/  I just want to run the above xslt against the sample XML through SHELL script and I want to use it in the JENKINS shell script editor.	1
+I am unable to see any Secret text credentials in the drop down in my Jenkins' project SCM section.	2
+in Jenkins server created ssh key for the user jenkins and added that into this repository deploy keys.	1
+In your docker compose file add /CODE_SEGMENT/ to your jenkins service .	1
+Those are inner java classes at the Jenkins core (or plugins).	1
+I know that we 've got some gitlab-plugin in Jenkins and the communication is possible (in the past we managed to trigger builds using webhooks or post build statuses back on GitLab).	0
+is this in jenkins or sonarqube?	1
+I then used the Jenkins EnvInject plug-in to load that file in the same Jenkins project.	1
+It 's because you are assigning Jenkins instance to variable inside pipeline.	1
+"The recent weeks the Jenkins GUI has started slowing down for us, up to the point that loading of Jenkins GUI periodically takes minutes."	2
+"If you can setup a Jenkins agent in the Windows server, then you can use IIS app command in Jenkins build step to start / stop your IIS ."	1
+This is how jenkins linter works.	1
+I 'm not expert in Jenkins groovy configuration.	1
+I 'm trying to find Jenkins pipeline feature in UCD where deployment is automated without any click.	0
+Have also set proxy for JENKINS user on host machine .	1
+When I run the Jenkins build it is not generating any apk at jenkins workspace.	2
+"But when I execute the build, I get error, that jenkins is not able to connect sonar server."	2
+"If you run git command by windows shell/batch on jenkins, it maybe cause by git ssh key issue... ."	2
+"i need to build a job in Jenkins, to get latest git commit message every time a commit is done and to store it in a variable."	1
+Note - Jenkins user exists inside the docker container &amp; not on your host machine.	1
+My current Jenkins has a large number of jobs.	1
+(The builtin Jenkins view is useless because it does not show a subtree).	2
+"The PR are hooked into Jenkins, where the PR are tested before they are merged."	1
+The solution for me was delete /CODE_SEGMENT/ and change node version (from 7.1 to 8.4) on jenkins.	1
+Eventually I want to trigger one build in jenkins after pushing to gitlab and get a version tag on master branch (now I 'm testing with develop branch).	1
+You Can refer to /url/ which shows how to setup slave for jenkins .	0
+I recently started working with Jenkins for CI/CD for ASP.net applications.	1
+I am trying to set up jenkins build server for one of minor projects in my company.	1
+If you want to run it in non-GUI mode from Jenkins job - go for JMeterPluginsCMD Command Line Tool which has MergeResults plugin to run it in command-line mode.	1
+I have configured for other projects to publish the .Net project using Jenkins and they all worked well.	0
+I would like to run difftool during jenkins job to allow the user to decide which line is correct during the job.	0
+I 'm currently trying to setup a Jenkins build Pipeline and I 'm struggling including a docker container.	2
+When the task runs Jenkins is able to fetch the repository and then the maven build is carried out which completes without any issues.	0
+Jenkins probably works best when the project is structured along standard lines (as the most vanilla example take a Makefile/gcc project on Linux with a git repo).	0
+"I am currently setting up a CI-Pipeline with Jenkins/Sonarqube/Maven/OWASP, but im stuck in a Sonarqube problem."	2
+/pre/  Step 3: Restart jenkins service .	1
+How do I provide the username/password or API token of the github user so that jenkins can clone the directory?	1
+"Right now I am using the PyAutoGui library to simulate these actions and they are working fine, but when I run them through a headless browser on Jenkins, those actions are not registered."	2
+I am able to trigger the build (execute POM.XML from GIT repository) from Jenkins.	1
+/pre/  When I trigger the same steps on jenkins slave container through putty i.e.	1
+"Performance is generally quite good, however, whenever I try to open the configuration page (Manage Jenkins --> Configure system), it takes an extremely long time for the page to load (a good minute or so)."	2
+"I wrote a Jenkins pipeline script to run some newman tests with a pre-request script, but the variable defined in the pre-request script is unkown during the running of tests."	1
+Jenkins config: .	1
+"So that will probably help alleviate some of the restrictions around upgrading Jenkins, if that 's what we need to do."	0
+/pre/  Now i can access jenkins UI in my browser without any problems.	0
+"We 're using the Maven release plugin, and we get SNAPSHOT builds for development and release builds in Jenkins."	1
+not sure what build tools installed on jenkins.	1
+"There is also a ""fork"" of jenkins for containerized environments, that I like, you can check more about Jenkins-X here ."	0
+"Reason for doubt- I am thinking thinking that, Kubernetes and Jenkins are only depending image registry for deployment by image pulling."	0
+The user that running the Jenkins agent does not have write permission to your workspace /CODE_SEGMENT/ .	1
+"I am having trouble getting Jenkins to use the ""npm"" command from the ""Execute shell"" (under the ""Build"" step)."	2
+Root cause of your problem is wrong permissions for Jenkins:  .	1
+"When my Jenkins automation detects change on push to branch, it analyses which files where changed from which module."	0
+Consider the following simple Jenkins pipeline: .	1
+Publish Profile per target environment on the web projects to be deployed to remote (from the point of view of the Jenkins master) IIS sites.	1
+When use the same code with same command in Jenkins I get this error: .	2
+Jenkins builds can be triggered from rest api.	1
+"/pre/  But the problem is on the Jenkins cluster that I will run my project build on, it does not support python 3.7."	2
+"I am working in an centos7 environment with no internet access, and I need to install Jenkins."	1
+I 'm trying to automate the crea within a pipeline.tion of a Jenkins Pipeline build from	1
+I need to install a very recent version of CMake on top of a jenkins Docker container.	1
+Just use in you playbook to install oder update to the latest version of jenkins: .	1
+"When merging staging into master, our jenkins server squashes the commits to create a single ""release"" commit in master that 's tagged with the version."	1
+I am pretty new working with Jenkins and I have a couple of questions.	1
+This is my last major issue before I can get Jenkins running a nice pipeline for deployment.	0
+I have already added the Jenkins generated key to my Git user profile.	1
+"/url/ This is the link to the documentation for this by jenkins, but I do not find a hint for my problem."	2
+This stackoverflow page can help you checkout bitbucket pull requests in Jenkins with Generic webhook trigger.	0
+"Basically instead of using Jenkins for 'builds', you would be using them to control services ."	1
+/pre/  When I do this I can access the jenkins dashboar with myIp/jenkis.	1
+"There does not seem to be a setting on a Gitlab side for that: Gitlab -> Project -> Settings -> Jenkins CI Integrations to set up a webhook for some other branch, like ""dev"" f.e."	1
+"Actually there are couple of unresolved bugs with groovy closures in Jenkins pipelines, for example /url/ and /url/."	2
+I have installed Jenkins on local machine (MAC OS) and docker as well.	1
+"So, seemingly, an error code is not returned to Jenkins."	2
+Jenkins 2.107.3 .	1
+I have a Jenkins pipeline that I need to run a sed on a file but I am getting an error of /CODE_SEGMENT/ .	2
+Is there a way to make Jenkins evaluate PHP (or other script) files?	1
+But the exact error was that this private key was not readable by Jenkins.	2
+"I only have a loose understanding of what options I have in regards to reporting from jenkins, but I was wondering if it 's possible to either generate a TRX file or convert the XML file to TRX post build."	1
+"To integrate Google Benchmark in Jenkins, I used this neat plugin: ."	1
+I 'm starting to play with Jenkins Multibranch Pipelines.	1
+"Yeah we can do this via tools like Jenkins, but I am working at a client which does not have such ""advanced"" facilities."	0
+Click on Maange Jenkins -> Global Tool Configuration -> Git to find the configuration section.	1
+Any ideas how I can implement such a system with Jenkins in Github?	1
+I create jenkins shared library with few steps.	1
+but I 'm facing a problem when I try to do that from jenkins job.	2
+so should I install docker on my jenkins master and run the build on slaves using docker host uri ?	1
+The jenkins is conneted to a gitlab account so in my pipeline by using  .	1
+I was wondering if there was a way in Jenkins via a Jenkins plugin or build framework in which I could build the Java project in the same exact way it is currently built in Eclipse without changing anything with its structure.	1
+When I log into the Jenkins build server directly and run from bash this works.	0
+I am trying to password a password binding from jenkins to a powershell command line it works for passwords without special characters.	1
+I am unable to execute selenium scripts in Jenkins.	2
+"I could find no reference to /CODE_SEGMENT/ in the Jenkins documentation, so I created a build to try to clarify their relationship."	2
+"I am trying to implement the CI/CD pipeline for my project using Docker, Kubernetes and Jenkins."	1
+Now it works and pull the changes from Git via Jenkins.	1
+"When our Jenkins server runs the build script, the assets folder is missing from the /CODE_SEGMENT/ folder, as well as some other files configured in /CODE_SEGMENT/."	2
+"Unfortunately I have lost a lot of time debugging why something only works/does not work on in CI 's (not Jenkins), so I am very attracted to replicability/re-usability between CI and development environment."	2
+"Note that with Jenkins, you can setup multiple tasks for each PR."	0
+"I need this command to have access to push the lerna tags, as well as the updated version numbers to the master branch, and I also need Jenkins to not fall into an infinite loop."	1
+I have problem with using Jenkins.	2
+Just had to give the jenkins user (UID) permissions to the directory containing the cert on the host (which I did not see in the article but might be mentioned).	1
+The following is how I solved this in my jenkins file: .	1
+The problem you are facing is most likely related to how you run jenkins.	1
+I have created a shared Library in Jenkins which looks something like this (simplified version): .	1
+"A solution was proposed and integrated in jenkins.war since weekly   release 2.55 (and not yet in any LTS to date) which enables the   administrator to configure which function signatures should be used   for each function known to have different variants, apply it to their   application server initialization options and then run and update the   generic jenkins.war without further workarounds."	0
+I am still working on the Jenkins integration with Tuleap as I am also just a beginner to Tuleap.	1
+I am new to Jenkins and I have little knowledge in its plugins configuration.	1
+"If you do not want the port number to be part of the URL, then you must ensure Jenkins listens on the default port (ie, 80 for http)."	1
+This is how my jenkins pipeline script looks like .	1
+ I have a Jenkins process running with about 15GB memory allocated on a system with around 60 GB RAM.	1
+/pre/  Jenkins is on a kubernetes cluster.	1
+"Webhooks are equally worthless in accomplishing what is needed, as nothing seems to fire off a job in Jenkins, regardless of how it is configured."	2
+"Jasmine, Karma, and Protractor can be customized at will, so you can make them output in an XML file that could be processed by a Jenkins job instead of a command line which is not practical."	0
+"The easiest approach would probably be a pipeline in Jenkins (or whatever your build server is), but you can also write a shell script that calls Maven thrice."	0
+"If you want automation, you can use Jenkins or Airflow to schedule resizing jobs."	0
+I am trying to deploy a sample aspnet core project but Jenkins build fails.	2
+"Sometime, when 4 build job are running, the CPU load almost 90%, I guess that is a reason why Jenkins dies."	2
+"Jenkins agent is an application that runs on a remote server, not where jenkins master node runs."	1
+I would like to use Jacoco / SonarQube for code coverage and plan to integrate it into Jenkins job which will run nightly .	1
+The jenkins user is setup to use bash and is available in /etc/passwd .	1
+I have had trouble finding useful documentation on the Jenkins PyLint Warnings tool.	2
+There are two ways to load ( or source file in jenkins):- .	1
+/pre/  If you have installed git on your Jenkins (which I truly believe) you can simply execute this as bash / sh command or using Jenkins' echo if you want to display it.	0
+I have a Jenkins server (version /CODE_SEGMENT/) running on Oracle Linux /CODE_SEGMENT/.	1
+I want to pass a JSON string to a node using a Jenkins Job.	1
+I have a bitbucket repository that gets built by jenkins on every commit to the repository .	1
+Have you configured  the jenkins job setting and bitbucket webhook settings?	1
+"I 've used and semi-configured Jenkins in the past, using SVN, and it was so simple and fast to get it working."	0
+If Jenkins is secured then I think you will have to provide credentials when using the Jenkins CLI.	1
+I 've installed Jenkins X on EKS using instructions from /url/ so that I can use BitBucket with Jira.	0
+In this case a new jenkins job is created with the name of the branch.	1
+"The default user using jenkins/jenkins:lts image is jenkins, who DOES NOT have privilege to create folder at /opt ."	1
+This is not an issue with maven on jenkins.	1
+I 'm using Jenkins with a branch parameter to specify the branch to build from.	1
+I have a simple Jenkins job  ( Jenkins 1.514  ) and I am looking for a way that every time job is running it will refresh a specific system environment variable.	0
+Otherwise I need to pause the pipeline (freeing the Jenkins agent) until that time range is reached.	1
+"Create Jenkins JOB2 and enable ""Poll SCM"" for Weekly basis and add automation script as downstream project ."	0
+Start Jenkins again.	1
+"On the other hand, using /CODE_SEGMENT/ is not the recommended way of initializing objects in the Jenkins Pipeline."	2
+Jenkins seem to initiate a kernel process which consume CPU to max as seen in the snapshot.	2
+"However when I run my Jenkins Job, I get the following error: ."	2
+"I am running webservice test in katalon/jenkins, but it gives me error in generating variables, can anyone please tell me what am I missing here?"	2
+"If you are running the Sonar Analysis via Execute shell plugin for Jenkins, you need to supply the Username Password of a User which has the Execute Analysis rights on the SonarQube server you are trying to access."	1
+I am having issue running ant via Jenkins pipeline.	2
+"You do not tell us how Gitlab and Jenkins are connected, but I 'll assume you use the Jenkins Gitlab plugin /url/."	1
+"Whenever my Test Scripts start to Run when I build my JOB in Jenkins, I get this error i.e."	2
+But no build is triggered on Jenkins.	2
+I also faced similar issue when configuring GIT in jenkins.	2
+sshpass needs to be installed as part of the host Jenkins docker image which Ansible uses for making the ssh connections to the hosts.	1
+"When I call the start-build command on the Jenkins Pipeline BC, my pipeline process fails to run the oc start-build command."	2
+Although I am very proficient with Jenkins and Jmeter.	1
+Jenkins (version 2.131)   running on Apache Tomcat (version 8.0.53).	1
+Our Jenkins and Fastfile unpack and unsign the development version of the app.	1
+Here is my Jenkins metadata (keys removed): .	1
+All of this as well can automated in a Jenkins pipeline or with other Continous Deployment tools like CircleCI etc.	0
+I have recently upgraded to jenkins 2.89.4(jdk8).	1
+"/pre/  When I launch the command, after some maven work during the workflow, I am asked for jenkins user password: ."	1
+I 'm on windows so I already had to resolve the problem of Jenkins not finding any sh and nohup exes (installed git bash because it apparently did not want to work with my cygwin install).	2
+So it works in jenkins if you add the -cp .	1
+and i would like to automate the process using Jenkins build process.	0
+Tried re-installing the Jenkins on fresh Ubuntu server.	1
+I wanted to learn the art of running the selenium code from jenkins( CI).	1
+"Generally, we can send the variables dynamically through the parameterized project in Jenkins using the REST API."	0
+"I have the EC2 Plugin Configured in a Peered VPC, and when a job is tagged  'support_ubuntu_docker' it will spin up an Jenkins Slave, with Docker pre-installed."	1
+The documentation explains how to use it in a Jenkins Pipeline with the triggerRemoteJob step.	0
+"This plugin may be added in Jenkins by default in near future, see this issue."	0
+I made the below change in the jenkins file.	1
+I use the kubernetes plugin in a jenkins pipeline to run the stages in containers and I inject username password credentials as environment variables into the containers using the Credentials Binding Plugin.	1
+I have a jenkins job that calls a powershell file.	1
+/pre/  LINUX-JENKINS COMMAND .	1
+Is there something similar for Jenkins DSL?	1
+"Below is my jenkins pipeline to send a email The problem is i have some params.variables in my body which i need to use in order for them to be replaced i need to use """"""  I also have a HTML file which i attach in the body, for which i need to use ' '  ."	1
+"If not, is there an alternative means of deploying Helm charts (in a private repo) from Jenkins?"	1
+Is it something to do with Jenkins installation?	1
+I 'm trying to setup jenkins in my local machine where perforce is also installed.	1
+/pre/  Logs from the Docker Worker Node created by the Jenkins Master node .	1
+"no external agents), then you should be able to SSH to the Jenkins master box and update curl (how to do this will depend on what OS you are running)."	1
+"/pre/  but still on the jenkins, it is showing the build is successful."	0
+And enabled tcp port on docker.service and check the test connection on Master Jenkins and It returned response.	1
+"Then, I go to the jenkins logs, and the only this related is..."	1
+/pre/  I always get the output as /CODE_SEGMENT/ and not the actual Jenkins build number.	2
+"This plugin has not been updated in a few years, so I 'm not sure if it 's compatible with the latest version of Jenkins."	2
+"I have a Jenkins job which is currently used for rebooting a host, this is a part of a pipeline and has several downstream jobs."	1
+Try to use jenkins' standard methods instead of creating objects manually.	0
+My jenkins is hosted on srv1 and ansible is hosted on sr2.	1
+The latest Jenkins has pipeline support.	0
+My opinion is that this good entry point is Jenkins.	0
+"The easiest thing to do is start up a Jenkins instance, configure it the way I want, exec into it (e.g., /CODE_SEGMENT/), cd into /CODE_SEGMENT/, and just grab the appropriate files and base64 encode them."	0
+Installed jenkins/jenkins from dockerhub.	1
+"It might not be jenkins, it might be something else."	1
+I have installed Jenkins on my local machine which runs on MacOS High Sierra and have docker installed .	1
+"After installing the plugin, go to the global jenkins configuration   panel (JENKINS_HOME/configure or JENKINS_HOME/configureTools if   using jenkins 2), and add new NodeJS installations For every Nodejs   installation, you can choose to install some global npm packages."	1
+I am new to Docker and Jenkins  .	1
+"In order to make the deployment automatic, i have a Jenkins Jobs which execute the task : ."	0
+It 's not depend on Win OS or Environment variables (I.e - %HOME% OR JENKINS_HOME) .	1
+The full list of available system properties is on the Jenkins Wiki.	0
+"Say:  When ever we push changes to git, then jenkins job will trigger, jenkins will pull the changes and build new docker image and push the image inside docker."	1
+I am very new to Jenkins.	1
+i am struggling how to do continuous deployment or delivery in jenkins which main feature where spring boot app name or jar file name changes that time.	1
+"For Jenkins environments which have macOS, Windows, or other agents, which are unable to run the Docker daemon, this default setting may be problematic."	2
+/pre/  But I am getting the following error in console of failed job in jenkins: .	2
+The actual execution completed in 17:23 mins but the jenkins job takes overall 42 mins to finish.	2
+"Except that when I run the testes android with Jenkins (I use the plugin android emulator) I get errors, the problem is that sometimes 2/3 of the tests will work, sometimes no .."	2
+"I have used this guide to ""install"" jenkins on my local machine: ."	0
+"Often, at least one of those jobs is running, making it hard to restart jenkins after updates."	2
+I am using jenkins for the build but every time i run a build it gives an error and fails?	2
+"So let 's say for a simple test that take only 1 minute to run , but saving the artifacts from Jenkins slave to Jenkins master take around the same time or more before it 's considered to be passed."	2
+Jenkins pulls the revision and merges it locally with the target branch.	1
+Include a new package configuration is just one line in the Travis recipe.	0
+"I 'm afraid if I test for something such as a form and clicking buttons, Travis CI may even take longer."	2
+"Great thanks to Travis support team, because of their help and support only I was able to resolve my concerned issue."	0
+I came across to this issue while upgrading Travis distribution from 14.04 to 16.04 and python 3.6 started to fail.	2
+Travis CI can be built without any preinstalled /CODE_SEGMENT/ compilers (e.g.	0
+This may mean giving up some handy Travis feature in favor of re-coding it yourself.	2
+"Now the last thing to do is to connect Travis CI to the repository, which is just a few very simple steps; see their GitHub tutorial."	0
+Travis CI enables your team to test and ship your apps with confidence.	0
+"I encountered this error when using Travis CI to deploy content, which involved pushing edits to a repository."	2
+Add the below to your .travis.yml .	1
+"travis CI, terraform, ansible, chef, etc."	1
+If your problem is TravisCI related then you can set a fixed version which works: .	0
+"Q3: Travis is highly configurable, it can be set to run on any branch of the repository, it defaults to master but you can easily set it to run on any pr for any branch."	0
+Travis CI can automatically deploy your Heroku application after a successful build.	0
+The error from Travis CI was clear and concise.	0
+"Currently all Drill unit tests can't pass with 8G memory machines, which used as CI (TravisCI and CircleCI): /url/"	2
+Travis CI can automatically deploy your Heroku application after a successful build.	0
+"Hence, the reason why, travis reports timeout."	1
+It may take a while to start your server on Travis environment.	2
+Probably this was more a travis / sonatype configuration issue more than a maven issue.	1
+jdk: openjdk8 instead of oraceljdk8 in .travis file .	1
+I had the same issue in Travis and solved by adding: 	1
+"/pre/  The Travis environment does not have the path /CODE_SEGMENT/ defined, thus reading attempts from there will fail, resulting in a segfault."	2
+You can read more on conditions and conditional builds on Travis 's site.	0
+"Oops, an error in my Travis config happened to execute /CODE_SEGMENT/ where I was expecting to see the output of /CODE_SEGMENT/."	2
+"as there are many mini projects in the project directory, and they all share the same Travis or CircleCI build infrastructure."	0
+I did a deployment with travis-ci a couple times and apparently when that happens if a memory_size and timeout is not set a default 128 mb and 3 second is used.	2
+I opened a request to change this on travis forum.	1
+It seems that the setuptools package provided by Travis-CI for Python 3.6 is too old to use the /CODE_SEGMENT/ specifier correctly.	2
+"also, need to check does Travis-ci support this kind of application related to third-party applications "	1
+Listed supported iOS Simulator SDK on Travis  .	0
+"In your TravisCI account, you can set environment variables."	1
+But you can also run tox at Travis CI.	1
+Apparently Travis-Ci switched from xbuild to msbuild as default build platform.	1
+"However, a better way is to use one of the many build automation solutions that are available, such as Jenkins, Travis CI, or GitLabCI."	0
+Also I don't find in Travis-CI documentation: how can I see that the user key was uploaded to be used with repos?	2
+There is a whole chapter in the Travis docs how to setup databases.	0
+Here is a working travis.yml: /url/ .	1
+This is how I get the nltk_data through my Travis Pipeline: .	1
+Some of the documentation from Travis CI that I could find that will likely be useful in sorting out a full answer .	0
+I have updated my travis.yml as below .	1
+"is installed by default in Travis CI instances; to get the latest stable version, add this to your /CODE_SEGMENT/: ."	1
+"if it does contain sensitive information, and is the same for all branches' encrypt it and add it to your .travis.yml ."	1
+Seems to be Travis issue... .	2
+It's also possible to check it in Travis-ci builds considering the order dependencies are downloaded: .	0
+"For example, I use Travis for my personal site automated deployment."	0
+"It is telling you that Python 3.1 is not a version that Travis supports, please try a newer version like .CI allows to configure Environment variables, so you can store the private key into a Environment variable, i.e /CODE_SEGMENT/ ."	2
+"I emailed the Travis-CI staff, and I received this reply, which I think explains the problem: ."	0
+"I tried the following (locally, not on Travis) and it works."	1
+"If you are using Travis along with github for your remote repository, try Travis custom deployment."	0
+I have found Travis are quite quick to respond but you'll also need to set up your commandline client: .	0
+Add the deploy script to travis: .	1
+"This makes it easier, both for humans looking at the Travis CI web   interface and for automated tools querying the Travis CI API, to   decide when an unsuccessful build is our responsibility requiring   human attention, i.e."	0
+"Hours later, I found that the failed Travis Job is working fine now."	0
+Try changing Travis yml mono segment to .	1
+"It looks superficially similar to yours, and works perfectly well on both Ubuntu (Travis-CI) and my local MacBook pro for myself."	0
+"If you don't need this precision, use the Travis solution because it will be faster."	0
+Since travis has good support for docker this is straight forward.	0
+You can't really ssh to Travis CI.	1
+"I 'm trying to make Travis run on all python versions, now my scripts run over: python 2.7, 3.5, 3.6, 3.7 but not over python 3.8."	2
+You can find a guide for running electron-forge with Travis CI here: /url/ .	0
+"Since you don't seem to know anything about Travis CI, the best place to start is just go through their docs: /url/ ."	0
+See Travis docs here for more info  /url/ .	0
+Composer builds currently run using Travis CI - see more here /url/ and more info here /url/ incl links.	0
+There were discussions in the Travis CI issue tracker[/url/] and the clojurians Slack.	0
+"So if you can run any tests locally, be reasonably sure that all is well, you can tag a release and push and Travis will do the rest."	0
+To get it working on Travis CI is a bit tricky but this should do the trick: .	1
+In your .travis.yml file just replace  .	1
+This seems to be a recurring issue with Travis accessing Maven Central.	2
+Travis provides a guide here that will help you encrypt your local files with a passphrase and then store that passphrase using travis encrypt.	0
+"This article gives an example with Travis, but it should apply to CircleCI without any major changes."	0
+The general guidance in /url/ for Travis will be useful for these general configuration aspects.	0
+"If you use the built-in Travis deployment, you can simply do this: ."	1
+"Travis CI doesn't support this, due to their current virtualisation technology."	2
+My current travis.yml: .	1
+I have found now something interesting on the Travis CI Blog.	0
+You can reference to Travis documentation on /url/.	1
+In your travis config: .	1
+"It is telling you that Python 3.1 is not a version that Travis supports, please try a newer version like ."	2
+From Travis doc on the subject: .	1
+Travis CI API supports /url/.	0
+Not even talking about the travis build that runs forever.	2
+My Travis build keeps failing because apparently it does not recognize the arm abi.	2
+Below is my travis file .	1
+"With current tools like CircleCI, Travis, etc."	1
+/pre/  For my travis: .	1
+"I think it is a problem because on Travis-CI it needs to grab the dependencies and since these dependencies do not use semantic versioning, Go grabs the latest, which changes on every commit to master."	0
+"However, when I merged this branch into master, the Travis CI build ran against master (correct) and invoked the deploy stage (incorrect), attempting to deploy to Maven/GitHub (and failing due to what I believe is an unrelated error)."	2
+I am trying to implement Travis CI for my react-native project.	1
+"/pre/  I got the right environment with softwareupdate, but wonder if there is way to detour this until the fresh version is not in Travis' VM image?"	1
+I wrote this .travis.yml file: .	1
+"I should also mention that for some reason calling the singleton's constructor locally during tests isn't a problem, but when the tests are run on travis-ci it is a problem."	2
+"Currently, Travis tries to upload it trice (once for Python 3.4, Python 3.5 and Python 3.6, respectively), and thus two out of three builds fail."	2
+I looked through the documentation and the source code and I couldn't find anything except travispy.jobs() which will return a maximum of 250 jobs across all repositories.	2
+"In locale all works, with Travis/Scrutinizer I have this error: ."	2
+"When it does work, it eats up about 5 minutes of my precious free time on travis so my test suite may not finish (a long test suite is its own issue, working on it)."	2
+This is my travis config file .	1
+I tried to connect to my dockerHub via travis ci  /CODE_SEGMENT/ but i got this error  /CODE_SEGMENT/ .	2
+I have no error on Travis during the build.	0
+I have email and slack notifications configured for travis build failures.	0
+My configuration in .travis.yml is something like this.	1
+Following are the Travis CI Job logs .	1
+My .travis.yml: .	1
+But when build is triggered by Travis CI it fails with following error .	2
+"I have a Cobra CLI command that works great on Travis CI that automates linting (golint and go vet), formatting (gofmt), testing (go test), as well as other things such as automating proto compilation."	0
+"I am creating an API using DRF, I was able to setup Docker and was also able to integrate Travis CI."	0
+"/pre/  Travis will backup the above two folders to s3, then every time before user rebuild, it will fetch the two folders from cache."	0
+"So currently the branch specific notification is not supported by Travis, but would need to be implemented separately by consuming the webhook payload from Travis."	2
+"If Travis would request write access anyway, many users would complain about not trusting Travis as it requests permission for things that it shouldn't do by default."	2
+"It passes all checks locally on my Windows machine (/CODE_SEGMENT/), on travis-ci, and on the R win-builder platform (/CODE_SEGMENT/) ."	1
+"I have the /url/ file, which starts automatic test on travis-ci, on each push on github."	0
+"When I try to run my django tests on Travis CI in parallel using /CODE_SEGMENT/, I run into this error ."	2
+"/pre/  I tried to debug the travis build and run the deployment script, the deployment succeeds but again the page fails to load."	2
+The error can also be seen in this Travis CI job: /url/.	2
+/pre/  Travis fails with an error that suggests it cannot find a header file that is in a sub-directory of /CODE_SEGMENT/.	2
+BTW the travis and appveyor scripts are the most accurate documentation on how to build meshlab :)  .	0
+"I am setting up an automated Travis CI CI, and was wondering if it is possible to launch two jobs (same tests) with two different configurations."	0
+Does anyone know a possible solution to this problem (maybe telling Travis just to ignore the library?).	1
+"Note that I never had this issue in the previous builds, that there is no cache and that it passed on Travis."	1
+"Because Travis-CI native windows support for Go seems to be lacking, I though about going this route."	2
+/pre/  FWIW...the result of the /CODE_SEGMENT/ command on Travis is: .	1
+I get to /CODE_SEGMENT/ line in the Travis build and it waits until timeout.	2
+We're using Travis CI and I have configured SonarCloud in the .travis.yml file.	1
+"I can do it using Travis, but Pipelines are different."	1
+I would like to know if it is posible to build for ios and android parallel to make the travis process faster.	1
+Build apk failed in Travis CI.	2
+"I am using Travis CI to build, sign and notarize MacOS application."	1
+"I am attempting to create a CI/CD pipeline with Travis CI that tests the front-end, tests the back-end, and deploys."	1
+"/pre/  However, when I do this, my travis CI fails with ."	2
+"I'm trying to deploy our app through travis cli, the build is getting build perfectly, but when it comes to deploy, it deploys the whole root app folder."	2
+/pre/  This works seamlessly in local environment using Python 3.7 and in Travis-CI environment using Python 3.5.	0
+It would be nice if this could be done by manually clicking the rebuild button in the Travis dashboard.	0
+/pre/  .travis.yml: .	1
+The travis /url/ documentation shows how to specify gcc and clang compiler versions in build matrices.	0
+"My Travis CI unit tests pass, but deployments seem to fail silently."	2
+The contents of my .travis.yml: .	1
+My Travis job generates standard Ant/Junit/Jenkins XML-format test output.	1
+/pre/  I want the pipeline to deploy to production ONLY when I confirm it (by pressing a button on the Travis CI website or something like that).	1
+I am having some issues getting Travis-CI to install RcppArmadillo on Ubuntu 16.04 with R-oldrel (3.5.3) although it works for R-release (3.6.1) and R-devel.	2
+We use Travis and AppVeyor for testing and building releases.	1
+"I want to make the package compatible with Travis CI, however, as a newbie, struggle to set up the version correctly."	2
+I 've followed the instructions yet my travis build is failing because of: .	2
+The credentials are stored as security keys with Travis and should work correctly.	0
+"I use Travis-CI and AppVeyor now, which have ""PR"" (pull request) builds that build the code as if the pull request were merged."	1
+I am running a travis build with multiple OS.	0
+"I've discovered a neat way to use Travis to deploy to the gh-pages branch (involving a token and a gem to encrypt it) of a repo, which actually makes it a subdomain of my website."	0
+"So far all Windows builds are fine, but the Linux and macOS builds on Azure Pipeline and Travis CI are not, for example here is a /url/, and message /CODE_SEGMENT/ ."	2
+"Travis Docs says: /url/ ""Just authenticate via docker login"" ."	1
+I neither found how to setup Travis to not generate the /CODE_SEGMENT/ file.	2
+"When this runs, travis reports with a a fatal error that the role lch does not exist: ."	2
+My project is a python CLI application and I use Travis for the CI.	1
+"/pre/  This works fine on my local Ubuntu machine, but the resulting archives are empty when build on Travis CI."	2
+"/pre/  the code runs successful on different machines, python3.x versions and travis."	0
+I've tried now many hours to automate the deploy process with Travis CI.	2
+Tried publishing the reports using the travis provider releases.	1
+I use this command to install qt on my travis-ci env: /CODE_SEGMENT/ However it tells me: /CODE_SEGMENT/ How to instaall qtwebengine properly by brew?	1
+"Now, when I deploy my application on dev machines using travis, it gives exception while creating a build, and throws Java exception that ServerEndpoint class not found."	2
+"Following instructions from internet i created SSH key, encrypt it and config my .travis.yml file ."	0
+"When this runs on travis, my tests fail randomly."	2
+I'm trying to run my project with Travis but I can't compile because of an issue with Alamofire.	2
+/pre/  And begin of travis log: .	1
+and finally my .travis.yml inside my spring boot project .	1
+i having some troubles to make puppeteer with jasmine works in travis-ci like in my loca repo.	2
+Travis CI can test multiple versions of PHP per trigger.	0
+My node QUnit Travis CI build (see /url/) /url/ with this error : .	2
+I have a very simple Python project and I'm trying to run tests using Travis CI.	1
+I'm trying to install travis on ubuntu but keeps failing.	2
+I have read the documentation on how to do this with travis-ci.org and it looks like you do something similar to the following:- .	0
+"Also, my Travis is able to build docker image."	1
+"In other words, I am trying to build functionality equivalent to Travis CI's deploy on tags functionality: ."	1
+That would save some time for me and resources for travis.	1
+"I looked at the Travis docs to see if there's a config setting for increasing the number of watchers, but I couldn't find anything."	2
+Travis shows me this page: /url/ .	1
+I want to deploy my front-end made in ember js on gh-pages after successful Travis Build.	1
+"Edit: the build is still failing in Travis, but locally and in the Travis debug environment it succeeds: ."	2
+"I've searched in so many places, even in Travis CI documentation page but I couldn't find the solution of my problem."	2
+"On the Travis documentation site, there is no info on the /CODE_SEGMENT/ stage, and we cant see any feature to rename files."	2
+My problem is that I want to be able to put a deployment key (what GitHub calls a personal authorization token or personal OAuth token) into an encrypted variable in my Travis settings for the repository so that the configuration file never has to change.	1
+I've installed travis using gem.	1
+"If so, how to configure .travis.yml to enable this feature?"	1
+I'm trying to setup build and deploy to github releases from travis CI.	1
+The maven build on this thing is a bit tricky but it does run fine locally and I even have it running the actual build on travis successfully.	0
+My .travis.yml is this one: .	1
+"My goal is to simply build the project successfully with Travis-CI, without any tests."	1
+I'm using Travis-ci to deploy lambda function.	1
+So I can get all the commits in my latest push and then across all those commits get the folders that have changed.. this works really well.. but ONLY on travis.	0
+Edit 1 As I new I don't know where the error message stored by travis ci.	1
+"I can share the testing suite if needed, but as the tests all show as passing within Travis I didn't think it necessary to share."	2
+"I want to use Travis for my semester project and I have a problem, I can't deploy on my releases on Git Someone got an idea ?"	1
+In order to check PHP code standard on commit push with travis CI.	1
+I'm unable to get my travis ci build to pass.	2
+As soon as I run them on Travis I get an error but I can't explain myself why.	2
+"/pre/  Even though the repo and /CODE_SEGMENT/ has been specified, Travis CI still deploys all build files to /CODE_SEGMENT/, not/CODE_SEGMENT/."	2
+I need to install a newer version of a dependency via Brew than what is contained in the Travis CI image.	1
+It seems like Travis CI should offer an easy way to cache Brew formula and bottles.	0
+So I am using Travis CI to automatically deploy my application to AWS Elasticbeanstalk environment.	0
+"I searched why on Earth this is possible, because Travis says it has sonar-scanner capabilites."	0
+I'm using travis to deploy built content into the projects corresponding /CODE_SEGMENT/ branch.	1
+general information about how to setup a database on Travis: /url/ .	0
+This was my initial .travis.yml file .	1
+I am using AppVeyor (Think Travis but for Windows) to run some tests again several different versions of Python.	0
+I'm trying to deploy an User github page only after the execution of all the Travis tests.	1
+I suddenly experience build failure with TRAVIS CI builds.	2
+I am attempting to use /CODE_SEGMENT/ in a Travis CI build to deploy files to a remote server using SFTP.	1
+And how correctly to configure Travis to release new versions of artifact on successful builds from Master branch?	1
+"My setup includes Travis-ci, Jacoco plugin via maven pom, Codecov and Java10."	1
+I set up Travis CI tests with different PHP versions: .	1
+When my Travis CI build runs the same tests the tests pass but the test command fails with the following error: .	2
+Is there any way I can make Travis CI decrypt the auth keys before building the app?	1
+"I investigated the issue and it looks like Travis CI pipeline try to execute step /CODE_SEGMENT/ before each deploy, and when it try to execute it for deployment to Heroku it fail due to Git tag with such name was already created in /CODE_SEGMENT/ step for deploy to Github releases."	2
+"I 'm trying to switch from a MySQL database server to MariaDB in my testing/CI on travis, and for that I also switched from the mysqldb python package to pymysql."	1
+"It doesn't work on Travis CI although ""which cwebp"" seems to work/not cause an error."	2
+EDIT Added Travis error message.	1
+/pre/  Now I am trying to setup Travis-CI for the project.	1
+Committed and pushed changes into the repository and Travis CI started to work and resulted in: 	1
+/pre/  How to do this given that I already have several commits and tests are configure in travis.yml to run on push to master.	1
+"I don't know where these are installed in the Travis build environment, so I think this is where my problem lies at the moment."	1
+I want to use travis-ci to run a script and commit the result back to the same branch on github.	1
+Travis CI runs each build in a separate virtualenv against the Python versions described in the YML file.	0
+Is it possible in Travis (or another free CI for opensource project in GitHub) to have a graph that display the evolution of test duration ?	1
+The relevant parts (I think) of my travis build: .	1
+Any thoughts on why we see this error on Travis and not locally?	1
+I didn't find this information in the travis Doc /url/ .	2
+"Should I contact Travis support or is there a config issue that I am not seeing, similar configs work for the other project."	1
+"/pre/  I read about every single article on how to setup codecov with jacoco and travis ci, made a detour via cobertura just to figure out that Java10 is not supported and read change logs to see if some versions are uncompatible."	0
+We're currently testing and deploying through Travis from GitHub.	1
+Since a few days travis does not support the jdk option oraclejdk10 anymore.	2
+I have a repo with 3 maven projects for which I want to use Travis.	1
+You can find the travis build here: .	1
+My Linux build on Travis-CI is failing when it attempts to download libcurl: .	2
+I am trying to deploy the build to gh pages from travis ci.	1
+"When Travis builds my application and comes to Selenium tests, it throws the following message in the log:  ."	1
+"The Travis documentation for C++ suggests that a matrix can interleave different environments and compilers, and I am not able to find any way to run different scripts separately."	2
+"Please note that if you want to run PHPUnit on HHVM, you have to   explicitly install version 5.7 in your .travis.yml due to a   compatibility issue between HHVM and PHP7 ."	1
+Didn't found any solution in the documentation of travis .	2
+For unknown reasons my Jest tests seem to block at the end of my CI via Travis.	2
+But how is it possible to make webapp run on Travis CI before the app starts to check tests?	1
+"You only need to be careful, and not create a Travis CI fork bomb(!"	2
+"After a pull-request is created on Github, the Travis PR builds triggers."	1
+"I'm trying to adopt Continuous Integration practices in a development project I'm working on, so I'm making use of Travis CI."	0
+"/pre/  It 's strange because everything else is working fine all the way from Github Travis testing (which are all passing), continuous integration, and all the way to Heroku deployments but for some reason I can not seem to access the Postgres db from the dashboard: ."	2
+"I'm new to Flutter and Travis CI, so im having minor problems setting up the following."	1
+"I'm setting up automated deployment with TRAVIS CI, but my script gets stuck when trying to rsync to my server."	2
+Travis encrypts environment variables and does not make them available to forks.	2
+"While building an iOS project on Travis-CI, I am getting multiple build command failures like:- ."	2
+The cache section will tell Travis to keep the /CODE_SEGMENT/ directory and restore it at the beginning of your next build so it will not be downloaded for a second time.	1
+I am using Travis for CI/CD.	1
+"However, when Travis CI is running the tests with the same API emulator, the app throws an error: ."	2
+my (shortened) .travis.yml file is as follows: .	1
+I am trying to build my app in Travis but I keep getting the following error which I am unable to debug.	2
+Is there any way to speed up Travis build or to split up compilation process to multiple jobs?	1
+/pre/   I manually installed the latest curl version in the travis build.	1
+To alleviate the compile time we have attempted to cache the DerivedData contents using xcodebuild argument /CODE_SEGMENT/ and then use the travis cache (/url/) to copy that data back.	1
+"I having been getting this ""travis build error"" for days now, the whole test are passing but it kept on returning an error, please can someone help me out on how i can collect this error."	2
+"is installed by default in Travis CI instances; to get the latest stable version, add this to your /CODE_SEGMENT/: ."	1

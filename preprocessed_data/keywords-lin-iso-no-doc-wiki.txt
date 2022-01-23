@@ -1,0 +1,6 @@
+compatibility:0.25456 software:0.19206 product:0.16184 platform:0.14042 language:0.14042 different:0.14042 usage:0.14042  installed:0.14042 uninstalled:0.14042 replace:0.14042 
+specified:0.24647 user:0.15911 learnability:0.14469 actively:0.14469 content:0.14469 quality:0.14469 recognize:0.14469 appropriate:0.14469 learning:0.14469 satisfaction:0.14469 
+build:0.01101 test:0.00785 practice:0.00618 commit:0.00618 integration:0.00589 production:0.00581 continuous:0.00563 change:0.00550 bug:0.00417 
+requirement:0.35851 meet:0.31278 performance:0.30251 function:0.24409 performing:0.24409 speed:0.16687 memory:0.16687 footprint:0.16687  throughput:0.16687 limit:0.16687 
+reliability:0.31255 component:0.31255 product:0.13904 degree:0.13153 buggy:0.12403 accessible:0.12403 fault:0.12403 interruption:0.12403 recover:0.12403 affected:0.12403 
+user:0.20910 usability:0.19586 easy:0.12835 degree:0.11079 using:0.10804 operate:0.10804 interface:0.10804 enables:0.10804 pleasing:0.10804 interaction:0.10804 

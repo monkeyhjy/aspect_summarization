@@ -1,0 +1,6 @@
+positive:
+i looked through the documentation and the source code and i couldn't find anything except travispy.jobs() which will return a maximum of 250 jobs across all repositories.
+didn't found any solution in the documentation of travis .
+negative:
+you can find a guide for running electron-forge with travis ci here: /url/ .
+general information about how to setup a database on travis: /url/ .

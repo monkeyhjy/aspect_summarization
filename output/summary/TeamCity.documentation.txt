@@ -1,0 +1,7 @@
+TeamCity
+['"i \'d like to ask for some help about setting up the dottrace plugin for one of our teamcity builds - so far i \'ve followed the instructions here, and got a build that sometimes works: ."']
+['i had a look in the teamcity documentation and it seems the only way to clear pending builds is to use the api: .']
+['you can find the full teamcity vcs trigger documentation here .']
+['"i still have no idea why try-catch is n\'t working in teamcity, so if someone knows the  answer to that, please comment."']
+['looking at teamcity documentation is not help much.']
+["i ca n't figure out why teamcity is killing my build before it is done."]

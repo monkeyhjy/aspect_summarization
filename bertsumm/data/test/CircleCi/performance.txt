@@ -1,0 +1,14 @@
+Negative:
+we did make it compile and run on the circleci but the compile time takes about 9 minutes.
+i have been surprised when i saw that the ruby process takes over 4gb of memory, and this is what triggers circleci to kill the process.
+there would be no good way to limit to just circleci without having to constantly update your ec2s firewall.
+if circleci fails, my droplet’s cpu stays over 100% and /code_segment/ keeps running.
+but as soon as circleci starts a docker instance (see config.yml below), it needs at least 5 minutes to run the script, if i am lucky.
+the point is the script runs, finishes, and the circleci job continues to run until i get a timeout error at 10 minutes (/code_segment/).
+after completing the build circleci uploads artifacts and this is taking a lot of time.
+
+Positive:
+by gradually, i mean long term i move to pytest and pytest commands, but in the meantime, the tests already written can still be used in a single commmand because my cicd on circleci is still dependent on the tests to pass.
+alternatively, if you do n't have frequent builds, you can create a circleci scheduled workflow that runs once an hour with a single job of pruning old k8s pods.
+with the current setup, /code_segment/ does n't have to be installed fully every time for every build due to circleci caching.
+this is n't super expensive in terms of circleci time either, so overall this lets us run all commits to master and anything in an open pr for reasonable cost.

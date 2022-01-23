@@ -1,0 +1,6 @@
+positive:
+"z3 folks do maintain nightly-builds on github, so it is indeed possible to pull the latest code and integrate it with travis-ci (for linux and mac) and also appveyor (for windows)."
+travis ci provides a way to cache maven repository.
+negative:
+"i 'm trying to work with travis ci, and previously i have try to build my project in the android studio 's terminal with ./gradlew build or with ./gradlew clean build but both throws ""execution failed for task ':presentation:compilereleasekotlin'."""
+i was trying to setup travis for my github project but run into some problems (see ss).

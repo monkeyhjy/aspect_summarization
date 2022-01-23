@@ -1,0 +1,27 @@
+Negative:
+but when it comes to the freakin jenkins jobs it seems to get a bit more complicated.
+if it cannot be used, my apologies, jenkins' documentation is often misleading.
+/url/ this is the link to the documentation for this by jenkins, but i do n't find a hint for my problem.
+i could find no reference to /code_segment/ in the jenkins documentation, so i created a build to try to clarify their relationship.
+i have had trouble finding useful documentation on the jenkins pylint warnings tool.
+i have consulted the jenkins docs and while i see that db connections are possible, i have not yet found anything which fits my needs.
+today i was grabbing a jenkins/docker-tutorial, and got a similar error.
+i 'm fairly new to jenkins so i guess i 've misunderstood how this works and would appreciate some guidance, with examples if you have the time.
+but i could n't find any examples to configure github actions to trigger jenkins job (via webhook or a particular job directly) .
+i looked at the documentation in jenkins but could n't find a relevant answer.
+
+Positive:
+as a final note i will quote jenkins official docs: .
+you can refer to /url/ which shows how to setup slave for jenkins .
+this stackoverflow page can help you checkout bitbucket pull requests in jenkins with generic webhook trigger.
+i 've installed jenkins x on eks using instructions from /url/ so that i can use bitbucket with jira.
+the documentation explains how to use it in a jenkins pipeline with the triggerremotejob step.
+this plugin may be added in jenkins by default in near future, see this issue.
+my opinion is that this good entry point is jenkins.
+the full list of available system properties is on the jenkins wiki.
+i have used this guide to "install" jenkins on my local machine: .
+based on jenkins documentation, see more in directory structure and defining custom steps.
+this jenkins article outlines the setup instructions in detail, but the simplified overview is: .
+i found at least on current jenkins dragas' solution is almost correct.
+jenkins pipelines are written in groovy, so you can find more info about the difference between single quotes and double quotes in groovy in this question and in the official groovy documentation.
+for the moment, i just want to know the job name and number, things you can easily see from looking at the node information on jenkins' main page.

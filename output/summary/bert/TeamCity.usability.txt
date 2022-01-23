@@ -1,0 +1,6 @@
+positive:
+"i know it should work like that, however using dotnet restore  in teamcity build steps allows me to pass sources as parameters on teamcity form."
+i can build this solution using third-party tools like teamcity without requiring additional setup.
+negative:
+"i tried to use autoit, it works locally but does n't work on teamcity build, looks like it requires teamcity to run on console mode (not service mode), which is not an option for my situation."
+"i assume that there 's some mismatch, because the plugins are clearly running as teamcity recognizes the results and put them on the interface."

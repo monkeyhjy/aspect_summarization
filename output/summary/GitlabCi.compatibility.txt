@@ -1,0 +1,7 @@
+GitlabCi
+['this way my .gitlabci.yml file can get go lang install and can run any go command.']
+['"i also have a test in my go app which works fine on my dev machine, as you will see above i have set and enviroment varable in the gitlabci.yml file(this matches my dev enviroment."']
+['lines in the .gitlabci.yml file) and works fine.']
+['"iam running my gitlabci, to test my maven project, everthing ist working fine but when its starting to compiling/building/installing following error recieves:  ."']
+["supports only fixed ssh commands executed towards the server from the build environment (.gitlabci.yml) which is n't very helpful because i need to use ssh to access build layers of the image."]
+['"the script works when i run it from the command line, but not when i run it from .gitlabci.yml."']

@@ -1,0 +1,6 @@
+positive:
+not even talking about the travis build that runs forever.
+when i 'm trying to upload files to the server using this command it takes 1-2 minutes, but travis cannot do it at all.
+negative:
+if you don't need this precision, use the travis solution because it will be faster.
+travis ci keeps a cache of your vendor folder in order to make builds run quicker (and reduce unnecessary traffic for them).

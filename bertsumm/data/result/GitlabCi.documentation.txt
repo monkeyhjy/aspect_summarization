@@ -1,0 +1,7 @@
+GitlabCi
+['as mentioned on the gitlab ci guidelines the job can be easily done by including a stage like this in the .gitlabci.yml file : .']
+['when i follow the tutorial step by step it works on gitlab.com that means when i add .gitlabci.yml file to my root project it triggers the pipeline.']
+['"if you have the resources, gitlab-ce with gitlabci is a pretty simple way to get started in developing an on-premise ci/cd workflow."']
+["i 'm currently having trouble with my gitlabci.yml pipeline where i 'm trying to set up a test and deployment stage for one of my php file."]
+["i tried to add the below in .gitlabci.yml file but this does n't seem to help."]
+['"i checked in some docs about this, but i have n\'t found the way to configure my .gitlabci.yml to work properly: ."']

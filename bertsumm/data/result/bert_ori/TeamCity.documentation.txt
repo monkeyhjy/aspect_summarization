@@ -1,0 +1,6 @@
+positive:
+as mentioned in the comments configuring teamcity with a settings.xml where you specify your repository location should do the trick.
+"lots of people seem to be having problems with tc automerge setups, so here is the complete answer i posted on the teamcity community forum."
+negative:
+"i 'm pretty new to teamcity and i 'm having some difficulties understanding how to pass values to my gulp-config.js, which is used to setup the config to build and deploy a sitecore helix project with gulp msbuild."
+i am trying to create a nuget publish step and in the packages section i specify /code_segment/ which is the path but i dont know how to get the current version in order to point teamcity to get the correct nupkg file .

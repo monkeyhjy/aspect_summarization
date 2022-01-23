@@ -1,0 +1,21 @@
+Negative:
+the problem is i need to build those projects parallelly in gitlabci pipeline when there is a code push and i cant hardcode them in .gitlabci.yml as they are generated on fly.
+that is, i should not provide tags to the .gitlabci.yml file, but instead the jobs should pick the runner that is currently active and is able to run jobs, and accordingly run the jobs against that runner.
+but then i wanted to integrate the shell script in our gitlabci/cd pipeline and for some reason when i run git blame on gitlab, all lines are attributed to me and the latest commit.
+so, can someone please explain why gitlabci is missing an obvious feature (which is n't available even in ee) that has been in bamboo and hudson/jenkins for decades?
+- i ensure, that the line running the python script always returns a 0 exit code such, that gitlabci does not stop executing the next lines, but i remember the status code
+
+Positive:
+currently i 'm configuring gitlabci to build and package releases of this app and i want to automate as much as i can.
+it looks like it is a typical trigger feature inside gitlabci  .
+i have a ci/cd process with gitlabci for ionic app deployment for auto content update using this /code_segment/
+i 'm using the gitlab release api in the gitlabci.yml to be able to automatically create a new release when deploying.
+this can be achieved through a gitlabci pipeline task.
+if your goal is to run gitlabci for a github repository, good news, gitlab has released a new version which lets you use github.com repository with gitlabci: /url/ .
+the tricky part is gitlabci can even clone repository into docker container automatically.
+as far as i 'm concerned it should work as long as the .gitlabci.yml is tracked on the dev branch and you push to that branch.
+it is not (yet) possible to create conditional steps in cloud build, as is possible with gitlabci for example.
+currently our deployments are being done automatically when a commit is done to the master branch via gitlabci.
+since gitlab 11.4, you have the possibility in gitlabci/cd to specify pipeline tasks to  only trigger in the context of a merge request with the /url/" feature.
+i created a java maven projekts with a .gitlabci.yml and pushed it into my local gitlab instance successfully.
+moreover gitlabci would automatically checkin for you and you dont have to manage jenkins master separately  .

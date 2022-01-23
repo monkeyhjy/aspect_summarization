@@ -1,0 +1,6 @@
+positive:
+i could recommend using plain commnand line runner in teamcity to run sonarqube scanner.
+had a successful test suite running under teamcity (protractor/jasmine/js).
+negative:
+"everytime i try to build a maven project hosted on a gitlab server  with teamcity, i get an error from the buildagent."
+i have upgraded my teamcity build server to teamcity 2020 and now i am not seeing .net cli runner (dotnet).

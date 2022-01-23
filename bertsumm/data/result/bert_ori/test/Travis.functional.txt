@@ -1,0 +1,6 @@
+positive:
+this may mean giving up some handy travis feature in favor of re-coding it yourself.
+i'm trying to deploy our app through travis cli, the build is getting build perfectly, but when it comes to deploy, it deploys the whole root app folder.
+negative:
+i have the /url/ file, which starts automatic test on travis-ci, on each push on github.
+i've discovered a neat way to use travis to deploy to the gh-pages branch (involving a token and a gem to encrypt it) of a repo, which actually makes it a subdomain of my website.

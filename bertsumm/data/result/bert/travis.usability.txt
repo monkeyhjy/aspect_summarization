@@ -1,0 +1,6 @@
+positive:
+it seems like travis ci should offer an easy way to cache brew formula and bottles.
+"i envision a full-service solution for this, one that takes care of setting up the environment exactly the same as in azure or travis, including getting data from git based on the specific push and the like."
+negative:
+"i am trying to run lint and tests separately with tox-travis, but i cannot seem to get the right combo."
+"..., it cannot be used to enforce the styleguide on a continuous integration service like travis, because the changes are already commited."

@@ -1,0 +1,6 @@
+positive:
+"when it comes to aggregates build times group by job, i could n't find anything good within jenkins ui, but if you have a datadog license, you can just enable the datadog jenkins plugin, configure the datadog api key and hostname in jenkins config, and you are good to go."
+you can refer to this stackoverflow post or jobs as code with groovy dsl to learn more about jenkins job dsl.
+negative:
+i 'm defining a simple jenkins pipeline(declarative syntax) through classic ui but when i run the pipeline it show an error.do n't know what went wrong and could n't find any helpful answer on google as yet.
+"i 've found instructions on how to specify the subnet on an aci in general (link), but that does n't help me as i need a solution that works with the jenkins plugin i 'm using."

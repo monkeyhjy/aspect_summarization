@@ -1,0 +1,6 @@
+Negative:
+/pre/  however, when i do this, my travis ci fails with .
+
+Positive:
+the credentials are stored as security keys with travis and should work correctly.
+i added the following to .travis.yml to get travis ci to work.

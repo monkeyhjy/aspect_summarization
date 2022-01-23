@@ -1,0 +1,42 @@
+Negative:
+i came across to this issue while upgrading travis distribution from 14.04 to 16.04 and python 3.6 started to fail.
+it seems that the setuptools package provided by travis-ci for python 3.6 is too old to use the /code_segment/ specifier correctly.
+it is telling you that python 3.1 is not a version that travis supports, please try a newer version like .ci allows to configure environment variables, so you can store the private key into a environment variable, i.e /code_segment/ .
+i 'm trying to make travis run on all python versions, now my scripts run over: python 2.7, 3.5, 3.6, 3.7 but not over python 3.8.
+it is telling you that python 3.1 is not a version that travis supports, please try a newer version like .
+my travis build keeps failing because apparently it does not recognize the arm abi.
+currently, travis tries to upload it trice (once for python 3.4, python 3.5 and python 3.6, respectively), and thus two out of three builds fail.
+because travis-ci native windows support for go seems to be lacking, i though about going this route.
+i get to /code_segment/ line in the travis build and it waits until timeout.
+i am having some issues getting travis-ci to install rcpparmadillo on ubuntu 16.04 with r-oldrel (3.5.3) although it works for r-release (3.6.1) and r-devel.
+so far all windows builds are fine, but the linux and macos builds on azure pipeline and travis ci are not, for example here is a /url/, and message /code_segment/ .
+/pre/  this works fine on my local ubuntu machine, but the resulting archives are empty when build on travis ci.
+i having some troubles to make puppeteer with jasmine works in travis-ci like in my loca repo.
+i'm trying to install travis on ubuntu but keeps failing.
+edit: the build is still failing in travis, but locally and in the travis debug environment it succeeds: .
+i am using appveyor (think travis but for windows) to run some tests again several different versions of python.
+since a few days travis does not support the jdk option oraclejdk10 anymore.
+it seems we ca n't specify version to install in travis-ci.
+this worked on windows (using pycharm 's virtual automated environment) but does not work on linux and of course not on travis ci virtual machines.
+what worked was to use pyenv, but on the ubuntu xenial dist provided by travis, the shipped version of pyenv was too old and did n't have python 3.7 available.
+(older versions of php are n't unit tested because travis ci does n't support them; docker containers could be used but yeh) .
+but unfortunately my travis matrix brakes, because on some older python versions (3.5 - 3.7)
+this works fine on my local machine (windows 10), but fails when it 's run on travis.
+
+Positive:
+travis ci can be built without any preinstalled /code_segment/ compilers (e.g.
+if your problem is travisci related then you can set a fixed version which works: .
+listed supported ios simulator sdk on travis  .
+it looks superficially similar to yours, and works perfectly well on both ubuntu (travis-ci) and my local macbook pro for myself.
+since travis has good support for docker this is straight forward.
+/pre/  this works seamlessly in local environment using python 3.7 and in travis-ci environment using python 3.5.
+i am running a travis build with multiple os.
+/pre/  the code runs successful on different machines, python3.x versions and travis.
+travis ci runs each build in a separate virtualenv against the python versions described in the yml file.
+/pre/  i read about every single article on how to setup codecov with jacoco and travis ci, made a detour via cobertura just to figure out that java10 is not supported and read change logs to see if some versions are uncompatible.
+i personally use travis to test my software hosted on github and it supports running on multiple architectures [1], including s390x which is big endian.
+travis allows us to specify os versions etc but i do not know if we can have a server with anaconda preinstalled from a dockerfile, instead of writing the installation script within .travis.yml.
+find a recent travis ci image in docker hub matching your target os as closely as possible.
+portable (i switched from travis ci with the same approach easily) .
+i 'm using travis to test python code on various versions and architectures.
+i tried manually and i found travis supports clickhouse, the way below worked out for me.

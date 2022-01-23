@@ -1,0 +1,7 @@
+Negative:
+
+Positive:
+jenkins, tfs, teamcity , octopus are some of the popular cd tools.
+octupus + jenkins/teamcity is widely used for that purpose.
+the two major players are teamcity by jetbrains (free to use for the size of project your describing) and jenkins (open source).
+helpful applications are teamcity, octopus.

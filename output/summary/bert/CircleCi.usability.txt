@@ -1,0 +1,7 @@
+positive:
+"i 'm able to configure my local docker, just like documented here, the problem is in circleci: ."
+they make it faster to get started building on circleci by providing the tools that most users need.
+negative:
+right now i have trouble with testing the code on circleci as they rely on docker and i ca n't find an image that supports multiple databases via env variables.
+i ca n't get this solution implemented in circleci.
+"now onto the problem: i am trying to replicate the same on circleci, but it doesnt seem to let me override the npm registry."

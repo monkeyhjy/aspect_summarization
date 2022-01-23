@@ -1,0 +1,41 @@
+Negative:
+i need to use password authentication because the command will be called inside teamcity plugin which does not support downloading over ssh (just uploading) or plain bash.
+it would be nice if we did n't have to bump version for every build, although we could set up teamcity to do that automatically, but it would become difficult to maintain all of the extra nuget packages in our feed.
+teamcity has no way to automatically authorize an agent, it seems to have to be done through the api.
+however connecting youtrack, upsource and teamcity to hub is a challenge.
+- teamcity builds fine but when asked to publish sends me the not helpful _deploymentunpublishable .
+i have experimented with the teamcity kotlin dsl - which is pretty powerful - but ca n't see a way of being able to define my builds just once.
+it seems even worse in teamcity as the upload spec is applied to build steps (instead of a build configuration) so it would make even more sense to be able to express both archiving and uploading at the same time and place.
+what i want is that teamcity in that case shows build as failed, accordingly.
+in jenkins we have some plugin to poll our mail box and trigger the build, could n't find similar option in teamcity.
+with teamcity running as the system user i was unable to get lfs working.
+however, i do n't know where the matching end  to configure the credentials in teamcity is hidden.
+using a teamcity template does not help to constrict the options or point the user in the direction we need, as the dependency is locked in the template .
+using a teamcity template does not help to constrict the options or point the user in the direction we need, as the dependency is locked in the template .
+we are trying to migrate from maven to gradle in teamcity and we are not able to compile as its always try to download the dependencies from internet.
+at the moment, we analyze test results in the teamcity web-interface, and that 's not convenient, since we have several teamcity configurations and lots of tests.
+i tried this but teamcity server was not able to find this agent and agents tab was empty .
+i cannot see any difference in the teamcity ui between the two configurations, yet they behave differently?
+assuming you are using a new version of teamcity, you will need to be aware of csrf protection.
+this is here for anybody else who gets tripped up by this unclear switch in teamcity.
+
+Positive:
+if you have console access to the teamcity server then cloning a vcs root can be as easy as duplicating one of the config files: .
+good: i can launch the instances from teamcity, which is located in the other business unit 's account.
+teamcity has the ability to fetch all heads teamcity since v2017, but needs to be enabled via a config setting.
+/pre/  you can use a single inclusion rather than multiple exclusions because of the way teamcity handles those types of rules: .
+i 've now discovered that since 10.0.2, teamcity offers control of this behaviour via parameters.
+i have successfully got teamcity tags to work via rest api but i am not sure if those fit the need either.
+in teamcity, it is easy to update build number, here in azure i could not find where it is stored.
+in my branch, the following build parameter values are visible on teamcity: .
+you can now install agents (including mac os) directly from the teamcity ui using the agent push feature.
+this works great, as the teamcity reporting page and html report look perfect and correctly display how many times each test has run.
+i 'm not familiar with jenkins, but teamcity has a built-in prebuild step called file content replacement and in gitlab ci you can use list of predefined variables in your script, so i am using sed to the rest: .
+then, you can write any custom script that will be able to execute the rest api as shown in the aforementioned documentation in order to trigger the deployment automatically in ucd from teamcity or any other tools.
+i 've avoided the problem using a hack with username: teamcity allows to use dashes and spaces in a username and i created the a user with the username set to /code_segment/.
+while it was easy to download the zip file in teamcity, it 's a headache in azure devops.
+i am using teamcity for my autobuilds.
+or, create a custom condition, and teamcity will automatically suggest
+in teamcity i can set direct dependency and so when i manually trigger toolssuite it able to see if commonlib was changed or no and rebuild if needed.
+i could find the teamcity service messages to update the buildstatus if all the tests in rerun passed.
+according to the readme teamcity gets automatically enabled and used for pytest .

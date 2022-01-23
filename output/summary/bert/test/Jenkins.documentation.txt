@@ -1,0 +1,6 @@
+positive:
+i could find no reference to /code_segment/ in the jenkins documentation, so i created a build to try to clarify their relationship.
+i 'm fairly new to jenkins so i guess i 've misunderstood how this works and would appreciate some guidance, with examples if you have the time.
+negative:
+this stackoverflow page can help you checkout bitbucket pull requests in jenkins with generic webhook trigger.
+for the moment, i just want to know the job name and number, things you can easily see from looking at the node information on jenkins' main page.

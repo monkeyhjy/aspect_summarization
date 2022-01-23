@@ -1,0 +1,16 @@
+Negative:
+performance is generally quite good, however, whenever i try to open the configuration page (manage jenkins --> configure system), it takes an extremely long time for the page to load (a good minute or so).
+unfortunately i have lost a lot of time debugging why something only works/does not work on in ci 's (not jenkins), so i am very attracted to replicability/re-usability between ci and development environment.
+sometime, when 4 build job are running, the cpu load almost 90%, i guess that is a reason why jenkins dies.
+jenkins seem to initiate a kernel process which consume cpu to max as seen in the snapshot.
+the actual execution completed in 17:23 mins but the jenkins job takes overall 42 mins to finish.
+so let 's say for a simple test that take only 1 minute to run , but saving the artifacts from jenkins slave to jenkins master take around the same time or more before it 's considered to be passed.
+i have an angular application getting built on jenkins server which is running very slow (taking more than 30 mins).
+so i tried to run git init using cmd to check if the problem is jenkins related or not, and i got exactly the same behavior, which is the two minutes wait, and when memory usage reaches 95-100% it exits and shows the following message: .
+check this option if you need to see every log message from even passing tests, but beware that jenkins 's memory consumption can substantially increase as a result, even if you never look at the test results!
+in my scenario, nuget restore ran quickly when run interactively, but very slowly when run through cd pipeline (jenkins).
+there are many others reported that have been closed over the last decade, but in my environment, i 'm getting ~13mbps transfers, despite the 10gbps links we have between all nodes in our jenkins cluster.
+this data load task from pod takes 10 mins but from jenkins or gitlab takes 70-90 mins.
+
+Positive:
+so, i think i can use k8s to run the cases in-parallel, therefore save time, i use jenkins to config how many 'automations' run in-parallel, and after all done, merge and present the test result.

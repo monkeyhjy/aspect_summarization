@@ -1,0 +1,7 @@
+community:1.39863 activity:0.77448 maintaining:0.77448 actively:0.77448 maintained:0.77448 software:0.44073
+environment:0.25734 compatibility:0.18572 software:0.11059 platform:0.10284 language:0.10284 adapted:0.10284 different:0.10284  installed:0.10284 uninstalled:0.10284 replace:0.10284 
+documentation:2.61748 content:1.44940 quality:0.81280 software:0.32594
+code:0.04286 github:0.02921 security:0.02534 management:0.02341 build:0.02341 tool:0.02341 offered:0.01871 api:0.01871 dependency:0.01871 deployment:0.01871
+requirement:0.31341 performing:0.22619 meet:0.21710 function:0.17310 performance:0.17310 speed:0.12525 memory:0.12525 time:0.12525 throughput:0.12525 resource:0.12525
+reliability:0.22538 component:0.22538 buggy:0.09007 accessible:0.09007 fault:0.09007 interruption:0.09007 failure:0.09007 recover:0.09007 data:0.09007 affected:0.09007 
+user:0.15313 specified:0.12085 use:0.10538 usability:0.07084 easy:0.07084 achieve:0.07084 goal:0.07084 context:0.07084 used:0.04882 degree:0.04426 

@@ -1,0 +1,7 @@
+Negative:
+jenkins' documentation is often misleading.
+People often find no reference, hint or answer in the jenkins documentation when searching for pylint warnings tool, db connections and github actions.
+
+Positive:
+jenkins official docs, instructions and guides are often quoted or refered when using jenkins.
+stackoverflow page and jenkins wiki and jenkins' main page contain useful information about bitbucket pull requests, system properties and jenkins node.

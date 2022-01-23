@@ -1,0 +1,6 @@
+positive:
+the script was tested and worked fine until i tried to implement it in a travis build.
+"i 've just successfully set up cross-compilation thanks to travis, but i do n't understand why the executable size is so different between linux (6mb), osx (2mb) and windows (18mb!)."
+negative:
+"i would like to be able to use travis ci with mypackage but, as one could expect (i actually forgot, but it became quite obvious after attempting to build): running npm install on travis wo n't manage to install the linked package."
+"i have a nodejs typescript project that works fine on my local machine, but when i deploy to heroku or send to travis ci it shows me this error."

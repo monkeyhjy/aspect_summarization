@@ -1,0 +1,7 @@
+positive:
+i am configuring circleci to automatically build and upload to docker hub multiple container of an open source library i contribute to.
+"in my case, i use jenkins, artifactory, github, circleci, and for legacy reasons perforce, to manage a code tree of 70k+ files ( code tree not my design!)"
+negative:
+"i 've linked my android project repository to circleci and when i build, i got an gradlew lint error saying that google-services.json is not present."
+/home/circleci/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1.1/485de3a253e23f645037828c07f1d7f1af40763a/activation-1.1.1.jar: error: invalid package reference in library; not included in android: java.awt.
+"so i 'm trying to use circleci to deploy my nestjs application to heroku, but the circleci build keeps falling and i ca n't exactly figure out why."

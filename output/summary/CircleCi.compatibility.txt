@@ -1,0 +1,7 @@
+CircleCi
+['also installation and configuration works just fine in logs at circleci.']
+['"running the tests on that works fine both locally, and on circleci."']
+['now my scripts run just fine in the container on circleci.']
+['"i \'ve tried ./build, adding /code_segment/ in the deploy job, and printing the working directory in a test run, which was /home/circleci/project, so i tried manually using /home/circleci/project/build and that did n\'t work either."']
+['i am having some issues setting up my circleci /code_segment/ file to accommodate a cypress e2e test after i upgraded it to version 2.1.']
+["i go to github and see that i did not pass my tests defined in my circleci yaml file because i do n't have flake8 installed in my virtual environment (i accidentally installed it globally)."]

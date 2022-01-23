@@ -1,0 +1,42 @@
+So there should be a revert process so that we can revert back to older working version of Jenkins.
+I have jenkins running as a docker image and Sonarqube server running as two separate docker images on my host machine.
+I 'm using the base image jenkins/jnlp-slave:3.27-1-alpine  but created a new one where I just added some ssl-certs.
+Is it possible to deploy a VM on GCP and install Jenkins / Selenium Grid to it.
+I 'm running jenkins on a VM and it has docker installed.
+It seems AWS Jenkins is opened with Palo Alto firewall, so I am able to access the URL from the AWS Unix box where Jenkins is installed and not from the Jenkins application.
+The command to run Test suites on cmd works fine when jenkins is on local server but fails when i run the same command on jenkins on aws linux instance?
+Another way would be to have a local filesystem ivy repo only on the jenkins slave, which would have all the latest versions of your libraries, the point is that this repo is not accessible from developers workstations/laptops/VMs.
+Looking for a way to build some projects with Java 8 and some with Java 11 on the same Jenkins server with no slaves.
+In virtually all resources online people just install .NET Core CLI using apt-get (or different app management tools) on the Jenkins machine directly.
+Post installation, we installed the Anchore Container Image Scanner Plugin in Jenkins.
+The solution for me was delete /code/ and change /code/ version (from 7.1 to 8.4) on jenkins.
+Jenkins probably works best when the project is structured along standard lines (as the most vanilla example take a Makefile/gcc project on Linux with a git repo).
+There is also a "fork" of jenkins for containerized environments, that I like, you can check more about Jenkins-X /url/ .
+I installed the plugin restarted jenkins, added the new token to a job and called the URL.
+/pre/  But the problem is on the Jenkins cluster that I will run my project build on, it does n't support python 3.7.
+I am working in an centos7 environment with no internet access, and I need to install Jenkins.
+I need to install a very recent version of CMake on top of a jenkins Docker container.
+Just use in you playbook to install oder update to the latest version of jenkins: .
+I have installed Jenkins on local machine (MAC OS) and docker as well.
+Is there a way to make Jenkins evaluate PHP (or other script) files?
+so should I install docker on my jenkins master and run the build on slaves using docker host uri ?
+/pre/  If you have installed git on your Jenkins (which I truly believe) you can simply execute this as bash / sh command or using Jenkins' /code/ if you want to display it.
+I have a Jenkins server (version /code/) running on Oracle Linux /code/.
+I have a simple Jenkins job  ( Jenkins 1.514  ) and I鈥檓 looking for a way that every time job is running it will refresh a specific system environment variable.
+sshpass needs to be installed as part of the host Jenkins docker image which Ansible uses for making the ssh connections to the hosts.
+Jenkins (version 2.131)   running on Apache Tomcat (version 8.0.53).
+I have recently upgraded to jenkins 2.89.4(jdk8).
+I 'm on windows so I already had to resolve the problem of Jenkins not finding any sh and nohup exes (installed git bash because it apparently did not want to work with my cygwin install).
+Tried re-installing the Jenkins on fresh Ubuntu server.
+I have the EC2 Plugin Configured in a Peered VPC, and when a job is tagged  'support_ubuntu_docker' it will spin up an Jenkins Slave, with Docker pre-installed.
+I use the kubernetes plugin in a jenkins pipeline to run the stages in containers and I inject username password credentials as environment variables into the containers using the Credentials Binding Plugin.
+Is it something to do with Jenkins installation?
+I 'm trying to setup jenkins in my local machine where perforce is also installed.
+This plugin has not been updated in a few years, so I 'm not sure if it 's compatible with the latest version of Jenkins.
+I am creating a python library containing common functionalities such as createFile, createFolder, checkIfFolderExists etc., Is it possible to import this library functions into Jenkins pipeline script (Groovy)?
+The latest Jenkins has pipeline support.
+Installed jenkins/jenkins from dockerhub.
+I have installed Jenkins on my local machine which runs on MacOS High Sierra and have docker installed .
+After installing the plugin, go to the global jenkins configuration   panel (JENKINS_HOME/configure or JENKINS_HOME/configureTools if   using jenkins 2), and add new NodeJS installations For every Nodejs   installation, you can choose to install some global npm packages.
+It 's not depend on Win OS or Environment variables (I.e - %HOME% OR JENKINS_HOME) .
+For Jenkins environments which have macOS, Windows, or other agents, which are unable to run the Docker daemon, this default setting may be problematic.

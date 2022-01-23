@@ -1,0 +1,49 @@
+0 community
+The activities of the community/forum maintaining <software_name> (e.g., is <software_name> actively maintained?)
+
+1 Compatibility
+The compatibility of <software_name> with respect to specific platforms, programming languages, or other softwares
+adaptability	<software_name> can be adapted for different or evolving hardware, software or other operational or usage environments.
+installability	<software_name> can be successfully installed and/or uninstalled in a specified environment.
+replaceability	<software_name> can replace another specified software product for the same purpose in the same environment. Replaceability of a new version of <software_name> is important to the user when upgrading.
+
+2 Documentation
+The content/quality of the <software_name> documentation
+<software_name> can be used by specified users to achieve specified goals of learning to use <software_name>. The information provided by <software_name> can include demonstrations, tutorials, documentation or, for a web site, the information on the home page.
+
+3 Function
+The features offered/not offered by <software_name>
+API management Structure your API infrastructure to enable various internet gateways to interact with your service.
+Chat Bring GitHub into your conversations.
+Code quality Automate your code review with style, quality, security, and test‑coverage checks when you need them.
+Code review Ensure your code meets quality standards and ship with confidence.
+Continuous integration Automatically build and test your code as you push it to GitHub, preventing bugs from being deployed to production.
+Dependency management Secure and manage your third-party dependencies.
+Deployment Streamline your code deployment so you can focus on your product.
+IDEs Find the right interface to build, debug, and deploy your source code.
+Localization Extend your software's reach. Localize and translate continuously from GitHub.
+Mobile Improve your workflow for the small screen.
+Monitoring Monitor the impact of your code changes. Measure performance, track errors, and analyze your application.
+Project management Organize, manage, and track your project with tools that build on top of issues and pull requests.
+Publishing Get your site ready for production so you can get the word out.
+Security Find, fix, and prevent security vulnerabilities before they can be exploited.
+Support Get your team and customers the help they need.
+Testing Eliminate bugs and ship with more confidence by adding these tools to your workflow.
+Utilities Auxiliary tools to enhance your experience on GitHub
+
+4 Performance
+The performance of <software_name> (e.g., speed, memory footprint)
+time behaviour	the response and processing times and throughput rates of <software_name>.
+resource utilization	the amounts and types of resources used by <software_name>
+capacity	the maximum limits of <software_name> parameter meet requirements, includes the number of items that can be stored, the number of concurrent users, the communication bandwidth, throughput of transactions, and size of database.
+
+5 Reliability
+The reliability of <software_name> (e.g., whether it is buggy or not)
+maturity	<software_name> meets needs for reliability under normal operation
+fault tolerance	<software_name> operates as intended despite the presence of hardware or software faults
+recoverability	in the event of an interruption or a failure, <software_name> can recover the data directly affected and re-establish the desired state of the system
+
+6 Usability
+The usability of <software_name>, in terms of how easy is to use/adapt it and evolve/maintain the code using it
+operability	<software_name> has attributes that make it easy to operate and control
+user interface aesthetics	<software_name> has a user interface enables pleasing and satisfying interaction for the user. 

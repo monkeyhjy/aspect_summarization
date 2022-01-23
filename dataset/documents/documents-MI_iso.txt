@@ -1,0 +1,29 @@
+1 portablity
+1-1 adaptability	<software_name> can be adapted for different or evolving hardware, software or other operational or usage environments.
+1-2 installability	<software_name> can be successfully installed and/or uninstalled in a specified environment.
+1-3 replaceability	<software_name> can replace another specified software product for the same purpose in the same environment. Replaceability of a new version of <software_name> is important to the user when upgrading.
+
+2 security
+2-1 maintainability	<software_name> can be modified by the intended maintainers. Modifications include those carried out by specialized support staff, and those carried out by business or operational staff, or end users.
+2-2 integrity	<software_name> prevents unauthorized access to, or modification of, computer programs or data
+2-3 testability	test criteria can be established for <software_name> and tests can be performed to determine whether those criteria have been met
+
+3 functional
+3-1 functional completeness	the set of <software_name> functions covers all the specified tasks and user objectives.
+3-2 functional correctness	<software_name> provides the correct results with the needed degree of precision.
+3-3 functional appropriateness	the functions of <software_name> facilitate the accomplishment of specified tasks and objectives
+
+4 performance
+4-1 time behaviour	the response and processing times and throughput rates of <software_name>.
+4-2 resource utilization	the amounts and types of resources used by <software_name>
+4-3 capacity	the maximum limits of <software_name> parameter meet requirements, includes the number of items that can be stored, the number of concurrent users, the communication bandwidth, throughput of transactions, and size of database.
+
+5 reliability
+5-1 maturity	<software_name> meets needs for reliability under normal operation
+5-2 fault tolerance	<software_name> operates as intended despite the presence of hardware or software faults
+5-3 recoverability	in the event of an interruption or a failure, <software_name> can recover the data directly affected and re-establish the desired state of the system
+
+6 usability
+6-1 learnability	<software_name> can be used by specified users to achieve specified goals of learning to use <software_name>. The information provided by <software_name> can include demonstrations, tutorials, documentation or, for a web site, the information on the home page.
+6-2 operability	<software_name> has attributes that make it easy to operate and control
+6-3 user interface aesthetics	<software_name> has a user interface enables pleasing and satisfying interaction for the user. 

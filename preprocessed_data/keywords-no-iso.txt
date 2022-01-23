@@ -1,0 +1,7 @@
+community:1.16590 activity:0.65251 maintaining:0.65251 actively:0.65251 maintained:0.65251 software:0.31002
+compatibility:0.97701 respect:0.54680 specific:0.54680 platform:0.54680 programming:0.54680 language:0.54680 software:0.31002
+documentation:2.24899 content:1.25868 quality:0.64072 software:0.31002
+github:0.00890 code:0.00814 security:0.00786 management:0.00719 build:0.00719 tool:0.00719 offered:0.00586 api:0.00586 dependency:0.00586 deployment:0.00586
+performance:1.37233 speed:0.95072 memory:0.95072 footprint:0.95072 software:0.31002
+reliability:2.95550 buggy:1.65408 software:0.31002
+usability:0.72093 term:0.40348 easy:0.40348 use:0.40348 adapt:0.40348 evolve:0.40348 maintain:0.40348 using:0.40348 code:0.05550 software:0.31002

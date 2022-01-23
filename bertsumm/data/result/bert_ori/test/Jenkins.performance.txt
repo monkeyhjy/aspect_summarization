@@ -1,0 +1,5 @@
+positive:
+so i tried to run git init using cmd to check if the problem is jenkins related or not, and i got exactly the same behavior, which is the two minutes wait, and when memory usage reaches 95-100% it exits and shows the following message: .
+this data load task from pod takes 10 mins but from jenkins or gitlab takes 70-90 mins.
+negative:
+so, i think i can use k8s to run the cases in-parallel, therefore save time, i use jenkins to config how many 'automations' run in-parallel, and after all done, merge and present the test result.

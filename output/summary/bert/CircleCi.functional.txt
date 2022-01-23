@@ -1,0 +1,6 @@
+positive:
+i am using circleci to automatically deploy my python package to pypi when a new tag is being pushed to github.
+"in my case, i use jenkins, artifactory, github, circleci, and for legacy reasons perforce, to manage a code tree of 70k+ files ( code tree not my design!)"
+negative:
+"i 've linked my android project repository to circleci and when i build, i got an gradlew lint error saying that google-services.json is not present."
+"so i 'm trying to use circleci to deploy my nestjs application to heroku, but the circleci build keeps falling and i ca n't exactly figure out why."

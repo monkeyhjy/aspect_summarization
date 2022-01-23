@@ -1,0 +1,7 @@
+Jenkins
+['"for multi-branch pipeline job, if you are using bitbucket plugin /url/ for branch sources, then there is a way which can help to not trigger jenkins job when a new branch is created."']
+['it will work in jenkins as well.']
+['i have several pipeline jobs configured in jenkins and all of them were working properly.']
+['"however, creating a jenkins pipeline job naively pointing to that jenkinsfile does n\'t seem like it will work because: ."']
+['but this does not work when i do it as part of a jenkins pipeline build job!!']
+['but jenkins can not find it somehow.']

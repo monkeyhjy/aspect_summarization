@@ -1,0 +1,6 @@
+positive:
+i am using jenkins version 2.222.4 and trying to install sonarscanner for msbuild - .net fwk 5.0.0 from global tool configuration but i could n't find the required version in the available list of versions in 'install from github' drop down list.
+the outdated groovy in jenkins does n't support null-safe navigation on lists, so you have to do it old-school.
+negative:
+/pre/  if you have installed git on your jenkins (which i truly believe) you can simply execute this as bash / sh command or using jenkins' echo if you want to display it.
+jenkins file loads libraries from different repository but located on the same git account and it was working fine.

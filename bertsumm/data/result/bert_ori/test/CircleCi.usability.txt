@@ -1,0 +1,8 @@
+positive:
+i ca n't seem to figure out how to override/extend the orb to run additionally circleci equivalent of  .
+i 'm trying to get reporting working for karate dsl, and it 's proven a challenge because my team uses circleci instead of jenkins.
+i 'm having trouble trying to get my elixir/phoenix app on circleci.
+but the circleci configuration does not work because it uses maven commands.
+negative:
+we use circleci, so firing these commands should n't be a big deal.
+circleci convenience images (the pre-built images you refer to) are designed to be a starting point for the majority of circleci users.

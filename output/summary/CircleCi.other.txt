@@ -1,0 +1,7 @@
+CircleCi
+['i have the following config.yml for a circleci build which works well']
+['circleci goes through /code_segment/ job successfully.']
+['"you can easily achieve this with tools such as travis, circleci, jenkins etc."']
+['the above is failing on circleci.']
+['"i tried to implement it, but the build fails on circleci because it keeps reading my config.yml file incorrectly."']
+['i am using this circleci config.yml file and it is not working: .']

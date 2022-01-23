@@ -1,0 +1,20 @@
+Negative:
+as far as i know, there is no ready to use plugin or integration for gitlabci and jira.
+environment: the build failed in gitlabci environment, running the build inside a docker container.
+i was not able to set up replica sets for mongodb in gitlabci while locally replica sets it ran successfully.
+but i got stuck when i deploy the application using gitlabci where it seems that mongo server does n't start at test environment on gitlab runner.
+/pre/  i want to build projecct in gitlabci , but this yml to need install xctool , so if i install xctool must to install brew , but i do n't know how to install brew in this .
+i 'm struggling to understand the difference between my workstation environment and the gitlabci docker environment.
+centos 7 comes with git-1.8.x which has limitations around gitlabci.
+but when i check circleci document, it may be impossible to deploy windows server(windows docker container) .
+
+Positive:
+script is executing in gitlabci linux runner, image based on golang and works fine without extension.
+here is a working example of a job in a .gitlabci with a loop running on gnu/linux os and using sh/bash shell : .
+i have configured .gitlabci.yml file, and using ci lint it has passed the validation process.
+script is executing in gitlabci linux runner, image based on golang and works fine without extension.
+i can update version in wrapper and forget about version in ci(in gitlabci.yml)
+debian users should use apt pinning, because a native package called gitlabci-multi-runner is available in debian stretch and by default, when installing gitlab-runner, that package from the official repositories will have a higher priority.
+i 'm currently migrating our ci/cd pipeline from a bitbucket/jenkins environment to hosted gitlab with additional custom gitlabci runners.
+by doing this, the gitlabci runner able to pick up latest microsoft dotnet environment, and it able to make let docker run  .
+and everything is ok my runner is working on my local machine(ubuntu18-04) and i tested it with simple .gitlabci.yml.

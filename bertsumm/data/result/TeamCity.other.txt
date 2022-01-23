@@ -1,0 +1,7 @@
+TeamCity
+['it would be very useful for teamcity/jenkins integration as well.']
+['teamcity builds module a without any issue.']
+['"this is a well-established pattern with any number of tools (jenkins, teamcity, ...) ."']
+['when the teamcity build agent executes my bash script it fails to restore nuget packages with following message: .']
+['"its working when i run it from linux agent but not through teamcity i trigger gradle build script its showing like error=2, no such file or directory  ."']
+["it 's only teamcity where this is not working."]

@@ -1,0 +1,45 @@
+Negative:
+every time circleci 2 run a build, gradle downloads the dependencies even if the cache is enabled.
+i 'm having a super weird issue with npm on circleci.
+hi everyone :slight_smile: i have a strange bug on my docker build job on circleci.
+/pre/  i am getting error  invalid json: /home/circleci/.ask/cli_config exited with code 1 .
+however, the build is failing in circleci and the glog script that i run does n't work for some reason.
+when i initially ran these changes in circleci, i got this error: .
+when trying to build project on circleci i get the following error: .
+i 'm using the ecr orb to build and push my image to the registry however, the circleci env vars are not available in the build process for some reason.
+i 'm trying to push a commit, but our circleci yields the following puzzling error message: .
+locally in intellij idea my tests works, but when i push into repo, gitlabci cant find my tests .
+adding /code_segment/ to my circleci /code_segment/ stopped the daemon from being used, but did n't fix the problem.
+all of the tests successfully pass on my development device, but consistently fail when they run on circleci (for example: /url/).
+these failures happen only in circleci 2.0 on the cloud or with circleci cli, with the given docker-image.
+the issue is when i copy my credentials file path to my circleci google-applicatiion-credential enviroment variable i get an error of failed to authenticate at the circleci level this is my error  /code_segment/ .
+locally i run the tests successfully with the mock files, but in circleci, pytest cannot find the json files within the directory: /code_segment/ .
+unfortunately wait-on does n't work with circleci.
+the error comes when command ./gradlew connectedandroidtest is run by circleci.
+/pre/  i suspect there is some issue with circleci and headlesschrome.
+however, i keep on receiving the following error on circleci: .
+i new to jipster and circleci i 'm trying to do ci for my project but my build fails with the following error : .
+/pre/  circleci fails with the following error: .
+i get the following error when i try to run this yaml file via circleci .
+ i recently switched to circleci 2.0 from travisci and i am facing an issue when i try to: /code_segment/ , it does not add the path variable.
+but somehow when there is an error, circleci still thinks that it is successful.
+after a lot of debugging this eventually turned out to be an issue with the circleci cache.
+the error message is a bit misleading here as checking the link to circleci and github showed things were fine.
+i use circleci for ci/cd and even rerunning a previous successful workflow fails throwing this error.
+rerun a previous, successful workflow on circleci from start - failed.
+quite odd this only seem to happen when running the script through circleci.
+for some reason circleci is not linking the new commit to the same user as the orginal commit despite the fact that the commit uses the original commit 's account and email.
+so i 'm trying to use circleci to deploy my nestjs application to heroku, but the circleci build keeps falling and i ca n't exactly figure out why.
+circleci is unable to further process symbol files.
+btw, this works fine locally, no errors, just fails at circleci tests.
+in error object from mongoose.connect, in circleci, and later on tests timeout, first one fails with 500 error.
+after a lot of debugging this eventually turned out to be an issue with the circleci cache.
+for a while now, circleci would occasionally fail the entire suite with this error message: .
+on circleci, the build still occasionally fails with "failed to transform artifact" but re-running fixes it.
+
+Positive:
+then there is this project where someone seems to do the same thing on circleci successfully.
+a circleci ci/cd pipeline handling an angular 7 application fails during the test step, with the circleci log suggesting the browser is not registered, although it runs once and it works!
+details:  i successfully run testcafe tests on circleci not using saucelabs (just using a docker image that has chrome/firefox in it).
+when using jest in a circleci environment, we discovered, that skipped tests wo n't fail with jest.
+most checks were successful, but circleci detected minor issues in the first commit (pep8 style formatting), which i fixed and added another commit.

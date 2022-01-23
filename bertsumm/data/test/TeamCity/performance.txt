@@ -1,0 +1,9 @@
+Negative:
+we have a few builds in teamcity that take an very long time, and i want to stop them from automatically building on merges into the default branch in github.
+i 'm trying to use the nuget install plugin for teamcity but after running, it takes too long in restoring and installing all the packages in my solution.
+a teamcity job is currently failing because there is insufficient space on the disk.
+
+Positive:
+from teamcity 2017.2 onwards, the professional version (free) includes 100 build configurations, which is a significant increase on the previous versions that were limited to 20.
+have a cheap aws instance running teamcity server, always on.
+on the teamcity create a build step which would run only those test which are faster example : call runonlyunittest target created earlier.

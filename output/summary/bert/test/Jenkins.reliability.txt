@@ -1,0 +1,5 @@
+positive:
+when our jenkins server runs the build script, the assets folder is missing from the /code_segment/ folder, as well as some other files configured in /code_segment/.
+i am running webservice test in katalon/jenkins, but it gives me error in generating variables, can anyone please tell me what am i missing here?
+negative:
+jenkins issues /url/ and /url/ detail potential fixes that could be introduced, though they have n't been implemented in any version of the system yet.

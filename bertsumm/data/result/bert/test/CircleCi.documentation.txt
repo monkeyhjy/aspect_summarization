@@ -1,0 +1,6 @@
+positive:
+the circleci official documentation (/url/) shows that these languages are safe (some with conditions), but i was not able to find golang in the doc, tried googling but nothing much.
+i 'm not sure why the documentation for circleci does n't go over this but i 've not seen any good examples of how i should be setting up my config file.
+negative:
+on circleci support forum there is an answer about this: .
+as circleci official support seems to give less helpful hints for the question, my workaround is to use custom docker image and have those dependencies installed there.

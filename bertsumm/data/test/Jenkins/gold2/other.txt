@@ -1,0 +1,7 @@
+Negative:
+Jenkins can trigger no build when having issue running ant.
+Jenkins fails to show actual Jenkins build number.
+
+Positive:
+There is a "fork" of Jenkins for containerized environments for more about Jenkins-x.
+Jenkins pipeline can build server and run from bash automatically.

@@ -1,0 +1,9 @@
+Negative:
+jenkins build is not generating any apk at Jenkins workspace, fails to deploy a sample aspnet core project.
+Jenkins sometimes unable to fetch the new code changes on github, won't run until there 's a new scan.
+jenkins matrix job hangs waiting while its predecessor has already finished .
+
+Positive:
+jenkins can schedule jobs, auto build dependencies, detects changes on branch and analyse files on any push to git repo to make the deployment automatic.
+jenkins does lots of groovy magic like cps transformation, custom method interceptots, comprehensive jenkins pipeline governance and templating capability.
+jenkins installation along with plugin, communication with some gitlab-plugin in jenkins is possible.

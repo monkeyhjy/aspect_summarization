@@ -1,0 +1,7 @@
+TeamCity
+['"i previously successfully used a node.js teamcity agent docker image (either /code_segment/ or /code_segment/ - ca n\'t recall) which did work for a time, though i had issues with being able to install some npm packages globally in build scripts, which meant i had to get a bash terminal into the container and run some manual npm commands."']
+['it should work without it (since teamcity version 9.1.4).']
+['"i am able to build and run my application fine on my dev machine, as well as on my teamcity build agent machine, when running in a cmd prompt as my local user account."']
+['i could not make the agent use the latest version of the dotcover tools so i had to construct the folder path for that rather than using the default %teamcity.dotcover.home% variable.']
+['"however, when attempting to restore packages and build this solution in teamcity, using the nuget installer (4.9.2) and visual studio 2017 runner types, the compilation fails because it cannot find the foo namespace."']
+['i am trying to run pact broker can i deploy tool with paramaters which is working fine locally but when i add the build step in teamcity it is throwing below error  .']

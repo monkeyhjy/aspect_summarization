@@ -1,0 +1,6 @@
+positive:
+"i also have a test in my go app which works fine on my dev machine, as you will see above i have set and enviroment varable in the gitlabci.yml file(this matches my dev enviroment."
+"the same gitlabci.yml file works with another app using spring boot, but i don’t see why would it be complaining about the java version when i’m using openjdk14 in both project."
+negative:
+i am deploying various war & jar files to the server via ssh on gitlabci and need to restart the tomcat server in some cases.
+"the thing is, that if i run the command ""npm test"" on my computer, it runs well and all test pass, but it is n't working on the gitlabci jobs and i do n't know why."

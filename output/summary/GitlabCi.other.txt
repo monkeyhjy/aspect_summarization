@@ -1,0 +1,7 @@
+GitlabCi
+['i have a .gitlabci.yml file that has previously run without issues with gitlab runner 12.9.0.']
+['in .gitlabci.yml does the trick.']
+["i 've got a simple ci pipeline with the .gitlabci.yml file as below: ."]
+['"i \'m trying to run a pipeline in gitlab using gitlabci.yml file and a runner which can run docker images, but i got an error because the runner cannot find the right path to the dockerfile ."']
+['to gitlabci.yml to no effect.']
+['i tried to do the same in .gitlabci.yml to be executed by the local runner but i had the following error: .']

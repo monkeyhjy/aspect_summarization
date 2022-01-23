@@ -1,0 +1,6 @@
+positive:
+i've tried now many hours to automate the deploy process with travis ci.
+the issue here is that using personal github token to generate travis api token is an overall bad practice, cause the user can leave the organization, or his access rights could be revoked for particular repositories.
+negative:
+travis ci can automatically deploy your heroku application after a successful build.
+if you are just trying to add travis ci so that it has access to your personal repositories but not to the organizations you administer, you can do so easily.

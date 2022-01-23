@@ -1,0 +1,9 @@
+positive:
+however, when i merged this branch into master, the travis ci build ran against master (correct) and invoked the deploy stage (incorrect), attempting to deploy to maven/github (and failing due to what i believe is an unrelated error).
+i 've followed the instructions yet my travis build is failing because of: .
+i have a nodejs typescript project that works fine on my local machine, but when i deploy to heroku or send to travis ci it shows me this error.
+negative:
+i have no error on travis during the build.
+i have email and slack notifications configured for travis build failures.
+/pre/  travis will backup the above two folders to s3, then every time before user rebuild, it will fetch the two folders from cache.
+this error is from heroku, i have a .travis.yml to check errors before deploying on github, and every test went well.

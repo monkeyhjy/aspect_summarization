@@ -1,0 +1,6 @@
+positive:
+i have been trying to set up a teamcity instance in docker, and when i try to migrate from the internal db - which i successfully removed - teamcity does n't find the jdbc driver for postgresql with the error: /code_segment/
+you could disable to step in teamcity leaving it for reference should you run into the issue again.
+negative:
+because i could imagine that teamcity employs some sort of safeguard mechanism that prevents certain changes on the server it 's run from.
+this was a bug, which is fixed in teamcity 2018.1.3.

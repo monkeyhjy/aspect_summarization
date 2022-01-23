@@ -1,0 +1,6 @@
+positive:
+i am using appveyor (think travis but for windows) to run some tests again several different versions of python.
+what worked was to use pyenv, but on the ubuntu xenial dist provided by travis, the shipped version of pyenv was too old and did n't have python 3.7 available.
+negative:
+i personally use travis to test my software hosted on github and it supports running on multiple architectures [1], including s390x which is big endian.
+find a recent travis ci image in docker hub matching your target os as closely as possible.

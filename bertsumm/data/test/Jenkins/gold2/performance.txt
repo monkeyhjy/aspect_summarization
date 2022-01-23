@@ -1,0 +1,8 @@
+Negative:
+Debugging, loading, test of Jenkins and links of between all nodes in Jenkins cluster are very slow.
+Jenkins consumes cpu to max and this is why Jenkins dies.
+Application getting built on Jenkins server can run slowly.
+Nuget restore runs very slowly through Jenkins pipeline.
+
+Positive:
+Using Jenkins to config, merge and present the test result can save time.

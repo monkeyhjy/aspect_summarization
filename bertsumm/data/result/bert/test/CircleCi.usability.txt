@@ -1,0 +1,7 @@
+positive:
+i 'm trying to get reporting working for karate dsl, and it 's proven a challenge because my team uses circleci instead of jenkins.
+i 'm struggling to configure the /code_segment/ postgres config in my circleci configuration file.
+negative:
+if, like me, you were looking for a way to programmatically reference circleci (2.0) artifacts, the following url structure works for me: .
+disclaimer: developer advocate at circleci .
+circleci convenience images (the pre-built images you refer to) are designed to be a starting point for the majority of circleci users.

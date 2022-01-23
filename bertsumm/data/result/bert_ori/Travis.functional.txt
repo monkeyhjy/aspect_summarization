@@ -1,0 +1,6 @@
+positive:
+i 'm trying to build a ci process with an automatic upload of release artifacts to maven central (sonatype) from github using travis ci.
+"this is pretty easy for repos i 've integrated with travis-ci, because i can just go down the list rerunning the most recent builds, which culminate in pushes to /code_segment/ branches, which in turn cause pages servers to rebuild."
+negative:
+"then however after i checked my code into github, the build servers of azure pipeline, appveyor and travis ci are not happy, they complain that my ""plugin.json"" file is not found."
+"since this issue does not happen locally (windows machine), i have to build the html locally and then push the source code to github, which defeats the purpose of having the travis-ci pipeline."

@@ -1,0 +1,6 @@
+positive:
+but i ca n't find any examples how to use the token in regards to npm login alone or via teamcity?
+firstly you right teamcity documentation is not clear.
+negative:
+i 've found one similar post on the teamcity community forum, where /url/ , and the symptoms sound very similar.
+(see the agent setup heading in the teamcity setup documentation for gitversion which explains this).

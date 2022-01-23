@@ -1,0 +1,35 @@
+1-1	adaptability
+degree product system effectively efficiently adapted different evolving hardware software operational usage environments
+
+1-2	installability
+degree effectiveness efficiency product system successfully installed uninstalled specified environment
+
+3-1	functional completeness
+degree set functions covers specified tasks user objectives
+
+3-2	functional correctness
+degree product system provides correct results needed degree precision
+
+4-1	time behaviour
+degree response processing times throughput rates product system performing functions meet requirements
+
+4-2	resource utilization
+degree amounts types resources used product system performing functions meet requirements
+
+5-1	maturity
+degree system product component meets needs reliability normal operation
+
+5-2	fault tolerance
+degree system product component operates intended despite presence hardware software faults
+
+5-3	recoverability
+degree event interruption failure product system recover data directly affected establish desired state system
+
+6-1	learnability
+degree product system used specified users achieve specified goals learning use product system information provided product system include demonstrations tutorials documentation web site information home page
+
+6-2	operability
+degree product system attributes make easy operate control
+
+6-3	user interface aesthetics
+degree user interface enables pleasing satisfying interaction user

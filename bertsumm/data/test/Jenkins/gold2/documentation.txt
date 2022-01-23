@@ -1,0 +1,9 @@
+Negative:
+Jenkins' documentation can be often misleading, irrelevant, no referable, useless on the Jenkins pylint warnings tool, 
+complicated on freakin and doesn' t have any examples to configure github actions to trigger Jenkins job.
+
+Positive:
+Jenkins' documentation is available on how to setup slave, bitbucket, pipeline, difference between quotes in groovy, directory structure and defining custom steps.
+The full list of available system properties is on the Jenkins wiki.
+Jenkins dragas' solution is almost correct.
+The job name and number can be easily seen on Jenkins' main page.

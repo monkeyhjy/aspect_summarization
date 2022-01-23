@@ -1,0 +1,7 @@
+Jenkins
+['this pipeline is working well with jenkins 2.114.']
+['"currently i have a jenkins job that uses ssh agent and a shell script to execute the tasks i need to take the code from the repository, run unit test, create docker images and deploy the container and it works as expected but every time i need to do a change i need to update the script instead of having all the benefits of a pipeline."']
+['now i am using a simple batch execution within jenkins job to run  this script.']
+['"in my case /code_segment/ does n\'t work, it causes a filenotfoundexception when run in a jenkins pipeline job."']
+["i refer to this link /url/ and it seems like i ca n't get a run time build steps command line that i configure for jenkins pipeline job."]
+['i am trying to do the same with jenkins and having a hard time .']

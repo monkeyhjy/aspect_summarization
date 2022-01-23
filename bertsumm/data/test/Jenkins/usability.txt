@@ -1,0 +1,49 @@
+Negative:
+i am an admin on our jenkins master but, this button is not available for any builds for any user.
+this wo n't affect script execution and wo n't require you to remember removing that stupid ui block every time you update your jenkins job config.
+we have to add our automation code to jenkins pipeline there the server system machine will not have the access for the application so we have to bypass the authentication passing user id and passwords of test user.
+i am unable to see any secret text credentials in the drop down in my jenkins' project scm section.
+the recent weeks the jenkins gui has started slowing down for us, up to the point that loading of jenkins gui periodically takes minutes.
+(the builtin jenkins view is useless because it does n't show a subtree).
+i 'm currently trying to setup a jenkins build pipeline and i 'm struggling including a docker container.
+right now i am using the pyautogui library to simulate these actions and they are working fine, but when i run them through a headless browser on jenkins, those actions are not registered.
+i am having trouble getting jenkins to use the "npm" command from the "execute shell" (under the "build" step).
+i am unable to execute selenium scripts in jenkins.
+webhooks are equally worthless in accomplishing what is needed, as nothing seems to fire off a job in jenkins, regardless of how it is configured.
+on the other hand, using /code_segment/ is not the recommended way of initializing objects in the jenkins pipeline.
+i also faced similar issue when configuring git in jenkins.
+often, at least one of those jobs is running, making it hard to restart jenkins after updates.
+i 'm not sure why but when using the jenkins plug in for git it takes a simple git clone or checkout and turns it into many statements, and in my case, about half are unintended.
+i am trying to do the same with jenkins and having a hard time .
+i strongly feel that using jenkins as interactive tool is a bad idea.
+other than the dark theme plugin added recently, we have n't had any visual customisations in jenkins.
+we had an idea to create a jenkins job and keep the status files in different directories in the workspace, but it 's not user friendly and robust.
+now the problem am facing is that i am unable to login to my jenkins instance(ui) as my unix\linux user.
+after accidental restart of jenkins, was unable to see any plugins in jenkins.
+
+Positive:
+i know that there is a way to install plugins via a shell script provided by jenkins, but i 'd like to stick with ansible playbook as far as possible.
+i 'm trying to find jenkins pipeline feature in ucd where deployment is automated without any click.
+i would like to run difftool during jenkins job to allow the user to decide which line is correct during the job.
+so that will probably help alleviate some of the restrictions around upgrading jenkins, if that 's what we need to do.
+/pre/  now i can access jenkins ui in my browser without any problems.
+yeah we can do this via tools like jenkins, but i am working at a client which does not have such "advanced" facilities.
+i create jenkins shared library with few steps.
+note that with jenkins, you can setup multiple tasks for each pr.
+a solution was proposed and integrated in jenkins.war since weekly   release 2.55 (and not yet in any lts to date) which enables the   administrator to configure which function signatures should be used   for each function known to have different variants, apply it to their   application server initialization options and then run and update the   generic jenkins.war without further workarounds.
+jasmine, karma, and protractor can be customized at will, so you can make them output in an xml file that could be processed by a jenkins job instead of a command line which is not practical.
+the easiest approach would probably be a pipeline in jenkins (or whatever your build server is), but you can also write a shell script that calls maven thrice.
+i 've used and semi-configured jenkins in the past, using svn, and it was so simple and fast to get it working.
+and i would like to automate the process using jenkins build process.
+try to use jenkins' standard methods instead of creating objects manually.
+the easiest thing to do is start up a jenkins instance, configure it the way i want, exec into it (e.g., /code_segment/), cd into /code_segment/, and just grab the appropriate files and base64 encode them.
+it 's a json response, so it 's easy to parse and store by using readjson jenkins dsl.
+when you click 'new item' in the main jenkins windows, all the way at the bottom you can specify which item you wish to copy.
+it 's also recommended to actively download the chrome\chromium browser in jenkins so it will be available even before the test run starts.
+if you are using jenkins then it will be a bit easier with a jenkins plugin /url/.
+jenkins-64962: fix radio buttons and check boxes not being displayed.
+to create human independent system, automation tools like jenkins are helpful.
+i have refined the choice by using the active choice plugin and the jenkins user role.
+i choose parameterized plugin code which installed on jenkins server because it handles the polling mechanism internally and also has handler friendly methods.
+you could use key-based auth for ssh instead instead of password auth so that your jenkins user can access your ssh dvc remote without needing to specify a password.
+include a new package configuration is just one line in the travis recipe.

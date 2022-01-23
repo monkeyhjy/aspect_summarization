@@ -1,0 +1,6 @@
+positive:
+"i have integrate my selenium script with jenkins but i am not able to launch the chrome browser, i have tried almost every solutions and in my machine there is chrome version version 75.0.3770.100 (official build) (64-bit) and 75 version supported chrome driver is available."
+i should note that i 'm using jenkins 2.292 and have installed the 'xcode integration' (v2.0.15) plugin from jenkins and can succesfully build the workspace file and archive the ipa.
+negative:
+"then i installed terraform plug in and did the config changed in global tool configuration in jenkins but when i run the jenkin pipeline i get 'terraform' is not recognized as an internal or external command,"
+"looking into solutions i found that xvfb can be used to run robot headlessly so i have xvfb running on the jenkins node and the display port set to 99, however this does n't solve the issue."

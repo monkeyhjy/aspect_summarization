@@ -1,0 +1,6 @@
+positive:
+also installation and configuration works just fine in logs at circleci.
+"i 've also experienced a timeout in circleci only, but it was due to the specific way dependencies are installed on the pipeline, creating a .venv folder which was not excluded in flake8 configuration."
+negative:
+"i am executing a circleci script that should setup and install docker so that i can deploy to dockerhub, however the docker daemon will not start properly after installing it."
+"difficult to say what fails without access to your circleci build machine (to check logs etc) but here 's the config of ciclreci v2 that build apk and deliver it to fabric beta, also similar works to delivery apk to google play alpha/beta/prod channels."

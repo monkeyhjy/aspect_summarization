@@ -1,0 +1,26 @@
+Negative:
+when i run the jenkins build it is not generating any apk at jenkins workspace.
+i am trying to deploy a sample aspnet core project but jenkins build fails.
+i encounter this kind of problem on gcp, jenkins master behind load balance, almost the same as sidharth ramesh reply.
+once commit is done on github, jenkins able to detect the new commit, but unable to fetch the new code changes and throws the below output.
+i 'm facing an issue with jenkins matrix job, when i trigger new build run it hangs waiting for its predecessor to finish while its predecessor has already finished .
+immediately after a completes, i want to trigger b on the newly-created branch, but jenkins wo n't run /code_segment/ until there 's a new scan.
+there are no proxies, i also tried to use the various options like the enable proxy compatibilty, restarting jenkins etc, but not working.
+
+Positive:
+i have a pipeline jenkins job which is working as expected, configured with the option "github hook trigger for gitscm polling" for auto build on any push to git repo.
+i heard that jenkins gives you the possibility to build dependencies automatically, but i know no details.
+so i found the answer, i hope this helps others - git saves the executable permissions in github too so in my case each time jenkins pulled the latest code, it was overwriting the permissions to what was saved in the git repo.
+i know that we 've got some gitlab-plugin in jenkins and the communication is possible (in the past we managed to trigger builds using webhooks or post build statuses back on gitlab).
+when the task runs jenkins is able to fetch the repository and then the maven build is carried out which completes without any issues.
+reason for doubt- i am thinking thinking that, kubernetes and jenkins are only depending image registry for deployment by image pulling.
+when my jenkins automation detects change on push to branch, it analyses which files where changed from which module.
+this is my last major issue before i can get jenkins running a nice pipeline for deployment.
+if you want automation, you can use jenkins or airflow to schedule resizing jobs.
+create jenkins job2 and enable "poll scm" for weekly basis and add automation script as downstream project .
+generally, we can send the variables dynamically through the parameterized project in jenkins using the rest api.
+in order to make the deployment automatic, i have a jenkins jobs which execute the task : .
+i 'm working on a jenkins setup for a organization on github that has ~20 repos, with various dependency hierarchies.
+it gives you comprehensive jenkins pipeline governance and templating capability.
+jenkins does lots of groovy magic like cps transformation, custom method interceptots, etc.
+i 'm automating the jenkins installation along with plugin installation.as part of that i want to get the suggested plugins from jenkins server itself or install the same via api or cli instead of passing a list of plugins manually .

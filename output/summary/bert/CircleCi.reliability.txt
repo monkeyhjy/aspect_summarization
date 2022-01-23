@@ -1,0 +1,6 @@
+positive:
+"but the linux commandline that circleci spins up, is case-sensitive and that is why the tests were not getting discovered."
+"but circleci triggers automatically the workflow when some changes on the master branch, and here you are the message on circleci backoffice: ."
+negative:
+"whenever i run a workflow on circleci this fails, giving me a 500 http error code, despite being tested and successful when i run it locally."
+"but when i push it to ci(circleci) and build there, my build gets failed and i get the next quite strange errors: ."

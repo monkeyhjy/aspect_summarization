@@ -1,0 +1,7 @@
+positive:
+/pre/  but the problem is on the jenkins cluster that i will run my project build on, it does n't support python 3.7.
+however using httprequest from jenkins inbuild library is still not working.
+negative:
+i have configured for other projects to publish the .net project using jenkins and they all worked well.
+/pre/  if you have installed git on your jenkins (which i truly believe) you can simply execute this as bash / sh command or using jenkins' echo if you want to display it.
+as jenkins supports the jdk (8,11) version.

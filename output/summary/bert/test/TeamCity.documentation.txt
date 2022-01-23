@@ -1,0 +1,6 @@
+positive:
+i could n't find any information on how to do this for  reports generated in teamcity.
+firstly you right teamcity documentation is not clear.
+negative:
+i 've been learning teamcity the last couple of weeks and have had some good success (fun!).
+the documentation of teamcity explains how to download builded artifacts by using the tag version.

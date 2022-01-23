@@ -1,0 +1,6 @@
+environment:0.30711 compatibility:0.12385 adaptability:0.12385 software:0.12385 different:0.12385 usage:0.12385 installed:0.12385 uninstalled:0.12385 replaceability:0.12385 replace:0.12385
+appropriateness:0.15848 information:0.11742 learnability:0.10565 recognizability:0.10565 recognize:0.10565 documentation:0.10565 specified:0.07441 demonstration:0.05871 tutorial:0.05871 impression:0.05871 
+code:0.05470 quality:0.02685 security:0.02685 management:0.02470 github:0.02470 build:0.02470 offered:0.01992 api:0.01992 dependency:0.01992 deployment:0.01992
+requirement:0.30260 time:0.24407 resource:0.24407 performing:0.21931 meet:0.20750 maximum:0.16678 throughput:0.12204 capacity:0.12204 limit:0.12204 performance:0.12204
+component:0.19893 fault:0.16046 reliability:0.14417 accessible:0.08023 tolerance:0.08023 despite:0.08023 recoverability:0.08023 interruption:0.08023 failure:0.08023 recover:0.08023
+user:0.25562 interface:0.11440 usability:0.07940 easy:0.07940 attribute:0.07940 operate:0.07940 enables:0.07940 satisfying:0.07940 using:0.07940 people:0.07940 

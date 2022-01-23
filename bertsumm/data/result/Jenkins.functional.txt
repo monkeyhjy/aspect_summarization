@@ -1,0 +1,7 @@
+Jenkins
+['you can also install plugins to configure hooks on your scm server and automate the pipeline or jenkins job execution on every commit event.']
+['"i am doing a maven build in my jenkins and creating a war file, i have configured the websphere deployer plugin and tested the connection successfully."']
+['we are using jenkins to automate building of our ios project.']
+["then we find out that the git plugin in the jenkins is not liked with the project 's workspace."]
+['"i am trying to automate build for my xcode project using jenkins plugin, while configuring i am getting error in sourcecode management ."']
+['i am trying to do build and deployment from a jenkins job for my spring maven project but getting below error: .']

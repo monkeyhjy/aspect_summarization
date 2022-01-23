@@ -1,0 +1,6 @@
+positive:
+@travis gave good link to the documentation describing how it works.
+"/url/ is a good starting point, and travis himself has provided additional pointers in comments, but let me try to summarize as of windows powershell v5.1 / powershell [core] 7.1: ."
+negative:
+"i have skimmed through /url/ so question and travis ci sonarqube analysis article, which unfortunately did n't help me though."
+i have taken a look at git-hooks and travis 's build matrix but i do n't know how to proceed.

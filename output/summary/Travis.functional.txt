@@ -1,0 +1,7 @@
+Travis
+['"alternatively, travis ci or another continuous integration tool could be used to automatically create the build and deploy the generated files on the /code_segment/ branch: github pages deployment ."']
+["i 'm trying to configure automation release deployment to github releases with travis ci build."]
+['you could also deploy using travis ci for continuous integration via github.']
+['"we \'re trying to build our react native app for android on travis-ci with fastlane, the build fails ."']
+["i am building an github android project using travis-ci however i have some files which have secret data which i do n't want to upload it to github (as it is open and anyone can view it)."]
+['"i wanted to add build status badge to my project, just to make it more fancy, i did it with travis ci in my github repo and works fine (i guess), so i wanted to do the same with a project in bitbucket using pipelines integrated addon, but build always fail."']

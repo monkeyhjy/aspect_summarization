@@ -1,0 +1,6 @@
+environment:0.22697 compatibility:0.20116 software:0.12353  platform:0.11210 language:0.11210 adapted:0.11210 different:0.11210 evolving:0.11210 installed:0.11210 uninstalled:0.11210 
+specified:0.17302 documentation:0.11601 activity:0.11601 community:0.11601 maintained:0.11601 content:0.11601 recognize:0.11601 appropriate:0.11601 learning:0.11601 satisfaction:0.11601
+ci:0.03557 test:0.03368 continuous:0.02712 process:0.02260 unit:0.01968 developer:0.01968 deployment:0.01645 build:0.01476 server:0.01476 run:0.01356
+requirement:0.33257 meet:0.27423 performing:0.24133 function:0.18589 performance:0.18589 speed:0.13449 memory:0.13449 throughput:0.13449 footprint:0.13449 limit:0.13449 
+reliability:0.24124 component:0.24124 buggy:0.09756 accessible:0.09756 fault:0.09756 interruption:0.09756 failure:0.09756 recover:0.09756 data:0.09756 affected:0.09756 
+usability:0.14914 easy:0.14914 user:0.12249 attribute:0.08311 operate:0.08311 interface:0.08311 enables:0.08311 satisfying:0.08311 interaction:0.08311 people:0.08311 

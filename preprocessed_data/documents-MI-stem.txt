@@ -1,0 +1,29 @@
+1 portablity
+adaptability	adapted different evolving hardware software operational usage environment
+installability	successfully installed uninstalled specified environment
+replaceability	replace another specified software product purpose environment replaceability new version important user upgrading
+
+2 security
+maintainability	modified intended maintainer modification include carried specialized support staff carried business operational staff end user
+integrity	prevents unauthorized access modification computer program data
+testability	test criterion established test performed determine whether criterion met
+
+3 functional
+completeness	set function cover specified task user objective
+correctness	provides correct result needed degree precision
+appropriateness	function facilitate accomplishment specified task objective
+
+4 performance
+time behaviour	response processing time throughput rate
+resource utilization	amount type resource used
+capacity	maximum limit parameter meet requirement includes number item stored number concurrent user communication bandwidth throughput transaction size database
+
+5 reliability
+maturity	meet need reliability normal operation
+fault tolerance	operates intended despite presence hardware software fault
+recoverability	event interruption failure recover data directly affected establish desired state system
+
+6 usability
+learnability	used specified user achieve specified goal learning use information provided include demonstration tutorial documentation web site information home page
+operability	attribute make easy operate control
+user interface aesthetic	user interface enables pleasing satisfying interaction user

@@ -1,0 +1,6 @@
+positive:
+i want to make the package compatible with travis ci, however, as a newbie, struggle to set up the version correctly.
+travis encrypts environment variables and does not make them available to forks.
+negative:
+travis ci can automatically deploy your heroku application after a successful build.
+if you are just trying to add travis ci so that it has access to your personal repositories but not to the organizations you administer, you can do so easily.

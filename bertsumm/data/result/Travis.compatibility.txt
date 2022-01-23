@@ -1,0 +1,7 @@
+Travis
+['"moreover, the travis ci build works normal (on ubuntu 14.04) and author does n\'t has problem with build (see /url/)."']
+['"the code runs successful on different machines, python3.x versions and travis."']
+['i would like to run a simple python 3 script in the travis ci build environment.']
+['"while running our builds on travis ci \'s container-based infrastructure we did n\'t have another choice, because that environment did n\'t support  \'sudo\', and thus we did n\'t have permission to install packages ourselves."']
+['"everything works fine locally (tested on two machines) and restarting builds on travis that did work before fail, too."']
+["my local environment is ubuntu 18.04 - docker version 19.03.11 docker-compose version 1.24.1 i 'm able to build and run my images locally but on the travis ci i get the following error ."]

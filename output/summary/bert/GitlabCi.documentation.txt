@@ -1,0 +1,6 @@
+positive:
+a general introduction to gitlabci using docker can be found in this blog article (the first slides are great).
+"i 'm familar with bamboo but new to gitlabci, i have tried several times with gitlab and found a key advantage of gitlab is the automatic cloning of git repository."
+negative:
+i 've checked just about every link that shows up on google when you look for 'gitlabci docker flask postgres' and i believe that i am massively misunderstanding the implementation.
+"i want to add a stage in the gitlabci that auto tags the latest merge as 'latest', deleting/overwriting the tag if it already exists.. but i 'm kind of stuck ."

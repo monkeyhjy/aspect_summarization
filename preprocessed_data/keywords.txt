@@ -1,0 +1,7 @@
+activity:0.78489 community:0.78489 forum:0.78489 maintaining:0.78489 staff:0.78489 maintain:0.78489
+environment:0.21245 replaceability:0.17208 software:0.14015 specified:0.09446 compatibility:0.08604 platform:0.08604 upgrade:0.08604 language:0.08604 installed:0.08604 version:0.08604
+information:0.32584 documentation:0.29211 specified:0.19459 achieve:0.16292 learning:0.16292 demonstration:0.16292 tutorial:0.16292 web:0.16292 home:0.16292 page:0.16292
+code:0.03995 github:0.02780 security:0.02440 management:0.02240 build:0.02240 tool:0.02240 offer:0.01815 api:0.01815 dependency:0.01815 deployment:0.01815
+time:0.16550 resource:0.16550 number:0.16550 throughput:0.14837 speed:0.08275 memory:0.08275 capacity:0.08275 limit:0.08275 bandwidth:0.08275 transaction:0.08275
+fault:0.22882 reliability:0.20514 buggy:0.11441 maturity:0.11441 tolerance:0.11441 recoverability:0.11441 interruption:0.11441 failure:0.11441 recover:0.11441 affected:0.11441 
+easy:0.25466 user:0.23324 interface:0.21213 usability:0.14203 adapt:0.14203 simple:0.14203 using:0.14203 operate:0.14203 control:0.14203 enables:0.14203 

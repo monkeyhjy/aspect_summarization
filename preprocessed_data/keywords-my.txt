@@ -1,0 +1,6 @@
+environment:0.25716 compatibility:0.18568 software:0.11011 platform:0.10287 language:0.10287 adapted:0.10287 different:0.10287 installed:0.10287 uninstalled:0.10287 replace:0.10287 
+documentation:2.66430 official:1.47454 community:0.83496 information:0.32584 learning:0.16292 demonstration:0.16292 tutorial:0.16292 doc:0.16292 homepage:0.16292 page:0.16292
+commit:0.03557 code:0.03368 provide:0.02712 process:0.02260 task:0.01968 developer:0.01968 deployment:0.01645 build:0.01476 server:0.01476 run:0.01356
+requirement:0.33257 cpu:0.27423 performing:0.24133 consume:0.18589 performance:0.18589 speed:0.13449 memory:0.13449 throughput:0.13449 footprint:0.13449 limit:0.13449 
+reliability:0.24124 debug:0.24124 buggy:0.09756 accessible:0.09756 fault:0.09756 interruption:0.09756 failure:0.09756 recover:0.09756 log:0.09756 affected:0.09756 
+usability:0.13582 easy:0.13582 user:0.13132 using:0.07525 interface:0.07525 operate:0.07525 control:0.07525 enables:0.07525 satisfying:0.07525 simple:0.07525 

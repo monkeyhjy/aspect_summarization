@@ -1,0 +1,6 @@
+positive:
+on the other hand, using /code_segment/ is not the recommended way of initializing objects in the jenkins pipeline.
+i 'm not sure why but when using the jenkins plug in for git it takes a simple git clone or checkout and turns it into many statements, and in my case, about half are unintended.
+negative:
+/pre/  now i can access jenkins ui in my browser without any problems.
+a solution was proposed and integrated in jenkins.war since weekly   release 2.55 (and not yet in any lts to date) which enables the   administrator to configure which function signatures should be used   for each function known to have different variants, apply it to their   application server initialization options and then run and update the   generic jenkins.war without further workarounds.

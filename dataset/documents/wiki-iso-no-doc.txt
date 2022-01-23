@@ -1,0 +1,58 @@
+Community|Compatibility|Learnablity|Functional|Performance|Reliability|Usability
+
+TRAVIS-0
+compatibility	1
+The compatibility of the software with respect to specific platforms, programming languages, or other softwares	1
+degree to which a product or system can effectively and efficiently be adapted for different or evolving hardware, software or other operational or usage environments	1
+degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment	1
+degree to which a product can replace another specified software product for the same purpose in the same environment	1
+learnability	2
+The activities of the community maintaining the software (e.g., is the software actively maintained?)	2
+The content/quality of the software documentation	2
+degree to which users can recognize whether a product or system is appropriate for their needs. 	2
+degree to which a product or system can be used by specified users to achieve specified goals of learning to use the product or system with effectiveness, efficiency, freedom from risk and satisfaction in a specified context of use	2
+Function	3
+This section lists best practices suggested by various authors on how to achieve continuous integration, and how to automate this practice. Build automation is a best practice itself.	3
+Continuous integration—the practice of frequently integrating one's new or changed code with the existing code repository —should occur frequently enough that no intervening window remains between commit and build, and such that no errors can arise without developers noticing them and correcting them immediately. Normal practice is to trigger these builds by every commit to a repository, rather than a periodically scheduled build. The practicalities of doing this in a multi-developer environment of rapid commits are such that it is usual to trigger a short time after each commit, then to start a build when either this timer expires, or after a rather longer interval since the last build. Note that since each new commit resets the timer used for the short time trigger, this is the same technique used in many button debouncing algorithms. In this way, the commit events are "debounced" to prevent unnecessary builds between a series of rapid-fire commits. Many automated tools offer this scheduling automatically.	3
+Another factor is the need for a version control system that supports atomic commits; i.e., all of a developer's changes may be seen as a single commit operation. There is no point in trying to build from only half of the changed files.	3
+To achieve these objectives, continuous integration relies on the following principles.	3
+Maintain a code repository	3
+This practice advocates the use of a revision control system for the project's source code. All artifacts required to build the project should be placed in the repository. In this practice and in the revision control community, the convention is that the system should be buildable from a fresh checkout and not require additional dependencies. Extreme Programming advocate Martin Fowler also mentions that where branching is supported by tools, its use should be minimised.[16] Instead, it is preferred for changes to be integrated rather than for multiple versions of the software to be maintained simultaneously. The mainline (or trunk) should be the place for the working version of the software.	3
+Automate the build	3
+A single command should have the capability of building the system. Many build tools, such as make, have existed for many years. Other more recent tools are frequently used in continuous integration environments. Automation of the build should include automating the integration, which often includes deployment into a production-like environment. In many cases, the build script not only compiles binaries, but also generates documentation, website pages, statistics and distribution media (such as Debian DEB, Red Hat RPM or Windows MSI files).	3
+Make the build self-testing	3
+Once the code is built, all tests should run to confirm that it behaves as the developers expect it to behave.	3
+Everyone commits to the baseline every day	3
+By committing regularly, every committer can reduce the number of conflicting changes. Checking in a week's worth of work runs the risk of conflicting with other features and can be very difficult to resolve. Early, small conflicts in an area of the system cause team members to communicate about the change they are making. Committing all changes at least once a day (once per feature built) is generally considered part of the definition of Continuous Integration. In addition, performing a nightly build is generally recommended.[citation needed] These are lower bounds; the typical frequency is expected to be much higher.	3
+Every commit (to baseline) should be built	3
+The system should build commits to the current working version to verify that they integrate correctly. A common practice is to use Automated Continuous Integration, although this may be done manually. Automated Continuous Integration employs a continuous integration server or daemon to monitor the revision control system for changes, then automatically run the build process.	3
+Every bug-fix commit should come with a test case	3
+When fixing a bug, it is a good practice to push a test case that reproduces the bug. This avoids the fix to be reverted, and the bug to reappear, which is known as a regression. Researchers have proposed to automate this task: if a bug-fix commit does not contain a test case, it can be generated from the already existing tests.	3
+Keep the build fast	3
+The build needs to complete rapidly, so that if there is a problem with integration, it is quickly identified.	3
+Test in a clone of the production environment	3
+Having a test environment can lead to failures in tested systems when they deploy in the production environment because the production environment may differ from the test environment in a significant way. However, building a replica of a production environment is cost prohibitive. Instead, the test environment, or a separate pre-production environment ("staging") should be built to be a scalable version of the production environment to alleviate costs while maintaining technology stack composition and nuances. Within these test environments, service virtualisation is commonly used to obtain on-demand access to dependencies (e.g., APIs, third-party applications, services, mainframes, etc.) that are beyond the team's control, still evolving, or too complex to configure in a virtual test lab.	3
+Make it easy to get the latest deliverables	3
+Making builds readily available to stakeholders and testers can reduce the amount of rework necessary when rebuilding a feature that doesn't meet requirements. Additionally, early testing reduces the chances that defects survive until deployment. Finding errors earlier can reduce the amount of work necessary to resolve them.	3
+All programmers should start the day by updating the project from the repository. That way, they will all stay up to date.	3
+Everyone can see the results of the latest build	3
+It should be easy to find out whether the build breaks and, if so, who made the relevant change and what that change was.	3
+Automate deployment	3
+Most CI systems allow the running of scripts after a build finishes. In most situations, it is possible to write a script to deploy the application to a live test server that everyone can look at. A further advance in this way of thinking is continuous deployment, which calls for the software to be deployed directly into production, often with additional automation to prevent defects or regressions.	3
+Performance	4
+The performance of the software (e.g., speed, memory footprint)	4
+degree to which the response and processing times and throughput rates of a product or system, when performing its functions, meet requirements	4
+degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements	4
+degree to which the maximum limits of a product or system parameter meet requirements	4
+Reliability	5
+The reliability of the software (e.g., whether it is buggy or not)	5
+degree to which a system, product or component meets needs for reliability under normal operation	5
+degree to which a system, product or component is operational and accessible when required for use	5
+degree to which a system, product or component operates as intended despite the presence of hardware or software faults	5
+degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system	5
+Usability	6
+The usability of the software, in terms of how easy is to use/adapt it and evolve/maintain the code using it	6
+degree to which a product or system has attributes that make it easy to operate and control	6
+degree to which a user interface enables pleasing and satisfying interaction for the user	6
+degree to which a system protects users against making errors	6
+degree to which a product or system can be used by people with the widest range of characteristics and capabilities to achieve a specified goal in a specified context of use	6

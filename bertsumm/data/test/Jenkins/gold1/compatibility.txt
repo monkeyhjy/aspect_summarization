@@ -1,0 +1,10 @@
+Negative:
+jenkins cluster does n't support python 3.7.
+jenkins may be problematic on Windows for not finding any sh and nohup exes and unable to run the docker daemon.
+jenkins inbuild library can be outdated or invalid, not work for httprequest and null-safe navigation on lists.
+
+Positive:
+jenkins works best when the project is structured along standard lines.
+the latest jenkins has pipeline support, works with palo alto firewall, supports the jdk (8,11) version.
+Plugins for git, the bitbucket server and sonarqube can be installed in jenkins.
+jenkins file loads libraries from different repository but located on the same git account and it was working fine.

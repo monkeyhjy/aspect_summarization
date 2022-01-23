@@ -1,0 +1,254 @@
+include new package configuration one line travis recipe
+great thanks travis support team help support able resolve concerned issue
+came across issue upgrading travis distribution 14 04 16 04 python started fail
+travis ci built without preinstalled compiler
+may mean giving handy travis feature favor re coding
+last thing connect travis ci repository simple step see
+travis ci enables team test ship apps confidence
+encountered error using travis ci involved pushing edits repository
+add travis yml
+travis ci terraform ansible chef etc
+problem travisci related set fixed version work
+q3 travis highly configurable set run branch repository default master easily set run pr branch
+travis ci automatically deploy heroku application successful build
+error travis ci clear concise
+currently drill unit test ca pas 8g memory machine used ci travisci circleci
+travis ci automatically deploy heroku application successful build
+hence reason travis report timeout
+may take start server travis environment
+probably travis sonatype configuration issue maven issue
+jdk openjdk8 instead oraceljdk8 travis file
+issue travis solved adding
+travis environment path defined thus reading attempt fail resulting segfault
+read travis site
+oops error travis config happened execute expecting see output
+many mini project project directory share travis circleci build infrastructure
+deployment travis ci couple time apparently happens memory_size timeout set default 128 mb second used
+opened request change travis forum
+seems package provided travis ci python old use specifier correctly
+also need check travis ci support kind application related third party application
+listed supported io simulator sdk travis
+travisci account set environment variable
+also run travis ci
+apparently travis ci switched xbuild msbuild default build platform
+however better way use one many build automation solution available jenkins travis ci gitlab ci
+also find travis ci documentation see user key uploaded used repos
+whole chapter travis doc setup database
+working travis yml
+get nltk_data travis pipeline
+documentation travis ci could find likely useful sorting full answer
+updated travis yml
+installed default travis ci instance get latest stable version add
+contain sensitive information branch encrypt add travis yml
+seems travis issue
+also possible check travis ci build considering order dependency downloaded
+example use travis personal site automated deployment
+travisci allows configure environment variable store private key environment variable
+emailed travis ci staff received reply think explains problem
+tried following locally travis work
+using travis along github remote repository try travis custom deployment
+found travis quite quick respond ll also need set commandline client
+add deploy script travis
+make easier human looking travis ci web interface automated tool querying travis ci api decide unsuccessful build responsibility requiring human attention
+hour later found failed travis job working fine
+try changing travis yml mono segment
+look superficially similar work perfectly well ubuntu travis ci local macbook pro
+need precision use travis solution faster
+since travis good support docker straight forward
+ca really ssh travis ci
+install travis
+find guide running electron forge travis ci
+since seem know anything travis ci best place start go doc
+see travis doc info
+composer build currently run using travis ci see info incl link
+discussion travis ci issue tracker clojurians slack
+run test locally reasonably sure well tag release push travis rest
+get working travis ci bit tricky trick
+travis yml file replace
+seems recurring issue travis accessing maven central
+travis provides guide help encrypt local file passphrase store passphrase using
+article give example travis apply circleci without major change
+general guidance travis useful general configuration aspect
+use built travis deployment simply
+travis ci support due current virtualisation technology
+current travis yml
+contacted travis support sound like currently possible
+reference travis documentation
+travis config
+telling python version travis support please try newer version like
+travis doc subject
+travis ci api support
+even talking travis build run forever
+travis build keep failing apparently recognize abi
+travis file
+current tool like circleci travis etc
+travis
+think problem travis ci need grab dependency since dependency use semantic versioning go grab latest change every commit master
+however merged branch master travis ci build ran master correct invoked deploy stage incorrect attempting deploy maven github failing due believe unrelated error
+trying implement travis ci react native project
+got right environment wonder way detour fresh version travis vm image
+wrote travis yml file
+also mention reason calling singleton constructor locally test problem test run travis ci problem
+currently travis try upload trice python python python respectively thus two three build fail
+looked documentation source code could find anything except travispy job return maximum 250 job across repository
+locale work travis scrutinizer error
+work eats minute precious free time travis test suite may finish long test suite issue working
+travis config file
+tried connect dockerhub via travis ci got error
+error travis build
+email slack notification configured travis build failure
+configuration travis yml something like
+following travis ci job log
+travis yml
+build triggered travis ci fails following error
+cobra cli command work great travis ci automates linting formatting testing well thing automating proto compilation
+creating api using drf able setup docker also able integrate travis ci
+travis backup two folder s3 every time user rebuild fetch two folder cache
+currently branch specific notification supported travis would need implemented separately consuming webhook payload travis
+travis would request write access anyway many user would complain trusting travis request permission thing default
+pass check locally window machine travis ci win builder platform
+file start automatic test travis ci push github
+try run django test travis ci parallel using run error
+tried debug travis build run deployment script deployment succeeds page fails load
+error also seen travis ci job
+travis fails error suggests cannot find header file sub directory
+btw travis appveyor script accurate documentation build meshlab
+setting automated travis ci ci wondering possible launch two job test two different configuration
+anyone know possible solution problem maybe telling travis ignore library
+note never issue previous build cache passed travis
+travis ci native window support go seems lacking though going route
+fwiw result command travis
+get line travis build wait timeout
+re using travis ci configured sonarcloud travis yml file
+using travis pipeline different
+would like know posible build io android parallel make travis process faster
+build apk failed travis ci
+using travis ci build sign notarize macos application
+attempting create ci cd pipeline travis ci test front end test back end deploys
+however travis ci fails
+trying deploy app travis cli build getting build perfectly come deploy deploys whole root app folder
+work seamlessly local environment using python travis ci environment using python
+would nice could done manually clicking rebuild button travis dashboard
+travis yml
+travis documentation show specify gcc clang compiler version build matrix
+travis ci unit test pas deployment seem fail silently
+content travis yml
+travis job generates standard ant junit jenkins xml format test output
+want pipeline deploy production confirm pressing button travis ci website something like
+issue getting travis ci install rcpparmadillo ubuntu 16 04 oldrel although work release devel
+use travis appveyor testing building release
+want make package compatible travis ci however newbie struggle set version correctly
+ve followed yet travis build failing
+credential stored security key travis work correctly
+use travis ci appveyor pr pull request build build code pull request merged
+running travis build multiple o
+ve discovered neat way use travis deploy gh page branch involving token gem encrypt repo actually make subdomain website
+far window build fine linux macos build azure pipeline travis ci example message
+travis doc say authenticate via docker login
+neither found setup travis generate file
+run travis report fatal error role exist
+project python cli application use travis ci
+work fine local ubuntu machine resulting archive empty build travis ci
+code run successful different machine python3 version travis
+ve tried many hour automate deploy process travis ci
+tried publishing report using travis provider release
+use command install qt travis ci env however tell instaall qtwebengine properly brew
+deploy application dev machine using travis give exception creating build throw java exception
+following instruction internet created ssh key encrypt config travis yml file
+run travis test fail randomly
+trying run project travis ca compile issue alamofire
+trying configure travis ci github repo using following configuration
+finally travis yml inside spring boot project
+trouble make puppeteer jasmine work travis ci like loca repo
+travis ci test multiple version php per trigger
+node qunit travis ci build see error
+simple python project trying run test using travis ci
+trying install travis ubuntu keep failing
+read documentation travis ci org look like something similar following
+also travis able build docker image
+word trying build functionality equivalent travis ci deploy tag functionality
+would save time resource travis
+looked travis doc see config setting increasing number watcher could find anything
+travis show page
+want deploy front end made ember j gh page successful travis build
+edit build still failing travis locally travis debug environment succeeds
+ve searched many place even travis ci documentation page could find solution problem
+travis documentation site info stage cant see feature rename file
+problem want able put deployment key github call personal authorization token personal oauth token encrypted variable travis setting repository configuration file never change
+ve installed travis using gem
+configure travis yml enable feature
+trying setup build deploy github release travis ci
+maven build thing bit tricky run fine locally even running actual build travis successfully
+travis yml one
+goal simply build project successfully travis ci without test
+using travis ci deploy lambda function
+get commits latest push across commits get folder changed work really well travis
+edit new know error message stored travis ci
+share testing suite needed test show passing within travis think necessary share
+want use travis semester project problem ca deploy release git someone got idea
+order check php code standard commit push travis ci
+unable get travis ci build pas
+soon run travis get error ca explain
+even though specified travis ci still deploys build file
+need install newer version dependency via brew contained travis ci image
+seems like travis ci offer easy way cache brew formula bottle
+using travis ci automatically deploy application aws elasticbeanstalk environment
+searched earth possible travis say sonar scanner capabilites
+using travis deploy built content project corresponding branch
+general information setup database travis
+initial travis yml file
+using appveyor think travis window run test several different version python
+trying deploy user github page execution travis test
+suddenly experience build failure travis ci build
+attempting use travis ci build deploy file remote server using sftp
+correctly configure travis release new version artifact successful build master branch
+setup includes travis ci jacoco plugin via maven pom codecov java10
+set travis ci test different php version
+travis ci build run test test pas test command fails following error
+way make travis ci decrypt auth key building app
+investigated issue look like travis ci pipeline try execute step try execute deployment heroku fail due git tag name already created step github release
+trying switch mysql database server mariadb testing ci travis also switched python package
+work travis ci although cwebp seems work cause error
+edit added travis error message
+trying setup travis ci project
+committed pushed change repository travis ci started work resulted
+given already several commits test configure travis yml run push master
+know installed travis build environment think problem lie moment
+want use travis ci run script commit result back branch github
+travis ci run build separate virtualenv python version described yml file
+possible travis another free ci opensource project github graph display evolution test duration
+relevant part think travis build
+thought see error travis locally
+find information travis doc
+contact travis support config issue seeing similar configs work project
+read every single article setup codecov jacoco travis ci made detour via cobertura figure java10 supported read change log see version uncompatible
+re currently testing deploying travis github
+since day travis support jdk option oraclejdk10 anymore
+repo maven project want use travis
+find travis build
+linux build travis ci failing attempt download libcurl
+trying deploy build gh page travis ci
+travis build application come selenium test throw following message log
+travis documentation suggests matrix interleave different able find way run different script separately
+please note want run phpunit hhvm explicitly install version travis yml due compatibility issue hhvm php7
+found solution documentation travis
+unknown reason jest test seem block end ci via travis
+possible make webapp run travis ci app start check test
+know heroku webapp runner start webapp tool travis
+pull request created github travis pr build trigger
+trying adopt continuous integration practice development project working making use travis ci
+strange everything else working fine way github travis testing passing continuous integration way heroku deployment reason ca seem access postgres db dashboard
+new flutter travis ci im minor problem setting following
+setting automated deployment travis ci script get stuck trying rsync server
+travis encrypts environment variable make available fork
+building io project travis ci getting multiple build command failure like
+checked run locally main jsbundle copied inside folder travis file copied although building run react native bundle platform io dev false entry file index j bundle output io main jsbundle travis yml configuration
+using travis ci cd
+however travis ci running test api emulator app throw error
+shortened travis yml file follows
+trying build app travis keep getting following error unable debug
+way speed travis build split compilation process multiple job
+manually installed latest curl version travis build
+alleviate compile time attempted cache content using argument use travis cache copy data back
+understand behaviour travis ci matrix
+ve tried diverse configuration inside travis yml file nothing seems working right

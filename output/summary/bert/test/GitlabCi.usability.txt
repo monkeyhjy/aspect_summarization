@@ -1,0 +1,6 @@
+positive:
+i 've build a test scenario for gitlab (.gitlabci.yml) but i 've issue for some tests as they need to have an access on public ressources (provided by internet without limitation but specific url + port).
+i can able to set the ci runner for windows but unable configure the gitlabci runner with cmd executor and by defaultci runner executor is power shell ise .
+negative:
+if you have 3 tasks which can be merged into one and what you want to achieve is only to have 3 separated functions running in the same container to make the .gitlabci.yml file easier to understand, i would recommend using yaml anchors (see below).
+currently in our project the gitlabci.yml includes a common template yml with default stages and job definitions.

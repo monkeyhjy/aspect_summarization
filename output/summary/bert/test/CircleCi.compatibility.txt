@@ -1,0 +1,6 @@
+positive:
+difficult to say what fails without access to your circleci build machine (to check logs etc) but here 's the config of ciclreci v2 that build apk and deliver it to fabric beta, also similar works to delivery apk to google play alpha/beta/prod channels.
+edit: if you use cache within circleci you must explicitely uninstall the version coming from the circle docker image first or it will still fail .
+negative:
+on the local machine, when you run circleci, everything passes.
+i went back to the logs in circleci and found out that the latest awsebcli version that worked correctly was 3.14.11 so i modified the following line in .circleci/config.yml .

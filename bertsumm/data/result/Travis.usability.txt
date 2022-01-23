@@ -1,0 +1,7 @@
+Travis
+['"this works the same way but i would omit the environment variable from the review structure so that it \'s set interactively or via ci environment variables (eg /code_segment/ when running in travis ci, adapt this to support whatever ci system you use)."']
+["now for my concrete use case i 'm working on setting up the travis ci workflow sequence to enable automated testing for my static linked source code library."]
+['to make dusk work with travis ci you can update the app_url like this: .']
+['"i am trying to add a webhook to travis ci, and the issue the content needs to be /code_segment/ but i do n\'t see an option to set it in the webhook \'s config."']
+["i have tried some different ways in .travis.yml for example like this below but it does n't work: ."]
+['also whenever i try to use travis ci it fails to detect build script how can i create one?']

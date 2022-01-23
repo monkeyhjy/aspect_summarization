@@ -1,0 +1,6 @@
+positive:
+"in case of any issue , you can refer this blog how to configure jenkins with robotframework, i have included all the steps with screenshots."
+i think the new version of jenkins only supports openjdk-8 so you should clean all the installed java and jenkins and reinstall it according to this post /url/   hope it will help you.. .
+negative:
+"i 've tried a lot of things but nothing seems to be working, i am a very much new starter to jenkins so i am not familiar with start up scripts that jenkins uses."
+"for this, i am trying to use gerrit code review plugin of jenkins but i do n't know how to arrange webhooks.config properly."

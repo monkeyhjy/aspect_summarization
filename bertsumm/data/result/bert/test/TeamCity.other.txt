@@ -1,0 +1,5 @@
+positive:
+negative:
+jenkins, tfs, teamcity , octopus are some of the popular cd tools.
+octupus + jenkins/teamcity is widely used for that purpose.
+helpful applications are teamcity, octopus.

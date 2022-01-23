@@ -1,0 +1,29 @@
+Negative:
+but in my circleci 2.0 server only the first job, build runs while test and android do n't run although they are part of the overall workflow config.
+i ca n't seem to figure out how to override/extend the orb to run additionally circleci equivalent of  .
+i 'm trying to get reporting working for karate dsl, and it 's proven a challenge because my team uses circleci instead of jenkins.
+i 'm having trouble trying to get my elixir/phoenix app on circleci.
+i 'm struggling to configure the /code_segment/ postgres config in my circleci configuration file.
+i 'm currently trying to get gobuffalo and circleci working, but so far without luck.
+but the circleci configuration does not work because it uses maven commands.
+i 've used a ci like circleci before, but that was a terrible experience as they were transitioning from circleci 1.0 to 2.0 and the specific setup i was using was largely devoid of material.
+i can only guess that circleci had some other use case in mind for their introduction of pipeline variables because this is just not very convenient.
+
+Positive:
+to really take advantage of circleci though, you might want to try doing it like this: .
+we use circleci, so firing these commands should n't be a big deal.
+it 's even easier with a tool like circleci.
+they make it faster to get started building on circleci by providing the tools that most users need.
+if, like me, you were looking for a way to programmatically reference circleci (2.0) artifacts, the following url structure works for me: .
+this is being run as part of an automated build process in circleci so it 's abstracted from any interaction.
+pantheon recommends using github, circleci, &amp; composer for ci/cd but you can easily substitute bitbucket in the workflow.
+disclaimer: developer advocate at circleci .
+i am using circleci for ci and saucelabs for automated testing.
+circleci convenience images (the pre-built images you refer to) are designed to be a starting point for the majority of circleci users.
+it works for us as it only sends a job status in our #build channel on slack, with a visual green or red bar and a link to visit the circleci page .
+it integrates automatically with circleci 's parallelism env variables.
+works great in 2.0 circleci config.
+turning off the redundant build setting on circleci seems like the best bet.
+for convenience, circleci maintains several docker images.
+alternatively, you can set up relatively simple ci/cd inside github actions, circleci or travisci and build in multiple xcode versions at the same time there.
+circleci convenience images (the pre-built images you refer to) are designed to be a starting point for the majority of circleci users.

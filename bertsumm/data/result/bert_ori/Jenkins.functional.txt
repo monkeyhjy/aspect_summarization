@@ -1,0 +1,6 @@
+positive:
+i added the configuration for jacoco in the pom.xml of my application and the result files are generated after the build and just using the jacoco jenkins plugin they can be displayed on the jenkins dashboard.
+"i was installing jenkins (with blue ocean plugin) and successfully configure github webhook, so that, every push to the repository will be checked whether the build process succeeds or not (like this attached image)."
+negative:
+i have found a plugin for using statsd with jenkins (/url/) - however the hpi needs building because it is not available in jenkins plugin repository nor is it aailable to download.
+"i 'm trying to build a jenkins plugin using netbeans and the netbeans plugin for jenkins and stapler development from here /url/, but i ca n't seem to create a project."

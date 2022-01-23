@@ -1,0 +1,7 @@
+Travis
+['i am running a custom jenkins 2.263.4 build on travis-ci.']
+['you should see the same result that travis ci does.']
+['"next i did a deploy by travis ci, which was successful."']
+['"my build, npm run build, for my website works locally, but on travis ci it fails with the following error: ."']
+['but my build on travis ci fails.']
+['travis ci is failing due to this: .']

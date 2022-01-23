@@ -1,0 +1,6 @@
+positive:
+when i run my command through cmd the code will compile correctly so this problem seems to only happen when running through teamcity.
+i say supposed to, because every once in a while it throws this error and i ca n't seem to either catch it (locally even) or suppress it, so it breaks the teamcity run.
+negative:
+because i could imagine that teamcity employs some sort of safeguard mechanism that prevents certain changes on the server it 's run from.
+this was a bug, which is fixed in teamcity 2018.1.3.

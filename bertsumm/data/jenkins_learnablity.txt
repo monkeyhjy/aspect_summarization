@@ -1,0 +1,13 @@
+I am trying to setup a Jenkins server using one of the Chef cookbooks from the supermarket.
+As a final note I will quote Jenkins official docs: .
+Download the /code/ file (from the node 's page of Jenkins) .
+If it cannot be used, my apologies, Jenkins' documentation is often misleading.
+You Can refer to /url/ which shows how to setup slave for jenkins .
+/url/ This is the link to the documentation for this by jenkins, but I do n't find a hint for my problem.
+I could find no reference to /code/ in the Jenkins documentation, so I created a build to try to clarify their relationship.
+I have created a shared Library in Jenkins which looks something like this (simplified version): .
+I 've installed Jenkins X on EKS using instructions from /url/ so that I can use BitBucket with Jira.
+The /url/ properties is on the Jenkins Wiki.
+I have used this guide to "install" jenkins on my local machine: .
+This stackoverflow page can help you checkout bitbucket pull requests in Jenkins with Generic webhook trigger.
+This plugin may be added in Jenkins by default in near future, /url/.

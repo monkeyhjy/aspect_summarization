@@ -1,0 +1,36 @@
+Negative:
+jenkins just keep waiting.
+there is not currently any provision to rerun    environmentcontributors, nor any api in jenkins for such    contributors to indicate that their result might have changed since    the last call.
+currently, i have set gitlab host url in the jenkins configure page as /url/, which results in the following error:  .
+i am intermittently getting the below error in jenkins.
+but when i execute the build, i get error, that jenkins is not able to connect sonar server.
+if you run git command by windows shell/batch on jenkins, it maybe cause by git ssh key issue... .
+when use the same code with same command in jenkins i get this error: .
+actually there are couple of unresolved bugs with groovy closures in jenkins pipelines, for example /url/ and /url/.
+so, seemingly, an error code is not returned to jenkins.
+i have a jenkins pipeline that i need to run a sed on a file but i am getting an error of /code_segment/ .
+but the exact error was that this private key was not readable by jenkins.
+but i 'm facing a problem when i try to do that from jenkins job.
+when our jenkins server runs the build script, the assets folder is missing from the /code_segment/ folder, as well as some other files configured in /code_segment/.
+i have problem with using jenkins.
+however when i run my jenkins job, i get the following error: .
+i am running webservice test in katalon/jenkins, but it gives me error in generating variables, can anyone please tell me what am i missing here?
+whenever my test scripts start to run when i build my job in jenkins, i get this error i.e.
+when i call the start-build command on the jenkins pipeline bc, my pipeline process fails to run the oc start-build command.
+/pre/  but i am getting the following error in console of failed job in jenkins: .
+except that when i run the testes android with jenkins (i use the plugin android emulator) i get errors, the problem is that sometimes 2/3 of the tests will work, sometimes no ..
+i am using jenkins for the build but every time i run a build it gives an error and fails?
+furthermore, when trying to reach jenkins i 'm getting 502 bad gateway.
+in jenkins server i could able to see the allure results screen shot,however i am getting below error in the email body, screen shot error.
+with the below declarative pipeline code i am trying to pull an public image from dockerhub in jenkins however it fails with below error.
+but intermittently, i am observing that for some of the prs, the status checks are not getting updated in pr even though jenkins job get successfully execute.
+i am unable to get the output in the in my jenkins console output, .
+the big problem is that i use jenkins for ci/cd and it gives me a timeout error: .
+i believe this has nothing to do with the ssh-keys because manually running the above command from the cli works but fails only from the jenkins.
+it was working fine, getting issue since i have restarted jenkins.
+i honestly have no clue what is going on since jenkins wont tell me exactly where the error occurs.
+so that 's why i do n't understand the jenkins error result.. .
+i can connect to jenkins via 8080 port and everything works fine, however, when a new job is triggered, just when the job starts building (second stage) the connection to jenkins is broken and can nor connect to port 8080 anymore unless jenkins is restarted in the terminal.
+
+Positive:
+jenkins issues /url/ and /url/ detail potential fixes that could be introduced, though they have n't been implemented in any version of the system yet.

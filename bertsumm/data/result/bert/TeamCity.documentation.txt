@@ -1,0 +1,6 @@
+positive:
+i had a look in the teamcity documentation and it seems the only way to clear pending builds is to use the api: .
+"in my own specific case of teamcity, this is easy to add as an additional buildstep to your build configuration, after msbuild is finished -- running the script: ."
+negative:
+i have several build configurations on teamcity and the other configurations ignore tests when i use compiler directives like in the example below.
+"i was surpised as this was only from march 2019 on the jetbrains site, and the instructions do n't seem to work, i am quite familiar with teamcity, using it every day for the last 8 years, but i 'm not at all familiar with google cloud, so i need some pointers or instruction on how to do this... ."

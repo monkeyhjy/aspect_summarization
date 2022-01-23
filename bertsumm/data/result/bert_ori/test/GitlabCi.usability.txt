@@ -1,0 +1,6 @@
+positive:
+i am trying to configure .gitlabci.yml for go application, however struggling to upload resulting binary to nexus.
+i ca n't use https cloning because gitlab will ask me for user name and password and the gitlabci is non-interactive.
+negative:
+gitlab provides a list of attributes in the .gitlabci.yml file and their corresponding variable expansion mechanism.
+on gitlab you can identify a custom path for the gitlabci.yml file, so the pipeline works when i push to the remote repository.

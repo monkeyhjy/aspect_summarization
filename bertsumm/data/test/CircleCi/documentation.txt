@@ -1,0 +1,26 @@
+Negative:
+i ca n't find any good and understandable examples of a circleci config to build and deploy to an aws ec2 instance.
+i know circleci allows caching between rebuilds, so i 've looked at the documentation for go modules, and while it mentions a cache, i ca n't seem to find where it actually exists.
+from the circleci documentation i do n't see a way to include scripts like /code_segment/ directly as part of an orb.
+the circleci official documentation (/url/) shows that these languages are safe (some with conditions), but i was not able to find golang in the doc, tried googling but nothing much.
+i 'm not sure why the documentation for circleci does n't go over this but i 've not seen any good examples of how i should be setting up my config file.
+i 'm not sure why the documentation for circleci does n't go over this but i 've not seen any good examples of how i should be setting up my config file.
+i have n't found anything in the circleci documentation regarding this.
+i searched for some answers on the circleci official forum, i tried the adviced offered here /url/, but still no progress fixing the issue.
+but, i couldn’t any clues in docs/discussion/support of circleci.
+i tried searching for tutorials but found none that refers to the newest version of the circleci orbs.
+im quite new to circleci but struggling to find some documentation on this .
+joining circleci forum is also annoying me using github account, so i leave my question on stakeoverflow.
+a while ago (2019) i posted this issue on circleci 's discuss but never got an answer.
+i have come to know that we can use param to avoid creating similar jobs twice and can use one for different scenarios using params but the documentation at circleci is not much clear.
+the circleci documentation is somehow not complete, because it gives you impression that you can use dotnet to publish .net framework projects, but it actually ca n't.
+
+Positive:
+i follow the dropbox documentation: /url/ and the circleci has run successfully, but i ca n't find the ipa file in my dropbox catalog.
+i am not familiar with circleci but a quick search suggests that there is a way to expose links to build artifacts.
+most of the online circleci examples contain docker.
+on circleci support forum there is an answer about this: .
+i 'm awaiting feedback from circleci support and will update this appropriately.
+please read the section of cache keys in the circleci docs for more information: /url/ .
+try to watch this great presentation from official circleci youtube channel on cypress integration, it should be helpful to resolve your question .
+as circleci official support seems to give less helpful hints for the question, my workaround is to use custom docker image and have those dependencies installed there.

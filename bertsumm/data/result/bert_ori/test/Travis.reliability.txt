@@ -1,0 +1,6 @@
+positive:
+/pre/  it 's strange because everything else is working fine all the way from github travis testing (which are all passing), continuous integration, and all the way to heroku deployments but for some reason i ca n't seem to access the postgres db from the dashboard: .
+i have a nodejs typescript project that works fine on my local machine, but when i deploy to heroku or send to travis ci it shows me this error.
+negative:
+/pre/  travis will backup the above two folders to s3, then every time before user rebuild, it will fetch the two folders from cache.
+so i can get all the commits in my latest push and then across all those commits get the folders that have changed.. this works really well.. but only on travis.

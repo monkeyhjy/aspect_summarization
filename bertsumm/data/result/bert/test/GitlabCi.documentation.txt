@@ -1,0 +1,7 @@
+positive:
+now, i have seen that we can use "gitlabci" even for private repositories but i am having trouble understanding the "shared runners" concept.
+for security reasons i need to set up protected enviroment variables in gitlabci/cd, the problem is that in the documentation only mentions how to use inside the .gitlabci.yml file,  but not in the index.js.
+may anyone has a solution for that because i did n't find anything in the gitlabci docs.
+negative:
+a general introduction to gitlabci using docker can be found in this blog article (the first slides are great).
+an ease example of gitlabci file to run the test in the ci: .

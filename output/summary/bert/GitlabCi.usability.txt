@@ -1,0 +1,6 @@
+positive:
+"hi guys i was wondering if it is possible to make automatic deploys from gitlab to heroku (react app), right now this is my gitlabci  ."
+i was able to get multiarch images working with buildx on gitlabci (after lots of searching) using this repo and its docker images: /url/ .
+negative:
+"i do n't know gitlabci so well, but i 'm afraid it is not possible to add this as parameter to a service."
+"i have also tried creating env variables in gitlab, i can echo them in gitlabci.yml, but i do n't know how to use them in docker compose later."

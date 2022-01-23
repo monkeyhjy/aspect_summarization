@@ -1,0 +1,6 @@
+positive:
+but i got stuck when i deploy the application using gitlabci where it seems that mongo server does n't start at test environment on gitlab runner.
+i 'm struggling to understand the difference between my workstation environment and the gitlabci docker environment.
+negative:
+script is executing in gitlabci linux runner, image based on golang and works fine without extension.
+i have configured .gitlabci.yml file, and using ci lint it has passed the validation process.

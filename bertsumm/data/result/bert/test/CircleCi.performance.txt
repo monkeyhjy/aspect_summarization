@@ -1,0 +1,9 @@
+positive:
+we did make it compile and run on the circleci but the compile time takes about 9 minutes.
+there would be no good way to limit to just circleci without having to constantly update your ec2s firewall.
+if circleci fails, my droplet’s cpu stays over 100% and /code_segment/ keeps running.
+but as soon as circleci starts a docker instance (see config.yml below), it needs at least 5 minutes to run the script, if i am lucky.
+after completing the build circleci uploads artifacts and this is taking a lot of time.
+negative:
+by gradually, i mean long term i move to pytest and pytest commands, but in the meantime, the tests already written can still be used in a single commmand because my cicd on circleci is still dependent on the tests to pass.
+with the current setup, /code_segment/ does n't have to be installed fully every time for every build due to circleci caching.

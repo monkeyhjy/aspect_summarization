@@ -1,0 +1,52 @@
+Community|Compatibility|Learnablity|Functional|Performance|Reliability|Usability
+
+TRAVIS-0
+compatibility	1
+The compatibility of the software with respect to specific platforms, programming languages, or other softwares	1
+degree to which a product or system can effectively and efficiently be adapted for different or evolving hardware, software or other operational or usage environments	1
+degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment	1
+degree to which a product can replace another specified software product for the same purpose in the same environment	1
+degree to which a product can perform its required functions efficiently while sharing a common environment and resources with other products, without detrimental impact on any other product	1
+degree to which two or more systems, products or components can exchange information and use the information that has been exchanged	1
+community	2
+The activities of the community maintaining the software (e.g., is the software actively maintained?)	2
+Documentation	2
+The content/quality of the software documentation	2
+degree to which users can recognize whether a product or system is appropriate for their needs	2
+degree to which a product or system can be used by specified users to achieve specified goals of learning to use the product or system with effectiveness, efficiency, freedom from risk and satisfaction in a specified context of use	2
+Function	3
+The features offered/not offered by the software	3
+API management Structure your API infrastructure to enable various internet gateways to interact with your service.	3
+Chat Bring GitHub into your conversations.	3
+Code quality Automate your code review with style, quality, security, and test‑coverage checks when you need them.	3
+Code review Ensure your code meets quality standards and ship with confidence.	3
+Continuous integration Automatically build and test your code as you push it to GitHub, preventing bugs from being deployed to production.	3
+Dependency management Secure and manage your third-party dependencies.	3
+Deployment Streamline your code deployment so you can focus on your product.	3
+IDEs Find the right interface to build, debug, and deploy your source code.	3
+Localization Extend your software's reach. Localize and translate continuously from GitHub.	3
+Mobile Improve your workflow for the small screen.	3
+Monitoring Monitor the impact of your code changes. Measure performance, track errors, and analyze your application.	3
+Project management Organize, manage, and track your project with tools that build on top of issues and pull requests.	3
+Publishing Get your site ready for production so you can get the word out.	3
+Security Find, fix, and prevent security vulnerabilities before they can be exploited.	3
+Support Get your team and customers the help they need.	3
+Testing Eliminate bugs and ship with more confidence by adding these tools to your workflow.	3
+Utilities Auxiliary tools to enhance your experience on GitHub	3
+Performance	4
+The performance of the software (e.g., speed, memory footprint)	4
+degree to which the response and processing times and throughput rates of a product or system, when performing its functions, meet requirements	4
+degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements	4
+degree to which the maximum limits of a product or system parameter meet requirements	4
+Reliability	5
+The reliability of the software (e.g., whether it is buggy or not)	5
+degree to which a system, product or component meets needs for reliability under normal operation	5
+degree to which a system, product or component is operational and accessible when required for use	5
+degree to which a system, product or component operates as intended despite the presence of hardware or software faults	5
+degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system	5
+Usability	6
+The usability of the software, in terms of how easy is to use/adapt it and evolve/maintain the code using it	6
+degree to which a product or system has attributes that make it easy to operate and control	6
+degree to which a user interface enables pleasing and satisfying interaction for the user	6
+degree to which a system protects users against making errors	6
+degree to which a product or system can be used by people with the widest range of characteristics and capabilities to achieve a specified goal in a specified context of use	6

@@ -1,0 +1,6 @@
+positive:
+"i 'm using jenkins stage view and when a job is in progress the time on the step is not shown, after playing with the css in chrome i managed to remove the overlay blue bar and the time is there."
+"i would highly recommend first create new jenkins instance for testing with new version and run your few production pipelines on the new jenkins instance so, that you will get an idea if it 's breaking something or not."
+negative:
+"for the moment i 've ammended the path environment variable under the jenkins global settings, that works, but, feels wrong...it makes the assumption that all my jobs require the same tooling and environment."
+"but when i try to run these test using gradle command line or push them on jenkins pipeline, i do n't see too much time reduction as i see on my machine, actually the duration of individual test file and the entire build time increase when i enable the parallel execution feature."

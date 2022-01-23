@@ -1,0 +1,6 @@
+positive:
+/pre/  the good part is that ci integration works fine, however i must integrate more changes to the dockerfile (and steps to my gitlabci pipeline) and it is a pain to commit and wait the hub to build the image and then force a job to be run in gitlabci -  .
+i 've setup a gitlab runner and created my .gitlabci.yml and it all worked, but very slow.
+my gitlabci job(docker build with downloading a big file 1.5gb and extracting it with 7zip to 4.6gb) is broken with 137 error.
+however with all these steps, i noticed that gitlabci will pull docker image every time the new stages begin.
+negative:

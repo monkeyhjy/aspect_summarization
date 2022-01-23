@@ -1,0 +1,6 @@
+positive:
+my ci workflow is executed by circleci and i can see the progression on github with github checks.
+see the simplified caching step below in .circleci/config.yml file: .
+negative:
+i have a circleci configured config.yml file to build and deploy the code and i wanted that config.yml file to be run in azure devops pipeline but i am getting the error as below.kindly help in fixing my below script where should i need to change to run in azure devops?
+"i tried to implement it, but the build fails on circleci because it keeps reading my config.yml file incorrectly."

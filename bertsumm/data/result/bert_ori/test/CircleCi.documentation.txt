@@ -1,0 +1,9 @@
+positive:
+the circleci official documentation (/url/) shows that these languages are safe (some with conditions), but i was not able to find golang in the doc, tried googling but nothing much.
+i 'm not sure why the documentation for circleci does n't go over this but i 've not seen any good examples of how i should be setting up my config file.
+i searched for some answers on the circleci official forum, i tried the adviced offered here /url/, but still no progress fixing the issue.
+negative:
+most of the online circleci examples contain docker.
+on circleci support forum there is an answer about this: .
+try to watch this great presentation from official circleci youtube channel on cypress integration, it should be helpful to resolve your question .
+as circleci official support seems to give less helpful hints for the question, my workaround is to use custom docker image and have those dependencies installed there.

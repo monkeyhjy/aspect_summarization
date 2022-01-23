@@ -1,0 +1,60 @@
+community compatibility documentation functional performance reliability usability general
+travis
+community
+activity community maintaining software software actively maintained
+compatibility
+compatibility software respect specific platform programming language software
+adaptability degree product system effectively efficiently adapted different evolving hardware software operational usage environment
+installability degree effectiveness efficiency product system successfully installed uninstalled specified environment
+replaceability degree product replace another specified software product purpose environment
+documentation
+content quality software documentation
+function
+feature offered offered software
+api management structure api infrastructure enable various internet gateway interact service
+chat bring github conversation
+code quality automate code review style quality security test coverage check need
+code review ensure code meet quality standard ship confidence
+continuous integration automatically build test code push github preventing bug deployed production
+dependency management secure manage third party dependency
+deployment streamline code deployment focus product
+ides find right interface build debug deploy source code
+localization extend software reach localize translate continuously github
+mobile improve workflow small screen
+monitoring monitor impact code change measure performance track error analyze application
+project management organize manage track project tool build top issue pull request
+publishing get site ready production get word
+security find fix prevent security vulnerability exploited
+support get team customer help need
+testing eliminate bug ship confidence adding tool workflow
+utility auxiliary tool enhance experience github
+performance
+performance software speed memory footprint
+time behaviour degree response processing time throughput rate product system performing function meet requirement
+resource utilization degree amount type resource used product system performing function meet requirement
+capacity degree maximum limit product system parameter meet requirement
+reliability
+reliability software whether buggy
+maturity degree system product component meet need reliability normal operation
+availability degree system product component operational accessible required use
+fault tolerance degree system product component operates intended despite presence hardware software fault
+recoverability degree event interruption failure product system recover data directly affected establish desired state system
+usability
+usability software term easy use adapt evolve maintain code using
+appropriateness recognizability degree user recognize whether product system appropriate need
+learnability degree product system used specified user achieve specified goal learning use product system effectiveness efficiency freedom risk satisfaction specified context use
+operability degree product system attribute make easy operate control
+user error protection degree system protects user making error
+user interface aesthetic degree user interface enables pleasing satisfying interaction user
+accessibility degree product system used people widest range characteristic capability achieve specified goal specified context use
+information provided product system include demonstration tutorial documentation web site information home page
+function
+run test locally
+ci intended used combination automated unit test written practice test driven development done running passing unit test developer local environment committing mainline help avoid one developer work progress breaking another developer copy necessary partially complete feature disabled committing using feature toggle instance
+compile code ci
+build server compiles code periodically even every commit report result developer use build server introduced outside xp extreme programming community many organisation adopted ci without adopting xp
+run test ci
+addition automated unit test organisation using ci typically use build server implement continuous process applying quality control general small piece effort applied frequently addition running unit integration test process run additional static analysis measure profile performance extract format documentation source code facilitate manual qa process popular travis ci service open source 58 64 ci job execute test
+continuous application quality control aim improve quality software reduce time taken deliver replacing traditional practice applying quality control completing development similar original idea integrating frequently make integration easier applied qa process
+deploy artifact ci
+ci often intertwined continuous delivery continuous deployment called ci cd pipeline continuous delivery make sure software checked mainline always state deployed user continuous deployment make deployment process fully automated

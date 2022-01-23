@@ -1,0 +1,36 @@
+Negative:
+but when i try same docker login command from gitlabci stage, it is failing with this error: .
+during gitlabci i got: "fatal error: an error occurred (accessdenied) when calling the listobjectsv2 operation: access denied" .
+/pre/  but in local it is working correctly this issue occurs only in gitlabci .
+i 'm having problem connecting to the sftp connection in gitlabci runner.
+however, it fails in gitlabci in a docker container.
+/pre/  on my local env all tests run ok, but on gitlabci i get some requests aborted.
+/pre/  but job failed and responded with: found errors in your .gitlabci.yml: .
+2 days ago we suddently started to get build errors when deploying using gitlabci.
+i noticed this error today too using gitlabci with a docker image based on php:7.0.   .
+/pre/  the docker fails both locally and in gitlabci/cd.
+locally in intellij idea my tests works, but when i push into repo, gitlabci cant find my tests .
+i have cut down my .everything works fine except in last when my gitlabci runner fails with no error..yml to the bare minimum, leaving only one stage with one job, which is not /url/.
+trying to run automated tests with gitlabci gives me  following error: .
+but unfortunately my gitlabci/cd build phase gets failed.
+even i have added the .gitlabci.yml file in my repo root directory but still when i click on pipelines tab it shows this./url/ .
+i try to use capistrano for continuous deployment with gitlabci but, the capistrano job failed with this error  :  /code_segment/
+but when setting up the .gitlabci.yml file to deploy to s3 i get this error.
+when configuring a gitlabci for building docker images and pushing them to my gitlab 's insecure registry, i encountered several errors.
+i got this error when i try to do this in gitlabci.
+i am running pyspark unit tests cases using gitlabci/cd pipeline and i am getting the above error, below is the content under test stage of my gitlabci.yml:- .
+played around with 50 different gitlabci.yml configurations and keep having loads of issues with different stages.
+no action in this, the real problem is that i 'm getting the following error from gitlabci : .
+malicious code pushed to your .gitlabci.yml file could compromise your variables and send them to a third party server regardless of the masked setting.
+when running a gitlabci/cd pipeline, ssh gives 0644 bad permission error.
+now, when i try to restore my packages using my local machine it works perfectly, but when i use the command nuget restore from my pipeline (.gitlabci.yml) it throws the error 401 .
+locally all works but inside the gitlab-runner (gitlabci) all falied because this: .
+this piece of code works just fine on local but crashes on the gitlabci runner.
+i have trouble in gitlabci, when am executing terraform apply locally all is ok(kubectl is working correctly in gitlabci container and locally), but in executing the same script in gitlabci throws error that showed below .
+it works locally, but the same command in gitlabci job leads to the same error even though all the tests passed successfully.
+but they are failing in gitlabci.
+
+Positive:
+i was facing the same issue with gitlabci, changing maven image from /code_segment/ to /code_segment/ seems to fix the issue.
+if you set the value as false, the gitlabci will not continue until this job finishes with success .
+is a multiline script block in a gitlabci pipeline immediately aborted if a call within these instructions returns an exit code that is not equal to zero?

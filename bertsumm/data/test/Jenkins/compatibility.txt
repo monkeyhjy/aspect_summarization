@@ -1,0 +1,23 @@
+Negative:
+so there should be a revert process so that we can revert back to older working version of jenkins.
+the command to run test suites on cmd works fine when jenkins is on local server but fails when i run the same command on jenkins on aws linux instance?
+/pre/  but the problem is on the jenkins cluster that i will run my project build on, it does n't support python 3.7.
+i 'm on windows so i already had to resolve the problem of jenkins not finding any sh and nohup exes (installed git bash because it apparently did not want to work with my cygwin install).
+this plugin has not been updated in a few years, so i 'm not sure if it 's compatible with the latest version of jenkins.
+for jenkins environments which have macos, windows, or other agents, which are unable to run the docker daemon, this default setting may be problematic.
+i am using jenkins version 2.222.4 and trying to install sonarscanner for msbuild - .net fwk 5.0.0 from global tool configuration but i could n't find the required version in the available list of versions in 'install from github' drop down list.
+however using httprequest from jenkins inbuild library is still not working.
+the outdated groovy in jenkins does n't support null-safe navigation on lists, so you have to do it old-school.
+
+Positive:
+it seems aws jenkins is opened with palo alto firewall, so i am able to access the url from the aws unix box where jenkins is installed and not from the jenkins application.
+in virtually all resources online people just install .net core cli using apt-get (or different app management tools) on the jenkins machine directly.
+i have configured for other projects to publish the .net project using jenkins and they all worked well.
+jenkins probably works best when the project is structured along standard lines (as the most vanilla example take a makefile/gcc project on linux with a git repo).
+/pre/  if you have installed git on your jenkins (which i truly believe) you can simply execute this as bash / sh command or using jenkins' echo if you want to display it.
+i have a simple jenkins job  ( jenkins 1.514  ) and i隆炉m looking for a way that every time job is running it will refresh a specific system environment variable.
+the latest jenkins has pipeline support.
+we already have plugins installed for the bitbucket server and sonarqube in jenkins and we ran the sonar using this command in the jenkinsfile .
+i am able to solve this by installing locally-hosted jenkins on my
+jenkins file loads libraries from different repository but located on the same git account and it was working fine.
+as jenkins supports the jdk (8,11) version.

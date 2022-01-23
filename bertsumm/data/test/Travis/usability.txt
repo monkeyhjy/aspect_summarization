@@ -1,0 +1,33 @@
+Negative:
+travis ci doesn't support this, due to their current virtualisation technology.
+so currently the branch specific notification is not supported by travis, but would need to be implemented separately by consuming the webhook payload from travis.
+it would be nice if this could be done by manually clicking the rebuild button in the travis dashboard.
+i want to make the package compatible with travis ci, however, as a newbie, struggle to set up the version correctly.
+i neither found how to setup travis to not generate the /code_segment/ file.
+i've tried now many hours to automate the deploy process with travis ci.
+i'm unable to get my travis ci build to pass.
+/pre/  even though the repo and /code_segment/ has been specified, travis ci still deploys all build files to /code_segment/, not/code_segment/.
+it seems like travis ci should offer an easy way to cache brew formula and bottles.
+i'm setting up automated deployment with travis ci, but my script gets stuck when trying to rsync to my server.
+travis encrypts environment variables and does not make them available to forks.
+i 've had great success in the past with other platforms however travis just does n't seem to want to play nice.
+first, you need to select a plan (travis does not automatically select the free plan for you).
+setting a dependency version is a manual runtime or programming language task, travis is ci & cd tool , you should not automated with travis.
+the issue here is that using personal github token to generate travis api token is an overall bad practice, cause the user can leave the organization, or his access rights could be revoked for particular repositories.
+in addition to that adding travis to run test for all commits and adding fastlane to automate release processes for all dependency managers looks like a horror movie.
+when travis ci login via github expires, it 's not possible to rebuild tests.
+
+Positive:
+q3: travis is highly configurable, it can be set to run on any branch of the repository, it defaults to master but you can easily set it to run on any pr for any branch.
+travis ci can automatically deploy your heroku application after a successful build.
+as there are many mini projects in the project directory, and they all share the same travis or circleci build infrastructure.
+however, a better way is to use one of the many build automation solutions that are available, such as jenkins, travis ci, or gitlabci.
+this makes it easier, both for humans looking at the travis ci web   interface and for automated tools querying the travis ci api, to   decide when an unsuccessful build is our responsibility requiring   human attention, i.e.
+i am creating an api using drf, i was able to setup docker and was also able to integrate travis ci.
+i am setting up an automated travis ci ci, and was wondering if it is possible to launch two jobs (same tests) with two different configurations.
+i think you can achieve the same result very quickly with travis who already has mac and windows runners available.
+it would be really nice if i could also pass these params in via the travis ci api also.
+i 'm trying to setup a nice and customizable testing environment for my company using testrail + travis ci + a selenium-based testing app.
+for example, using travis ci, you can use the trust project to automatically deploy in much the same way that you would from a tarball, but automatically with only a tag being required.
+travis-ci scales pretty well.
+if you are just trying to add travis ci so that it has access to your personal repositories but not to the organizations you administer, you can do so easily.

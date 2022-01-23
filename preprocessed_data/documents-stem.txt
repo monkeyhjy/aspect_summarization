@@ -1,0 +1,20 @@
+0 community
+the activity of the community maintaining the <software_product> is the <software_product> actively maintained
+ 
+1 Compatibility
+the compatibility of the <software_product> with respect to specific platform programming language or other software
+ 
+2 Documentation
+the content quality of the <software_product> documentation
+ 
+3 Functional
+the feature offered not offered by the <software_product>
+ 
+4 Performance
+the performance of the <software_product> speed memory footprint
+ 
+5 Reliability
+the reliability of the <software_product> whether it is buggy or not
+ 
+6 Usability
+the usability of the <software_product> in term of how easy is to use adapt it and evolve maintain the code using it

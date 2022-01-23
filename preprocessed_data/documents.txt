@@ -1,0 +1,7 @@
+the activity of the community maintaining the software is the software actively maintained
+the compatibility of the software with respect to specific platform programming language or other software
+the content quality of the software documentation
+the feature offered not offered by the software
+the performance of the software speed memory footprint
+the reliability of the software whether it is buggy or not
+the usability of the software in term of how easy is to use adapt it and evolve maintain the code using it

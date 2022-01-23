@@ -1,0 +1,7 @@
+Jenkins
+['"if i delete the tag /code_segment/ on the remote git server, \'scan multibranch pipeline now\' in jenkins runs without an error and building pipelines work."']
+['"so when i click on ""build now"" to run the job in jenkins its directly get the entire code from git and works as expected with success result on windows machine."']
+['now works fine even in jenkins.']
+['i am getting the following error when trying to run my jenkins job.']
+['"when i run this test in local, work correctly, but when i try build application by jenkins (in build i have /code_segment/) i have an error: ."']
+['i get the same error at jenkins.']

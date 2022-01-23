@@ -1,0 +1,7 @@
+Negative:
+it takes long time for loading configuration page and data, saving artifacts, executing jenkins job, running nuget restore and building application using jenkins.
+jenkins seem to consume cpu to max when 4 build job are running.
+jenkins 's memory consumption can substantially increase when log every message. 
+
+Positive:
+use jenkins to config k8s on how many 'automations' run in-parallel to save time.

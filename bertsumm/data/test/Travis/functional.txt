@@ -1,0 +1,25 @@
+Negative:
+this may mean giving up some handy travis feature in favor of re-coding it yourself.
+/pre/  i tried to debug the travis build and run the deployment script, the deployment succeeds but again the page fails to load.
+i'm trying to deploy our app through travis cli, the build is getting build perfectly, but when it comes to deploy, it deploys the whole root app folder.
+the way this is done will vary depending on the ci provider; travis may or may not have such a feature.
+however, when i try to automate deployment using travis, after deploying, i am unable to access the application and i get a 404 when accessing the link.
+
+Positive:
+travis ci enables your team to test and ship your apps with confidence.
+travis ci can automatically deploy your heroku application after a successful build.
+it's also possible to check it in travis-ci builds considering the order dependencies are downloaded: .
+for example, i use travis for my personal site automated deployment.
+if you are using travis along with github for your remote repository, try travis custom deployment.
+so if you can run any tests locally, be reasonably sure that all is well, you can tag a release and push and travis will do the rest.
+travis ci api supports /url/.
+i think it is a problem because on travis-ci it needs to grab the dependencies and since these dependencies do not use semantic versioning, go grabs the latest, which changes on every commit to master.
+i have a cobra cli command that works great on travis ci that automates linting (golint and go vet), formatting (gofmt), testing (go test), as well as other things such as automating proto compilation.
+i have the /url/ file, which starts automatic test on travis-ci, on each push on github.
+i've discovered a neat way to use travis to deploy to the gh-pages branch (involving a token and a gem to encrypt it) of a repo, which actually makes it a subdomain of my website.
+travis ci can test multiple versions of php per trigger.
+so i am using travis ci to automatically deploy my application to aws elasticbeanstalk environment.
+i searched why on earth this is possible, because travis says it has sonar-scanner capabilites.
+i'm trying to adopt continuous integration practices in a development project i'm working on, so i'm making use of travis ci.
+i 'd still love to see something more functional with more pre-fabbed cache rules like travis ci has.
+so far, i have successfully deployed my services to google kubernetes cluster using travis.

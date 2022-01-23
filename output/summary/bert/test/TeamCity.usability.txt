@@ -1,0 +1,6 @@
+positive:
+using a teamcity template does not help to constrict the options or point the user in the direction we need, as the dependency is locked in the template .
+i tried this but teamcity server was not able to find this agent and agents tab was empty .
+negative:
+teamcity has the ability to fetch all heads teamcity since v2017, but needs to be enabled via a config setting.
+in teamcity, it is easy to update build number, here in azure i could not find where it is stored.

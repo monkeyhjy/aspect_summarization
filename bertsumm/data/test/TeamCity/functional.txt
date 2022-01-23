@@ -1,0 +1,23 @@
+Negative:
+i have a web api project that wo n't build on teamcity when i add a .net framework (4.71) class library to the solution.
+however, when i run an msbuild task on the ci server (teamcity), i can see that msbuild is trying to publish the referenced project (which i do n't want) using the publish.xml for the main project (which does n't make any sense!).
+teamcity does n't support multi branches for  svn as for git - so i solved such problem with configuration parameter - where i set active branch from which i need to build and after can easily switch to another branch by running a custom build or change that configuration parameter.
+this is awkward on our teamcity build server where i would like a build configuration for each shared library/project and have my application use artifact dependencies to reference the dlls the build server generates.
+another solution would be to leverage a continuous integration tool such as jenkins or teamcity to automatically schedule runs over a period of time.
+
+Positive:
+artifactory provides tight integration with teamcity ci server through the teamcity artifactory plug-in.
+i have a teamcity for automatic build and deploy of my window service.
+i am trying to automate a build process using teamcity api and powershell.
+i have been searching a lot for ways to auto merge the target git branch into a feature branch in a pull request every time the target branch is updated with bitbucket server and teamcity.
+it would be nice to have an opsworks feature in teamcity cloud configuration in addition to the ec2 and vmware features.
+we are using teamcity to process hundreds of builds.
+depending on the version of teamcity you are using, anything after tc 2017 should be good, support for logging into container registries is available.
+i am using teamcity 's out-of-the-box powershell  build runner to run script provided in the build step.
+we imported a signed ca for the machine and both artifactory and teamcity login works fine with ssl and certs are working, browser satisfied.
+you can set up jenkins or teamcity to automatically build and deploy everytime you update the master branch in git.
+i found this out after coming across this post in the teamcity jmeter plugin git repo: /url/ .
+using teamcity one of our build steps inspects the dependencies of a solution, identifies the topmost level dependencies and adds them as nuget build triggers ensuring that the next time a successful build of a dependency occurs the downstream library is triggered as well.
+also, teamcity has no issue noticing that there were changes to the repo itself.
+i have a build configuration in teamcity that compiles and runs tests when a feature is merged into the development branch, this works as expected.
+gitlabci will check out all of your source code in your runner machine and perform the ci steps by executing the commands that you have configured in .gitlabci.yml.

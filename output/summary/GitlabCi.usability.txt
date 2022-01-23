@@ -1,0 +1,7 @@
+GitlabCi
+['"if you have 3 tasks which can be merged into one and what you want to achieve is only to have 3 separated functions running in the same container to make the .gitlabci.yml file easier to understand, i would recommend using yaml anchors (see below)."']
+['also to make a note of tagging is a very important task that needs to be done so that you can use your runners with your requirement like you said you want to use runners randomly from the list then all the runners in the list should have a common tag that can be further used in your .gitlabci.yml file.']
+['an ideal solution would not require to have admin access to gitlabci servers or gitlabci runners and would not require to setup a custom runner with /code_segment/ (which we ended up doing but it slowed down our ci drastically with a single runner bottleneck for e2e tests) .']
+['"locally when i set the adresses of the services with docker it works, but it looks like i ca n\'t reach them in gitlabci."']
+['"commands: build / login / push (are set in the gitlabci.yml), but they do n\'t work when using the custom gitlab-runners configured on our server."']
+['person who created gitlabci.yml does not know how to create custom docker images .']

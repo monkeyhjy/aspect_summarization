@@ -1,0 +1,6 @@
+positive:
+as far as i 'm concerned it should work as long as the .gitlabci.yml is tracked on the dev branch and you push to that branch.
+i was able to get my pipelines to create after removing some configuration from my .gitlabci.yml file.
+negative:
+"i can do the scipt and such, but the gitlabci config documentation is confusing and i cant seem to find an option on how to call the script after it finished."
+i come from gitlab and its .gitlabci.yml and i am experimenting with azure devops multi stage pipelines but i am quite confused about how it works and what 's the best strategy even after reading several documentation articles at /url/ .

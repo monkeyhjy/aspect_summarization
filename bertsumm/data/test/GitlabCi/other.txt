@@ -1,0 +1,8 @@
+Negative:
+
+Positive:
+i have a .gitlabci.yml in my master branch, it works fine everytime i push to master the ci pipeline runs.
+so, i 'd like to switch to a ci-pipeline and i think travis-ci or gitlabci might be some good choices.
+it works everywhere: in azure-pipelines.yaml and in gitlabci.yml and locally.
+there 's an abundance of tools avilable.. jenkins, cicleci, travisci, droneci, gitlabci, bitbucketci, etc.
+so, i 'd like to switch to a ci-pipeline and i think travis-ci or gitlabci might be some good choices.

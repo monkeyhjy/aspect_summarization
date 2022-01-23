@@ -1,0 +1,7 @@
+Travis
+['"i found archive of builds of travis ci in the following link, ."']
+['this was working quite well using travis ci.']
+['you can find the travis build here: .']
+["i ca n't seem to get the latter to work using the syntax found in travis documentation: /url/ ."]
+['"i try to link the doxygen documentation and the github-page, i have found the method with the travis-ci (here) but the ""_"" file does n\'t work...  ."']
+["i 'm trying to set up travis ci for our group project and it does n't work."]

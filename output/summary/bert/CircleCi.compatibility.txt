@@ -1,0 +1,6 @@
+positive:
+"i am using circleci to build a project, everything is running fine, except that my tags are not built when pushed to github: ."
+"since i have no issue creating and serving the gzipped webpack bundle locally and in a test environment, i expect them to work in circleci."
+negative:
+"if i am running on my own machine it will work since i have .m2 folder that has the missing jar, but when running on a new machine (circleci) it fails."
+it looks like like if i use the latest version of pandoc (2.9.1.1) everything will work fine but i ca n't seem to get circleci to download the latest version.

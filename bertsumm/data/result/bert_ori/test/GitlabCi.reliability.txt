@@ -1,0 +1,6 @@
+positive:
+i noticed this error today too using gitlabci with a docker image based on php:7.0.   .
+i have cut down my .everything works fine except in last when my gitlabci runner fails with no error..yml to the bare minimum, leaving only one stage with one job, which is not /url/.
+negative:
+i was facing the same issue with gitlabci, changing maven image from /code_segment/ to /code_segment/ seems to fix the issue.
+is a multiline script block in a gitlabci pipeline immediately aborted if a call within these instructions returns an exit code that is not equal to zero?

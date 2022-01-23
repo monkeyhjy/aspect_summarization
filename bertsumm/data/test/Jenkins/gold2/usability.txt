@@ -1,0 +1,16 @@
+Negative:
+Updating Jenkins' config won't affect script execution or remove that stupid ui block, and is hard to restart jenkins after updates.
+Jenkins' server system machine won't have the access for the application.
+Jenkins doesn't show secret text credentials.
+Jenkins is incompatible with docker container, pyautogui library, webhook, configure and plug of git.
+Jenkins can't execute some commands and scripts or keep the status files in different directories in the workspace.
+Jenkins is not interactive, has unavailable buttons and bad visual customisations.
+Jenkins GUI has started slowly and can be unable to be logined on linux.
+
+Positive:
+Jenkins can install plugins via a shell script, automate deployment on jenkins pipeline and build, run difftool, setup multiple tasks for each process and process xml file.
+Jenkins UI can be displayed in browser.
+It is easy to create jenkins shared library and start up and configure a jenkins instance.
+Main jenkins windows has many ways to copy.
+Parameterized plugin code installed on jenkins handles the polling mechanism internally and also has handler friendly methods.
+Jenkins user can access ssh dvc remote without password.

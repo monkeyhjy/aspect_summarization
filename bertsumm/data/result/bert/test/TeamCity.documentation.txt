@@ -1,0 +1,9 @@
+positive:
+i could n't find any information on how to do this for  reports generated in teamcity.
+i see hardly any examples for this configuration on teamcity.
+negative:
+i 've been learning teamcity the last couple of weeks and have had some good success (fun!).
+the documentation of teamcity explains how to download builded artifacts by using the tag version.
+answered over on the teamcity support forums; .
+lots of people seem to be having problems with tc automerge setups, so here is the complete answer i posted on the teamcity community forum.
+(see the agent setup heading in the teamcity setup documentation for gitversion which explains this).

@@ -1,0 +1,9 @@
+Negative:
+jenkins ui (gui) is stupid for it blocks when update jenkins job config, unavailable buttons, takeing minutes to load and not showing important informations. 
+unable to execute selenium scripts and see any plugins in jenkins.
+jenkins features are not user friendly for keeping status files in different directories, turning simple git clone or checkout into many statements and hard to restart jenkins after updates.
+
+Positive:
+jenkins is easy to use when installing plugins via a shell script, automated deploying without any click, setting up multiple tasks for each pr, automating build process, starting up a jenkins instance, creating jenkins shared library with few steps.
+semi-configured jenkins, readjson jenkins dsl, jenkins' standard methods and jenkins plugin are convenient. 
+jenkins can be customized at will.

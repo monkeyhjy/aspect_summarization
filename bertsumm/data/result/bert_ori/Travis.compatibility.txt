@@ -1,0 +1,6 @@
+positive:
+"of course this is not a very practical solution ( how many computers do you have with the same home directory ), but for instance you could ( and indeed we used to ): build rakudo inside of travis-ci, push the entire folder to a private repo, and then could pull that repo down from other travis instances to get an already-built version of the very latest rakudo release."
+i present a .travis.yml configuration that allows you to run and restart mysqld without using sudo - the logic is along the lines of: .
+negative:
+"i would like to be able to use travis ci with mypackage but, as one could expect (i actually forgot, but it became quite obvious after attempting to build): running npm install on travis wo n't manage to install the linked package."
+it seems that the setuptools package provided by travis-ci for python 3.6 is too old to use the /code_segment/ specifier correctly.

@@ -1,0 +1,6 @@
+positive:
+i have gotten this process to work on travis pretty well because it has a git_commit_range environment variable.
+"after trying out many many different permutations and combinations, i finally got travis builds to succeed, not only by compiling rstan properly but also installing other packages that need compilation so that the log does n't exceed maximum limit or time out."
+negative:
+"in my .travis.yml, but the docs are extremely vague about what exactly  'sender' is matching against, and i see no way to inspect the run time values travis is using."
+"/url/ => which did not work for me as travis-ci debugger said there was no data to combine, and this solution is not excatly what i am looking for, as the most efficient way is not to list all the test files, just the directory i guess."

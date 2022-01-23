@@ -1,0 +1,8 @@
+Negative:
+having issue running ant via jenkins pipeline.
+issues like no build is triggered on jenkins, wrong actual jenkins build number.
+
+Positive:
+restart jenkins will do the job.
+There is a "fork" of Jenkins for containerized environments.
+all of this as well can automated in a jenkins pipeline

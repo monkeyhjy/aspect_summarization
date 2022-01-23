@@ -1,0 +1,6 @@
+positive:
+the travis build looks ok and i ca n't see any errors.
+"as additional information we can include that for componentlookupexception, the component not found is actually showed on the screen but the component hierarchy is empty, as can be seen in this excerpt from a travis build: ."
+negative:
+"whenever i try to test it on travis-ci, the infinite loop portion draws an error even though the file builds correctly since it is running infinitely."
+"but if mysql is starting from scratch (that 's the cases on travis), mysql needs some time to initialize accounts, database, configurations etc., and trying to connect during this leads to an error."

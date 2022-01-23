@@ -1,0 +1,9 @@
+positive:
+the problem is i need to build those projects parallelly in gitlabci pipeline when there is a code push and i cant hardcode them in .gitlabci.yml as they are generated on fly.
+that is, i should not provide tags to the .gitlabci.yml file, but instead the jobs should pick the runner that is currently active and is able to run jobs, and accordingly run the jobs against that runner.
+so, can someone please explain why gitlabci is missing an obvious feature (which is n't available even in ee) that has been in bamboo and hudson/jenkins for decades?
+negative:
+i 'm using the gitlab release api in the gitlabci.yml to be able to automatically create a new release when deploying.
+if your goal is to run gitlabci for a github repository, good news, gitlab has released a new version which lets you use github.com repository with gitlabci: /url/ .
+it is not (yet) possible to create conditional steps in cloud build, as is possible with gitlabci for example.
+moreover gitlabci would automatically checkin for you and you dont have to manage jenkins master separately  .

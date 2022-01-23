@@ -1,0 +1,6 @@
+positive:
+running cake build script on my local machine works fine but when same script is run on teamcity, the following error appears: nuspec file does not exist in package.
+after am upgrade of the svn verion (it was something old like 1.6.x) to a new svn version, the step 4 is always blocking (the teamcity server shows building step 'mkdir' forever) .
+negative:
+i updated to the latest teamcity on this machine, transferred my backup file, and the build seems to be working perfectly - it seems to be somehow caused by the latest version of visual studio.
+i would like to use ansible for configuring linux machines with teamcity.

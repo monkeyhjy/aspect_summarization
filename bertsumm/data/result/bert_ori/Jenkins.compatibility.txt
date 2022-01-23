@@ -1,0 +1,6 @@
+positive:
+"* why offline helps reliability in my case - the project consists of several maven projects, each with a set of submodules, so it requires running seveal mvn commands in sequence, each taking quite some time to build.. as all of those are automatically built on jenkins, without offline sometimes later builds contact company maven repository and fetches artifacts that were built just during my local build, and i end up with a local build that does not contain my changes."
+i have a local setup of jenkins on tomcat on windows and able to achieve active directory integration using active directory plugin.
+negative:
+"workaround: this wo n't help you keep using jenkins, but i had a similar issue with test cases running fine when i executed them manually from the command prompt on windows or running robot framework in eclipse."
+"this project structure worked fine for a majority of my test cases, but as i implemented different folders with different .xmls i am getting this error in jenkins, i have a feeling that either jenkins cannot find the .jks file, but for other tests in my build.gradle it is working fine, as i am unsure wether it is my build.gradle format or the way i am connecting with the .jks file ."

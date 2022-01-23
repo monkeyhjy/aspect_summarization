@@ -1,0 +1,6 @@
+positive:
+i 'm looking at automating these and have a simple jenkins build which will deploy to our uat environment using jenkins promoted build plugins and the wildfly maven plugin.
+"i was able to create a job with jenkins which  build & publish a war from java code, to artifactory using maven (with artifactory plug in) with job number at the end to keep versioning .then a maven-metadata.xml is created on artifactory as showed below."
+negative:
+"in my jenkins project build, i cloned the git repository which is using the ant script for build but while build in jenkins-pipeline  gives error : resource '/com.ibm.tr.ica.common' is not open."
+i 've been trying to install 'maven integration' plugin in order to build a maven project and deploy it to artifactory on jenkins and i 'm failing to install the required plugins (maven integration and artifactory ) .

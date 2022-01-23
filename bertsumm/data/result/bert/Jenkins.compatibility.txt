@@ -1,0 +1,6 @@
+positive:
+"i have integrate my selenium script with jenkins but i am not able to launch the chrome browser, i have tried almost every solutions and in my machine there is chrome version version 75.0.3770.100 (official build) (64-bit) and 75 version supported chrome driver is available."
+jdk tool plugin in jenkins only support the automatic download of version up to java sdk 1.9 so i will write the process made by me in order to config openjdk-11(i 'm using this specific version but another version can be used) in a jenkins running in a docker container: .
+negative:
+"so, until yesterday everything was working fine, but today as i tried to re-deploy my services 2 of them got stuck on ""build"", freezing jenkins, and the only way to get jenkins to work again was by running ""systemctl restart jenkins"" on the remote machine where jenkins is installed."
+i am trying to execute docker commands using  'sh' but the jenkins build log says command not found which is weird as i have confirmed that docker is installed in jenkins container by using

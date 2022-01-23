@@ -1,0 +1,6 @@
+positive:
+here is the doc about the process: /url/ and here the doc about setting up the travis automated validation tests for a plugin (this is easier than it sounds) /url/ .
+"documentation (/url/) says i should do so with travis env set, which seems to require authentication and it looks to me that it will just add the variables to project settings."
+negative:
+"i did n't found any official information about this in travis ci documentation and issue tracker, but it seems that travis build environments has some network restriction."
+i quickly looked into continuous integration (more precisely travis-ci since they provide a mac os environment) but i found that there was n't official support for qt and that many people could n't get it to work.

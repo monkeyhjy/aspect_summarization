@@ -1,0 +1,7 @@
+Jenkins
+['this will likely work for many jenkins users.']
+['"i can use those same credentials as a parameter in other (non-pipeline) jenkins jobs configured like this, and they work fine: ."']
+['"anyone using jenkins, might get it useful ."']
+['"i am trying to use jenkins scripted pipeline to invoke config file provider plugin along with fetching credentials from jenkins for the username and password, but the below does n\'t seem to work."']
+["you can try to use it like credentials in jenkins and you do n't see their values in the log."]
+["i 'm trying to configure a test job to access user credentials in jenkins with withcredentials() but it does n't work."]

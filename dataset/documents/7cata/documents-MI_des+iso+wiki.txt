@@ -1,0 +1,35 @@
+0 community
+0-0 general	The activities of the community, offical website or support team maintaining <software_name>.
+0-1 open-source community	open-source community
+0-2 offical website	offical website
+0-3 technical support	technique support team.
+
+1 Compatibility
+1-0 general	The compatibility of the software with respect to specific platforms, programming languages, or other softwares
+1-1 adaptability	<software_name> can be adapted for different or evolving hardware, software or other operational or usage environments.
+1-2 installability	<software_name> can be successfully installed and/or uninstalled in a specified environment.
+
+2 Documentation
+2-0 general	The content of the software documentation of <software_name>.
+
+3 Functional
+3-0 general	The features offered/not offered by <software_name>.
+3-1 functional completeness	the set of <software_name> functions covers all the specified tasks and user objectives.
+3-2 functional correctness	<software_name> provides the correct results with the needed degree of precision.
+
+4 Performance
+4-0 general	The performance of the software (e.g., speed, memory footprint)
+4-1 time behaviour	the response and processing times and throughput rates of <software_name>; Short response time for a given piece of work; Short data transmission time.
+4-2 resource utilization	the amounts and types of resources used by <software_name>; Low utilization of computing resources. 
+
+5 Reliability
+5-0 general	The reliability of the software (e.g., whether it is buggy or not)
+5-1 maturity	<software_name> meets needs for reliability under normal operation
+5-2 fault tolerance	<software_name> operates as intended despite the presence of hardware or software faults
+5-3 recoverability	in the event of an interruption or a failure, <software_name> can recover the data directly affected and re-establish the desired state of the system
+
+6 Usability
+6-0 general	The usability of <software_name>, in terms of how easy is to use/adapt it and evolve/maintain the code using it.
+6-1 learnability	<software_name> can be used by specified users to achieve specified goals of learning to use <software_name>.
+6-2 operability	<software_name> has attributes that make it easy to operate and control
+6-3 user interface aesthetics	<software_name> has a user interface enables pleasing and satisfying interaction for the user. 

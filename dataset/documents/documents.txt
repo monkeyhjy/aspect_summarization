@@ -1,0 +1,37 @@
+0 community
+The activities of the community maintaining the software (e.g., is the software actively maintained?)
+
+1 Compatibility
+The compatibility of the software with respect to specific platforms, programming languages, or other softwares
+
+2 Documentation
+The content/quality of the software documentation
+
+3 Function
+The features offered/not offered by <software_name>
+API management Structure your API infrastructure to enable various internet gateways to interact with your service.
+Chat Bring GitHub into your conversations.
+Code quality Automate your code review with style, quality, security, and test‑coverage checks when you need them.
+Code review Ensure your code meets quality standards and ship with confidence.
+Continuous integration Automatically build and test your code as you push it to GitHub, preventing bugs from being deployed to production.
+Dependency management Secure and manage your third-party dependencies.
+Deployment Streamline your code deployment so you can focus on your product.
+IDEs Find the right interface to build, debug, and deploy your source code.
+Localization Extend your software's reach. Localize and translate continuously from GitHub.
+Mobile Improve your workflow for the small screen.
+Monitoring Monitor the impact of your code changes. Measure performance, track errors, and analyze your application.
+Project management Organize, manage, and track your project with tools that build on top of issues and pull requests.
+Publishing Get your site ready for production so you can get the word out.
+Security Find, fix, and prevent security vulnerabilities before they can be exploited.
+Support Get your team and customers the help they need.
+Testing Eliminate bugs and ship with more confidence by adding these tools to your workflow.
+Utilities Auxiliary tools to enhance your experience on GitHub
+
+4 Performance
+The performance of the software (e.g., speed, memory footprint)
+
+5 Reliability
+The reliability of the software (e.g., whether it is buggy or not)
+
+6 Usability
+The usability of the software, in terms of how easy is to use/adapt it and evolve/maintain the code using it

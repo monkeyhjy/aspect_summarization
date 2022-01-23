@@ -1,0 +1,28 @@
+Negative:
+now, i have seen that we can use "gitlabci" even for private repositories but i am having trouble understanding the "shared runners" concept.
+for security reasons i need to set up protected enviroment variables in gitlabci/cd, the problem is that in the documentation only mentions how to use inside the .gitlabci.yml file,  but not in the index.js.
+i can do the scipt and such, but the gitlabci config documentation is confusing and i cant seem to find an option on how to call the script after it finished.
+i come from gitlab and its .gitlabci.yml and i am experimenting with azure devops multi stage pipelines but i am quite confused about how it works and what 's the best strategy even after reading several documentation articles at /url/ .
+this seems to be related /url/ but there is nothing on how to do this with django, docker and gitlabci.
+i 've seen quite a few mentions of the gitlabci token for docker but i 've found no documentation explaining how to facilitate this.
+but in gitlab 's official help document, it seems that only 'name' and 'entrypoint' keywords are supported for setting 'image' in .gitlabci.yml file.
+now, i have seen that we can use "gitlabci" even for private repositories but i am having trouble understanding the "shared runners" concept.
+i have search through gitlabci docs but still have n't found anything about setting: 'pass-thru' to the host docker socket?
+i 'm out of ideas and my google searches do n't seem to help specifically for gitlabci/cd context.
+however i have been unable to find from the documentation how one specifies these options in .gitlabci.yml .
+may anyone has a solution for that because i did n't find anything in the gitlabci docs.
+unfortunately i did n't found any documentation supporting this behaviour and the following page recommend to disable jenkins ci when having gitlabci.
+i went through the gitlabci documentation a couple of times and i cannot find whether it is possible to setup the docker services through a config file.
+here is my current code (.gitlabci.yml) after a lot of trial-and-error and even more googling: .
+
+Positive:
+when i follow the tutorial step by step it works on gitlab.com that means when i add .gitlabci.yml file to my root project it triggers the pipeline.
+a general introduction to gitlabci using docker can be found in this blog article (the first slides are great).
+if you have the resources, gitlab-ce with gitlabci is a pretty simple way to get started in developing an on-premise ci/cd workflow.
+as mentioned on the gitlabci guidelines the job can be easily done by including a stage like this in the .gitlabci.yml file : .
+a general introduction to gitlabci using docker can be found in this blog article (the first slides are great).
+then configure your schedule following the official documentation here and using your gitlabci.yaml file.
+an ease example of gitlabci file to run the test in the ci: .
+i followed this guide and i write a gitlabci file more simplified for starting.
+/pre/  finally, here 's a really well written article here that work with gitlabci.
+i have also checked gitlabci documentation and it also provide the right ways to do it.

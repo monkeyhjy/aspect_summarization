@@ -1,0 +1,7 @@
+positive:
+also i don't find in travis-ci documentation: how can i see that the user key was uploaded to be used with repos?
+on the travis documentation site, there is no info on the /code_segment/ stage, and we cant see any feature to rename files.
+didn't found any solution in the documentation of travis .
+negative:
+you can find a guide for running electron-forge with travis ci here: /url/ .
+i have read the documentation on how to do this with travis-ci.org and it looks like you do something similar to the following:- .
